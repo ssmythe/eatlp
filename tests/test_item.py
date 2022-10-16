@@ -137,8 +137,23 @@ def test_set_item_from_dict(item):
     assert item.kcal_per_serving() == 85
 
 
-def test_set_item_from_json(item):
-    item.set_item_from_json(json_ezekiel_bread)
+def test_set_item_from_json_str(item):
+    item.set_item_from_json_str(json_ezekiel_bread)
+    assert item.name == 'ezekiel bread'
+    assert item.store_product_name == 'Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz'
+    assert item.price == 7.79
+    assert item.servings_per_container == 20
+    assert item.serving_size == '1 slice (34g)'
+    assert item.carb_per_serving == 15
+    assert item.fat_per_serving == 0.5
+    assert item.protein_per_serving == 5
+    assert item.sodium_per_serving == 75
+    assert item.cost_per_serving() == 0.39
+    assert item.kcal_per_serving() == 85
+
+
+def test_set_item_from_json_file(item):
+    item.set_item_from_json_file('tests/test_item.json')
     assert item.name == 'ezekiel bread'
     assert item.store_product_name == 'Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz'
     assert item.price == 7.79

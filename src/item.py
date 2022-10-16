@@ -1,5 +1,7 @@
 import json
 import math
+import os
+
 
 class Item:
     """
@@ -59,7 +61,7 @@ class Item:
         self.set_protein_per_serving(data['protein_per_serving'])
         self.set_sodium_per_serving(data['sodium_per_serving'])
 
-    def set_item_from_json(self, json_str):
+    def set_item_from_json_str(self, json_str):
         json_dict = json.loads(json_str)
         data_dict = {}
         name = list(json_dict.keys())[0]
@@ -74,3 +76,9 @@ class Item:
         data_dict['protein_per_serving'] = json_dict[name]['protein']
         data_dict['sodium_per_serving'] = json_dict[name]['sodium']
         self.set_item_from_dict(data_dict)
+
+    def set_item_from_json_file(self, json_file):
+        # os.chdir(os.path.dirname(__file__))
+        with open(json_file, 'r') as file:
+            json_str = json.dumps(json.load(file), indent = 4)
+        self.set_item_from_json_str(json_str)
