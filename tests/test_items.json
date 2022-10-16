@@ -1,0 +1,24 @@
+{
+    "ezekiel bread": {
+        "store": "Safeway",
+        "store product name": "Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz",
+        "serving size": "1 slice (34g)",
+        "servings per container": 20,
+        "price": 7.79,
+        "carb": 15,
+        "fat": 0.5,
+        "protein": 5,
+        "sodium": 75
+    },
+    "sabra roasted red pepper hummus": {
+        "store": "Safeway",
+        "store product name": "Sabra Roasted Red Pepper Hummus Family Size - 17 Oz.",
+        "serving size": "2 Tbsp",
+        "servings per container": 17,
+        "price": 7.99,
+        "carb": 4,
+        "fat": 5,
+        "protein": 2,
+        "sodium": 125
+    }
+}

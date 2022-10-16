@@ -153,7 +153,7 @@ def test_set_item_from_json_str(item):
 
 
 def test_set_item_from_json_file(item):
-    item.set_item_from_json_file('tests/test_item.json')
+    item.set_item_from_json_file('tests/test_item_ezekiel_bread.json')
     assert item.name == 'ezekiel bread'
     assert item.store_product_name == 'Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz'
     assert item.price == 7.79
