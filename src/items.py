@@ -34,3 +34,8 @@ class Items:
             json_str = json.dumps(jd_item_dict, indent=4)
             item.set_item_from_json_str(json_str)
             self.add_item(item)
+
+    def get_item_from_items_by_name(self, name):
+        for item in self.list_of_items:
+            if item.name == name:
+                return item

@@ -21,3 +21,10 @@ def test_add_items_from_json_file(items):
         'ezekiel bread',
         'sabra roasted red pepper hummus'
     ]
+
+def test_get_item_from_items_by_name(items):
+    items.add_items_from_json_file('tests/test_items.json')
+    item = Item()
+    item.set_item_from_json_file('tests/test_item_ezekiel_bread.json')
+    assert item.name == 'ezekiel bread'
+    assert items.get_item_from_items_by_name('ezekiel bread').name == item.name
