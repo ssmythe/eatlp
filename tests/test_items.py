@@ -11,7 +11,7 @@ def items():
 
 def test_constructor(items):
     assert isinstance(items, Items)
-    assert items.list_of_items == []
+    assert items.dict_of_items == {}
 
 
 def test_add_items_from_json_file(items):
