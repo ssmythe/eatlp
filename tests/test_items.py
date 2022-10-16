@@ -22,6 +22,7 @@ def test_add_items_from_json_file(items):
         'sabra roasted red pepper hummus'
     ]
 
+
 def test_get_item_from_items_by_name(items):
     items.add_items_from_json_file('tests/test_items.json')
     item = Item()
