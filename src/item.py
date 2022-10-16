@@ -1,6 +1,5 @@
 import json
 import math
-import os
 
 
 class Item:
@@ -78,7 +77,6 @@ class Item:
         self.set_item_from_dict(data_dict)
 
     def set_item_from_json_file(self, json_file):
-        # os.chdir(os.path.dirname(__file__))
         with open(json_file, 'r') as file:
             json_str = json.dumps(json.load(file), indent = 4)
         self.set_item_from_json_str(json_str)
