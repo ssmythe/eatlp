@@ -30,7 +30,6 @@ def test_recipe_to_food(items, recipe, food):
         'tests/test_recipe_toast_with_hummus.json')
     food.recipe_to_food(items, recipe)
     assert food.name == 'toast with hummus'
-    assert food.servings_per_food == 1
     assert food.serving_size == '1 slice (? g)'
     assert food.min_servings == 0
     assert food.max_servings == 1

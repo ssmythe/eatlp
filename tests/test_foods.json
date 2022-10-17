@@ -8,7 +8,6 @@
         "price_per_serving": 0.69,
         "protein_per_serving": 5,
         "serving_size": "1 slice (? g)",
-        "servings_per_food": 1,
         "sodium_per_serving": 255
     },
     "toast with hummus": {
@@ -20,7 +19,6 @@
         "price_per_serving": 0.86,
         "protein_per_serving": 7,
         "serving_size": "1 slice (? g)",
-        "servings_per_food": 1,
         "sodium_per_serving": 200
     }
 }

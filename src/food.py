@@ -15,10 +15,6 @@ class Food:
     def set_name(self, name):
         self.name = name
 
-    def set_servings_per_food(self, servings_per_food):
-        self.servings_per_food = servings_per_food
-        self.dict_of_food['servings_per_food'] = servings_per_food
-
     def set_serving_size(self, serving_size):
         self.serving_size = serving_size
         self.dict_of_food['serving_size'] = serving_size
@@ -57,7 +53,6 @@ class Food:
 
     def recipe_to_food(self, items, recipe):
         self.set_name(recipe.name)
-        self.set_servings_per_food(recipe.servings_per_recipe)
         self.set_serving_size(recipe.serving_size)
         self.set_min_servings(recipe.min_servings)
         self.set_max_servings(recipe.max_servings)
