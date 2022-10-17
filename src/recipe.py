@@ -1,7 +1,7 @@
 from src.items import Items
 
 import json
-
+import math
 
 class Recipe:
     """
@@ -58,76 +58,76 @@ class Recipe:
         carb_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            carb_list.append(item.carb_per_serving * qty)
+            carb_list.append(round(item.carb_per_serving * qty / self.servings_per_recipe, 1))
         return carb_list
 
     def total_carb_per_recipe_serving(self, items):
         total_carb = 0
         for carb in self.carb_per_ingredient_to_list(items):
             total_carb += carb
-        return total_carb
+        return round(math.ceil(total_carb), 0)
 
     def fat_per_ingredient_to_list(self, items):
         fat_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            fat_list.append(item.fat_per_serving * qty)
+            fat_list.append(round(item.fat_per_serving * qty / self.servings_per_recipe, 1))
         return fat_list
 
     def total_fat_per_recipe_serving(self, items):
         total_fat = 0
         for fat in self.fat_per_ingredient_to_list(items):
             total_fat += fat
-        return total_fat
+        return round(math.ceil(total_fat), 0)
 
     def protein_per_ingredient_to_list(self, items):
         protein_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            protein_list.append(item.protein_per_serving * qty)
+            protein_list.append(round(item.protein_per_serving * qty / self.servings_per_recipe, 1))
         return protein_list
 
     def total_protein_per_recipe_serving(self, items):
         total_protein = 0
         for protein in self.protein_per_ingredient_to_list(items):
             total_protein += protein
-        return total_protein
+        return round(math.ceil(total_protein), 0)
 
     def sodium_per_ingredient_to_list(self, items):
         sodium_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            sodium_list.append(item.sodium_per_serving * qty)
+            sodium_list.append(round(item.sodium_per_serving * qty / self.servings_per_recipe, 1))
         return sodium_list
 
     def total_sodium_per_recipe_serving(self, items):
         total_sodium = 0
         for sodium in self.sodium_per_ingredient_to_list(items):
             total_sodium += sodium
-        return total_sodium
+        return round(math.ceil(total_sodium), 0)
 
     def kcal_per_ingredient_to_list(self, items):
         kcal_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            kcal_list.append(item.kcal_per_serving() * qty)
+            kcal_list.append(round(item.kcal_per_serving() * qty / self.servings_per_recipe, 1))
         return kcal_list
 
     def total_kcal_per_recipe_serving(self, items):
         total_kcal = 0
         for kcal in self.kcal_per_ingredient_to_list(items):
             total_kcal += kcal
-        return total_kcal
+        return round(math.ceil(total_kcal), 0)
 
     def price_per_ingredient_to_list(self, items):
         price_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            price_list.append(item.price_per_serving() * qty)
+            price_list.append(round(item.price_per_serving() * qty / self.servings_per_recipe, 2))
         return price_list
 
     def total_price_per_recipe_serving(self, items):
         total_price = 0
         for price in self.price_per_ingredient_to_list(items):
             total_price += price
-        return total_price
+        return round(total_price, 2)

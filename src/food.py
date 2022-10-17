@@ -14,7 +14,6 @@ class Food:
 
     def set_name(self, name):
         self.name = name
-        self.dict_of_food['name'] = name
 
     def set_servings_per_food(self, servings_per_food):
         self.servings_per_food = servings_per_food

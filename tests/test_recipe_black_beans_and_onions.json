@@ -1,0 +1,13 @@
+{
+    "black beans and onions": {
+        "servings per recipe": 8,
+        "serving size": "1 cup (236g)",
+        "ingredients": {
+            "black beans dry": 13,
+            "vegetable broth": 4,
+            "yellow onion": 1
+        },
+        "min_servings": 0,
+        "max_servings": 1
+    }
+}

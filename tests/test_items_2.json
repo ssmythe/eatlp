@@ -1,0 +1,35 @@
+{
+  "black beans dry": {
+    "store": "Safeway",
+    "store product name": "Signature SELECT Beans Black Dry - 16 Oz",
+    "serving size": "0.25 cup dry",
+    "servings per container": 13,
+    "price": 1.99,
+    "carb": 21,
+    "fat": 1,
+    "protein": 8,
+    "sodium": 5
+  },
+  "vegetable broth": {
+    "store": "Safeway",
+    "store product name": "O Organics Organic Broth Low Sodium Vegetable - 32 Oz",
+    "serving size": "8 oz (226.7 g)",
+    "servings per container": 4,
+    "price": 3.59,
+    "carb": 2,
+    "fat": 0,
+    "protein": 0,
+    "sodium": 130
+  },
+  "yellow onion": {
+    "store": "Safeway",
+    "store product name": "Yellow Onion",
+    "serving size": "1 onion",
+    "servings per container": 1,
+    "price": 0.97,
+    "carb": 11,
+    "fat": 0,
+    "protein": 1,
+    "sodium": 5
+  }
+}
