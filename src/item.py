@@ -78,5 +78,5 @@ class Item:
 
     def set_item_from_json_file(self, json_file):
         with open(json_file, 'r') as file:
-            json_str = json.dumps(json.load(file), indent = 4)
+            json_str = json.dumps(json.load(file), indent=4)
         self.set_item_from_json_str(json_str)
