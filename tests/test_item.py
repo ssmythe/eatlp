@@ -113,14 +113,14 @@ def test_set_sodium_per_serving(item):
     assert item.sodium_per_serving == sodium_per_serving
 
 
-def test_cost_per_serving(item):
+def test_price_per_serving(item):
     name = 'ezekiel bread'
     servings_per_container = 20
     price = 7.79
     item.set_name(name)
     item.set_price(price)
     item.set_servings_per_container(servings_per_container)
-    assert item.cost_per_serving() == 0.39
+    assert item.price_per_serving() == 0.39
 
 
 def test_set_item_from_dict(item):
@@ -148,7 +148,7 @@ def test_set_item_from_json_str(item):
     assert item.fat_per_serving == 0.5
     assert item.protein_per_serving == 5
     assert item.sodium_per_serving == 75
-    assert item.cost_per_serving() == 0.39
+    assert item.price_per_serving() == 0.39
     assert item.kcal_per_serving() == 85
 
 
@@ -163,5 +163,5 @@ def test_set_item_from_json_file(item):
     assert item.fat_per_serving == 0.5
     assert item.protein_per_serving == 5
     assert item.sodium_per_serving == 75
-    assert item.cost_per_serving() == 0.39
+    assert item.price_per_serving() == 0.39
     assert item.kcal_per_serving() == 85

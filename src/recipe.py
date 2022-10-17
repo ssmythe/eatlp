@@ -106,15 +106,15 @@ class Recipe:
             total_kcal += kcal
         return total_kcal
 
-    def cost_per_ingredient_to_list(self, items):
-        cost_list = []
+    def price_per_ingredient_to_list(self, items):
+        price_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            cost_list.append(item.cost_per_serving() * qty)
-        return cost_list
+            price_list.append(item.price_per_serving() * qty)
+        return price_list
 
-    def total_cost_per_recipe_serving(self, items):
-        total_cost = 0
-        for cost in self.cost_per_ingredient_to_list(items):
-            total_cost += cost
-        return total_cost
+    def total_price_per_recipe_serving(self, items):
+        total_price = 0
+        for price in self.price_per_ingredient_to_list(items):
+            total_price += price
+        return total_price

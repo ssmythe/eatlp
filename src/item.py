@@ -40,7 +40,7 @@ class Item:
     def set_sodium_per_serving(self, sodium_per_serving):
         self.sodium_per_serving = sodium_per_serving
 
-    def cost_per_serving(self):
+    def price_per_serving(self):
         return round(self.price / self.servings_per_container, 2)
 
     def kcal_per_serving(self):
