@@ -33,13 +33,13 @@
         "sodium_per_serving": 66
     },
     "green beans": {
-        "carb_per_serving": 11,
+        "carb_per_serving": 4,
         "fat_per_serving": 0,
-        "kcal_per_serving": 49,
+        "kcal_per_serving": 16,
         "max_servings": 0,
         "min_servings": 0,
-        "price_per_serving": 1.54,
-        "protein_per_serving": 2,
+        "price_per_serving": 0.72,
+        "protein_per_serving": 1,
         "serving_size": "1 cup (236g)",
         "sodium_per_serving": 66
     },
@@ -99,15 +99,15 @@
         "sodium_per_serving": 420
     },
     "split pea soup": {
-        "carb_per_serving": 17,
-        "fat_per_serving": 1,
-        "kcal_per_serving": 91,
+        "carb_per_serving": 42,
+        "fat_per_serving": 2,
+        "kcal_per_serving": 236,
         "max_servings": 1,
         "min_servings": 1,
-        "price_per_serving": 0.4,
-        "protein_per_serving": 5,
+        "price_per_serving": 1.02,
+        "protein_per_serving": 14,
         "serving_size": "1 cup (236g)",
-        "sodium_per_serving": 16
+        "sodium_per_serving": 81
     },
     "toast with chao": {
         "carb_per_serving": 19,
@@ -154,14 +154,14 @@
         "sodium_per_serving": 375
     },
     "tofurky chao mayo sandwich": {
-        "carb_per_serving": 25,
+        "carb_per_serving": 40,
         "fat_per_serving": 17,
-        "kcal_per_serving": 326,
+        "kcal_per_serving": 411,
         "max_servings": 1,
         "min_servings": 0,
-        "price_per_serving": 2.12,
-        "protein_per_serving": 19,
+        "price_per_serving": 2.51,
+        "protein_per_serving": 24,
         "serving_size": "1 sandwich",
-        "sodium_per_serving": 705
+        "sodium_per_serving": 780
     }
 }

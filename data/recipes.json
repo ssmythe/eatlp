@@ -34,7 +34,7 @@
         "serving size": "1 cup (236g)",
         "ingredients": {
             "vegetable broth": 4,
-            "green beans": 13,
+            "green beans": 2,
             "yellow onion": 1
         },
         "min_servings": 0,
@@ -93,9 +93,10 @@
         "servings per recipe": 8,
         "serving size": "1 cup (236g)",
         "ingredients": {
-            "split peas dry": 4,
+            "split peas dry": 13,
             "carrot": 2,
             "russet potato": 1,
+            "vegetable broth": 4,
             "yellow onion": 1
         },
         "min_servings": 1,
@@ -145,7 +146,7 @@
         "servings per recipe": 1,
         "serving size": "1 sandwich",
         "ingredients": {
-            "ezekiel bread": 1,
+            "ezekiel bread": 2,
             "tofurkey deli slice hickory smoked": 1,
             "chao slice": 1,
             "best foods vegan mayo": 1
