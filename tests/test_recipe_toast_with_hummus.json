@@ -6,6 +6,8 @@
         "ingredients": {
             "ezekiel bread": 1,
             "sabra roasted red pepper hummus": 1
-        }
+        },
+        "min_servings": 0,
+        "max_servings": 1
     }
 }

@@ -21,11 +21,19 @@ class Recipe:
     def set_ingredients(self, ingredients):
         self.ingredients = ingredients
 
+    def set_min_servings(self, min_servings):
+        self.min_servings = min_servings
+
+    def set_max_servings(self, max_servings):
+        self.max_servings = max_servings
+
     def set_recipe_from_dict(self, data):
         self.set_name(data['name'])
         self.set_servings_per_recipe(data['servings_per_recipe'])
         self.set_serving_size(data['serving_size'])
         self.set_ingredients(data['ingredients'])
+        self.set_min_servings(data['min_servings'])
+        self.set_max_servings(data['max_servings'])
 
     def set_recipe_from_json_str(self, json_str):
         json_dict = json.loads(json_str)
@@ -35,6 +43,8 @@ class Recipe:
         data_dict['servings_per_recipe'] = json_dict[name]['servings per recipe']
         data_dict['serving_size'] = json_dict[name]['serving size']
         data_dict['ingredients'] = json_dict[name]['ingredients']
+        data_dict['min_servings'] = json_dict[name]['min_servings']
+        data_dict['max_servings'] = json_dict[name]['max_servings']
         self.set_recipe_from_dict(data_dict)
 
     def set_recipe_from_json_file(self, json_file):

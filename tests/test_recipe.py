@@ -9,7 +9,9 @@ dict_toast_with_hummus = {
     'ingredients': {
         'ezekiel bread': 1,
         'sabra roasted red pepper hummus': 1
-    }
+    },
+    'min_servings': 0,
+    'max_servings': 1
 }
 
 json_toast_with_hummus = '''
@@ -21,7 +23,9 @@ json_toast_with_hummus = '''
         "ingredients": {
             "ezekiel bread": 1,
             "sabra roasted red pepper hummus": 1
-        }
+        },
+        "min_servings": 0,
+        "max_servings": 1
     }
 }
 '''
@@ -60,6 +64,18 @@ def test_set_ingredients(recipe):
     assert recipe.ingredients == ingredients
 
 
+def test_set_min_servings(recipe):
+    min_servings = 0
+    recipe.set_min_servings(min_servings)
+    assert recipe.min_servings == min_servings
+
+
+def test_set_max_servings(recipe):
+    max_servings = 0
+    recipe.set_max_servings(max_servings)
+    assert recipe.max_servings == max_servings
+
+
 def test_set_recipe_from_dict(recipe):
     recipe.set_recipe_from_dict(dict_toast_with_hummus)
     assert recipe.name == 'toast with hummus'
@@ -67,6 +83,8 @@ def test_set_recipe_from_dict(recipe):
     assert recipe.serving_size == '1 slice (? g)'
     assert recipe.ingredients == {
         'ezekiel bread': 1, 'sabra roasted red pepper hummus': 1}
+    assert recipe.min_servings == 0
+    assert recipe.max_servings == 1
 
 
 def test_set_item_from_json_str(recipe):
@@ -76,9 +94,11 @@ def test_set_item_from_json_str(recipe):
     assert recipe.serving_size == '1 slice (? g)'
     assert recipe.ingredients == {
         'ezekiel bread': 1, 'sabra roasted red pepper hummus': 1}
+    assert recipe.min_servings == 0
+    assert recipe.max_servings == 1
 
 
-def test_set_item_from_json_file(recipe):
+def test_set_recipe_from_json_file(recipe):
     recipe.set_recipe_from_json_file(
         'tests/test_recipe_toast_with_hummus.json')
     assert recipe.name == 'toast with hummus'
@@ -86,3 +106,5 @@ def test_set_item_from_json_file(recipe):
     assert recipe.serving_size == '1 slice (? g)'
     assert recipe.ingredients == {
         'ezekiel bread': 1, 'sabra roasted red pepper hummus': 1}
+    assert recipe.min_servings == 0
+    assert recipe.max_servings == 1
