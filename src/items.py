@@ -2,8 +2,6 @@ from src.item import Item
 import json
 
 
-# TODO refactor list_of_items to be dict_of_items
-
 class Items:
     """
     Items is used to contain multiple Item objects
