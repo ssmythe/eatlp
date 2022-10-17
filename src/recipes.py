@@ -20,7 +20,7 @@ class Recipes:
     def list_of_recipes_names(self):
         return sorted(self.dict_of_recipes.keys())
 
-    def add_recipes_from_json_file(self, json_file):
+    def set_recipes_from_json_file(self, json_file):
         with open(json_file, 'r') as file:
             json_dict = json.load(file)
 

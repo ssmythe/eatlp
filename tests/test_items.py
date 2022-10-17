@@ -16,8 +16,9 @@ def test_constructor(items):
 
 def test_add_items_from_json_file(items):
     items.add_items_from_json_file('tests/test_items.json')
-    assert items.len() == 2
+    assert items.len() == 3
     assert items.list_of_items_names() == [
+        'chao slices',
         'ezekiel bread',
         'sabra roasted red pepper hummus'
     ]

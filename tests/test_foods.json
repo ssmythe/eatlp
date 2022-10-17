@@ -1,0 +1,28 @@
+{
+    "toast with chao": {
+        "carb_per_serving": 19,
+        "fat_per_serving": 5.0,
+        "kcal_per_serving": 142,
+        "max_servings": 1,
+        "min_servings": 0,
+        "name": "toast with chao",
+        "price_per_serving": 0.69,
+        "protein_per_serving": 5,
+        "serving_size": "1 slice (? g)",
+        "servings_per_food": 1,
+        "sodium_per_serving": 255
+    },
+    "toast with hummus": {
+        "carb_per_serving": 19,
+        "fat_per_serving": 5.5,
+        "kcal_per_serving": 154,
+        "max_servings": 1,
+        "min_servings": 0,
+        "name": "toast with hummus",
+        "price_per_serving": 0.86,
+        "protein_per_serving": 7,
+        "serving_size": "1 slice (? g)",
+        "servings_per_food": 1,
+        "sodium_per_serving": 200
+    }
+}

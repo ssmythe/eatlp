@@ -14,8 +14,8 @@ def test_constructor(recipes):
     assert recipes.dict_of_recipes == {}
 
 
-def test_add_recipes_from_json_file(recipes):
-    recipes.add_recipes_from_json_file('tests/test_recipes.json')
+def test_set_recipes_from_json_file(recipes):
+    recipes.set_recipes_from_json_file('tests/test_recipes.json')
     assert recipes.len() == 2
     assert recipes.list_of_recipes_names() == [
         'toast with chao',
@@ -24,7 +24,7 @@ def test_add_recipes_from_json_file(recipes):
 
 
 def test_get_recipe_from_recipes_by_name(recipes):
-    recipes.add_recipes_from_json_file('tests/test_recipes.json')
+    recipes.set_recipes_from_json_file('tests/test_recipes.json')
     recipe = Recipe()
     recipe.set_recipe_from_json_file(
         'tests/test_recipe_toast_with_hummus.json')
