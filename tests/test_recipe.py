@@ -158,6 +158,20 @@ def test_total_protein_per_recipe_serving(items, recipe):
     assert recipe.total_protein_per_recipe_serving(items) == 7
 
 
+def test_sodium_per_recipes_to_list(items, recipe):
+    items.add_items_from_json_file('tests/test_items.json')
+    recipe.set_recipe_from_json_file(
+        'tests/test_recipe_toast_with_hummus.json')
+    assert recipe.sodium_per_ingredient_to_list(items) == [75, 125]
+
+
+def test_total_sodium_per_recipe_serving(items, recipe):
+    items.add_items_from_json_file('tests/test_items.json')
+    recipe.set_recipe_from_json_file(
+        'tests/test_recipe_toast_with_hummus.json')
+    assert recipe.total_sodium_per_recipe_serving(items) == 200
+
+
 def test_kcal_per_recipes_to_list(items, recipe):
     items.add_items_from_json_file('tests/test_items.json')
     recipe.set_recipe_from_json_file(

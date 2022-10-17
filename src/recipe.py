@@ -93,6 +93,19 @@ class Recipe:
             total_protein += protein
         return total_protein
 
+    def sodium_per_ingredient_to_list(self, items):
+        sodium_list = []
+        for ingredient, qty in self.ingredients.items():
+            item = items.get_item_from_items_by_name(ingredient)
+            sodium_list.append(item.sodium_per_serving * qty)
+        return sodium_list
+
+    def total_sodium_per_recipe_serving(self, items):
+        total_sodium = 0
+        for sodium in self.sodium_per_ingredient_to_list(items):
+            total_sodium += sodium
+        return total_sodium
+
     def kcal_per_ingredient_to_list(self, items):
         kcal_list = []
         for ingredient, qty in self.ingredients.items():
