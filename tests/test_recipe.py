@@ -1,3 +1,4 @@
+from src.items import Items
 from src.recipe import Recipe
 
 import pytest
@@ -29,6 +30,11 @@ json_toast_with_hummus = '''
     }
 }
 '''
+
+
+@ pytest.fixture
+def items():
+    return Items()
 
 
 @ pytest.fixture
@@ -108,3 +114,65 @@ def test_set_recipe_from_json_file(recipe):
         'ezekiel bread': 1, 'sabra roasted red pepper hummus': 1}
     assert recipe.min_servings == 0
     assert recipe.max_servings == 1
+
+
+def test_carb_per_recipes_to_list(items, recipe):
+    items.add_items_from_json_file('tests/test_items.json')
+    recipe.set_recipe_from_json_file(
+        'tests/test_recipe_toast_with_hummus.json')
+    assert recipe.carb_per_ingredient_to_list(items) == [15, 4]
+
+def test_total_carb_per_recipe_serving(items, recipe):
+    items.add_items_from_json_file('tests/test_items.json')
+    recipe.set_recipe_from_json_file(
+        'tests/test_recipe_toast_with_hummus.json')
+    assert recipe.total_carb_per_recipe_serving(items) == 19
+
+def test_fat_per_recipes_to_list(items, recipe):
+    items.add_items_from_json_file('tests/test_items.json')
+    recipe.set_recipe_from_json_file(
+        'tests/test_recipe_toast_with_hummus.json')
+    assert recipe.fat_per_ingredient_to_list(items) == [0.5, 5]
+
+def test_total_fat_per_recipe_serving(items, recipe):
+    items.add_items_from_json_file('tests/test_items.json')
+    recipe.set_recipe_from_json_file(
+        'tests/test_recipe_toast_with_hummus.json')
+    assert recipe.total_fat_per_recipe_serving(items) == 5.5
+
+def test_protein_per_recipes_to_list(items, recipe):
+    items.add_items_from_json_file('tests/test_items.json')
+    recipe.set_recipe_from_json_file(
+        'tests/test_recipe_toast_with_hummus.json')
+    assert recipe.protein_per_ingredient_to_list(items) == [5, 2]
+
+def test_total_protein_per_recipe_serving(items, recipe):
+    items.add_items_from_json_file('tests/test_items.json')
+    recipe.set_recipe_from_json_file(
+        'tests/test_recipe_toast_with_hummus.json')
+    assert recipe.total_protein_per_recipe_serving(items) == 7
+
+def test_kcal_per_recipes_to_list(items, recipe):
+    items.add_items_from_json_file('tests/test_items.json')
+    recipe.set_recipe_from_json_file(
+        'tests/test_recipe_toast_with_hummus.json')
+    assert recipe.kcal_per_ingredient_to_list(items) == [85, 69]
+
+def test_total_kcal_per_recipe_serving(items, recipe):
+    items.add_items_from_json_file('tests/test_items.json')
+    recipe.set_recipe_from_json_file(
+        'tests/test_recipe_toast_with_hummus.json')
+    assert recipe.total_kcal_per_recipe_serving(items) == 154
+
+def test_cost_per_recipes_to_list(items, recipe):
+    items.add_items_from_json_file('tests/test_items.json')
+    recipe.set_recipe_from_json_file(
+        'tests/test_recipe_toast_with_hummus.json')
+    assert recipe.cost_per_ingredient_to_list(items) == [0.39, 0.47]
+
+def test_total_cost_per_recipe_serving(items, recipe):
+    items.add_items_from_json_file('tests/test_items.json')
+    recipe.set_recipe_from_json_file(
+        'tests/test_recipe_toast_with_hummus.json')
+    assert recipe.total_cost_per_recipe_serving(items) == 0.86
+
