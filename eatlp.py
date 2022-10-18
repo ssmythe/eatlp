@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# TODO generate random food lists for pulp to solve
+# TODO save results of food dict and solution
 from src.foods import *
 from src.food import *
 from pulp import *
