@@ -79,7 +79,7 @@ expr += "0 <= {max_sodium}"
 globals()['model'] += eval(expr)
 
 # Solve problem
-model.solve(PULP_CBC_CMD(msg=False))
+status = model.solve(PULP_CBC_CMD(msg=False))
 
 # Print the variables optimized value
 total_kcal = 0
@@ -99,3 +99,11 @@ print("\nTotals: kcal =", total_kcal, "sodium =", total_sodium)
 
 # The optimised objective function value is printed to the screen
 print('Value of Objective Function =', value(model.objective))
+
+print(f"{status}")
+# LpStatus key          string value   numerical value
+# LpStatusOptimal 	    “Optimal”       1
+# LpStatusNotSolved 	“Not Solved”    0
+# LpStatusInfeasible 	“Infeasible”   -1
+# LpStatusUnbounded 	“Unbounded”    -2
+# LpStatusUndefined 	“Undefined”    -3
