@@ -53,6 +53,8 @@ class MSJE:
                      (5 * age) + MSJE.yintercept(sex), 0)
 
     @staticmethod
-    def t2kcals(weight_lbs, height_inches, age, sex, activity_factor_str, weight_loss_per_week_lbs):
-        return (round(MSJE.bmr(weight_lbs, height_inches, age, sex) *
-                      MSJE.activity_factor(activity_factor_str) - weight_loss_per_week_lbs * 500, 0))
+    def target_kcals(starting_weight_lbs, current_weight_lbs, target_weight_lbs, height_inches, age, sex, activity_factor_str, weight_loss_per_week_lbs):
+        curve_modifier = (current_weight_lbs - target_weight_lbs) / \
+            (starting_weight_lbs - target_weight_lbs) * weight_loss_per_week_lbs
+        return (round(MSJE.bmr(current_weight_lbs, height_inches, age, sex) *
+                      MSJE.activity_factor(activity_factor_str) - curve_modifier * 500, 0))

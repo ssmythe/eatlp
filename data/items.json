@@ -131,6 +131,17 @@
     "protein": 0.1,
     "sodium": 0.8
   },
+  "honeycrisp apple": {
+    "store": "Safeway",
+    "store product name": "Honeycrisp Apple",
+    "serving size": "1 apple (21.2g)",
+    "servings per container": 24,
+    "price": 1.65,
+    "carb": 22,
+    "fat": 0,
+    "protein": 0,
+    "sodium": 0
+  },
   "just egg folded": {
     "store": "Safeway",
     "store product name": "JUST Egg Folded Made From Plants 4 Count - 8 Oz",
