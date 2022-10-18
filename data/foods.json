@@ -185,5 +185,16 @@
         "protein_per_serving": 24,
         "serving_size": "1 sandwich",
         "sodium_per_serving": 780
+    },
+    "yellow peach": {
+        "carb_per_serving": 15,
+        "fat_per_serving": 1,
+        "kcal_per_serving": 69,
+        "max_servings": 2,
+        "min_servings": 0,
+        "price_per_serving": 1.5,
+        "protein_per_serving": 1,
+        "serving_size": "1 peach",
+        "sodium_per_serving": 0
     }
 }

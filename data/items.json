@@ -251,5 +251,16 @@
     "fat": 0,
     "protein": 1,
     "sodium": 5
+  },
+  "yellow peach": {
+    "store": "Safeway",
+    "store product name": " Yellow Peach",
+    "serving size": "1 peach",
+    "servings per container": 1,
+    "price": 1.50,
+    "carb": 15,
+    "fat": 0.5,
+    "protein": 1,
+    "sodium": 0
   }
 }
