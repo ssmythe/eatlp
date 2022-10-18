@@ -31,6 +31,6 @@ class Foods:
         with open(json_file, 'w') as file:
             json.dump(self.dict_of_foods, file, sort_keys=True, indent=4)
 
-    def read_foods_to_json_file(self, json_file):
+    def read_foods_from_json_file(self, json_file):
         with open(json_file, 'r') as file:
             self.dict_of_foods = json.load(file)

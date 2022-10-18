@@ -43,7 +43,7 @@ def test_write_foods_to_json_file(foods, items, recipes):
     str_json_foods_written = foods.foods_to_json_str()
     # read foods
     foods = Foods()
-    foods.read_foods_to_json_file('tests/test_foods.json')
+    foods.read_foods_from_json_file('tests/test_foods.json')
     assert foods.len() == 2
     str_json_foods_read = foods.foods_to_json_str()
     assert str_json_foods_written == str_json_foods_read
