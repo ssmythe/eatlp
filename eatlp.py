@@ -2,6 +2,9 @@
 
 # TODO generate random food lists for pulp to solve
 # TODO save results of food dict and solution
+# TODO macro 50/30/20 ratio ranges +/-5% in constraints
+# TODO min protein in constraints
+
 from src.foods import *
 from src.food import *
 from pulp import *
