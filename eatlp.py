@@ -87,14 +87,15 @@ total_sodium = 0
 for v in model.variables():
     name = v.name.replace('_', ' ')
     food = foods.dict_of_foods[name]
-    kcal_per_serving = food['kcal_per_serving']
-    kcal = kcal_per_serving * v.varValue
-    sodium_per_serving = food['sodium_per_serving']
-    sodium = sodium_per_serving * v.varValue
-    total_kcal += kcal
-    total_sodium += sodium
-    print(v.name, '=', v.varValue, "kcal=", total_kcal, "sodium=", total_sodium)
-print("Totals: kcal=", total_kcal, "sodium=", total_sodium)
+    kcal = food['kcal_per_serving']
+    kcal_times_servings = kcal * v.varValue
+    sodium = food['sodium_per_serving']
+    sodium_times_servings = sodium * v.varValue
+    total_kcal += kcal_times_servings
+    total_sodium += sodium_times_servings
+    if v.varValue > 0:
+        print(f"{name}=x{v.varValue} kcal={kcal}/{kcal_times_servings} sodium={sodium}/{sodium_times_servings} ")
+print("\nTotals: kcal =", total_kcal, "sodium =", total_sodium)
 
 # The optimised objective function value is printed to the screen
-print('Value of Objective Function = ', value(model.objective))
+print('Value of Objective Function =', value(model.objective))
