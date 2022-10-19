@@ -2,6 +2,7 @@
 
 # TODO generate random food lists for pulp to solve
 # TODO save results of food dict and solution
+# TODO consider added sugars constraints
 
 from multiprocessing import current_process
 from src.bmi import *
