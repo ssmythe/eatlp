@@ -66,7 +66,7 @@
             "honeycrisp apple": 1
         },
         "min_servings": 0,
-        "max_servings": 3
+        "max_servings": 2
     },
     "ribeye steak": {
         "servings per recipe": 1,
@@ -189,6 +189,6 @@
             "yellow peach": 1
         },
         "min_servings": 0,
-        "max_servings": 3
+        "max_servings": 1
     }
 }

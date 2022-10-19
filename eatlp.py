@@ -201,7 +201,7 @@ protein_percent = (total_protein * 4 / total_kcal) * 100
 print(98 * '-')
 print("%-33s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, $%6.2f" %
       ("Totals:", total_kcal, total_carb, total_fat, total_protein, total_sodium, total_price))
-print("%-33s            (%2d%%)      (%2d%%)    (%2d%%)" % ("", carb_percent, fat_percent, protein_percent))
+print("%-33s %4.1f%% carb / %4.1f%% fat / %4.1f%% protein" % ("Nutrients:", carb_percent, fat_percent, protein_percent))
 print()
 for v in model.variables():
     name = v.name.replace('_', ' ')
