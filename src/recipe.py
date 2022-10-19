@@ -65,7 +65,7 @@ class Recipe:
         total_carb = 0
         for carb in self.carb_per_ingredient_to_list(items):
             total_carb += carb
-        return round(total_carb, 1)
+        return total_carb
 
     def fat_per_ingredient_to_list(self, items):
         fat_list = []
@@ -78,7 +78,7 @@ class Recipe:
         total_fat = 0
         for fat in self.fat_per_ingredient_to_list(items):
             total_fat += fat
-        return round(total_fat, 1)
+        return total_fat
 
     def protein_per_ingredient_to_list(self, items):
         protein_list = []
@@ -91,7 +91,7 @@ class Recipe:
         total_protein = 0
         for protein in self.protein_per_ingredient_to_list(items):
             total_protein += protein
-        return round(total_protein, 1)
+        return total_protein
 
     def sodium_per_ingredient_to_list(self, items):
         sodium_list = []
@@ -104,7 +104,7 @@ class Recipe:
         total_sodium = 0
         for sodium in self.sodium_per_ingredient_to_list(items):
             total_sodium += sodium
-        return round(math.ceil(total_sodium), 0)
+        return total_sodium
 
     def kcal_per_ingredient_to_list(self, items):
         kcal_list = []
@@ -117,7 +117,7 @@ class Recipe:
         total_kcal = 0
         for kcal in self.kcal_per_ingredient_to_list(items):
             total_kcal += kcal
-        return round(math.ceil(total_kcal), 0)
+        return total_kcal
 
     def price_per_ingredient_to_list(self, items):
         price_list = []
@@ -130,4 +130,4 @@ class Recipe:
         total_price = 0
         for price in self.price_per_ingredient_to_list(items):
             total_price += price
-        return round(total_price, 2)
+        return round(total_price, 2) # round okay

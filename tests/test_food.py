@@ -53,5 +53,5 @@ def test_recipe_to_food(items, recipe, food):
     assert food.fat_per_serving == 5.5
     assert food.protein_per_serving == 7
     assert food.sodium_per_serving == 200
-    assert food.kcal_per_serving == 154
+    assert food.kcal_per_serving == 153.5
     assert food.price_per_serving == 0.86

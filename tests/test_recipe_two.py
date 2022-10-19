@@ -41,7 +41,7 @@ def test_total_fat_per_recipe_serving(items, recipe):
     items.add_items_from_json_file(test_items_file)
     recipe.set_recipe_from_json_file(
         test_recipe_file)
-    assert recipe.total_fat_per_recipe_serving(items) == 1.6
+    assert recipe.total_fat_per_recipe_serving(items) == 1.625
 
 
 # def test_protein_per_recipes_to_list(items, recipe):
