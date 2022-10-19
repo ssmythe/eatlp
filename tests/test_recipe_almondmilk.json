@@ -1,0 +1,11 @@
+{
+    "almondmilk": {
+        "servings per recipe": 1,
+        "serving size": "1 cup (236g)",
+        "ingredients": {
+            "almondmilk": 1
+        },
+        "min_servings": 0,
+        "max_servings": 2
+    }
+}

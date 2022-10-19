@@ -65,7 +65,7 @@ class Recipe:
         total_carb = 0
         for carb in self.carb_per_ingredient_to_list(items):
             total_carb += carb
-        return round(math.ceil(total_carb), 0)
+        return round(total_carb, 1)
 
     def fat_per_ingredient_to_list(self, items):
         fat_list = []
@@ -78,7 +78,7 @@ class Recipe:
         total_fat = 0
         for fat in self.fat_per_ingredient_to_list(items):
             total_fat += fat
-        return round(math.ceil(total_fat), 0)
+        return round(total_fat, 1)
 
     def protein_per_ingredient_to_list(self, items):
         protein_list = []
@@ -91,7 +91,7 @@ class Recipe:
         total_protein = 0
         for protein in self.protein_per_ingredient_to_list(items):
             total_protein += protein
-        return round(math.ceil(total_protein), 0)
+        return round(total_protein, 1)
 
     def sodium_per_ingredient_to_list(self, items):
         sodium_list = []

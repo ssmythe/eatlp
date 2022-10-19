@@ -32,6 +32,17 @@ def test_recipes_to_foods(items, recipes, foods):
     foods.recipes_to_foods(items, recipes)
     assert foods.len() == 2
 
+
+def test_recipes_to_foods(items, recipes, foods):
+    items.add_items_from_json_file('tests/test_item_almondmilk.json')
+    recipes.set_recipes_from_json_file(
+        'tests/test_recipe_almondmilk.json')
+    foods.recipes_to_foods(items, recipes)
+    assert foods.len() == 1
+    assert foods.dict_of_foods['almondmilk']['carb_per_serving'] == 1
+    assert foods.dict_of_foods['almondmilk']['fat_per_serving'] == 2.5
+
+
 def test_write_foods_to_json_file(foods, items, recipes):
     items.add_items_from_json_file('tests/test_items.json')
     recipes.set_recipes_from_json_file(
