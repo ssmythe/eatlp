@@ -41,7 +41,7 @@ class Item:
         self.sodium_per_serving = sodium_per_serving
 
     def price_per_serving(self):
-        return round(self.price / self.servings_per_container, 2) # rounding okay here
+        return round(self.price / self.servings_per_container, 2) # round okay
 
     def kcal_per_serving(self):
         kcal_carb = self.carb_per_serving * 4

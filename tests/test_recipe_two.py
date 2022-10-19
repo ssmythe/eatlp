@@ -20,7 +20,7 @@ def recipe():
 def test_carb_per_recipes_to_list(items, recipe):
     items.add_items_from_json_file(test_items_file)
     recipe.set_recipe_from_json_file(test_recipe_file)
-    assert recipe.carb_per_ingredient_to_list(items) == [34.1, 1, 1.4]
+    assert recipe.carb_per_ingredient_to_list(items) == [34.125, 1, 1.375]
 
 
 def test_total_carb_per_recipe_serving(items, recipe):
@@ -34,7 +34,7 @@ def test_fat_per_recipes_to_list(items, recipe):
     items.add_items_from_json_file(test_items_file)
     recipe.set_recipe_from_json_file(
         test_recipe_file)
-    assert recipe.fat_per_ingredient_to_list(items) == [1.6, 0.0, 0.0]
+    assert recipe.fat_per_ingredient_to_list(items) == [1.625, 0.0, 0.0]
 
 
 def test_total_fat_per_recipe_serving(items, recipe):
