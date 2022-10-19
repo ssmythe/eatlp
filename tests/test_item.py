@@ -104,7 +104,7 @@ def test_kcal_per_serving(item):
     item.set_fat_per_serving(fat_per_serving)
     protein_per_serving = 5
     item.set_protein_per_serving(protein_per_serving)
-    assert item.kcal_per_serving() == 85
+    assert item.kcal_per_serving() == 84.5
 
 
 def test_set_sodium_per_serving(item):
@@ -134,7 +134,7 @@ def test_set_item_from_dict(item):
     assert item.fat_per_serving == 0.5
     assert item.protein_per_serving == 5
     assert item.sodium_per_serving == 75
-    assert item.kcal_per_serving() == 85
+    assert item.kcal_per_serving() == 84.5
 
 
 def test_set_item_from_json_str(item):
@@ -149,7 +149,7 @@ def test_set_item_from_json_str(item):
     assert item.protein_per_serving == 5
     assert item.sodium_per_serving == 75
     assert item.price_per_serving() == 0.39
-    assert item.kcal_per_serving() == 85
+    assert item.kcal_per_serving() == 84.5
 
 
 def test_set_item_from_json_file(item):
@@ -164,4 +164,4 @@ def test_set_item_from_json_file(item):
     assert item.protein_per_serving == 5
     assert item.sodium_per_serving == 75
     assert item.price_per_serving() == 0.39
-    assert item.kcal_per_serving() == 85
+    assert item.kcal_per_serving() == 84.5

@@ -176,7 +176,7 @@ def test_kcal_per_recipes_to_list(items, recipe):
     items.add_items_from_json_file('tests/test_items.json')
     recipe.set_recipe_from_json_file(
         'tests/test_recipe_toast_with_hummus.json')
-    assert recipe.kcal_per_ingredient_to_list(items) == [85, 69]
+    assert recipe.kcal_per_ingredient_to_list(items) == [84.5, 69]
 
 
 def test_total_kcal_per_recipe_serving(items, recipe):

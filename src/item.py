@@ -41,13 +41,13 @@ class Item:
         self.sodium_per_serving = sodium_per_serving
 
     def price_per_serving(self):
-        return round(self.price / self.servings_per_container, 2)
+        return round(self.price / self.servings_per_container, 2) # rounding okay here
 
     def kcal_per_serving(self):
         kcal_carb = self.carb_per_serving * 4
         kcal_fat = self.fat_per_serving * 9
         kcal_protein = self.protein_per_serving * 4
-        return math.ceil(kcal_carb + kcal_fat + kcal_protein)
+        return kcal_carb + kcal_fat + kcal_protein
 
     def set_item_from_dict(self, data):
         self.set_name(data['name'])
