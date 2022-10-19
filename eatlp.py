@@ -9,6 +9,8 @@
 # TODO consider added sugars constraints
 # TODO figure out menus
 # TODO conditional logic on recommended protein for over 40 years old 1.0-1.2 g/kg body weight per day
+# TODO Script to populate user.json to keep track of user details like age height weight weight loss preference
+#      Update current weight, target weight…
 
 from multiprocessing import current_process
 from src.bmi import *
