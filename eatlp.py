@@ -2,20 +2,54 @@
 
 # TODO generate random food lists for pulp to solve
 # TODO save results of food dict and solution
-# TODO min protein in constraints
 
+from multiprocessing import current_process
+from src.bmi import *
 from src.foods import *
 from src.food import *
 from pulp import *
 
+# print(f"{status}")
+# LpStatus key          string value   numerical value
+# LpStatusOptimal 	    “Optimal”       1
+# LpStatusNotSolved 	“Not Solved”    0
+# LpStatusInfeasible 	“Infeasible”   -1
+# LpStatusUnbounded 	“Unbounded”    -2
+# LpStatusUndefined 	“Undefined”    -3
+
+model_return_status_codes = {
+    '1': 'Optimal',
+    '0': 'Not Solved',
+    '-1': 'Infeasible',
+    '-2': 'Unbounded',
+    '-3': 'Undefined'
+}
+
+
+current_weight_lbs = 268.8
 max_kcal = 1643
 max_sodium = 2000
-min_carb = max_kcal * 0.45 / 4
-max_carb = max_kcal * 0.55 / 4
-min_fat = max_kcal * 0.25 / 9
-max_fat = max_kcal * 0.35 / 9
-min_protein = max_kcal * 0.15 / 4
-max_protein = max_kcal * 0.25 / 4
+
+# recommended protein
+# KgPerPound 0.453592
+# =CurrentWeight*KgPerPound*0.8
+minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 0.8
+# print(f"minimum recommended protein #1 : {minimum_recommended_protein}")
+# minimum_recommended_protein = current_weight_lbs * 0.36
+# print(f"recommended protein #2: {minimum_recommended_protein}")
+
+plus_minus_percent = 0.05
+carb_percent = 0.50
+fat_percent = 0.30
+protein_percent = 0.20
+min_carb = max_kcal * (carb_percent - plus_minus_percent) / 4
+max_carb = max_kcal * (carb_percent + plus_minus_percent) / 4
+min_fat = max_kcal * (fat_percent - plus_minus_percent) / 9
+max_fat = max_kcal * (fat_percent + plus_minus_percent) / 9
+min_protein = max_kcal * (protein_percent - plus_minus_percent) / 4
+max_protein = max_kcal * (protein_percent - plus_minus_percent) / 4
+
+# print(f"carb {min_carb}-{max_carb}    fat {min_fat}-{max_fat}    protein {min_protein}-{max_protein}    ")
 
 foods = Foods()
 foods.read_foods_from_json_file('data/foods.json')
@@ -132,18 +166,29 @@ for name in list_of_sorted_foods:
 expr += "0 <= {max_fat}"
 globals()['model'] += eval(expr)
 
-# min_protein
-expr = ''
-i = 1
-for name in list_of_sorted_foods:
-    key = f'x{i}'
-    food = foods.dict_of_foods[name]
-    expr += f"{food['protein_per_serving']}*{key} +"
-    i += 1
-expr += "0 >= {min_protein}"
-globals()['model'] += eval(expr)
+# # min_protein
+# expr = ''
+# i = 1
+# for name in list_of_sorted_foods:
+#     key = f'x{i}'
+#     food = foods.dict_of_foods[name]
+#     expr += f"{food['protein_per_serving']}*{key} +"
+#     i += 1
+# expr += "0 >= {min_protein}"
+# globals()['model'] += eval(expr)
 
-# max_protein
+# # max_protein
+# expr = ''
+# i = 1
+# for name in list_of_sorted_foods:
+#     key = f'x{i}'
+#     food = foods.dict_of_foods[name]
+#     expr += f"{food['protein_per_serving']}*{key} +"
+#     i += 1
+# expr += "0 <= {max_protein}"
+# globals()['model'] += eval(expr)
+
+# minimum recommended protein
 expr = ''
 i = 1
 for name in list_of_sorted_foods:
@@ -151,12 +196,12 @@ for name in list_of_sorted_foods:
     food = foods.dict_of_foods[name]
     expr += f"{food['protein_per_serving']}*{key} +"
     i += 1
-expr += "0 <= {max_protein}"
+expr += "0 >= {minimum_recommended_protein}"
 globals()['model'] += eval(expr)
 
 # Solve problem
 status = model.solve(PULP_CBC_CMD(msg=False))
-print(f"Model: {status}")
+print(f"Model: {model_return_status_codes[str(status)]}")
 
 # Print model
 # print(model)
@@ -201,7 +246,8 @@ protein_percent = (total_protein * 4 / total_kcal) * 100
 print(98 * '-')
 print("%-33s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, $%6.2f" %
       ("Totals:", total_kcal, total_carb, total_fat, total_protein, total_sodium, total_price))
-print("%-33s %4.1f%% carb / %4.1f%% fat / %4.1f%% protein" % ("Nutrients:", carb_percent, fat_percent, protein_percent))
+print("%-33s %4.1f%% carb / %4.1f%% fat / %4.1f%% protein" %
+      ("Nutrients:", carb_percent, fat_percent, protein_percent))
 print()
 for v in model.variables():
     name = v.name.replace('_', ' ')
@@ -213,11 +259,3 @@ for v in model.variables():
 
 # The optimised objective function value is printed to the screen
 # print('Value of Objective Function =', value(model.objective))
-
-# print(f"{status}")
-# LpStatus key          string value   numerical value
-# LpStatusOptimal 	    “Optimal”       1
-# LpStatusNotSolved 	“Not Solved”    0
-# LpStatusInfeasible 	“Infeasible”   -1
-# LpStatusUnbounded 	“Unbounded”    -2
-# LpStatusUndefined 	“Undefined”    -3
