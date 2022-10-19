@@ -1,14 +1,14 @@
 {
     "almondmilk": {
-        "carb_per_serving": 0.125,
-        "fat_per_serving": 0.3125,
-        "kcal_per_serving": 3.8125,
+        "carb_per_serving": 1.0,
+        "fat_per_serving": 2.5,
+        "kcal_per_serving": 30.5,
         "max_servings": 2,
         "min_servings": 0,
-        "price_per_serving": 0.08,
-        "protein_per_serving": 0.125,
+        "price_per_serving": 0.62,
+        "protein_per_serving": 1.0,
         "serving_size": "1 cup (236g)",
-        "sodium_per_serving": 21.25
+        "sodium_per_serving": 170.0
     },
     "black beans and onions": {
         "carb_per_serving": 36.5,
@@ -47,7 +47,7 @@
         "carb_per_serving": 23.4,
         "fat_per_serving": 0.0,
         "kcal_per_serving": 158.0,
-        "max_servings": 3,
+        "max_servings": 2,
         "min_servings": 0,
         "price_per_serving": 1.51,
         "protein_per_serving": 16.1,

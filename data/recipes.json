@@ -1,6 +1,6 @@
 {
     "almondmilk": {
-        "servings per recipe": 8,
+        "servings per recipe": 1,
         "serving size": "1 cup (236g)",
         "ingredients": {
             "almondmilk": 1
@@ -46,7 +46,7 @@
             "honey": 1
         },
         "min_servings": 0,
-        "max_servings": 3
+        "max_servings": 2
     },
     "green beans": {
         "servings per recipe": 8,
