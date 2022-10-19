@@ -8,6 +8,7 @@
 # TODO save results of food dict and solution
 # TODO consider added sugars constraints
 # TODO figure out menus
+# TODO conditional logic on recommended protein for over 40 years old 1.0-1.2 g/kg body weight per day
 
 from multiprocessing import current_process
 from src.bmi import *
@@ -15,15 +16,18 @@ from src.foods import *
 from src.food import *
 from pulp import *
 
-# print(f"{status}")
-# LpStatus key          string value   numerical value
-# LpStatusOptimal 	    “Optimal”       1
-# LpStatusNotSolved 	“Not Solved”    0
-# LpStatusInfeasible 	“Infeasible”   -1
-# LpStatusUnbounded 	“Unbounded”    -2
-# LpStatusUndefined 	“Undefined”    -3
 
 model_return_status_codes = {
+    """
+    Model return status codes:
+
+    LpStatus key          string value   numerical value
+    LpStatusOptimal 	  “Optimal”       1
+    LpStatusNotSolved 	  “Not Solved”    0
+    LpStatusInfeasible 	  “Infeasible”   -1
+    LpStatusUnbounded 	  “Unbounded”    -2
+    LpStatusUndefined 	  “Undefined”    -3
+    """
     '1': 'Optimal',
     '0': 'Not Solved',
     '-1': 'Infeasible',
