@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 
-# TODO generate random food lists for pulp to solve
-#      fixed to random:
-#      - Copy records that have min servings greater than zero deleting them from fixed dict and add to random
-#      - Then, when done. Determine sweet apot to sample clone rest of records
-#      - Solve, check solve result
 # TODO save results of food dict and solution
 # TODO consider added sugars constraints
 # TODO figure out menus
