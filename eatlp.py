@@ -37,6 +37,23 @@ current_age = 54
 max_kcal = 1653
 max_sodium = 2000
 num_of_menus = 14
+#################
+
+# ----
+# carb
+# ----
+min_carb_percent = 0.45
+max_carb_percent = 0.65
+min_carb = max_kcal * min_carb_percent / 4
+max_carb = max_kcal * max_carb_percent / 4
+
+# ---
+# fat
+# ---
+min_fat_percent = 0.20
+max_fat_percent = 0.30
+min_fat = max_kcal * min_fat_percent / 9
+max_fat = max_kcal * max_fat_percent / 9
 
 # -------
 # protein
@@ -50,15 +67,6 @@ else:
 
 maximum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 2.0
 
-min_carb_percent = 0.45
-max_carb_percent = 0.65
-min_carb = max_kcal * min_carb_percent / 4
-max_carb = max_kcal * max_carb_percent / 4
-
-min_fat_percent = 0.20
-max_fat_percent = 0.30
-min_fat = max_kcal * min_fat_percent / 9
-max_fat = max_kcal * max_fat_percent / 9
 
 foods = Foods()
 foods.read_foods_from_json_file('data/foods.json')
