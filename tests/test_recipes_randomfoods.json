@@ -1,0 +1,194 @@
+{
+    "almondmilk": {
+        "servings per recipe": 1,
+        "serving size": "1 cup (236g)",
+        "ingredients": {
+            "almondmilk": 1
+        },
+        "min_servings": 0,
+        "max_servings": 2
+    },
+    "black beans and onions": {
+        "servings per recipe": 8,
+        "serving size": "1 cup (236g)",
+        "ingredients": {
+            "vegetable broth": 4,
+            "black beans dry": 13,
+            "yellow onion": 1
+        },
+        "min_servings": 0,
+        "max_servings": 1
+    },
+    "cheerios and almondmilk": {
+        "servings per recipe": 1,
+        "serving size": "1 bowl (191.2g)",
+        "ingredients": {
+            "almondmilk": 1,
+            "cheerios": 1
+        },
+        "min_servings": 0,
+        "max_servings": 3
+    },
+    "chobani yogurt": {
+        "servings per recipe": 1,
+        "serving size": "1 bowl (191.2g)",
+        "ingredients": {
+            "chobani yogurt greek plain": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
+    "chobani yogurt with honey": {
+        "servings per recipe": 1,
+        "serving size": "1 bowl (191.2g)",
+        "ingredients": {
+            "chobani yogurt greek plain": 1,
+            "honey": 1
+        },
+        "min_servings": 0,
+        "max_servings": 2
+    },
+    "green beans": {
+        "servings per recipe": 8,
+        "serving size": "1 cup (236g)",
+        "ingredients": {
+            "vegetable broth": 4,
+            "green beans": 2,
+            "yellow onion": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
+    "honeycrisp apple": {
+        "servings per recipe": 1,
+        "serving size": "1 apple",
+        "ingredients": {
+            "honeycrisp apple": 1
+        },
+        "min_servings": 1,
+        "max_servings": 2
+    },
+    "ribeye steak": {
+        "servings per recipe": 1,
+        "serving size": "1 steak",
+        "ingredients": {
+            "ribeye steak": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
+    "potato with vbutter": {
+        "servings per recipe": 1,
+        "serving size": "1 potato",
+        "ingredients": {
+            "russet potato": 1,
+            "earth balance": 1
+        },
+        "min_servings": 0,
+        "max_servings": 3
+    },
+    "salad with anlvr dressing": {
+        "servings per recipe": 1,
+        "serving size": "1 cup (236g)",
+        "ingredients": {
+            "earthbound farm bag salad": 1.75,
+            "annies lite viniagrette raspberry": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
+    "salad with vranch dressing": {
+        "servings per recipe": 1,
+        "serving size": "1 cup (236g)",
+        "ingredients": {
+            "earthbound farm bag salad": 1.75,
+            "vegan ranch dressing": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
+    "special k and almond milk": {
+        "servings per recipe": 1,
+        "serving size": "1 bowl",
+        "ingredients": {
+            "special k cereal": 1,
+            "almondmilk": 1
+        },
+        "min_servings": 0,
+        "max_servings": 3
+    },
+    "split pea soup": {
+        "servings per recipe": 8,
+        "serving size": "1 1/3 cup (323g)",
+        "ingredients": {
+            "split peas dry": 13,
+            "carrot": 2,
+            "russet potato": 1,
+            "vegetable broth": 4,
+            "yellow onion": 1
+        },
+        "min_servings": 0,
+        "max_servings": 3
+    },
+    "toast with chao": {
+        "servings per recipe": 1,
+        "serving size": "1 slice (? g)",
+        "ingredients": {
+            "ezekiel bread": 1,
+            "chao slice": 1
+        },
+        "min_servings": 0,
+        "max_servings": 999
+    },
+    "toast with earth balance": {
+        "servings per recipe": 1,
+        "serving size": "1 slice (? g)",
+        "ingredients": {
+            "ezekiel bread": 1,
+            "earth balance": 1
+        },
+        "min_servings": 0,
+        "max_servings": 999
+    },
+    "toast with hummus": {
+        "servings per recipe": 1,
+        "serving size": "1 slice (? g)",
+        "ingredients": {
+            "ezekiel bread": 1,
+            "sabra roasted red pepper hummus": 1
+        },
+        "min_servings": 1,
+        "max_servings": 999
+    },
+    "toast with just egg": {
+        "servings per recipe": 1,
+        "serving size": "1 slice (? g)",
+        "ingredients": {
+            "ezekiel bread": 1,
+            "just egg folded": 1
+        },
+        "min_servings": 1,
+        "max_servings": 999
+    },
+    "tofurky chao mayo sandwich": {
+        "servings per recipe": 1,
+        "serving size": "1 sandwich",
+        "ingredients": {
+            "ezekiel bread": 2,
+            "tofurkey deli slice hickory smoked": 1,
+            "chao slice": 1,
+            "best foods vegan mayo": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
+    "yellow peach": {
+        "servings per recipe": 1,
+        "serving size": "1 peach",
+        "ingredients": {
+            "yellow peach": 1
+        },
+        "min_servings": 0,
+        "max_servings": 1
+    }
+}
