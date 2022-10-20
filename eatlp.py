@@ -16,6 +16,7 @@ from multiprocessing import current_process
 from src.bmi import *
 from src.foods import *
 from src.food import *
+from src.randomfoods import *
 from pulp import *
 
 
@@ -63,7 +64,9 @@ max_protein = max_kcal * (protein_percent - plus_minus_percent) / 4
 
 foods = Foods()
 foods.read_foods_from_json_file('data/foods.json')
-list_of_sorted_foods = sorted(foods.dict_of_foods.keys())
+randomfoods = RandomFoods()
+randomfoods.foods_to_randomfoods(foods, 15)
+list_of_sorted_foods = sorted(randomfoods.dict_of_random_foods.keys())
 
 # Define model - naming the maximine model
 model = LpProblem('eat2', LpMaximize)

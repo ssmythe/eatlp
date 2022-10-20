@@ -17,7 +17,7 @@
             "yellow onion": 1
         },
         "min_servings": 0,
-        "max_servings": 1
+        "max_servings": 2
     },
     "cheerios and almondmilk": {
         "servings per recipe": 1,
@@ -81,11 +81,11 @@
         "servings per recipe": 1,
         "serving size": "1 potato",
         "ingredients": {
-            "russet potato": 1,
-            "earth balance": 1
+            "russet potato": 0,
+            "earth balance": 2
         },
         "min_servings": 0,
-        "max_servings": 3
+        "max_servings": 2
     },
     "salad with anlvr dressing": {
         "servings per recipe": 1,
@@ -95,7 +95,7 @@
             "annies lite viniagrette raspberry": 1
         },
         "min_servings": 0,
-        "max_servings": 0
+        "max_servings": 2
     },
     "salad with vranch dressing": {
         "servings per recipe": 1,

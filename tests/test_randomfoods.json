@@ -14,7 +14,7 @@
         "carb_per_serving": 36.5,
         "fat_per_serving": 1.625,
         "kcal_per_serving": 213.125,
-        "max_servings": 2,
+        "max_servings": 1,
         "min_servings": 0,
         "price_per_serving": 0.81,
         "protein_per_serving": 13.125,
@@ -77,15 +77,15 @@
         "sodium_per_serving": 0.0
     },
     "potato with vbutter": {
-        "carb_per_serving": 0.0,
-        "fat_per_serving": 22.0,
-        "kcal_per_serving": 198.0,
-        "max_servings": 2,
+        "carb_per_serving": 26.0,
+        "fat_per_serving": 11.0,
+        "kcal_per_serving": 215.0,
+        "max_servings": 3,
         "min_servings": 0,
-        "price_per_serving": 0.46,
-        "protein_per_serving": 0.0,
+        "price_per_serving": 1.25,
+        "protein_per_serving": 3.0,
         "serving_size": "1 potato",
-        "sodium_per_serving": 210.0
+        "sodium_per_serving": 105.0
     },
     "ribeye steak": {
         "carb_per_serving": 0.0,
@@ -102,7 +102,7 @@
         "carb_per_serving": 12.0,
         "fat_per_serving": 3.0,
         "kcal_per_serving": 82.0,
-        "max_servings": 2,
+        "max_servings": 0,
         "min_servings": 0,
         "price_per_serving": 3.54,
         "protein_per_serving": 1.75,

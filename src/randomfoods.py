@@ -1,3 +1,4 @@
+from src.foods import Foods
 from src.food import Food
 
 import random
@@ -17,7 +18,7 @@ class RandomFoods:
     def add_name_food(self, name, food):
         self.dict_of_foods[name] = food.dict_of_food
 
-    def foods_to_randomfoods(self, items, recipes, foods, num_of_random_foods, set_random_seed=None):
+    def foods_to_randomfoods(self, foods, num_of_random_foods, set_random_seed=None):
         for food in foods.dict_of_foods.keys():
             if foods.dict_of_foods[food]['min_servings'] > 0:
                 self.dict_of_random_foods[food] = foods.dict_of_foods[food]
