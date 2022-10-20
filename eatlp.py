@@ -65,156 +65,160 @@ max_protein = max_kcal * (protein_percent - plus_minus_percent) / 4
 foods = Foods()
 foods.read_foods_from_json_file('data/foods.json')
 randomfoods = RandomFoods()
-randomfoods.foods_to_randomfoods(foods, 15)
-list_of_sorted_foods = sorted(randomfoods.dict_of_random_foods.keys())
 
-# Define model - naming the maximine model
-model = LpProblem('eat2', LpMaximize)
+loop_max = 100
+for loop_counter in range(0, loop_max + 1):
+    randomfoods.foods_to_randomfoods(foods, 15)
+    list_of_sorted_foods = sorted(randomfoods.dict_of_random_foods.keys())
 
-# Define variables - name, lower bound, upper bound, category Integer
-i = 1
-for name in list_of_sorted_foods:
-    varname = f'x{i}'
-    expr = LpVariable(name, 0, None, cat='Integer')
-    globals()[varname] = expr
-    i += 1
+    # Define model - naming the maximine model
+    model = LpProblem('eat2', LpMaximize)
 
-# Define objective - max kcals
-expr = ''
-i = 1
-for name in list_of_sorted_foods:
-    key = f'x{i}'
-    food = foods.dict_of_foods[name]
-    expr += f"{food['kcal_per_serving']}*{key} +"
-    i += 1
-expr += "0"
-globals()['model'] += eval(expr)
+    # Define variables - name, lower bound, upper bound, category Integer
+    i = 1
+    for name in list_of_sorted_foods:
+        varname = f'x{i}'
+        expr = LpVariable(name, 0, None, cat='Integer')
+        globals()[varname] = expr
+        i += 1
 
-# Define constraints
-# min_servings
-key_str = 'model'
-i = 1
-for name in list_of_sorted_foods:
-    key = f'x{i}'
+    # Define objective - max kcals
     expr = ''
-    food = foods.dict_of_foods[name]
-    expr += f"{key} >= {food['min_servings']}"
+    i = 1
+    for name in list_of_sorted_foods:
+        key = f'x{i}'
+        food = foods.dict_of_foods[name]
+        expr += f"{food['kcal_per_serving']}*{key} +"
+        i += 1
+    expr += "0"
     globals()['model'] += eval(expr)
-    i += 1
 
-# max_servings
-key_str = 'model'
-i = 1
-for name in list_of_sorted_foods:
-    key = f'x{i}'
+    # Define constraints
+    # min_servings
+    key_str = 'model'
+    i = 1
+    for name in list_of_sorted_foods:
+        key = f'x{i}'
+        expr = ''
+        food = foods.dict_of_foods[name]
+        expr += f"{key} >= {food['min_servings']}"
+        globals()['model'] += eval(expr)
+        i += 1
+
+    # max_servings
+    key_str = 'model'
+    i = 1
+    for name in list_of_sorted_foods:
+        key = f'x{i}'
+        expr = ''
+        food = foods.dict_of_foods[name]
+        expr += f"{key} <= {food['max_servings']}"
+        globals()['model'] += eval(expr)
+        i += 1
+
+    # max_kcal
     expr = ''
-    food = foods.dict_of_foods[name]
-    expr += f"{key} <= {food['max_servings']}"
+    i = 1
+    for name in list_of_sorted_foods:
+        key = f'x{i}'
+        food = foods.dict_of_foods[name]
+        expr += f"{food['kcal_per_serving']}*{key} +"
+        i += 1
+    expr += "0 <= {max_kcal}"
     globals()['model'] += eval(expr)
-    i += 1
 
-# max_kcal
-expr = ''
-i = 1
-for name in list_of_sorted_foods:
-    key = f'x{i}'
-    food = foods.dict_of_foods[name]
-    expr += f"{food['kcal_per_serving']}*{key} +"
-    i += 1
-expr += "0 <= {max_kcal}"
-globals()['model'] += eval(expr)
+    # max_sodium
+    expr = ''
+    i = 1
+    for name in list_of_sorted_foods:
+        key = f'x{i}'
+        food = foods.dict_of_foods[name]
+        expr += f"{food['sodium_per_serving']}*{key} + "
+        i += 1
+    expr += "0 <= {max_sodium}"
+    globals()['model'] += eval(expr)
 
-# max_sodium
-expr = ''
-i = 1
-for name in list_of_sorted_foods:
-    key = f'x{i}'
-    food = foods.dict_of_foods[name]
-    expr += f"{food['sodium_per_serving']}*{key} + "
-    i += 1
-expr += "0 <= {max_sodium}"
-globals()['model'] += eval(expr)
+    # min_carb
+    expr = ''
+    i = 1
+    for name in list_of_sorted_foods:
+        key = f'x{i}'
+        food = foods.dict_of_foods[name]
+        expr += f"{food['carb_per_serving']}*{key} +"
+        i += 1
+    expr += "0 >= {min_carb}"
+    globals()['model'] += eval(expr)
 
-# min_carb
-expr = ''
-i = 1
-for name in list_of_sorted_foods:
-    key = f'x{i}'
-    food = foods.dict_of_foods[name]
-    expr += f"{food['carb_per_serving']}*{key} +"
-    i += 1
-expr += "0 >= {min_carb}"
-globals()['model'] += eval(expr)
+    # max_carb
+    expr = ''
+    i = 1
+    for name in list_of_sorted_foods:
+        key = f'x{i}'
+        food = foods.dict_of_foods[name]
+        expr += f"{food['carb_per_serving']}*{key} +"
+        i += 1
+    expr += "0 <= {max_carb}"
+    globals()['model'] += eval(expr)
 
-# max_carb
-expr = ''
-i = 1
-for name in list_of_sorted_foods:
-    key = f'x{i}'
-    food = foods.dict_of_foods[name]
-    expr += f"{food['carb_per_serving']}*{key} +"
-    i += 1
-expr += "0 <= {max_carb}"
-globals()['model'] += eval(expr)
+    # min_fat
+    expr = ''
+    i = 1
+    for name in list_of_sorted_foods:
+        key = f'x{i}'
+        food = foods.dict_of_foods[name]
+        expr += f"{food['fat_per_serving']}*{key} +"
+        i += 1
+    expr += "0 >= {min_fat}"
+    globals()['model'] += eval(expr)
 
-# min_fat
-expr = ''
-i = 1
-for name in list_of_sorted_foods:
-    key = f'x{i}'
-    food = foods.dict_of_foods[name]
-    expr += f"{food['fat_per_serving']}*{key} +"
-    i += 1
-expr += "0 >= {min_fat}"
-globals()['model'] += eval(expr)
+    # max_fat
+    expr = ''
+    i = 1
+    for name in list_of_sorted_foods:
+        key = f'x{i}'
+        food = foods.dict_of_foods[name]
+        expr += f"{food['fat_per_serving']}*{key} +"
+        i += 1
+    expr += "0 <= {max_fat}"
+    globals()['model'] += eval(expr)
 
-# max_fat
-expr = ''
-i = 1
-for name in list_of_sorted_foods:
-    key = f'x{i}'
-    food = foods.dict_of_foods[name]
-    expr += f"{food['fat_per_serving']}*{key} +"
-    i += 1
-expr += "0 <= {max_fat}"
-globals()['model'] += eval(expr)
+    # # min_protein
+    # expr = ''
+    # i = 1
+    # for name in list_of_sorted_foods:
+    #     key = f'x{i}'
+    #     food = foods.dict_of_foods[name]
+    #     expr += f"{food['protein_per_serving']}*{key} +"
+    #     i += 1
+    # expr += "0 >= {min_protein}"
+    # globals()['model'] += eval(expr)
 
-# # min_protein
-# expr = ''
-# i = 1
-# for name in list_of_sorted_foods:
-#     key = f'x{i}'
-#     food = foods.dict_of_foods[name]
-#     expr += f"{food['protein_per_serving']}*{key} +"
-#     i += 1
-# expr += "0 >= {min_protein}"
-# globals()['model'] += eval(expr)
+    # # max_protein
+    # expr = ''
+    # i = 1
+    # for name in list_of_sorted_foods:
+    #     key = f'x{i}'
+    #     food = foods.dict_of_foods[name]
+    #     expr += f"{food['protein_per_serving']}*{key} +"
+    #     i += 1
+    # expr += "0 <= {max_protein}"
+    # globals()['model'] += eval(expr)
 
-# # max_protein
-# expr = ''
-# i = 1
-# for name in list_of_sorted_foods:
-#     key = f'x{i}'
-#     food = foods.dict_of_foods[name]
-#     expr += f"{food['protein_per_serving']}*{key} +"
-#     i += 1
-# expr += "0 <= {max_protein}"
-# globals()['model'] += eval(expr)
+    # minimum recommended protein
+    expr = ''
+    i = 1
+    for name in list_of_sorted_foods:
+        key = f'x{i}'
+        food = foods.dict_of_foods[name]
+        expr += f"{food['protein_per_serving']}*{key} +"
+        i += 1
+    expr += "0 >= {minimum_recommended_protein}"
+    globals()['model'] += eval(expr)
 
-# minimum recommended protein
-expr = ''
-i = 1
-for name in list_of_sorted_foods:
-    key = f'x{i}'
-    food = foods.dict_of_foods[name]
-    expr += f"{food['protein_per_serving']}*{key} +"
-    i += 1
-expr += "0 >= {minimum_recommended_protein}"
-globals()['model'] += eval(expr)
-
-# Solve problem
-status = model.solve(PULP_CBC_CMD(msg=False))
-print(f"Model: {model_return_status_codes[str(status)]}")
+    # Solve problem
+    status = model.solve(PULP_CBC_CMD(msg=False))
+    if status == 1:
+        break
 
 # Print model
 # print(model)
