@@ -1,3 +1,6 @@
+# Project generated files
+menus.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
