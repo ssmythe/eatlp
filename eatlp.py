@@ -33,6 +33,7 @@ model_return_status_codes = {
 }
 global status
 
+### TUNEABLES ###
 current_weight_lbs = 268.8
 max_kcal = 1643
 max_sodium = 2000
