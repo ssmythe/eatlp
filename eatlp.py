@@ -3,7 +3,6 @@
 # TODO save results of food dict and solution
 # TODO consider added sugars constraints
 # TODO figure out menus
-# TODO conditional logic on recommended protein for over 40 years old 1.0-1.2 g/kg body weight per day
 # TODO Script to populate user.json to keep track of user details like age height weight weight loss preference
 #      Update current weight, target weight…
 
@@ -24,7 +23,6 @@ import random
 # LpStatusUnbounded 	  “Unbounded”    -2
 # LpStatusUndefined 	  “Undefined”    -3
 model_return_status_codes = {
-
     '1': 'Optimal',
     '0': 'Not Solved',
     '-1': 'Infeasible',
@@ -34,7 +32,7 @@ model_return_status_codes = {
 global status
 
 ### TUNEABLES ###
-current_weight_lbs = 267.3  # 121.24524kg
+current_weight_lbs = 267.3
 current_age = 54
 max_kcal = 1653
 max_sodium = 2000
