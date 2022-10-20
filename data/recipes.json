@@ -27,7 +27,7 @@
             "cheerios": 1
         },
         "min_servings": 0,
-        "max_servings": 3
+        "max_servings": 0
     },
     "chobani yogurt": {
         "servings per recipe": 1,
@@ -36,7 +36,7 @@
             "chobani yogurt greek plain": 1
         },
         "min_servings": 0,
-        "max_servings": 0
+        "max_servings": 2
     },
     "chobani yogurt with honey": {
         "servings per recipe": 1,
@@ -46,7 +46,7 @@
             "honey": 1
         },
         "min_servings": 0,
-        "max_servings": 2
+        "max_servings": 0
     },
     "green beans": {
         "servings per recipe": 8,
@@ -189,6 +189,6 @@
             "yellow peach": 1
         },
         "min_servings": 0,
-        "max_servings": 1
+        "max_servings": 2
     }
 }
