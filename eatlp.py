@@ -19,17 +19,15 @@ from src.food import *
 from pulp import *
 
 
+# Model return status codes:
+# LpStatus key          string value   numerical value
+# LpStatusOptimal 	  “Optimal”       1
+# LpStatusNotSolved 	  “Not Solved”    0
+# LpStatusInfeasible 	  “Infeasible”   -1
+# LpStatusUnbounded 	  “Unbounded”    -2
+# LpStatusUndefined 	  “Undefined”    -3
 model_return_status_codes = {
-    """
-    Model return status codes:
-
-    LpStatus key          string value   numerical value
-    LpStatusOptimal 	  “Optimal”       1
-    LpStatusNotSolved 	  “Not Solved”    0
-    LpStatusInfeasible 	  “Infeasible”   -1
-    LpStatusUnbounded 	  “Unbounded”    -2
-    LpStatusUndefined 	  “Undefined”    -3
-    """
+    
     '1': 'Optimal',
     '0': 'Not Solved',
     '-1': 'Infeasible',

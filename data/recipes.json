@@ -180,7 +180,7 @@
             "best foods vegan mayo": 1
         },
         "min_servings": 0,
-        "max_servings": 3
+        "max_servings": 0
     },
     "yellow peach": {
         "servings per recipe": 1,
