@@ -24,7 +24,7 @@ import random
 # LpStatusUnbounded 	  “Unbounded”    -2
 # LpStatusUndefined 	  “Undefined”    -3
 model_return_status_codes = {
-    
+
     '1': 'Optimal',
     '0': 'Not Solved',
     '-1': 'Infeasible',
@@ -34,31 +34,33 @@ model_return_status_codes = {
 global status
 
 ### TUNEABLES ###
-current_weight_lbs = 268.8
-max_kcal = 1643
+current_weight_lbs = 267.3  # 121.24524kg
+current_age = 54
+max_kcal = 1653
 max_sodium = 2000
 num_of_menus = 14
 
-# recommended protein
-# KgPerPound 0.453592
-# =CurrentWeight*KgPerPound*0.8
-minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 0.8
-# print(f"minimum recommended protein #1 : {minimum_recommended_protein}")
-# minimum_recommended_protein = current_weight_lbs * 0.36
-# print(f"recommended protein #2: {minimum_recommended_protein}")
+# -------
+# protein
+# -------
+if current_age < 40:
+    # for under 40, recommendeded protein = CurrentWeight*KgPerPound*0.8
+    minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 0.8
+else:
+    # for 40 or older, recommendeded protein = CurrentWeight*KgPerPound*(1.0-1.2g/kg)
+    minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 1.0
 
-plus_minus_percent = 0.05
-carb_percent = 0.50
-fat_percent = 0.30
-protein_percent = 0.20
-min_carb = max_kcal * (carb_percent - plus_minus_percent) / 4
-max_carb = max_kcal * (carb_percent + plus_minus_percent) / 4
-min_fat = max_kcal * (fat_percent - plus_minus_percent) / 9
-max_fat = max_kcal * (fat_percent + plus_minus_percent) / 9
-min_protein = max_kcal * (protein_percent - plus_minus_percent) / 4
-max_protein = max_kcal * (protein_percent - plus_minus_percent) / 4
+maximum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 2.0
 
-# print(f"carb {min_carb}-{max_carb}    fat {min_fat}-{max_fat}    protein {min_protein}-{max_protein}    ")
+min_carb_percent = 0.45
+max_carb_percent = 0.65
+min_carb = max_kcal * min_carb_percent / 4
+max_carb = max_kcal * max_carb_percent / 4
+
+min_fat_percent = 0.20
+max_fat_percent = 0.30
+min_fat = max_kcal * min_fat_percent / 9
+max_fat = max_kcal * max_fat_percent / 9
 
 foods = Foods()
 foods.read_foods_from_json_file('data/foods.json')
@@ -138,6 +140,9 @@ for menu_num in range(1, num_of_menus + 1):
         expr += "0 <= {max_sodium}"
         globals()['model'] += eval(expr)
 
+        # ----
+        # carb
+        # ----
         # min_carb
         expr = ''
         i = 1
@@ -160,6 +165,9 @@ for menu_num in range(1, num_of_menus + 1):
         expr += "0 <= {max_carb}"
         globals()['model'] += eval(expr)
 
+        # ---
+        # fat
+        # ---
         # min_fat
         expr = ''
         i = 1
@@ -182,28 +190,7 @@ for menu_num in range(1, num_of_menus + 1):
         expr += "0 <= {max_fat}"
         globals()['model'] += eval(expr)
 
-        # # min_protein
-        # expr = ''
-        # i = 1
-        # for name in list_of_sorted_foods:
-        #     key = f'x{i}'
-        #     food = foods.dict_of_foods[name]
-        #     expr += f"{food['protein_per_serving']}*{key} +"
-        #     i += 1
-        # expr += "0 >= {min_protein}"
-        # globals()['model'] += eval(expr)
-
-        # # max_protein
-        # expr = ''
-        # i = 1
-        # for name in list_of_sorted_foods:
-        #     key = f'x{i}'
-        #     food = foods.dict_of_foods[name]
-        #     expr += f"{food['protein_per_serving']}*{key} +"
-        #     i += 1
-        # expr += "0 <= {max_protein}"
-        # globals()['model'] += eval(expr)
-
+        # protein
         # minimum recommended protein
         expr = ''
         i = 1
@@ -215,6 +202,17 @@ for menu_num in range(1, num_of_menus + 1):
         expr += "0 >= {minimum_recommended_protein}"
         globals()['model'] += eval(expr)
 
+        # maximum recommended protein
+        expr = ''
+        i = 1
+        for name in list_of_sorted_foods:
+            key = f'x{i}'
+            food = foods.dict_of_foods[name]
+            expr += f"{food['protein_per_serving']}*{key} +"
+            i += 1
+        expr += "0 <= {maximum_recommended_protein}"
+        globals()['model'] += eval(expr)
+
         # Solve problem
         status = model.solve(PULP_CBC_CMD(msg=False))
         if status == 1:
@@ -223,10 +221,8 @@ for menu_num in range(1, num_of_menus + 1):
     if status == 1:
         print(f"Menu #{menu_num}")
     else:
-        print(f"Menu #{menu_num}    Model: {model_return_status_codes[str(status)]}")
-
-    # Print model
-    # print(model)
+        print(
+            f"Menu #{menu_num}    Model: {model_return_status_codes[str(status)]}")
 
     # Print the variables optimized value
     print(98 * '-')
@@ -259,17 +255,18 @@ for menu_num in range(1, num_of_menus + 1):
         total_price += price_times_servings
         if v.varValue > 0:
             print("%dx %-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, $%6.2f" %
-                (v.varValue, name, kcal_times_servings, carb_times_servings, fat_times_servings, protein_times_servings, sodium_times_servings, price_times_servings))
+                  (v.varValue, name, kcal_times_servings, carb_times_servings, fat_times_servings, protein_times_servings, sodium_times_servings, price_times_servings))
 
     carb_percent = (total_carb * 4 / total_kcal) * 100
     fat_percent = (total_fat * 9 / total_kcal) * 100
     protein_percent = (total_protein * 4 / total_kcal) * 100
+    protein_factor = total_protein / BMI.lbs_to_kg(current_weight_lbs)
 
     print(98 * '-')
     print("%-33s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, $%6.2f" %
-        ("Totals:", total_kcal, total_carb, total_fat, total_protein, total_sodium, total_price))
-    print("%-33s %4.1f%% carb / %4.1f%% fat / %4.1f%% protein" %
-        ("Nutrients:", carb_percent, fat_percent, protein_percent))
+          ("Totals:", total_kcal, total_carb, total_fat, total_protein, total_sodium, total_price))
+    print("%-33s %4.1f%% carb / %4.1f%% fat / %4.1f%% protein (%3.1fg/kg)" %
+          ("Nutrients:", carb_percent, fat_percent, protein_percent, protein_factor))
     print()
     for v in model.variables():
         name = v.name.replace('_', ' ')
@@ -280,6 +277,3 @@ for menu_num in range(1, num_of_menus + 1):
 
     print()
     print()
-
-    # The optimised objective function value is printed to the screen
-    # print('Value of Objective Function =', value(model.objective))

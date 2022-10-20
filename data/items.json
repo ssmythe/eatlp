@@ -10,6 +10,17 @@
     "protein": 1,
     "sodium": 170
   },
+  "almonds raw": {
+    "store": "Safeway",
+    "store product name": "Signature Farms Almonds Raw Unsalted - 16 Oz",
+    "serving size": "1/4 cup (28g)",
+    "servings per container": 16,
+    "price": 7.99,
+    "carb": 6,
+    "fat": 14,
+    "protein": 6,
+    "sodium": 0
+  },
   "annies lite viniagrette raspberry": {
     "store": "Safeway",
     "store product name": "Annies Naturals Lite Vinaigrette Raspberry - 8 Fl. Oz.",
