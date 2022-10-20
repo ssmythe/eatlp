@@ -220,7 +220,11 @@ for menu_num in range(1, num_of_menus + 1):
         if status == 1:
             break
 
-    print(f"Model: Menu#{menu_num} {model_return_status_codes[str(status)]}")
+    if status == 1:
+        print(f"Menu #{menu_num}")
+    else:
+        print(f"Menu #{menu_num}    Model: {model_return_status_codes[str(status)]}")
+
     # Print model
     # print(model)
 
