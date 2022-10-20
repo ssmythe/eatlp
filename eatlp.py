@@ -13,6 +13,7 @@ from src.foods import *
 from src.food import *
 from src.randomfoods import *
 from pulp import *
+import random
 
 
 # Model return status codes:
@@ -30,7 +31,7 @@ model_return_status_codes = {
     '-2': 'Unbounded',
     '-3': 'Undefined'
 }
-
+global status
 
 current_weight_lbs = 268.8
 max_kcal = 1643
@@ -59,11 +60,12 @@ max_protein = max_kcal * (protein_percent - plus_minus_percent) / 4
 
 foods = Foods()
 foods.read_foods_from_json_file('data/foods.json')
-randomfoods = RandomFoods()
 
 loop_max = 100
 for loop_counter in range(0, loop_max + 1):
-    randomfoods.foods_to_randomfoods(foods, 15)
+    randomfoods = RandomFoods()
+    choice = random.randint(1, foods.len())
+    randomfoods.foods_to_randomfoods(foods, choice)
     list_of_sorted_foods = sorted(randomfoods.dict_of_random_foods.keys())
 
     # Define model - naming the maximine model
@@ -215,6 +217,7 @@ for loop_counter in range(0, loop_max + 1):
     if status == 1:
         break
 
+print(f"Model: {model_return_status_codes[str(status)]}")
 # Print model
 # print(model)
 
