@@ -1,19 +1,16 @@
 #!/usr/bin/env python3
 
-# TODO add fiber
-# TODO save results of food dict and solution
 # TODO consider added sugars constraints
-# TODO figure out menus
-# TODO Script to populate user.json to keep track of user details like age height weight weight loss preference
-#      Update current weight, target weight…
 
 from multiprocessing import current_process
 from pydoc import plain
-from src.bmi import *
-from src.foods import *
-from src.food import *
-from src.randomfoods import *
+from src.bmi import BMI
+from src.foods import Foods
+from src.food import Food
+from src.randomfoods import RandomFoods
+from src.user import User
 from pulp import *
+
 import random
 
 
@@ -33,12 +30,15 @@ model_return_status_codes = {
 }
 global status
 
-### TUNEABLES ###
-current_weight_lbs = 267.3
-current_age = 54
-max_kcal = 1654
-max_sodium = 2000
-num_of_menus = 14
+
+user = User()
+user.read_user_from_json_file('user.json')
+### TUNEABLES IN user.json ###
+current_weight_lbs = user.dict_of_user['current_weight_lbs']
+current_age = user.dict_of_user['current_weight_lbs']
+max_kcal = user.dict_of_user['max_kcal']
+max_sodium = user.dict_of_user['max_sodium']
+num_of_menus = user.dict_of_user['num_of_menus']
 #################
 
 # ----
