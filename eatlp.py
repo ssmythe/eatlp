@@ -96,8 +96,8 @@ for menu_num in range(1, num_of_menus + 1):
         randomfoods.foods_to_randomfoods(foods, choice)
         list_of_sorted_foods = sorted(randomfoods.dict_of_random_foods.keys())
 
-        # Define model - naming the maximine model
-        model = LpProblem('eat2', LpMaximize)
+        # Define model - naming the minimize model
+        model = LpProblem('eat2', LpMinimize)
 
         # Define variables - name, lower bound, upper bound, category Integer
         i = 1
@@ -107,13 +107,13 @@ for menu_num in range(1, num_of_menus + 1):
             globals()[varname] = expr
             i += 1
 
-        # Define objective - max kcals
+        # Define objective - min price
         expr = ''
         i = 1
         for name in list_of_sorted_foods:
             key = f'x{i}'
             food = foods.dict_of_foods[name]
-            expr += f"{food['kcal_per_serving']}*{key} +"
+            expr += f"{food['price_per_serving']}*{key} +"
             i += 1
         expr += "0"
         globals()['model'] += eval(expr)
