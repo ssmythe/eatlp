@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# TODO add fiber
 # TODO save results of food dict and solution
 # TODO consider added sugars constraints
 # TODO figure out menus
@@ -7,6 +8,7 @@
 #      Update current weight, target weight…
 
 from multiprocessing import current_process
+from pydoc import plain
 from src.bmi import *
 from src.foods import *
 from src.food import *
@@ -34,7 +36,7 @@ global status
 ### TUNEABLES ###
 current_weight_lbs = 267.3
 current_age = 54
-max_kcal = 1653
+max_kcal = 1654
 max_sodium = 2000
 num_of_menus = 14
 #################
@@ -56,13 +58,28 @@ min_fat = max_kcal * min_fat_percent / 9
 max_fat = max_kcal * max_fat_percent / 9
 
 # -------
+# fiber
+# -------
+# USDA’s recommended daily amount for adults up to age 50 is 25 grams for women and 38 grams for men.
+#  Women and men older than 50 should have 21 and 30 daily grams, respectively.
+if current_age <= 50:
+    minimum_recommended_fiber = 25
+else:
+    # for 50 or older, recommendeded fiber 21
+    minimum_recommended_fiber = 21
+
+# On the other hand, eating too much fiber can cause bloating, gas, and constipation.
+# These adverse effects may appear after eating 70 g of fiber in a day.
+maximum_recommended_fiber = 70
+
+# -------
 # protein
 # -------
 if current_age < 40:
     # for under 40, recommendeded protein = CurrentWeight*KgPerPound*0.8
     minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 0.8
 else:
-    # for 40 or older, recommendeded protein = CurrentWeight*KgPerPound*(1.0-1.2g/kg)
+    # for 40 or older, recommendeded protein (to prevent sarcopenia) = CurrentWeight*KgPerPound*(1.0-1.2g/kg)
     minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 1.0
 
 maximum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 2.0
@@ -196,6 +213,29 @@ for menu_num in range(1, num_of_menus + 1):
         expr += "0 <= {max_fat}"
         globals()['model'] += eval(expr)
 
+        # fiber
+        # minimum recommended fiber
+        expr = ''
+        i = 1
+        for name in list_of_sorted_foods:
+            key = f'x{i}'
+            food = foods.dict_of_foods[name]
+            expr += f"{food['fiber_per_serving']}*{key} +"
+            i += 1
+        expr += "0 >= {minimum_recommended_fiber}"
+        globals()['model'] += eval(expr)
+
+        # maximum recommended fiber
+        expr = ''
+        i = 1
+        for name in list_of_sorted_foods:
+            key = f'x{i}'
+            food = foods.dict_of_foods[name]
+            expr += f"{food['fiber_per_serving']}*{key} +"
+            i += 1
+        expr += "0 <= {maximum_recommended_fiber}"
+        globals()['model'] += eval(expr)
+
         # protein
         # minimum recommended protein
         expr = ''
@@ -231,12 +271,13 @@ for menu_num in range(1, num_of_menus + 1):
             f"Menu #{menu_num}    Model: {model_return_status_codes[str(status)]}")
 
     # Print the variables optimized value
-    print(98 * '-')
+    print(110 * '-')
     total_kcal = 0
     total_carb = 0
     total_fat = 0
     total_protein = 0
     total_sodium = 0
+    total_fiber = 0
     total_price = 0
     for v in model.variables():
         name = v.name.replace('_', ' ')
@@ -247,6 +288,8 @@ for menu_num in range(1, num_of_menus + 1):
         carb_times_servings = carb * v.varValue
         fat = food['fat_per_serving']
         fat_times_servings = fat * v.varValue
+        fiber = food['fiber_per_serving']
+        fiber_times_servings = fiber * v.varValue
         protein = food['protein_per_serving']
         protein_times_servings = protein * v.varValue
         sodium = food['sodium_per_serving']
@@ -256,21 +299,22 @@ for menu_num in range(1, num_of_menus + 1):
         total_kcal += kcal_times_servings
         total_carb += carb_times_servings
         total_fat += fat_times_servings
+        total_fiber += fiber_times_servings
         total_protein += protein_times_servings
         total_sodium += sodium_times_servings
         total_price += price_times_servings
         if v.varValue > 0:
-            print("%dx %-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, $%6.2f" %
-                  (v.varValue, name, kcal_times_servings, carb_times_servings, fat_times_servings, protein_times_servings, sodium_times_servings, price_times_servings))
+            print("%dx %-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d, $%6.2f" %
+                  (v.varValue, name, kcal_times_servings, carb_times_servings, fat_times_servings, protein_times_servings, sodium_times_servings, fiber_times_servings, price_times_servings))
 
     carb_percent = (total_carb * 4 / total_kcal) * 100
     fat_percent = (total_fat * 9 / total_kcal) * 100
     protein_percent = (total_protein * 4 / total_kcal) * 100
     protein_factor = total_protein / BMI.lbs_to_kg(current_weight_lbs)
 
-    print(98 * '-')
-    print("%-33s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, $%6.2f" %
-          ("Totals:", total_kcal, total_carb, total_fat, total_protein, total_sodium, total_price))
+    print(110 * '-')
+    print("%-33s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d, $%6.2f" %
+          ("Totals:", total_kcal, total_carb, total_fat, total_protein, total_sodium, total_fiber, total_price))
     print("%-33s %4.1f%% carb / %4.1f%% fat / %4.1f%% protein (%3.1fg/kg)" %
           ("Nutrients:", carb_percent, fat_percent, protein_percent, protein_factor))
     print()

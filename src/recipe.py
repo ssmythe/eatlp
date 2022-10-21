@@ -80,6 +80,19 @@ class Recipe:
             total_fat += fat
         return total_fat
 
+    def fiber_per_ingredient_to_list(self, items):
+        fiber_list = []
+        for ingredient, qty in self.ingredients.items():
+            item = items.get_item_from_items_by_name(ingredient)
+            fiber_list.append(item.fiber_per_serving * qty / self.servings_per_recipe)
+        return fiber_list
+
+    def total_fiber_per_recipe_serving(self, items):
+        total_fiber = 0
+        for fiber in self.fiber_per_ingredient_to_list(items):
+            total_fiber += fiber
+        return total_fiber
+
     def protein_per_ingredient_to_list(self, items):
         protein_list = []
         for ingredient, qty in self.ingredients.items():

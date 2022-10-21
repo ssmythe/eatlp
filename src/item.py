@@ -34,6 +34,9 @@ class Item:
     def set_fat_per_serving(self, fat_per_serving):
         self.fat_per_serving = fat_per_serving
 
+    def set_fiber_per_serving(self, fiber_per_serving):
+        self.fiber_per_serving = fiber_per_serving
+
     def set_protein_per_serving(self, protein_per_serving):
         self.protein_per_serving = protein_per_serving
 
@@ -57,6 +60,7 @@ class Item:
         self.set_serving_size(data['serving_size'])
         self.set_carb_per_serving(data['carb_per_serving'])
         self.set_fat_per_serving(data['fat_per_serving'])
+        self.set_fiber_per_serving(data['fiber_per_serving'])
         self.set_protein_per_serving(data['protein_per_serving'])
         self.set_sodium_per_serving(data['sodium_per_serving'])
 
@@ -72,6 +76,7 @@ class Item:
         data_dict['serving_size'] = json_dict[name]['serving size']
         data_dict['carb_per_serving'] = json_dict[name]['carb']
         data_dict['fat_per_serving'] = json_dict[name]['fat']
+        data_dict['fiber_per_serving'] = json_dict[name]['fiber']
         data_dict['protein_per_serving'] = json_dict[name]['protein']
         data_dict['sodium_per_serving'] = json_dict[name]['sodium']
         self.set_item_from_dict(data_dict)

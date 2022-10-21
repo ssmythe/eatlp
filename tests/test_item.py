@@ -13,6 +13,7 @@ json_ezekiel_bread = '''
     "price": 7.79,
     "carb": 15,
     "fat": 0.5,
+    "fiber": 3,
     "protein": 5,
     "sodium": 75
   }
@@ -29,6 +30,7 @@ dict_ezekiel_bread = {
     'serving_size': '1 slice (34g)',
     'carb_per_serving': 15,
     'fat_per_serving': 0.5,
+    'fiber_per_serving': 3,
     'protein_per_serving': 5,
     'sodium_per_serving': 75
 }
@@ -91,6 +93,12 @@ def test_set_fat_per_serving(item):
     assert item.fat_per_serving == fat_per_serving
 
 
+def test_set_fiber_per_serving(item):
+    fiber_per_serving = 3
+    item.set_fiber_per_serving(fiber_per_serving)
+    assert item.fiber_per_serving == fiber_per_serving
+
+
 def test_set_protein_per_serving(item):
     protein_per_serving = 5
     item.set_protein_per_serving(protein_per_serving)
@@ -132,6 +140,7 @@ def test_set_item_from_dict(item):
     assert item.serving_size == '1 slice (34g)'
     assert item.carb_per_serving == 15
     assert item.fat_per_serving == 0.5
+    assert item.fiber_per_serving == 3
     assert item.protein_per_serving == 5
     assert item.sodium_per_serving == 75
     assert item.kcal_per_serving() == 84.5
@@ -146,6 +155,7 @@ def test_set_item_from_json_str(item):
     assert item.serving_size == '1 slice (34g)'
     assert item.carb_per_serving == 15
     assert item.fat_per_serving == 0.5
+    assert item.fiber_per_serving == 3
     assert item.protein_per_serving == 5
     assert item.sodium_per_serving == 75
     assert item.price_per_serving() == 0.39
@@ -161,6 +171,7 @@ def test_set_item_from_json_file(item):
     assert item.serving_size == '1 slice (34g)'
     assert item.carb_per_serving == 15
     assert item.fat_per_serving == 0.5
+    assert item.fiber_per_serving == 3
     assert item.protein_per_serving == 5
     assert item.sodium_per_serving == 75
     assert item.price_per_serving() == 0.39

@@ -2,6 +2,7 @@
     "toast with chao": {
         "carb_per_serving": 19.0,
         "fat_per_serving": 5.0,
+        "fiber_per_serving": 3.0,
         "kcal_per_serving": 141.0,
         "max_servings": 1,
         "min_servings": 0,
@@ -13,6 +14,7 @@
     "toast with hummus": {
         "carb_per_serving": 19.0,
         "fat_per_serving": 5.5,
+        "fiber_per_serving": 4.0,
         "kcal_per_serving": 153.5,
         "max_servings": 1,
         "min_servings": 0,

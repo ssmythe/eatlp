@@ -28,6 +28,15 @@
         "min_servings": 0,
         "max_servings": 999
     },
+    "banana": {
+        "servings per recipe": 1,
+        "serving size": "1 banana",
+        "ingredients": {
+            "banana": 1
+        },
+        "min_servings": 0,
+        "max_servings": 999
+    },
     "cheerios and almondmilk": {
         "servings per recipe": 1,
         "serving size": "1 bowl (191.2g)",
