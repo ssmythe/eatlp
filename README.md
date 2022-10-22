@@ -9,7 +9,7 @@ meal planning to fit specific nutrition requirements using linear programming (P
 * run create_user_json.py to create user.json file
 
 ### Generate weight loss schedule to determine target weight loss date
-* [TODO] Run weight_loss_schedule.sh to generate menus.txt
+* Run weight_loss_schedule.sh
 
 ## Daily use
 ### Adjust user.json to accomodate changes in weight and activity level
