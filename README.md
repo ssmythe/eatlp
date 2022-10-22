@@ -5,16 +5,29 @@ meal planning to fit specific nutrition requirements using linear programming (P
 
 ## Initial setup
 
-### Create user details
-* run create_user_json.py to create user.json file
+### Install requirements
+```bash
+pip install -r requirements.txt
+```
+
+### Create user details (user.json)
+```bash
+./create_user_json.py
+```
 
 ### Generate weight loss schedule to determine target weight loss date
-* Run weight_loss_schedule.sh
+```bash
+./weight_loss_schedule.py
+```
 
 ## Daily use
 ### Adjust user.json to accomodate changes in weight and activity level
-* Edit user.json
+```bash
+vi user.json
+```
 
 ### Generate menus daily
-* run plan_menus.sh to generate menus to pick from per day
-
+```bash
+./plan_menus.sh
+```
+Pick whichever menu seems good for the day.
