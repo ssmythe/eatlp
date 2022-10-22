@@ -20,11 +20,11 @@ class MSJE:
     WeightLossPerWeekLbs	2.00
     ----
     MSJEActivityFactor (Physical Activity Factors)
-    Sedentary (1.2) - desk job and little to no exercise
-    Light Activity (1.375) - light exercise/sports 1-3 days/week
-    Moderate Activity (1.55) - moderate exercise/sports 3-5 days/week
-    Very Active (1.725) - hard exercise/sports 6-7 days/week
-    Exceedingly Active (1.9) - hard daily exercise/sports and physical job or training
+    sedentary (1.2) - desk job and little to no exercise
+    light activity (1.375) - light exercise/sports 1-3 days/week
+    moderate activity (1.55) - moderate exercise/sports 3-5 days/week
+    very active (1.725) - hard exercise/sports 6-7 days/week
+    exceedingly active (1.9) - hard daily exercise/sports and physical job or training
     ----
     """
 

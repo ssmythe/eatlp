@@ -205,7 +205,7 @@
             "yellow onion": 1
         },
         "min_servings": 0,
-        "max_servings": 999
+        "max_servings": 2
     },
     "toast with chao": {
         "servings per recipe": 1,
