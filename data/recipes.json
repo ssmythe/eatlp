@@ -37,6 +37,15 @@
         "min_servings": 0,
         "max_servings": 999
     },
+    "broccoli cuts": {
+        "servings per recipe": 1,
+        "serving size": "1 cup (78g)",
+        "ingredients": {
+            "banana": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
     "cheerios and almondmilk": {
         "servings per recipe": 1,
         "serving size": "1 bowl (191.2g)",
@@ -46,6 +55,26 @@
         },
         "min_servings": 0,
         "max_servings": 999
+    },
+    "chicken breast": {
+        "servings per recipe": 1,
+        "serving size": "4oz",
+        "ingredients": {
+            "chicken breast": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
+    "chicken broccoli and rice": {
+        "servings per recipe": 1,
+        "serving size": "1 plate",
+        "ingredients": {
+            "chicken breast": 1,
+            "broccoli cuts": 1,
+            "rice brown long grain": 1
+        },
+        "min_servings": 0,
+        "max_servings": 2
     },
     "chobani yogurt": {
         "servings per recipe": 1,
@@ -91,6 +120,15 @@
         "serving size": "1 steak",
         "ingredients": {
             "ribeye steak": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
+    "rice brown long grain": {
+        "servings per recipe": 1,
+        "serving size": "0.25 cup dry",
+        "ingredients": {
+            "rice brown long grain": 1
         },
         "min_servings": 0,
         "max_servings": 0

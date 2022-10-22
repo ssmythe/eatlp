@@ -71,6 +71,18 @@
     "protein": 8,
     "sodium": 5
   },
+  "broccoli cuts": {
+    "store": "Safeway",
+    "store product name": "Signature SELECT Broccoli Cuts - 32 Oz",
+    "serving size": "1 cup (78g)",
+    "servings per container": 10,
+    "price": 4.49,
+    "carb": 5,
+    "fat": 0,
+    "fiber": 3,
+    "protein": 3,
+    "sodium": 15
+  },
   "carrot": {
     "store": "Safeway",
     "store product name": "Carrots - 5 Lb",
@@ -82,6 +94,18 @@
     "fiber": 2,
     "protein": 1,
     "sodium": 60
+  },
+  "chicken breast": {
+    "store": "Safeway",
+    "store product name": "Signature Farms Boneless Skinless Chicken Breasts Value Pack - 4.00 Lb",
+    "serving size": "4oz",
+    "servings per container": 16,
+    "price": 23.96,
+    "carb": 0,
+    "fat": 3,
+    "fiber": 0,
+    "protein": 25,
+    "sodium": 50
   },
   "chao slice": {
     "store": "Safeway",
@@ -214,6 +238,18 @@
     "fiber": 0,
     "protein": 28,
     "sodium": 66
+  },
+  "rice brown long grain": {
+    "store": "Safeway",
+    "store product name": "Signature SELECT Rice Brown Whole Grain Long Grain - 32 Oz",
+    "serving size": "0.25 cup dry",
+    "servings per container": 20,
+    "price": 2.99,
+    "carb": 34,
+    "fat": 1,
+    "fiber": 1,
+    "protein": 3,
+    "sodium": 5
   },
   "russet potato": {
     "store": "Safeway",

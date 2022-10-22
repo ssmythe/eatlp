@@ -47,6 +47,18 @@
         "serving_size": "1 cup (236g)",
         "sodium_per_serving": 73.75
     },
+    "broccoli cuts": {
+        "carb_per_serving": 27.0,
+        "fat_per_serving": 0.4,
+        "fiber_per_serving": 3.1,
+        "kcal_per_serving": 116.8,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_serving": 0.31,
+        "protein_per_serving": 1.3,
+        "serving_size": "1 cup (78g)",
+        "sodium_per_serving": 1.2
+    },
     "cheerios and almondmilk": {
         "carb_per_serving": 30.0,
         "fat_per_serving": 5.0,
@@ -58,6 +70,30 @@
         "protein_per_serving": 6.0,
         "serving_size": "1 bowl (191.2g)",
         "sodium_per_serving": 360.0
+    },
+    "chicken breast": {
+        "carb_per_serving": 0.0,
+        "fat_per_serving": 3.0,
+        "fiber_per_serving": 0.0,
+        "kcal_per_serving": 127.0,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_serving": 1.5,
+        "protein_per_serving": 25.0,
+        "serving_size": "4oz",
+        "sodium_per_serving": 50.0
+    },
+    "chicken broccoli and rice": {
+        "carb_per_serving": 39.0,
+        "fat_per_serving": 4.0,
+        "fiber_per_serving": 4.0,
+        "kcal_per_serving": 316.0,
+        "max_servings": 2,
+        "min_servings": 0,
+        "price_per_serving": 2.1,
+        "protein_per_serving": 31.0,
+        "serving_size": "1 plate",
+        "sodium_per_serving": 70.0
     },
     "chobani yogurt": {
         "carb_per_serving": 6.0,
@@ -130,6 +166,18 @@
         "protein_per_serving": 28.0,
         "serving_size": "1 steak",
         "sodium_per_serving": 66.0
+    },
+    "rice brown long grain": {
+        "carb_per_serving": 34.0,
+        "fat_per_serving": 1.0,
+        "fiber_per_serving": 1.0,
+        "kcal_per_serving": 157.0,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_serving": 0.15,
+        "protein_per_serving": 3.0,
+        "serving_size": "0.25 cup dry",
+        "sodium_per_serving": 5.0
     },
     "salad with anlvr dressing": {
         "carb_per_serving": 12.0,
