@@ -33,11 +33,11 @@ Pick whichever menu seems good for the day.
 ---
 # Adjust data files for your own use
 
-## data/item.json
+## data/items.json
 
 Used to represent items you buy at the store.
 
-## data/recipe.json
+## data/recipes.json
 
 Used to represent combinations of items.
 
