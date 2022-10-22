@@ -39,7 +39,7 @@ class MSJE:
     Very Active:    Walking more than 7.5 miles per day at 3 to 4 miles per hour,
                     in addition to light physical activity associated with typical day-to-day life:
                     60 minutes of at least moderate to vigorous intensity physical activity
-        ----
+    ----
     """
 
     @staticmethod
