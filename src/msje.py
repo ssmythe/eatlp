@@ -1,3 +1,6 @@
+from src.user import *
+
+
 class MSJE:
     """
     MSJE is a class for determining energy requirements based on the Mifflin - St. Jeor Equation
@@ -42,8 +45,12 @@ class MSJE:
         return {'male': 5, 'female': -161}[sex]
 
     @staticmethod
+    def dict_of_activity_factor():
+        return {'sedentary': 1.2, 'light activity': 1.375, 'moderate activity': 1.55, 'very active': 1.75, 'exceedingly active': 1.9}
+
+    @staticmethod
     def activity_factor(af):
-        return {'sedentary': 1.2, 'light activity': 1.375, 'moderate activity': 1.55, 'very active': 1.75, 'exceedingly active': 1.9}[af]
+        return MSJE.dict_of_activity_factor()[af]
 
     @staticmethod
     def bmr(weight_lbs, height_inches, age, sex):
@@ -58,3 +65,17 @@ class MSJE:
             (starting_weight_lbs - target_weight_lbs) * weight_loss_per_week_lbs
         return (round(MSJE.bmr(current_weight_lbs, height_inches, age, sex) *
                       MSJE.activity_factor(activity_factor_str) - curve_modifier * 500, 0))
+
+    @staticmethod
+    def target_kcal_user_target_weight_lbs(user, target_weight_lbs):
+        start_weight_lbs = float(user.dict_of_user['start_weight_lbs'])
+        current_weight_lbs = float(user.dict_of_user['current_weight_lbs'])
+        height_inches = float(user.dict_of_user['height_inches'])
+        current_age = int(user.dict_of_user['current_age'])
+        sex = user.dict_of_user['sex']
+        msje_activity_factor = user.dict_of_user['msje_activity_factor']
+        weight_loss_per_week_lbs = float(user.dict_of_user['weight_loss_per_week_lbs'])
+        curve_modifier = (current_weight_lbs - target_weight_lbs) / \
+            (start_weight_lbs - target_weight_lbs) * weight_loss_per_week_lbs
+        return (int(round(MSJE.bmr(current_weight_lbs, height_inches, current_age, sex) *
+                      MSJE.activity_factor(msje_activity_factor) - curve_modifier * 500, 0)))

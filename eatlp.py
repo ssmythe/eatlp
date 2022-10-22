@@ -8,10 +8,14 @@ from src.foods import Foods
 from src.food import Food
 from src.randomfoods import RandomFoods
 from src.user import User
+from src.msje import *
 from pulp import *
 
 import random
+import pytest
 
+
+pytestmark = pytest.mark.skip
 
 # Model return status codes:
 # LpStatus key          string value   numerical value
@@ -32,13 +36,13 @@ global status
 
 user = User()
 user.read_user_from_json_file('user.json')
-### TUNEABLES IN user.json ###
+target_weight_lbs = BMI.height_inches_bmi_to_weight_lbs(
+    user.dict_of_user['height_inches'], user.dict_of_user['target_bmi'])
+max_kcal = MSJE.target_kcal_user_target_weight_lbs(user, target_weight_lbs)
 current_weight_lbs = user.dict_of_user['current_weight_lbs']
-current_age = user.dict_of_user['current_weight_lbs']
-max_kcal = user.dict_of_user['max_kcal']
+current_age = user.dict_of_user['current_age']
 max_sodium = user.dict_of_user['max_sodium']
 num_of_menus = user.dict_of_user['num_of_menus']
-#################
 
 # ----
 # carb

@@ -8,9 +8,7 @@ items = Items()
 recipes = Recipes()
 foods = Foods()
 
-# items_file = 'tests/test_items.json'
 items_file = 'data/items.json'
-# recipes_file = 'tests/test_recipes.json'
 recipes_file = 'data/recipes.json'
 foods_file = 'data/foods.json'
 
