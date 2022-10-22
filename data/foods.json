@@ -40,7 +40,7 @@
         "fat_per_serving": 1.625,
         "fiber_per_serving": 19.875,
         "kcal_per_serving": 213.125,
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "price_per_serving": 0.81,
         "protein_per_serving": 13.125,

@@ -26,7 +26,7 @@
             "yellow onion": 1
         },
         "min_servings": 0,
-        "max_servings": 0
+        "max_servings": 999
     },
     "blackeye peas and onions": {
         "servings per recipe": 8,

@@ -26,6 +26,20 @@ class MSJE:
     very active (1.725) - hard exercise/sports 6-7 days/week
     exceedingly active (1.9) - hard daily exercise/sports and physical job or training
     ----
+    https://www.ncbi.nlm.nih.gov/books/NBK278991/?report=printable
+    Table 12:
+    Activity Factors for Different Physical Activity Levels
+    -------------------------------------------------------
+	Sedentary:      Light physical activity associated with typical day-to-day life.
+    Low Active:     Walking about 1.5 to 3 miles per day at 3 to 4 miles per hour,
+                    in addition to the light physical activity associated with typical day-to-day life.
+	Active:         Walking more than 3 miles per day at 3 to 4 miles per hour,
+                    in addition to light physical activity associated with typical day-to-day life:
+                    60 minutes of at least moderate intensity physical activity
+    Very Active:    Walking more than 7.5 miles per day at 3 to 4 miles per hour,
+                    in addition to light physical activity associated with typical day-to-day life:
+                    60 minutes of at least moderate to vigorous intensity physical activity
+        ----
     """
 
     @staticmethod
