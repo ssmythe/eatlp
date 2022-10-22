@@ -6,8 +6,6 @@ from src.msje import *
 import pytest
 pytest.skip(allow_module_level=True)
 
-# TODO refactor current_age to age
-
 user = User()
 
 print("MSJE Activity Levels")
@@ -25,8 +23,8 @@ max_sodium = int(input("Maximum sodium: "))
 num_of_menus = int(input("How many menus to generate: "))
 sex = input("Sex (male|female): ")
 start_weight_date = input("Start weight date (yyyy-mm-dd): ")
-start_weight_lbs = input("Start weight in lbs: ")
-target_bmi = input("Target BMI: ")
+start_weight_lbs = float(input("Start weight in lbs: "))
+target_bmi = float(input("Target BMI: "))
 
 
 user.dict_of_user['msje_activity_factor'] = msje_activity_factor

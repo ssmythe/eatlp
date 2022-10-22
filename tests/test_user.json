@@ -8,6 +8,6 @@
     "num_of_menus": 7,
     "sex": "male",
     "start_weight_date": "2022-09-14",
-    "start_weight_lbs": "276.2",
-    "target_bmi": "21.7"
+    "start_weight_lbs": 276.2,
+    "target_bmi": 21.7
 }
