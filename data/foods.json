@@ -40,12 +40,24 @@
         "fat_per_serving": 1.625,
         "fiber_per_serving": 19.875,
         "kcal_per_serving": 213.125,
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "price_per_serving": 0.81,
         "protein_per_serving": 13.125,
         "serving_size": "1 cup (236g)",
         "sodium_per_serving": 73.75
+    },
+    "blackeye peas and onions": {
+        "carb_per_serving": 123.125,
+        "fat_per_serving": 4.125,
+        "fiber_per_serving": 12.625,
+        "kcal_per_serving": 612.125,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_serving": 1.24,
+        "protein_per_serving": 20.625,
+        "serving_size": "1 cup (236g)",
+        "sodium_per_serving": 78.125
     },
     "broccoli cuts": {
         "carb_per_serving": 27.0,

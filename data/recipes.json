@@ -26,6 +26,18 @@
             "yellow onion": 1
         },
         "min_servings": 0,
+        "max_servings": 0
+    },
+    "blackeye peas and onions": {
+        "servings per recipe": 8,
+        "serving size": "1 cup (236g)",
+        "ingredients": {
+            "vegetable broth": 4,
+            "blackeye peas dry": 13,
+            "rice brown long grain": 20,
+            "yellow onion": 1
+        },
+        "min_servings": 0,
         "max_servings": 999
     },
     "banana": {
