@@ -1,6 +1,7 @@
 # Project generated files
 menus.txt
 user.json
+cov.xml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -17,3 +17,7 @@ def test_kg_to_lbs():
 
 def test_height_inches_bmi_to_weight_lbs():
     assert BMI.height_inches_bmi_to_weight_lbs(75, 21.7) == 174
+
+
+def test_height_inches_weight_lbs_to_bmi():
+    assert BMI.height_inches_weight_lbs_to_bmi(75, 174) == 21.77

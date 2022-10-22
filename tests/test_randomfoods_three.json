@@ -1,0 +1,13 @@
+{
+    "almondmilk": {
+        "carb_per_serving": 1.0,
+        "fat_per_serving": 2.5,
+        "kcal_per_serving": 30.5,
+        "max_servings": 1,
+        "min_servings": 1,
+        "price_per_serving": 0.62,
+        "protein_per_serving": 1.0,
+        "serving_size": "1 cup (236g)",
+        "sodium_per_serving": 170.0
+    }
+}

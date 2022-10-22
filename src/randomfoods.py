@@ -16,9 +16,6 @@ class RandomFoods:
     def len(self):
         return len(self.dict_of_random_foods)
 
-    def add_name_food(self, name, food):
-        self.dict_of_foods[name] = food.dict_of_food
-
     def foods_to_randomfoods(self, foods, num_of_random_foods, set_random_seed=None):
         for food in foods.dict_of_foods.keys():
             if foods.dict_of_foods[food]['min_servings'] > 0:

@@ -33,14 +33,6 @@ class MSJE:
         return round(inches * 2.54, 1)
 
     @staticmethod
-    def height_inches_to_meters(height):
-        return round(height / 39.37, 3)
-
-    @staticmethod
-    def weight_kg_to_lbs(weight):
-        return round(weight * 2.205, 0)
-
-    @staticmethod
     def yintercept(sex):
         return {'male': 5, 'female': -161}[sex]
 
@@ -58,13 +50,6 @@ class MSJE:
         return round((10 * weight_lbs * kg_per_pound) +
                      (6.25 * MSJE.inches_to_cm(height_inches)) -
                      (5 * age) + MSJE.yintercept(sex), 0)
-
-    @staticmethod
-    def target_kcals(starting_weight_lbs, current_weight_lbs, target_weight_lbs, height_inches, age, sex, activity_factor_str, weight_loss_per_week_lbs):
-        curve_modifier = (current_weight_lbs - target_weight_lbs) / \
-            (starting_weight_lbs - target_weight_lbs) * weight_loss_per_week_lbs
-        return (round(MSJE.bmr(current_weight_lbs, height_inches, age, sex) *
-                      MSJE.activity_factor(activity_factor_str) - curve_modifier * 500, 0))
 
     @staticmethod
     def target_kcal_user_target_weight_lbs(user, target_weight_lbs):

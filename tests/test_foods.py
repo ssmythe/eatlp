@@ -33,7 +33,7 @@ def test_recipes_to_foods(items, recipes, foods):
     assert foods.len() == 2
 
 
-def test_recipes_to_foods(items, recipes, foods):
+def test_recipes_to_foods_almondmilk(items, recipes, foods):
     items.add_items_from_json_file('tests/test_item_almondmilk.json')
     recipes.set_recipes_from_json_file(
         'tests/test_recipe_almondmilk.json')

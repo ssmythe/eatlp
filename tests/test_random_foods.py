@@ -44,3 +44,21 @@ def test_foods_to_randomfoods_two(foods, randomfoods):
                 'special k and almond milk', 'toast with chao', 'toast with just egg', 'toast with hummus',
                 'salad with vranch dressing', 'chobani yogurt with honey', 'split pea soup', 'chobani yogurt',
                 'almondmilk', 'salad with anlvr dressing', 'green beans', 'yellow peach'])
+
+def test_foods_to_randomfoods_three(foods, randomfoods):
+    foods.read_foods_from_json_file('tests/test_randomfoods.json')
+    assert foods.len() == 19
+    randomfoods.foods_to_randomfoods(foods, 15)
+    assert randomfoods.len() == 15
+
+def test_foods_to_randomfoods_four(foods, randomfoods):
+    foods.read_foods_from_json_file('tests/test_randomfoods_two.json')
+    assert foods.len() == 1
+    randomfoods.foods_to_randomfoods(foods, 0)
+    assert randomfoods.len() == 0
+
+def test_foods_to_randomfoods_five(foods, randomfoods):
+    foods.read_foods_from_json_file('tests/test_randomfoods_three.json')
+    assert foods.len() == 1
+    randomfoods.foods_to_randomfoods(foods, 0)
+    assert randomfoods.len() == 1

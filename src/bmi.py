@@ -28,4 +28,5 @@ class BMI:
     @staticmethod
     def height_inches_weight_lbs_to_bmi(inches, weight_lbs):
         meters = BMI.inches_to_meters(inches)
-        return round(BMI.lbs_to_kg(weight_lbs) * meters ** 2, 0)
+        kg = BMI.lbs_to_kg(weight_lbs)
+        return round(kg / meters ** 2, 2)
