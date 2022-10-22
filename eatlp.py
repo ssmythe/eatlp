@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
-# TODO consider added sugars constraints
+# TODO consider added sugars to items/foods and as an lp model max data constraint
 
-from multiprocessing import current_process
 from pydoc import plain
 from src.bmi import BMI
 from src.foods import Foods
