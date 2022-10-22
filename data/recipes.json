@@ -127,6 +127,15 @@
         "min_servings": 0,
         "max_servings": 999
     },
+    "multivitamin": {
+        "servings per recipe": 1,
+        "serving size": "2 bites",
+        "ingredients": {
+            "multivitamin": 1
+        },
+        "min_servings": 1,
+        "max_servings": 1
+    },
     "ribeye steak": {
         "servings per recipe": 1,
         "serving size": "1 steak",

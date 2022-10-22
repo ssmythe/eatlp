@@ -239,6 +239,18 @@
     "protein": 7,
     "sodium": 300
   },
+  "multivitamin": {
+    "store": "Amazon",
+    "store product name": "ONE A DAY Men’s Natural Fruit Bites Multivitamin with Immune Health Support, Apple, 60 Count b",
+    "serving size": "2 bites",
+    "servings per container": 30,
+    "price": 14.99,
+    "carb": 2,
+    "fat": 0,
+    "fiber": 0,
+    "protein": 0,
+    "sodium": 0
+  },
   "ribeye steak": {
     "store": "Safeway",
     "store product name": "USDA Choice Beef Ribeye Steak Boneless - 1.00 Lb",

@@ -155,6 +155,18 @@
         "serving_size": "1 apple",
         "sodium_per_serving": 0.0
     },
+    "multivitamin": {
+        "carb_per_serving": 2.0,
+        "fat_per_serving": 0.0,
+        "fiber_per_serving": 0.0,
+        "kcal_per_serving": 8.0,
+        "max_servings": 1,
+        "min_servings": 1,
+        "price_per_serving": 0.5,
+        "protein_per_serving": 0.0,
+        "serving_size": "2 bites",
+        "sodium_per_serving": 0.0
+    },
     "potato with vbutter": {
         "carb_per_serving": 0.0,
         "fat_per_serving": 22.0,
