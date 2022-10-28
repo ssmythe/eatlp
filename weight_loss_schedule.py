@@ -24,7 +24,7 @@ current_weight_lbs = user.dict_of_user['current_weight_lbs']
 current_weight_date = datetime.date.today()
 current_bmi = round(BMI.height_inches_weight_lbs_to_bmi(
     height_inches, current_weight_lbs), 1)
-start_current_weight_lbs_diff = start_weight_lbs - current_weight_lbs
+start_current_weight_lbs_diff = round(start_weight_lbs - current_weight_lbs, 1)
 
 # target
 target_weight_lbs = BMI.height_inches_bmi_to_weight_lbs(

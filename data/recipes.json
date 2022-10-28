@@ -17,12 +17,33 @@
         "min_servings": 0,
         "max_servings": 999
     },
+    "banana": {
+        "servings per recipe": 1,
+        "serving size": "1 banana",
+        "ingredients": {
+            "banana": 1
+        },
+        "min_servings": 0,
+        "max_servings": 2
+    },
     "black beans and onions": {
         "servings per recipe": 8,
         "serving size": "1 cup (236g)",
         "ingredients": {
             "vegetable broth": 4,
             "black beans dry": 13,
+            "yellow onion": 1
+        },
+        "min_servings": 0,
+        "max_servings": 999
+    },
+    "black beans onions tortilla": {
+        "servings per recipe": 8,
+        "serving size": "1 tortilla (32g)",
+        "ingredients": {
+            "vegetable broth": 4,
+            "black beans dry": 13,
+            "mission tortilla": 8,
             "yellow onion": 1
         },
         "min_servings": 0,
@@ -40,15 +61,6 @@
         "min_servings": 0,
         "max_servings": 0
     },
-    "banana": {
-        "servings per recipe": 1,
-        "serving size": "1 banana",
-        "ingredients": {
-            "banana": 1
-        },
-        "min_servings": 0,
-        "max_servings": 999
-    },
     "broccoli cuts": {
         "servings per recipe": 1,
         "serving size": "1 cup (78g)",
@@ -56,7 +68,7 @@
             "banana": 1
         },
         "min_servings": 0,
-        "max_servings": 0
+        "max_servings": 999
     },
     "cheerios and almondmilk": {
         "servings per recipe": 1,
@@ -77,6 +89,16 @@
         "min_servings": 0,
         "max_servings": 0
     },
+    "chicken and rice": {
+        "servings per recipe": 1,
+        "serving size": "1 plate",
+        "ingredients": {
+            "chicken breast": 1,
+            "rice brown long grain": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
     "chicken broccoli and rice": {
         "servings per recipe": 1,
         "serving size": "1 plate",
@@ -87,6 +109,38 @@
         },
         "min_servings": 0,
         "max_servings": 2
+    },
+    "chicken salad": {
+        "servings per recipe": 1,
+        "serving size": "1 plate",
+        "ingredients": {
+            "chicken breast": 1,
+            "earthbound farm bag salad": 1.75
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
+    "chicken salad and rice": {
+        "servings per recipe": 1,
+        "serving size": "1 plate",
+        "ingredients": {
+            "chicken breast": 1,
+            "earthbound farm bag salad": 1.75,
+            "rice brown long grain": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
+    "chicken salad and vranch": {
+        "servings per recipe": 1,
+        "serving size": "1 plate",
+        "ingredients": {
+            "chicken breast": 1,
+            "earthbound farm bag salad": 1.75,
+            "vegan ranch dressing": 1
+        },
+        "min_servings": 0,
+        "max_servings": 1
     },
     "chobani yogurt": {
         "servings per recipe": 1,
@@ -107,6 +161,15 @@
         "min_servings": 0,
         "max_servings": 0
     },
+    "cpk garlic chicken 4th": {
+        "servings per recipe": 1,
+        "serving size": "1/4 pizza (96g)",
+        "ingredients": {
+            "cpk garlic chicken 4th": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
     "green beans": {
         "servings per recipe": 8,
         "serving size": "1 cup (236g)",
@@ -123,6 +186,25 @@
         "serving size": "1 apple",
         "ingredients": {
             "honeycrisp apple": 1
+        },
+        "min_servings": 0,
+        "max_servings": 999
+    },
+    "mission tortilla": {
+        "servings per recipe": 1,
+        "serving size": "1 tortilla (32g)",
+        "ingredients": {
+            "mission tortilla": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
+    },
+    "mission tortilla with hummus": {
+        "servings per recipe": 1,
+        "serving size": "1 tortilla (32g)",
+        "ingredients": {
+            "mission tortilla": 1,
+            "sabra roasted red pepper hummus": 1
         },
         "min_servings": 0,
         "max_servings": 999
@@ -152,7 +234,7 @@
             "rice brown long grain": 1
         },
         "min_servings": 0,
-        "max_servings": 0
+        "max_servings": 999
     },
     "potato with vbutter": {
         "servings per recipe": 1,
@@ -205,7 +287,16 @@
             "yellow onion": 1
         },
         "min_servings": 0,
-        "max_servings": 2
+        "max_servings": 999
+    },
+    "thomas plain bagel": {
+        "servings per recipe": 1,
+        "serving size": "1 bagel (?g)",
+        "ingredients": {
+            "thomas plain bagel": 1
+        },
+        "min_servings": 0,
+        "max_servings": 0
     },
     "toast with chao": {
         "servings per recipe": 1,
@@ -234,7 +325,7 @@
             "ezekiel bread": 1,
             "sabra roasted red pepper hummus": 1
         },
-        "min_servings": 0,
+        "min_servings": 1,
         "max_servings": 999
     },
     "toast with just egg": {
@@ -244,7 +335,7 @@
             "ezekiel bread": 1,
             "just egg folded": 1
         },
-        "min_servings": 0,
+        "min_servings": 1,
         "max_servings": 999
     },
     "tofurky chao mayo sandwich": {

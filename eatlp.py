@@ -83,7 +83,7 @@ if current_age < 40:
     minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 0.8
 else:
     # for 40 or older, recommendeded protein (to prevent sarcopenia) = CurrentWeight*KgPerPound*(1.0-1.2g/kg)
-    minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 1.1
+    minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 1.0
 
 maximum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 2.0
 

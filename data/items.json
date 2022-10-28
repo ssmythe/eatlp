@@ -155,6 +155,18 @@
     "protein": 16,
     "sodium": 65
   },
+  "cpk garlic chicken 4th": {
+    "store": "Safeway",
+    "store product name": "California Pizza Kitchen Pizza Crispy Thin Crust Roasted Garlic Chicken Frozen - 13.5 Oz",
+    "serving size": "1/4 pizza (96g)",
+    "servings per container": 4,
+    "price": 7.99,
+    "carb": 23.3,
+    "fat": 7.5,
+    "fiber": 0.8,
+    "protein": 11.3,
+    "sodium": 420
+  },
   "earth balance": {
     "store": "Safeway",
     "store product name": "Earth Balance Original Buttery Spread - 15 Oz",
@@ -239,6 +251,18 @@
     "protein": 7,
     "sodium": 300
   },
+  "mission tortilla": {
+    "store": "Safeway",
+    "store product name": "Mission Tortillas Flour Fajita Super Soft Bag 20 Count - 23 Oz",
+    "serving size": "1 tortilla (32g)",
+    "servings per container": 20,
+    "price": 4.49,
+    "carb": 16,
+    "fat": 2,
+    "fiber": 0,
+    "protein": 3,
+    "sodium": 270
+  },
   "multivitamin": {
     "store": "Amazon",
     "store product name": "ONE A DAY Men’s Natural Fruit Bites Multivitamin with Immune Health Support, Apple, 60 Count b",
@@ -322,6 +346,18 @@
     "fiber": 3,
     "protein": 3,
     "sodium": 250
+  },
+  "thomas plain bagel": {
+    "store": "Safeway",
+    "store product name": "Thomas' Plain Bagels - 20 Oz",
+    "serving size": "1 bagel (?g)",
+    "servings per container": 6,
+    "price": 2.99,
+    "carb": 53,
+    "fat": 1.5,
+    "fiber": 2,
+    "protein": 9,
+    "sodium": 450
   },
   "tofurkey deli slice hickory smoked": {
     "store": "Safeway",
