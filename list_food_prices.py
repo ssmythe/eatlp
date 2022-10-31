@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# TODO use cli argument to designate key to sort by
+
 from src.bmi import BMI
 from src.foods import Foods
 from src.food import Food
