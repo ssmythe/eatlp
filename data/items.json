@@ -155,6 +155,18 @@
     "protein": 16,
     "sodium": 65
   },
+  "cpk bbq chicken 4th": {
+    "store": "Safeway",
+    "store product name": " California Pizza Kitchen BBQ Recipe Crispy Thin Crust Chicken Frozen Pizza - 14.7 Oz",
+    "serving size": "1/4 pizza (96g)",
+    "servings per container": 4,
+    "price": 8.99,
+    "carb": 25.3,
+    "fat": 8,
+    "fiber": 1,
+    "protein": 11.8,
+    "sodium": 485.5
+  },
   "cpk garlic chicken 4th": {
     "store": "Safeway",
     "store product name": "California Pizza Kitchen Pizza Crispy Thin Crust Roasted Garlic Chicken Frozen - 13.5 Oz",
@@ -202,6 +214,42 @@
     "fiber": 3,
     "protein": 5,
     "sodium": 75
+  },
+  "field roast veggie sausage chipotle": {
+    "store": "Safeway",
+    "store product name": "Field Roast Grain Meat Vegetarian Chipotle Sausage - 12.9 Oz",
+    "serving size": "1 sausage (92g)",
+    "servings per container": 4,
+    "price": 5.99,
+    "carb": 11,
+    "fat": 8,
+    "fiber": 0,
+    "protein": 28,
+    "sodium": 580
+  },
+  "field roast veggie sausage italian sausage": {
+    "store": "Safeway",
+    "store product name": "Field Roast Grain Meat Vegetarian Italian Sausage - 12.95 Oz",
+    "serving size": "1 sausage (92g)",
+    "servings per container": 4,
+    "price": 5.99,
+    "carb": 13,
+    "fat": 8,
+    "fiber": 0,
+    "protein": 25,
+    "sodium": 600
+  },
+  "field roast veggie sausage smoked apple": {
+    "store": "Safeway",
+    "store product name": "Field Roast Grain Meat Vegetarian Smoked Apple Sage Sausage - 12.9 Oz",
+    "serving size": "1 sausage (92g)",
+    "servings per container": 4,
+    "price": 5.99,
+    "carb": 16,
+    "fat": 8,
+    "fiber": 0,
+    "protein": 23,
+    "sodium": 560
   },
   "green beans": {
     "store": "Safeway",
