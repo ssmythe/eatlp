@@ -312,16 +312,16 @@
         "sodium_per_serving": 450.0
     },
     "potato with vbutter": {
-        "carb_per_serving": 24.0,
-        "fat_per_serving": 11.2,
-        "fiber_per_serving": 2.6,
-        "kcal_per_serving": 208.8,
+        "carb_per_serving": 26.0,
+        "fat_per_serving": 11.0,
+        "fiber_per_serving": 2.0,
+        "kcal_per_serving": 215.0,
         "max_servings": 999,
         "min_servings": 0,
         "price_per_serving": 1.25,
         "protein_per_serving": 3.0,
         "serving_size": "1 potato",
-        "sodium_per_serving": 121.0
+        "sodium_per_serving": 105.0
     },
     "ribeye steak": {
         "carb_per_serving": 0.0,
@@ -384,16 +384,16 @@
         "sodium_per_serving": 420.0
     },
     "split pea soup": {
-        "carb_per_serving": 26.833333333333336,
-        "fat_per_serving": 1.4333333333333331,
-        "fiber_per_serving": 8.383333333333333,
-        "kcal_per_serving": 156.9,
+        "carb_per_serving": 27.000000000000004,
+        "fat_per_serving": 1.4166666666666665,
+        "fiber_per_serving": 8.333333333333332,
+        "kcal_per_serving": 157.41666666666666,
         "max_servings": 999,
         "min_servings": 0,
         "price_per_serving": 0.35,
         "protein_per_serving": 9.166666666666666,
         "serving_size": "1 cup (240g)",
-        "sodium_per_serving": 11.75
+        "sodium_per_serving": 10.416666666666666
     },
     "toast with chao": {
         "carb_per_serving": 19.0,
