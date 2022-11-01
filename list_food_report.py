@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# TODO use cli argument to designate key to sort by
+# TODO check almondmilk and almonds raw numbers
 
 from src.bmi import BMI
 from src.foods import Foods
