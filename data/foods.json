@@ -227,6 +227,30 @@
         "serving_size": "1/4 pizza (96g)",
         "sodium_per_serving": 420.0
     },
+    "crackers carr and chao": {
+        "carb_per_serving": 14.0,
+        "fat_per_serving": 5.5,
+        "fiber_per_serving": 1.0,
+        "kcal_per_serving": 109.5,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_serving": 1.13,
+        "protein_per_serving": 1.0,
+        "serving_size": "4 crackers (14g)",
+        "sodium_per_serving": 260.0
+    },
+    "crackers triscuits and chao": {
+        "carb_per_serving": 24.0,
+        "fat_per_serving": 8.0,
+        "fiber_per_serving": 3.0,
+        "kcal_per_serving": 180.0,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_serving": 1.01,
+        "protein_per_serving": 3.0,
+        "serving_size": "6 crackers (?g)",
+        "sodium_per_serving": 340.0
+    },
     "green beans": {
         "carb_per_serving": 3.625,
         "fat_per_serving": 0.0,
@@ -286,6 +310,18 @@
         "protein_per_serving": 0.0,
         "serving_size": "2 bites",
         "sodium_per_serving": 0.0
+    },
+    "plain bagel thomas": {
+        "carb_per_serving": 53.0,
+        "fat_per_serving": 1.5,
+        "fiber_per_serving": 2.0,
+        "kcal_per_serving": 261.5,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_serving": 0.5,
+        "protein_per_serving": 9.0,
+        "serving_size": "1 bagel (?g)",
+        "sodium_per_serving": 450.0
     },
     "potato with vbutter": {
         "carb_per_serving": 0.0,
@@ -418,18 +454,6 @@
         "protein_per_serving": 9.166666666666666,
         "serving_size": "1 cup (240g)",
         "sodium_per_serving": 10.416666666666666
-    },
-    "thomas plain bagel": {
-        "carb_per_serving": 53.0,
-        "fat_per_serving": 1.5,
-        "fiber_per_serving": 2.0,
-        "kcal_per_serving": 261.5,
-        "max_servings": 0,
-        "min_servings": 0,
-        "price_per_serving": 0.5,
-        "protein_per_serving": 9.0,
-        "serving_size": "1 bagel (?g)",
-        "sodium_per_serving": 450.0
     },
     "toast with chao": {
         "carb_per_serving": 19.0,

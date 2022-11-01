@@ -189,6 +189,26 @@
         "min_servings": 0,
         "max_servings": 0
     },
+    "crackers carr and chao": {
+        "servings per recipe": 1,
+        "serving size": "4 crackers (14g)",
+        "ingredients": {
+            "carrs table water crackers": 1,
+            "chao slice": 1
+        },
+        "min_servings": 0,
+        "max_servings": 999
+    },
+    "crackers triscuits and chao": {
+        "servings per recipe": 1,
+        "serving size": "6 crackers (?g)",
+        "ingredients": {
+            "triscuit wheat crackers": 1,
+            "chao slice": 1
+        },
+        "min_servings": 0,
+        "max_servings": 999
+    },
     "green beans": {
         "servings per recipe": 8,
         "serving size": "1 cup (236g)",
@@ -254,6 +274,15 @@
         },
         "min_servings": 0,
         "max_servings": 0
+    },
+    "plain bagel thomas": {
+        "servings per recipe": 1,
+        "serving size": "1 bagel (?g)",
+        "ingredients": {
+            "plain bagel thomas": 1
+        },
+        "min_servings": 0,
+        "max_servings": 999
     },
     "potato with vbutter": {
         "servings per recipe": 1,
@@ -358,15 +387,6 @@
         },
         "min_servings": 0,
         "max_servings": 999
-    },
-    "thomas plain bagel": {
-        "servings per recipe": 1,
-        "serving size": "1 bagel (?g)",
-        "ingredients": {
-            "thomas plain bagel": 1
-        },
-        "min_servings": 0,
-        "max_servings": 0
     },
     "toast with chao": {
         "servings per recipe": 1,

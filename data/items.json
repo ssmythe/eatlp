@@ -107,6 +107,18 @@
     "protein": 1,
     "sodium": 60
   },
+  "carrs table water crackers": {
+    "store": "Safeway",
+    "store product name": "Carrs Table Water Original Crackers - 4.25 Oz",
+    "serving size": "4 crackers",
+    "servings per container": 9,
+    "price": 4.79,
+    "carb": 10,
+    "fat": 1,
+    "fiber": 1,
+    "protein": 1,
+    "sodium": 80
+  },
   "chicken breast": {
     "store": "Safeway",
     "store product name": "Signature Farms Boneless Skinless Chicken Breasts Value Pack - 4.00 Lb",
@@ -395,7 +407,7 @@
     "protein": 3,
     "sodium": 250
   },
-  "thomas plain bagel": {
+  "plain bagel thomas": {
     "store": "Safeway",
     "store product name": "Thomas' Plain Bagels - 20 Oz",
     "serving size": "1 bagel (?g)",
@@ -418,6 +430,18 @@
     "fiber": 1,
     "protein": 14,
     "sodium": 350
+  },
+  "triscuit wheat crackers": {
+    "store": "Safeway",
+    "store product name": "Triscuit Wheat Crackers Whole Grain Original - 12.5 Oz",
+    "serving size": "6 crackers (?g)",
+    "servings per container": 13,
+    "price": 5.29,
+    "carb": 20,
+    "fat": 3.5,
+    "fiber": 3,
+    "protein": 3,
+    "sodium": 160
   },
   "vegan ranch dressing": {
     "store": "Safeway",
