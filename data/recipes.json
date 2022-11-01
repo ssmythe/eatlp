@@ -300,45 +300,6 @@
         "min_servings": 0,
         "max_servings": 2
     },
-    "sausage chipotle dish": {
-        "servings per recipe": 8,
-        "serving size": "1 cup (236g)",
-        "ingredients": {
-            "field roast veggie sausage chipotle": 4,
-            "black beans dry": 4,
-            "rice brown long grain": 8,
-            "carrot": 2,
-            "yellow onion": 1
-        },
-        "min_servings": 0,
-        "max_servings": 2
-    },
-    "sausage italian sausage dish": {
-        "servings per recipe": 8,
-        "serving size": "1 cup (236g)",
-        "ingredients": {
-            "field roast veggie sausage italian sausage": 4,
-            "black beans dry": 4,
-            "rice brown long grain": 8,
-            "carrot": 2,
-            "yellow onion": 1
-        },
-        "min_servings": 0,
-        "max_servings": 2
-    },
-    "sausage smoked apple dish": {
-        "servings per recipe": 8,
-        "serving size": "1 cup (236g)",
-        "ingredients": {
-            "field roast veggie sausage smoked apple": 4,
-            "black beans dry": 4,
-            "rice brown long grain": 8,
-            "carrot": 2,
-            "yellow onion": 1
-        },
-        "min_servings": 0,
-        "max_servings": 2
-    },
     "special k and almond milk": {
         "servings per recipe": 1,
         "serving size": "1 bowl",
@@ -412,6 +373,45 @@
         },
         "min_servings": 0,
         "max_servings": 999
+    },
+    "vsausage chipotle dish": {
+        "servings per recipe": 8,
+        "serving size": "1 cup (236g)",
+        "ingredients": {
+            "field roast veggie sausage chipotle": 4,
+            "black beans dry": 4,
+            "rice brown long grain": 8,
+            "carrot": 2,
+            "yellow onion": 1
+        },
+        "min_servings": 0,
+        "max_servings": 2
+    },
+    "vsausage italian sausage dish": {
+        "servings per recipe": 8,
+        "serving size": "1 cup (236g)",
+        "ingredients": {
+            "field roast veggie sausage italian sausage": 4,
+            "black beans dry": 4,
+            "rice brown long grain": 8,
+            "carrot": 2,
+            "yellow onion": 1
+        },
+        "min_servings": 0,
+        "max_servings": 2
+    },
+    "vsausage smoked apple dish": {
+        "servings per recipe": 8,
+        "serving size": "1 cup (236g)",
+        "ingredients": {
+            "field roast veggie sausage smoked apple": 4,
+            "black beans dry": 4,
+            "rice brown long grain": 8,
+            "carrot": 2,
+            "yellow onion": 1
+        },
+        "min_servings": 0,
+        "max_servings": 2
     },
     "yellow peach": {
         "servings per recipe": 1,

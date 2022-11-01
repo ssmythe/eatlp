@@ -371,42 +371,6 @@
         "serving_size": "1 cup (236g)",
         "sodium_per_serving": 151.25
     },
-    "sausage chipotle dish": {
-        "carb_per_serving": 53.125,
-        "fat_per_serving": 6.0,
-        "fiber_per_serving": 7.875,
-        "kcal_per_serving": 352.0,
-        "max_servings": 2,
-        "min_servings": 0,
-        "price_per_serving": 1.13,
-        "protein_per_serving": 21.375,
-        "serving_size": "1 cup (236g)",
-        "sodium_per_serving": 313.125
-    },
-    "sausage italian sausage dish": {
-        "carb_per_serving": 54.125,
-        "fat_per_serving": 6.0,
-        "fiber_per_serving": 7.875,
-        "kcal_per_serving": 350.0,
-        "max_servings": 2,
-        "min_servings": 0,
-        "price_per_serving": 1.13,
-        "protein_per_serving": 19.875,
-        "serving_size": "1 cup (236g)",
-        "sodium_per_serving": 323.125
-    },
-    "sausage smoked apple dish": {
-        "carb_per_serving": 55.625,
-        "fat_per_serving": 6.0,
-        "fiber_per_serving": 7.875,
-        "kcal_per_serving": 352.0,
-        "max_servings": 2,
-        "min_servings": 0,
-        "price_per_serving": 1.13,
-        "protein_per_serving": 18.875,
-        "serving_size": "1 cup (236g)",
-        "sodium_per_serving": 303.125
-    },
     "special k and almond milk": {
         "carb_per_serving": 35.0,
         "fat_per_serving": 5.5,
@@ -490,6 +454,42 @@
         "protein_per_serving": 24.0,
         "serving_size": "1 sandwich",
         "sodium_per_serving": 780.0
+    },
+    "vsausage chipotle dish": {
+        "carb_per_serving": 53.125,
+        "fat_per_serving": 6.0,
+        "fiber_per_serving": 7.875,
+        "kcal_per_serving": 352.0,
+        "max_servings": 2,
+        "min_servings": 0,
+        "price_per_serving": 1.13,
+        "protein_per_serving": 21.375,
+        "serving_size": "1 cup (236g)",
+        "sodium_per_serving": 313.125
+    },
+    "vsausage italian sausage dish": {
+        "carb_per_serving": 54.125,
+        "fat_per_serving": 6.0,
+        "fiber_per_serving": 7.875,
+        "kcal_per_serving": 350.0,
+        "max_servings": 2,
+        "min_servings": 0,
+        "price_per_serving": 1.13,
+        "protein_per_serving": 19.875,
+        "serving_size": "1 cup (236g)",
+        "sodium_per_serving": 323.125
+    },
+    "vsausage smoked apple dish": {
+        "carb_per_serving": 55.625,
+        "fat_per_serving": 6.0,
+        "fiber_per_serving": 7.875,
+        "kcal_per_serving": 352.0,
+        "max_servings": 2,
+        "min_servings": 0,
+        "price_per_serving": 1.13,
+        "protein_per_serving": 18.875,
+        "serving_size": "1 cup (236g)",
+        "sodium_per_serving": 303.125
     },
     "yellow peach": {
         "carb_per_serving": 15.0,
