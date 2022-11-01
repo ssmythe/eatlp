@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# TODO check almondmilk and almonds raw numbers
+# TODO check almondmilk and almonds raw sorted by kcal numbers
 
 from src.bmi import BMI
 from src.foods import Foods
