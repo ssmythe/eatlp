@@ -12,7 +12,7 @@
         "servings per recipe": 1,
         "serving size": "1/4 cup (28g)",
         "ingredients": {
-            "almondmilk": 1
+            "almonds raw": 1
         },
         "min_servings": 0,
         "max_servings": 999
@@ -30,17 +30,6 @@
         "servings per recipe": 8,
         "serving size": "1 cup (236g)",
         "ingredients": {
-            "vegetable broth": 4,
-            "black beans dry": 13,
-            "yellow onion": 1
-        },
-        "min_servings": 0,
-        "max_servings": 999
-    },
-    "blk beans and onions no broth": {
-        "servings per recipe": 8,
-        "serving size": "1 cup (236g)",
-        "ingredients": {
             "black beans dry": 13,
             "yellow onion": 1
         },
@@ -51,7 +40,6 @@
         "servings per recipe": 8,
         "serving size": "1 tortilla (32g)",
         "ingredients": {
-            "vegetable broth": 4,
             "black beans dry": 13,
             "mission tortilla": 8,
             "yellow onion": 1
@@ -63,7 +51,6 @@
         "servings per recipe": 8,
         "serving size": "1 cup (236g)",
         "ingredients": {
-            "vegetable broth": 4,
             "blackeye peas dry": 13,
             "rice brown long grain": 20,
             "yellow onion": 1
@@ -213,7 +200,6 @@
         "servings per recipe": 8,
         "serving size": "1 cup (236g)",
         "ingredients": {
-            "vegetable broth": 4,
             "green beans": 2,
             "yellow onion": 1
         },
@@ -288,8 +274,8 @@
         "servings per recipe": 1,
         "serving size": "1 potato",
         "ingredients": {
-            "russet potato": 0,
-            "earth balance": 2
+            "russet potato": 1,
+            "earth balance": 1
         },
         "min_servings": 0,
         "max_servings": 999
@@ -364,19 +350,6 @@
         "max_servings": 999
     },
     "split pea soup": {
-        "servings per recipe": 8,
-        "serving size": "1 1/3 cup (323g)",
-        "ingredients": {
-            "split peas dry": 13,
-            "carrot": 2,
-            "russet potato": 1,
-            "vegetable broth": 4,
-            "yellow onion": 1
-        },
-        "min_servings": 0,
-        "max_servings": 999
-    },
-    "split pea soup no broth": {
         "servings per recipe": 12,
         "serving size": "1 cup (240g)",
         "ingredients": {

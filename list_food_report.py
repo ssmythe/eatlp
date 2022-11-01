@@ -19,11 +19,11 @@ pytestmark = pytest.mark.skip
 parser = argparse.ArgumentParser()
 parser.version = '1.0.0'
 parser.add_argument('-a', '--all', action='store_true', help='used to iterate through all keys')
-parser.add_argument('-k', '--key', default='price', help='keys are kcal, carb, fat, protein, sodium, fiber, or price')
+parser.add_argument('-k', '--key', default='price', help='name keys are kcal, carb, fat, protein, sodium, fiber, or price')
 args = parser.parse_args()
 
 # validate key value
-acceptable_keys = ['kcal', 'carb', 'fat', 'protein', 'sodium', 'fiber', 'price']
+acceptable_keys = ['name', 'kcal', 'carb', 'fat', 'protein', 'sodium', 'fiber', 'price']
 if args.key not in acceptable_keys:
     print(f"Error: {args.key} not in {acceptable_keys}")
     sys.exit(1)
@@ -45,13 +45,21 @@ for iterate_key in keys:
     print(f"Sorted by {iterate_key.capitalize()}")
     print('-' * 110)
 
-    # Build dict of food name and price
-    key = iterate_key + "_per_serving"
-    for name in foods.dict_of_foods.keys():
-        food_and_key_dict[name] = foods.dict_of_foods[name][key]
+    if iterate_key == 'name':
+        for name in foods.dict_of_foods.keys():
+            food_and_key_dict[name] = foods.dict_of_foods[name]
+    else:
+        # Build dict of food name and price
+        key = iterate_key + "_per_serving"
+        for name in foods.dict_of_foods.keys():
+            food_and_key_dict[name] = foods.dict_of_foods[name][key]
 
     # List values
-    sorted_keys = dict(sorted(food_and_key_dict.items(), key=lambda item: item[1]))
+    if iterate_key == 'name':
+        sorted_keys = dict(sorted(food_and_key_dict.items()))
+    else:
+        sorted_keys = dict(sorted(food_and_key_dict.items(), key=lambda item: item[1]))
+
     for name in sorted_keys.keys():
         food = foods.dict_of_foods[name]
         kcal = food['kcal_per_serving']

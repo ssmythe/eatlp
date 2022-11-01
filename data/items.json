@@ -365,11 +365,11 @@
     "serving size": "1 potato",
     "servings per container": 1,
     "price": 1.02,
-    "carb": 26,
-    "fat": 0,
-    "fiber": 2,
+    "carb": 24,
+    "fat": 0.2,
+    "fiber": 2.6,
     "protein": 3,
-    "sodium": 0
+    "sodium": 16
   },
   "sabra roasted red pepper hummus": {
     "store": "Safeway",
