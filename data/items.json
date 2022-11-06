@@ -167,6 +167,18 @@
     "protein": 16,
     "sodium": 65
   },
+  "corn": {
+    "store": "Safeway",
+    "store product name": "Signature SELECT Whole Kernel Corn Can - 15.25 Oz",
+    "serving size": "1/2 cup (125g)",
+    "servings per container": 3.5,
+    "price": 1.25,
+    "carb": 13,
+    "fat": 1,
+    "fiber": 2,
+    "protein": 2,
+    "sodium": 300
+  },
   "cpk bbq chicken 4th": {
     "store": "Safeway",
     "store product name": " California Pizza Kitchen BBQ Recipe Crispy Thin Crust Chicken Frozen Pizza - 14.7 Oz",
@@ -334,18 +346,6 @@
     "fiber": 0,
     "protein": 0,
     "sodium": 0
-  },
-  "ribeye steak": {
-    "store": "Safeway",
-    "store product name": "USDA Choice Beef Ribeye Steak Boneless - 1.00 Lb",
-    "serving size": "4oz (113g)",
-    "servings per container": 4,
-    "price": 21.99,
-    "carb": 0,
-    "fat": 22,
-    "fiber": 0,
-    "protein": 28,
-    "sodium": 66
   },
   "rice brown long grain": {
     "store": "Safeway",

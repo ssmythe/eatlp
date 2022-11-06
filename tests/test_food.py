@@ -39,3 +39,4 @@ def test_recipe_to_food(items, recipe, food):
     assert food.sodium_per_serving == 200
     assert food.kcal_per_serving == 153.5
     assert food.price_per_serving == 0.86
+    assert food.price_per_kcal_per_serving == 0.0056

@@ -158,6 +158,15 @@
         "min_servings": 0,
         "max_servings": 0
     },
+    "corn": {
+        "servings per recipe": 1,
+        "serving size": "1 bowl (191.2g)",
+        "ingredients": {
+            "corn": 1
+        },
+        "min_servings": 0,
+        "max_servings": 999
+    },
     "cpk bbq chicken 4th": {
         "servings per recipe": 1,
         "serving size": "1/4 pizza (96g)",
@@ -212,8 +221,8 @@
         "ingredients": {
             "honeycrisp apple": 1
         },
-        "min_servings": 1,
-        "max_servings": 999
+        "min_servings": 0,
+        "max_servings": 0
     },
     "mission tortilla": {
         "servings per recipe": 1,
@@ -243,15 +252,6 @@
         "min_servings": 1,
         "max_servings": 1
     },
-    "ribeye steak": {
-        "servings per recipe": 1,
-        "serving size": "1 steak",
-        "ingredients": {
-            "ribeye steak": 1
-        },
-        "min_servings": 0,
-        "max_servings": 0
-    },
     "rice brown long grain": {
         "servings per recipe": 1,
         "serving size": "0.25 cup dry",
@@ -259,7 +259,7 @@
             "rice brown long grain": 1
         },
         "min_servings": 0,
-        "max_servings": 0
+        "max_servings": 999
     },
     "plain bagel thomas": {
         "servings per recipe": 1,
@@ -349,7 +349,7 @@
             "ezekiel bread": 1,
             "sabra roasted red pepper hummus": 1
         },
-        "min_servings": 0,
+        "min_servings": 1,
         "max_servings": 999
     },
     "toast with just egg": {
@@ -359,7 +359,7 @@
             "ezekiel bread": 1,
             "just egg folded": 1
         },
-        "min_servings": 0,
+        "min_servings": 1,
         "max_servings": 999
     },
     "tofurky chao mayo sandwich": {
@@ -385,7 +385,7 @@
             "yellow onion": 1
         },
         "min_servings": 0,
-        "max_servings": 2
+        "max_servings": 999
     },
     "vsausage italian sausage dish": {
         "servings per recipe": 8,
@@ -398,7 +398,7 @@
             "yellow onion": 1
         },
         "min_servings": 0,
-        "max_servings": 2
+        "max_servings": 999
     },
     "vsausage smoked apple dish": {
         "servings per recipe": 8,
@@ -411,7 +411,7 @@
             "yellow onion": 1
         },
         "min_servings": 0,
-        "max_servings": 2
+        "max_servings": 999
     },
     "yellow peach": {
         "servings per recipe": 1,
@@ -419,7 +419,7 @@
         "ingredients": {
             "yellow peach": 1
         },
-        "min_servings": 0,
-        "max_servings": 0
+        "min_servings": 1,
+        "max_servings": 999
     }
 }

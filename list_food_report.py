@@ -18,12 +18,15 @@ pytestmark = pytest.mark.skip
 
 parser = argparse.ArgumentParser()
 parser.version = '1.0.0'
-parser.add_argument('-a', '--all', action='store_true', help='used to iterate through all keys')
-parser.add_argument('-k', '--key', default='price', help='name keys are kcal, carb, fat, protein, sodium, fiber, or price')
+parser.add_argument('-a', '--all', action='store_true',
+                    help='used to iterate through all keys')
+parser.add_argument('-k', '--key', default='price',
+                    help='name keys are kcal, carb, fat, protein, sodium, fiber, or price')
 args = parser.parse_args()
 
 # validate key value
-acceptable_keys = ['name', 'kcal', 'carb', 'fat', 'protein', 'sodium', 'fiber', 'price']
+acceptable_keys = ['name', 'kcal', 'carb', 'fat',
+                   'protein', 'sodium', 'fiber', 'price', 'price_per_kcal']
 if args.key not in acceptable_keys:
     print(f"Error: {args.key} not in {acceptable_keys}")
     sys.exit(1)
@@ -43,7 +46,7 @@ else:
 # Iterate keys
 for iterate_key in keys:
     print(f"Sorted by {iterate_key.capitalize()}")
-    print('-' * 110)
+    print('-' * 116)
 
     if iterate_key == 'name':
         for name in foods.dict_of_foods.keys():
@@ -58,7 +61,8 @@ for iterate_key in keys:
     if iterate_key == 'name':
         sorted_keys = dict(sorted(food_and_key_dict.items()))
     else:
-        sorted_keys = dict(sorted(food_and_key_dict.items(), key=lambda item: item[1]))
+        sorted_keys = dict(
+            sorted(food_and_key_dict.items(), key=lambda item: item[1]))
 
     for name in sorted_keys.keys():
         food = foods.dict_of_foods[name]
@@ -69,7 +73,8 @@ for iterate_key in keys:
         protein = food['protein_per_serving']
         sodium = food['sodium_per_serving']
         price = food['price_per_serving']
-        print("%-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d, $%6.2f" %
-            (name, kcal, carb, fat, protein, sodium, fiber, price))
+        priceperkcal = food['price_per_kcal_per_serving']
+        print("%-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d, $%6.2f, $%6.4f" %
+              (name, kcal, carb, fat, protein, sodium, fiber, price, priceperkcal))
 
     print("\n")

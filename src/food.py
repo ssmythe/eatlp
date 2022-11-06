@@ -55,6 +55,10 @@ class Food:
         self.price_per_serving = price_per_serving
         self.dict_of_food['price_per_serving'] = price_per_serving
 
+    def set_calc_price_per_kcal_per_serving(self):
+        self.price_per_kcal_per_serving = round(self.dict_of_food['price_per_serving'] / self.dict_of_food['kcal_per_serving'], 4)
+        self.dict_of_food['price_per_kcal_per_serving'] = self.price_per_kcal_per_serving
+
     def recipe_to_food(self, items, recipe):
         self.set_name(recipe.name)
         self.set_serving_size(recipe.serving_size)
@@ -70,3 +74,4 @@ class Food:
         self.set_kcal_per_serving(recipe.total_kcal_per_recipe_serving(items))
         self.set_price_per_serving(
             recipe.total_price_per_recipe_serving(items))
+        self.set_calc_price_per_kcal_per_serving()
