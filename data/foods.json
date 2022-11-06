@@ -25,12 +25,25 @@
         "serving_size": "1/4 cup (28g)",
         "sodium_per_serving": 0.0
     },
+    "apple": {
+        "carb_per_serving": 22.0,
+        "fat_per_serving": 0.0,
+        "fiber_per_serving": 5.0,
+        "kcal_per_serving": 88.0,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0187,
+        "price_per_serving": 1.65,
+        "protein_per_serving": 0.0,
+        "serving_size": "1 apple",
+        "sodium_per_serving": 0.0
+    },
     "banana": {
         "carb_per_serving": 27.0,
         "fat_per_serving": 0.4,
         "fiber_per_serving": 3.1,
         "kcal_per_serving": 116.8,
-        "max_servings": 999,
+        "max_servings": 1,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0027,
         "price_per_serving": 0.31,
@@ -77,45 +90,6 @@
         "serving_size": "1 cup (236g)",
         "sodium_per_serving": 8.75
     },
-    "bread with vsausage apple": {
-        "carb_per_serving": 31.0,
-        "fat_per_serving": 8.5,
-        "fiber_per_serving": 3.0,
-        "kcal_per_serving": 312.5,
-        "max_servings": 999,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.006,
-        "price_per_serving": 1.89,
-        "protein_per_serving": 28.0,
-        "serving_size": "1 slice (?g)",
-        "sodium_per_serving": 635.0
-    },
-    "bread with vsausage chipotle": {
-        "carb_per_serving": 26.0,
-        "fat_per_serving": 8.5,
-        "fiber_per_serving": 3.0,
-        "kcal_per_serving": 312.5,
-        "max_servings": 999,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.006,
-        "price_per_serving": 1.89,
-        "protein_per_serving": 33.0,
-        "serving_size": "1 tortilla (?g)",
-        "sodium_per_serving": 655.0
-    },
-    "bread with vsausage italian": {
-        "carb_per_serving": 28.0,
-        "fat_per_serving": 8.5,
-        "fiber_per_serving": 3.0,
-        "kcal_per_serving": 308.5,
-        "max_servings": 999,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0061,
-        "price_per_serving": 1.89,
-        "protein_per_serving": 30.0,
-        "serving_size": "1 tortilla (?g)",
-        "sodium_per_serving": 675.0
-    },
     "broccoli cuts": {
         "carb_per_serving": 27.0,
         "fat_per_serving": 0.4,
@@ -128,6 +102,19 @@
         "protein_per_serving": 1.3,
         "serving_size": "1 cup (78g)",
         "sodium_per_serving": 1.2
+    },
+    "brown rice": {
+        "carb_per_serving": 34.0,
+        "fat_per_serving": 1.0,
+        "fiber_per_serving": 1.0,
+        "kcal_per_serving": 157.0,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.001,
+        "price_per_serving": 0.15,
+        "protein_per_serving": 3.0,
+        "serving_size": "0.25 cup dry",
+        "sodium_per_serving": 5.0
     },
     "cheerios and almondmilk": {
         "carb_per_serving": 30.0,
@@ -225,7 +212,7 @@
         "fat_per_serving": 0.0,
         "fiber_per_serving": 0.0,
         "kcal_per_serving": 88.0,
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0148,
         "price_per_serving": 1.3,
@@ -311,19 +298,6 @@
         "serving_size": "1 cup (236g)",
         "sodium_per_serving": 0.625
     },
-    "honeycrisp apple": {
-        "carb_per_serving": 22.0,
-        "fat_per_serving": 0.0,
-        "fiber_per_serving": 5.0,
-        "kcal_per_serving": 88.0,
-        "max_servings": 999,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0187,
-        "price_per_serving": 1.65,
-        "protein_per_serving": 0.0,
-        "serving_size": "1 apple",
-        "sodium_per_serving": 0.0
-    },
     "multivitamin": {
         "carb_per_serving": 2.0,
         "fat_per_serving": 0.0,
@@ -350,6 +324,19 @@
         "serving_size": "3/4 cups (170g)",
         "sodium_per_serving": 30.0
     },
+    "peach": {
+        "carb_per_serving": 15.0,
+        "fat_per_serving": 0.5,
+        "fiber_per_serving": 2.0,
+        "kcal_per_serving": 68.5,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0219,
+        "price_per_serving": 1.5,
+        "protein_per_serving": 1.0,
+        "serving_size": "1 peach",
+        "sodium_per_serving": 0.0
+    },
     "potato with vbutter": {
         "carb_per_serving": 26.0,
         "fat_per_serving": 11.0,
@@ -362,19 +349,6 @@
         "protein_per_serving": 3.0,
         "serving_size": "1 potato",
         "sodium_per_serving": 105.0
-    },
-    "rice brown long grain": {
-        "carb_per_serving": 34.0,
-        "fat_per_serving": 1.0,
-        "fiber_per_serving": 1.0,
-        "kcal_per_serving": 157.0,
-        "max_servings": 999,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.001,
-        "price_per_serving": 0.15,
-        "protein_per_serving": 3.0,
-        "serving_size": "0.25 cup dry",
-        "sodium_per_serving": 5.0
     },
     "salad with anlvr dressing": {
         "carb_per_serving": 12.0,
@@ -427,6 +401,32 @@
         "protein_per_serving": 9.166666666666666,
         "serving_size": "1 cup (240g)",
         "sodium_per_serving": 10.416666666666666
+    },
+    "tilla": {
+        "carb_per_serving": 16.0,
+        "fat_per_serving": 2.0,
+        "fiber_per_serving": 0.0,
+        "kcal_per_serving": 94.0,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0023,
+        "price_per_serving": 0.22,
+        "protein_per_serving": 3.0,
+        "serving_size": "1 tortilla (32g)",
+        "sodium_per_serving": 270.0
+    },
+    "tilla with hummus": {
+        "carb_per_serving": 20.0,
+        "fat_per_serving": 7.0,
+        "fiber_per_serving": 1.0,
+        "kcal_per_serving": 163.0,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0042,
+        "price_per_serving": 0.69,
+        "protein_per_serving": 5.0,
+        "serving_size": "1 tortilla (32g)",
+        "sodium_per_serving": 395.0
     },
     "toast with chao": {
         "carb_per_serving": 19.0,
@@ -493,33 +493,20 @@
         "serving_size": "1 sandwich",
         "sodium_per_serving": 780.0
     },
-    "tortilla": {
-        "carb_per_serving": 16.0,
-        "fat_per_serving": 2.0,
-        "fiber_per_serving": 0.0,
-        "kcal_per_serving": 94.0,
+    "vsausage apple with bread": {
+        "carb_per_serving": 31.0,
+        "fat_per_serving": 8.5,
+        "fiber_per_serving": 3.0,
+        "kcal_per_serving": 312.5,
         "max_servings": 999,
         "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0023,
-        "price_per_serving": 0.22,
-        "protein_per_serving": 3.0,
-        "serving_size": "1 tortilla (32g)",
-        "sodium_per_serving": 270.0
+        "price_per_kcal_per_serving": 0.006,
+        "price_per_serving": 1.89,
+        "protein_per_serving": 28.0,
+        "serving_size": "1 slice (?g)",
+        "sodium_per_serving": 635.0
     },
-    "tortilla with hummus": {
-        "carb_per_serving": 20.0,
-        "fat_per_serving": 7.0,
-        "fiber_per_serving": 1.0,
-        "kcal_per_serving": 163.0,
-        "max_servings": 999,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0042,
-        "price_per_serving": 0.69,
-        "protein_per_serving": 5.0,
-        "serving_size": "1 tortilla (32g)",
-        "sodium_per_serving": 395.0
-    },
-    "tortilla with vsausage apple": {
+    "vsausage apple with tilla": {
         "carb_per_serving": 32.0,
         "fat_per_serving": 10.0,
         "fiber_per_serving": 0.0,
@@ -531,32 +518,6 @@
         "protein_per_serving": 26.0,
         "serving_size": "1 tortilla (32g)",
         "sodium_per_serving": 830.0
-    },
-    "tortilla with vsausage chipotle": {
-        "carb_per_serving": 27.0,
-        "fat_per_serving": 10.0,
-        "fiber_per_serving": 0.0,
-        "kcal_per_serving": 322.0,
-        "max_servings": 999,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0053,
-        "price_per_serving": 1.72,
-        "protein_per_serving": 31.0,
-        "serving_size": "1 tortilla (32g)",
-        "sodium_per_serving": 850.0
-    },
-    "tortilla with vsausage italian": {
-        "carb_per_serving": 29.0,
-        "fat_per_serving": 10.0,
-        "fiber_per_serving": 0.0,
-        "kcal_per_serving": 318.0,
-        "max_servings": 999,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0054,
-        "price_per_serving": 1.72,
-        "protein_per_serving": 28.0,
-        "serving_size": "1 tortilla (32g)",
-        "sodium_per_serving": 870.0
     },
     "vsausage chipotle dish": {
         "carb_per_serving": 53.125,
@@ -571,12 +532,38 @@
         "serving_size": "1 1/4 cup (282g)",
         "sodium_per_serving": 313.125
     },
+    "vsausage chipotle with bread": {
+        "carb_per_serving": 26.0,
+        "fat_per_serving": 8.5,
+        "fiber_per_serving": 3.0,
+        "kcal_per_serving": 312.5,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.006,
+        "price_per_serving": 1.89,
+        "protein_per_serving": 33.0,
+        "serving_size": "1 tortilla (?g)",
+        "sodium_per_serving": 655.0
+    },
+    "vsausage chipotle with tilla": {
+        "carb_per_serving": 27.0,
+        "fat_per_serving": 10.0,
+        "fiber_per_serving": 0.0,
+        "kcal_per_serving": 322.0,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0053,
+        "price_per_serving": 1.72,
+        "protein_per_serving": 31.0,
+        "serving_size": "1 tortilla (32g)",
+        "sodium_per_serving": 850.0
+    },
     "vsausage italian sausage dish": {
         "carb_per_serving": 54.125,
         "fat_per_serving": 6.0,
         "fiber_per_serving": 7.875,
         "kcal_per_serving": 350.0,
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0032,
         "price_per_serving": 1.13,
@@ -584,30 +571,43 @@
         "serving_size": "1 1/4 cup (282g)",
         "sodium_per_serving": 323.125
     },
+    "vsausage italian with bread": {
+        "carb_per_serving": 28.0,
+        "fat_per_serving": 8.5,
+        "fiber_per_serving": 3.0,
+        "kcal_per_serving": 308.5,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0061,
+        "price_per_serving": 1.89,
+        "protein_per_serving": 30.0,
+        "serving_size": "1 tortilla (?g)",
+        "sodium_per_serving": 675.0
+    },
+    "vsausage italian with tilla": {
+        "carb_per_serving": 29.0,
+        "fat_per_serving": 10.0,
+        "fiber_per_serving": 0.0,
+        "kcal_per_serving": 318.0,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0054,
+        "price_per_serving": 1.72,
+        "protein_per_serving": 28.0,
+        "serving_size": "1 tortilla (32g)",
+        "sodium_per_serving": 870.0
+    },
     "vsausage smoked apple dish": {
         "carb_per_serving": 55.625,
         "fat_per_serving": 6.0,
         "fiber_per_serving": 7.875,
         "kcal_per_serving": 352.0,
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0032,
         "price_per_serving": 1.13,
         "protein_per_serving": 18.875,
         "serving_size": "1 1/4 cup (282g)",
         "sodium_per_serving": 303.125
-    },
-    "yellow peach": {
-        "carb_per_serving": 15.0,
-        "fat_per_serving": 0.5,
-        "fiber_per_serving": 2.0,
-        "kcal_per_serving": 68.5,
-        "max_servings": 999,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0219,
-        "price_per_serving": 1.5,
-        "protein_per_serving": 1.0,
-        "serving_size": "1 peach",
-        "sodium_per_serving": 0.0
     }
 }

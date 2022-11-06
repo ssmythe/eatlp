@@ -267,11 +267,10 @@ for menu_num in range(1, num_of_menus + 1):
         if status == 1:
             break
 
-    if status == 1:
-        print(f"Menu #{menu_num}")
-    else:
-        print(
-            f"Menu #{menu_num}    Model: {model_return_status_codes[str(status)]}")
+    if status < 1:
+        continue
+
+    print(f"Menu #{menu_num}")
 
     # Print the variables optimized value
     print(110 * '-')
@@ -308,7 +307,7 @@ for menu_num in range(1, num_of_menus + 1):
         total_price += price_times_servings
         if v.varValue > 0:
             print("%dx %-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d, $%6.2f" %
-                  (v.varValue, name, kcal_times_servings, carb_times_servings, fat_times_servings, protein_times_servings, sodium_times_servings, fiber_times_servings, price_times_servings))
+                (v.varValue, name, kcal_times_servings, carb_times_servings, fat_times_servings, protein_times_servings, sodium_times_servings, fiber_times_servings, price_times_servings))
 
     carb_percent = (total_carb * 4 / total_kcal) * 100
     fat_percent = (total_fat * 9 / total_kcal) * 100
@@ -317,9 +316,9 @@ for menu_num in range(1, num_of_menus + 1):
 
     print(110 * '-')
     print("%-33s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d, $%6.2f" %
-          ("Totals:", total_kcal, total_carb, total_fat, total_protein, total_sodium, total_fiber, total_price))
+        ("Totals:", total_kcal, total_carb, total_fat, total_protein, total_sodium, total_fiber, total_price))
     print("%-33s %4.1f%% carb / %4.1f%% fat / %4.1f%% protein (%3.1fg/kg)" %
-          ("Nutrients:", carb_percent, fat_percent, protein_percent, protein_factor))
+        ("Nutrients:", carb_percent, fat_percent, protein_percent, protein_factor))
     print()
     for v in model.variables():
         name = v.name.replace('_', ' ')

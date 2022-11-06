@@ -17,11 +17,20 @@
         "serving size": "1/4 cup (28g)",
         "servings per recipe": 1
     },
+    "apple": {
+        "ingredients": {
+            "honeycrisp apple": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 apple",
+        "servings per recipe": 1
+    },
     "banana": {
         "ingredients": {
             "banana": 1
         },
-        "max_servings": 999,
+        "max_servings": 1,
         "min_servings": 0,
         "serving size": "1 banana",
         "servings per recipe": 1
@@ -58,36 +67,6 @@
         "serving size": "1 cup (236g)",
         "servings per recipe": 8
     },
-    "bread with vsausage apple": {
-        "ingredients": {
-            "ezekiel bread": 1,
-            "field roast veggie sausage smoked apple": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 slice (?g)",
-        "servings per recipe": 1
-    },
-    "bread with vsausage chipotle": {
-        "ingredients": {
-            "ezekiel bread": 1,
-            "field roast veggie sausage chipotle": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 tortilla (?g)",
-        "servings per recipe": 1
-    },
-    "bread with vsausage italian": {
-        "ingredients": {
-            "ezekiel bread": 1,
-            "field roast veggie sausage italian sausage": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 tortilla (?g)",
-        "servings per recipe": 1
-    },
     "broccoli cuts": {
         "ingredients": {
             "banana": 1
@@ -95,6 +74,15 @@
         "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 cup (78g)",
+        "servings per recipe": 1
+    },
+    "brown rice": {
+        "ingredients": {
+            "rice brown long grain": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "0.25 cup dry",
         "servings per recipe": 1
     },
     "cheerios and almondmilk": {
@@ -173,7 +161,7 @@
         "ingredients": {
             "chobani yogurt greek plain": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 bowl (191.2g)",
         "servings per recipe": 1
@@ -236,15 +224,6 @@
         "serving size": "1 cup (236g)",
         "servings per recipe": 8
     },
-    "honeycrisp apple": {
-        "ingredients": {
-            "honeycrisp apple": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 apple",
-        "servings per recipe": 1
-    },
     "multivitamin": {
         "ingredients": {
             "multivitamin": 1
@@ -263,6 +242,15 @@
         "serving size": "3/4 cups (170g)",
         "servings per recipe": 1
     },
+    "peach": {
+        "ingredients": {
+            "yellow peach": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 peach",
+        "servings per recipe": 1
+    },
     "potato with vbutter": {
         "ingredients": {
             "earth balance": 1,
@@ -271,15 +259,6 @@
         "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 potato",
-        "servings per recipe": 1
-    },
-    "rice brown long grain": {
-        "ingredients": {
-            "rice brown long grain": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "0.25 cup dry",
         "servings per recipe": 1
     },
     "salad with anlvr dressing": {
@@ -323,6 +302,25 @@
         "min_servings": 0,
         "serving size": "1 cup (240g)",
         "servings per recipe": 12
+    },
+    "tilla": {
+        "ingredients": {
+            "mission tortilla": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 tortilla (32g)",
+        "servings per recipe": 1
+    },
+    "tilla with hummus": {
+        "ingredients": {
+            "mission tortilla": 1,
+            "sabra roasted red pepper hummus": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 tortilla (32g)",
+        "servings per recipe": 1
     },
     "toast with chao": {
         "ingredients": {
@@ -376,48 +374,19 @@
         "serving size": "1 sandwich",
         "servings per recipe": 1
     },
-    "tortilla": {
+    "vsausage apple with bread": {
         "ingredients": {
-            "mission tortilla": 1
+            "ezekiel bread": 1,
+            "field roast veggie sausage smoked apple": 1
         },
         "max_servings": 999,
         "min_servings": 0,
-        "serving size": "1 tortilla (32g)",
+        "serving size": "1 slice (?g)",
         "servings per recipe": 1
     },
-    "tortilla with hummus": {
-        "ingredients": {
-            "mission tortilla": 1,
-            "sabra roasted red pepper hummus": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 tortilla (32g)",
-        "servings per recipe": 1
-    },
-    "tortilla with vsausage apple": {
+    "vsausage apple with tilla": {
         "ingredients": {
             "field roast veggie sausage smoked apple": 1,
-            "mission tortilla": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 tortilla (32g)",
-        "servings per recipe": 1
-    },
-    "tortilla with vsausage chipotle": {
-        "ingredients": {
-            "field roast veggie sausage chipotle": 1,
-            "mission tortilla": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 tortilla (32g)",
-        "servings per recipe": 1
-    },
-    "tortilla with vsausage italian": {
-        "ingredients": {
-            "field roast veggie sausage italian sausage": 1,
             "mission tortilla": 1
         },
         "max_servings": 999,
@@ -438,6 +407,26 @@
         "serving size": "1 1/4 cup (282g)",
         "servings per recipe": 8
     },
+    "vsausage chipotle with bread": {
+        "ingredients": {
+            "ezekiel bread": 1,
+            "field roast veggie sausage chipotle": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 tortilla (?g)",
+        "servings per recipe": 1
+    },
+    "vsausage chipotle with tilla": {
+        "ingredients": {
+            "field roast veggie sausage chipotle": 1,
+            "mission tortilla": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 tortilla (32g)",
+        "servings per recipe": 1
+    },
     "vsausage italian sausage dish": {
         "ingredients": {
             "black beans dry": 4,
@@ -446,10 +435,30 @@
             "rice brown long grain": 8,
             "yellow onion": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 1/4 cup (282g)",
         "servings per recipe": 8
+    },
+    "vsausage italian with bread": {
+        "ingredients": {
+            "ezekiel bread": 1,
+            "field roast veggie sausage italian sausage": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 tortilla (?g)",
+        "servings per recipe": 1
+    },
+    "vsausage italian with tilla": {
+        "ingredients": {
+            "field roast veggie sausage italian sausage": 1,
+            "mission tortilla": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 tortilla (32g)",
+        "servings per recipe": 1
     },
     "vsausage smoked apple dish": {
         "ingredients": {
@@ -459,18 +468,9 @@
             "rice brown long grain": 8,
             "yellow onion": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 1/4 cup (282g)",
         "servings per recipe": 8
-    },
-    "yellow peach": {
-        "ingredients": {
-            "yellow peach": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 peach",
-        "servings per recipe": 1
     }
 }
