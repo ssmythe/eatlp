@@ -46,7 +46,7 @@ else:
 # Iterate keys
 for iterate_key in keys:
     print(f"Sorted by {iterate_key.capitalize()}")
-    print('-' * 116)
+    print('-' * 114)
 
     if iterate_key == 'name':
         for name in foods.dict_of_foods.keys():
@@ -74,7 +74,8 @@ for iterate_key in keys:
         sodium = food['sodium_per_serving']
         price = food['price_per_serving']
         priceperkcal = food['price_per_kcal_per_serving'] * 100
-        cent_symbol = '\U0000FFE0'
+        cent_symbol = chr(162)
+        # cent_symbol = '\U0000FFE0'
         print("%-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d, $%6.2f, %2.2f%s" %
               (name, kcal, carb, fat, protein, sodium, fiber, price, priceperkcal, cent_symbol))
 
