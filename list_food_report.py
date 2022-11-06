@@ -75,7 +75,6 @@ for iterate_key in keys:
         price = food['price_per_serving']
         priceperkcal = food['price_per_kcal_per_serving'] * 100
         cent_symbol = chr(162)
-        # cent_symbol = '\U0000FFE0'
         print("%-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d, $%6.2f, %2.2f%s" %
               (name, kcal, carb, fat, protein, sodium, fiber, price, priceperkcal, cent_symbol))
 
