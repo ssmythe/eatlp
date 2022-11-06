@@ -24,6 +24,18 @@ def test_add_items_from_json_file(items):
     ]
 
 
+def test_write_items_to_json_file(items):
+    items.add_items_from_json_file('tests/test_items_unsorted.json')
+    items.write_items_to_json_file('tests/test_items_sorted.json')
+    items.add_items_from_json_file('tests/test_items_sorted.json')
+    assert items.len() == 3
+    assert items.list_of_items_names() == [
+        'chao slices',
+        'ezekiel bread',
+        'sabra roasted red pepper hummus'
+    ]
+
+
 def test_get_item_from_items_by_name(items):
     items.add_items_from_json_file('tests/test_items.json')
     item = Item()

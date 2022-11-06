@@ -32,5 +32,17 @@ class Items:
             item.set_item_from_json_str(json_str)
             self.add_name_item(name, item)
 
+    def write_items_to_json_file(self, json_file):
+        expanded_dict_of_items = {}
+        for name, item in self.dict_of_items.items():
+            fixed_item = {}
+            for k, v in item.dict_of_item.items():
+                spaced_key = k.replace('_per_serving', '').replace('_', ' ')
+                fixed_item[spaced_key] = v
+            expanded_dict_of_items[name] = fixed_item
+
+        with open(json_file, 'w') as file:
+            json.dump(expanded_dict_of_items, file, sort_keys=True, indent=4)
+
     def get_item_from_items_by_name(self, name):
         return self.dict_of_items[name]

@@ -1,0 +1,38 @@
+{
+    "chao slices": {
+        "carb": 4,
+        "fat": 4.5,
+        "fiber": 0,
+        "price": 5.99,
+        "protein": 0,
+        "serving size": "1 slice (34g)",
+        "servings per container": 20,
+        "sodium": 180,
+        "store": "Safeway",
+        "store product name": "Field Roast Creamy Original Chao Slices - 7 Oz"
+    },
+    "ezekiel bread": {
+        "carb": 15,
+        "fat": 0.5,
+        "fiber": 3,
+        "price": 7.79,
+        "protein": 5,
+        "serving size": "1 slice (34g)",
+        "servings per container": 20,
+        "sodium": 75,
+        "store": "Safeway",
+        "store product name": "Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz"
+    },
+    "sabra roasted red pepper hummus": {
+        "carb": 4,
+        "fat": 5,
+        "fiber": 1,
+        "price": 7.99,
+        "protein": 2,
+        "serving size": "2 Tbsp",
+        "servings per container": 17,
+        "sodium": 125,
+        "store": "Safeway",
+        "store product name": "Sabra Roasted Red Pepper Hummus Family Size - 17 Oz."
+    }
+}

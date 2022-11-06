@@ -23,7 +23,7 @@ json_ezekiel_bread = '''
 
 dict_ezekiel_bread = {
     'name': 'ezekiel bread',
-    'store_name': 'Safeway',
+    'store': 'Safeway',
     'store_product_name': 'Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz',
     'price': 7.79,
     'servings_per_container': 20,
@@ -51,10 +51,10 @@ def test_set_name(item):
     assert item.name == name
 
 
-def test_set_store_name(item):
-    store_name = 'Safeway'
-    item.set_store_name(store_name)
-    assert item.store_name == store_name
+def test_set_store(item):
+    store = 'Safeway'
+    item.set_store(store)
+    assert item.store == store
 
 
 def test_set_store_product_name(item):
@@ -134,6 +134,7 @@ def test_price_per_serving(item):
 def test_set_item_from_dict(item):
     item.set_item_from_dict(dict_ezekiel_bread)
     assert item.name == 'ezekiel bread'
+    assert item.store == 'Safeway'
     assert item.store_product_name == 'Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz'
     assert item.price == 7.79
     assert item.servings_per_container == 20

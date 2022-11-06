@@ -1,425 +1,476 @@
 {
     "almondmilk": {
-        "servings per recipe": 1,
-        "serving size": "1 cup (236g)",
         "ingredients": {
             "almondmilk": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1 cup (236g)",
+        "servings per recipe": 1
     },
     "almonds raw": {
-        "servings per recipe": 1,
-        "serving size": "1/4 cup (28g)",
         "ingredients": {
             "almonds raw": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1/4 cup (28g)",
+        "servings per recipe": 1
     },
     "banana": {
-        "servings per recipe": 1,
-        "serving size": "1 banana",
         "ingredients": {
             "banana": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 999
-    },
-    "blk beans and onions": {
-        "servings per recipe": 8,
-        "serving size": "1 cup (236g)",
-        "ingredients": {
-            "black beans dry": 13,
-            "yellow onion": 1
-        },
-        "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1 banana",
+        "servings per recipe": 1
     },
     "black beans onions tortilla": {
-        "servings per recipe": 8,
-        "serving size": "1 tortilla (32g)",
         "ingredients": {
             "black beans dry": 13,
             "mission tortilla": 8,
             "yellow onion": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 0
+        "serving size": "1 tortilla (32g)",
+        "servings per recipe": 8
     },
     "blackeye peas and onions": {
-        "servings per recipe": 8,
-        "serving size": "1 cup (236g)",
         "ingredients": {
             "blackeye peas dry": 13,
             "rice brown long grain": 20,
             "yellow onion": 1
         },
+        "max_servings": 0,
         "min_servings": 0,
-        "max_servings": 0
+        "serving size": "1 cup (236g)",
+        "servings per recipe": 8
+    },
+    "blk beans and onions": {
+        "ingredients": {
+            "black beans dry": 13,
+            "yellow onion": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 cup (236g)",
+        "servings per recipe": 8
+    },
+    "bread with vsausage apple": {
+        "ingredients": {
+            "ezekiel bread": 1,
+            "field roast veggie sausage smoked apple": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 slice (?g)",
+        "servings per recipe": 1
+    },
+    "bread with vsausage chipotle": {
+        "ingredients": {
+            "ezekiel bread": 1,
+            "field roast veggie sausage chipotle": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 tortilla (?g)",
+        "servings per recipe": 1
+    },
+    "bread with vsausage italian": {
+        "ingredients": {
+            "ezekiel bread": 1,
+            "field roast veggie sausage italian sausage": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 tortilla (?g)",
+        "servings per recipe": 1
     },
     "broccoli cuts": {
-        "servings per recipe": 1,
-        "serving size": "1 cup (78g)",
         "ingredients": {
             "banana": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1 cup (78g)",
+        "servings per recipe": 1
     },
     "cheerios and almondmilk": {
-        "servings per recipe": 1,
-        "serving size": "1 bowl (191.2g)",
         "ingredients": {
             "almondmilk": 1,
             "cheerios": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1 bowl (191.2g)",
+        "servings per recipe": 1
+    },
+    "chicken and rice": {
+        "ingredients": {
+            "chicken breast": 1,
+            "rice brown long grain": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 plate",
+        "servings per recipe": 1
     },
     "chicken breast": {
-        "servings per recipe": 1,
-        "serving size": "4oz",
         "ingredients": {
             "chicken breast": 1
         },
+        "max_servings": 0,
         "min_servings": 0,
-        "max_servings": 0
-    },
-    "chicken and rice": {
-        "servings per recipe": 1,
-        "serving size": "1 plate",
-        "ingredients": {
-            "chicken breast": 1,
-            "rice brown long grain": 1
-        },
-        "min_servings": 0,
-        "max_servings": 0
+        "serving size": "4oz",
+        "servings per recipe": 1
     },
     "chicken broccoli and rice": {
-        "servings per recipe": 1,
-        "serving size": "1 plate",
         "ingredients": {
-            "chicken breast": 1,
             "broccoli cuts": 1,
+            "chicken breast": 1,
             "rice brown long grain": 1
         },
+        "max_servings": 0,
         "min_servings": 0,
-        "max_servings": 0
+        "serving size": "1 plate",
+        "servings per recipe": 1
     },
     "chicken salad": {
-        "servings per recipe": 1,
-        "serving size": "1 plate",
         "ingredients": {
             "chicken breast": 1,
             "earthbound farm bag salad": 1.75
         },
+        "max_servings": 0,
         "min_servings": 0,
-        "max_servings": 0
+        "serving size": "1 plate",
+        "servings per recipe": 1
     },
     "chicken salad and rice": {
-        "servings per recipe": 1,
-        "serving size": "1 plate",
         "ingredients": {
             "chicken breast": 1,
             "earthbound farm bag salad": 1.75,
             "rice brown long grain": 1
         },
+        "max_servings": 0,
         "min_servings": 0,
-        "max_servings": 0
+        "serving size": "1 plate",
+        "servings per recipe": 1
     },
     "chicken salad and vranch": {
-        "servings per recipe": 1,
-        "serving size": "1 plate",
         "ingredients": {
             "chicken breast": 1,
             "earthbound farm bag salad": 1.75,
             "vegan ranch dressing": 1
         },
+        "max_servings": 0,
         "min_servings": 0,
-        "max_servings": 0
+        "serving size": "1 plate",
+        "servings per recipe": 1
     },
     "chobani yogurt": {
-        "servings per recipe": 1,
-        "serving size": "1 bowl (191.2g)",
         "ingredients": {
             "chobani yogurt greek plain": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 3
+        "serving size": "1 bowl (191.2g)",
+        "servings per recipe": 1
     },
     "chobani yogurt with honey": {
-        "servings per recipe": 1,
-        "serving size": "1 bowl (191.2g)",
         "ingredients": {
             "chobani yogurt greek plain": 1,
             "honey": 1
         },
+        "max_servings": 0,
         "min_servings": 0,
-        "max_servings": 0
-    },
-    "corn": {
-        "servings per recipe": 1,
         "serving size": "1 bowl (191.2g)",
-        "ingredients": {
-            "corn": 1
-        },
-        "min_servings": 0,
-        "max_servings": 999
+        "servings per recipe": 1
     },
     "cpk bbq chicken 4th": {
-        "servings per recipe": 1,
-        "serving size": "1/4 pizza (96g)",
         "ingredients": {
             "cpk bbq chicken 4th": 1
         },
+        "max_servings": 0,
         "min_servings": 0,
-        "max_servings": 0
+        "serving size": "1/4 pizza (96g)",
+        "servings per recipe": 1
     },
     "cpk garlic chicken 4th": {
-        "servings per recipe": 1,
-        "serving size": "1/4 pizza (96g)",
         "ingredients": {
             "cpk garlic chicken 4th": 1
         },
+        "max_servings": 0,
         "min_servings": 0,
-        "max_servings": 0
+        "serving size": "1/4 pizza (96g)",
+        "servings per recipe": 1
     },
     "crackers carr and chao": {
-        "servings per recipe": 1,
-        "serving size": "4 crackers (14g)",
         "ingredients": {
             "carrs table water crackers": 1,
             "chao slice": 1
         },
+        "max_servings": 0,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "4 crackers (14g)",
+        "servings per recipe": 1
     },
     "crackers triscuits and chao": {
-        "servings per recipe": 1,
-        "serving size": "6 crackers (?g)",
         "ingredients": {
-            "triscuit wheat crackers": 1,
-            "chao slice": 1
+            "chao slice": 1,
+            "triscuit wheat crackers": 1
         },
+        "max_servings": 0,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "6 crackers (?g)",
+        "servings per recipe": 1
     },
     "green beans": {
-        "servings per recipe": 8,
-        "serving size": "1 cup (236g)",
         "ingredients": {
             "green beans": 2,
             "yellow onion": 1
         },
+        "max_servings": 0,
         "min_servings": 0,
-        "max_servings": 0
+        "serving size": "1 cup (236g)",
+        "servings per recipe": 8
     },
     "honeycrisp apple": {
-        "servings per recipe": 1,
-        "serving size": "1 apple",
         "ingredients": {
             "honeycrisp apple": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 0
-    },
-    "mission tortilla": {
-        "servings per recipe": 1,
-        "serving size": "1 tortilla (32g)",
-        "ingredients": {
-            "mission tortilla": 1
-        },
-        "min_servings": 0,
-        "max_servings": 999
-    },
-    "mission tortilla with hummus": {
-        "servings per recipe": 1,
-        "serving size": "1 tortilla (32g)",
-        "ingredients": {
-            "mission tortilla": 1,
-            "sabra roasted red pepper hummus": 1
-        },
-        "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1 apple",
+        "servings per recipe": 1
     },
     "multivitamin": {
-        "servings per recipe": 1,
-        "serving size": "2 bites",
         "ingredients": {
             "multivitamin": 1
         },
+        "max_servings": 1,
         "min_servings": 1,
-        "max_servings": 1
+        "serving size": "2 bites",
+        "servings per recipe": 1
+    },
+    "on greek yogurt plain": {
+        "ingredients": {
+            "on greek yogurt plain": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "3/4 cups (170g)",
+        "servings per recipe": 1
+    },
+    "potato with vbutter": {
+        "ingredients": {
+            "earth balance": 1,
+            "russet potato": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 potato",
+        "servings per recipe": 1
     },
     "rice brown long grain": {
-        "servings per recipe": 1,
-        "serving size": "0.25 cup dry",
         "ingredients": {
             "rice brown long grain": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 999
-    },
-    "plain bagel thomas": {
-        "servings per recipe": 1,
-        "serving size": "1 bagel (?g)",
-        "ingredients": {
-            "plain bagel thomas": 1
-        },
-        "min_servings": 0,
-        "max_servings": 999
-    },
-    "potato with vbutter": {
-        "servings per recipe": 1,
-        "serving size": "1 potato",
-        "ingredients": {
-            "russet potato": 1,
-            "earth balance": 1
-        },
-        "min_servings": 0,
-        "max_servings": 999
+        "serving size": "0.25 cup dry",
+        "servings per recipe": 1
     },
     "salad with anlvr dressing": {
-        "servings per recipe": 1,
-        "serving size": "1 cup (236g)",
         "ingredients": {
-            "earthbound farm bag salad": 1.75,
-            "annies lite viniagrette raspberry": 1
+            "annies lite viniagrette raspberry": 1,
+            "earthbound farm bag salad": 1.75
         },
+        "max_servings": 2,
         "min_servings": 0,
-        "max_servings": 2
+        "serving size": "1 cup (236g)",
+        "servings per recipe": 1
     },
     "salad with vranch dressing": {
-        "servings per recipe": 1,
-        "serving size": "1 cup (236g)",
         "ingredients": {
             "earthbound farm bag salad": 1.75,
             "vegan ranch dressing": 1
         },
+        "max_servings": 2,
         "min_servings": 0,
-        "max_servings": 2
+        "serving size": "1 cup (236g)",
+        "servings per recipe": 1
     },
     "special k and almond milk": {
-        "servings per recipe": 1,
-        "serving size": "1 bowl",
         "ingredients": {
-            "special k cereal": 1,
-            "almondmilk": 1
+            "almondmilk": 1,
+            "special k cereal": 1
         },
+        "max_servings": 0,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1 bowl",
+        "servings per recipe": 1
     },
     "split pea soup": {
-        "servings per recipe": 12,
-        "serving size": "1 cup (240g)",
         "ingredients": {
-            "split peas dry": 13,
             "carrot": 2,
             "russet potato": 1,
+            "split peas dry": 13,
             "yellow onion": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1 cup (240g)",
+        "servings per recipe": 12
     },
     "toast with chao": {
-        "servings per recipe": 1,
-        "serving size": "1 slice (? g)",
         "ingredients": {
-            "ezekiel bread": 1,
-            "chao slice": 1
+            "chao slice": 1,
+            "ezekiel bread": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
     },
     "toast with earth balance": {
-        "servings per recipe": 1,
-        "serving size": "1 slice (? g)",
         "ingredients": {
-            "ezekiel bread": 1,
-            "earth balance": 1
+            "earth balance": 1,
+            "ezekiel bread": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
     },
     "toast with hummus": {
-        "servings per recipe": 1,
-        "serving size": "1 slice (? g)",
         "ingredients": {
             "ezekiel bread": 1,
             "sabra roasted red pepper hummus": 1
         },
-        "min_servings": 1,
-        "max_servings": 999
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
     },
     "toast with just egg": {
-        "servings per recipe": 1,
-        "serving size": "1 slice (? g)",
         "ingredients": {
             "ezekiel bread": 1,
             "just egg folded": 1
         },
-        "min_servings": 1,
-        "max_servings": 999
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
     },
     "tofurky chao mayo sandwich": {
-        "servings per recipe": 1,
-        "serving size": "1 sandwich",
         "ingredients": {
-            "ezekiel bread": 2,
-            "tofurkey deli slice hickory smoked": 1,
+            "best foods vegan mayo": 1,
             "chao slice": 1,
-            "best foods vegan mayo": 1
+            "ezekiel bread": 2,
+            "tofurkey deli slice hickory smoked": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1 sandwich",
+        "servings per recipe": 1
+    },
+    "tortilla": {
+        "ingredients": {
+            "mission tortilla": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 tortilla (32g)",
+        "servings per recipe": 1
+    },
+    "tortilla with hummus": {
+        "ingredients": {
+            "mission tortilla": 1,
+            "sabra roasted red pepper hummus": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 tortilla (32g)",
+        "servings per recipe": 1
+    },
+    "tortilla with vsausage apple": {
+        "ingredients": {
+            "field roast veggie sausage smoked apple": 1,
+            "mission tortilla": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 tortilla (32g)",
+        "servings per recipe": 1
+    },
+    "tortilla with vsausage chipotle": {
+        "ingredients": {
+            "field roast veggie sausage chipotle": 1,
+            "mission tortilla": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 tortilla (32g)",
+        "servings per recipe": 1
+    },
+    "tortilla with vsausage italian": {
+        "ingredients": {
+            "field roast veggie sausage italian sausage": 1,
+            "mission tortilla": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 tortilla (32g)",
+        "servings per recipe": 1
     },
     "vsausage chipotle dish": {
-        "servings per recipe": 8,
-        "serving size": "1 cup (236g)",
         "ingredients": {
-            "field roast veggie sausage chipotle": 4,
             "black beans dry": 4,
-            "rice brown long grain": 8,
             "carrot": 2,
+            "field roast veggie sausage chipotle": 4,
+            "rice brown long grain": 8,
             "yellow onion": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1 1/4 cup (282g)",
+        "servings per recipe": 8
     },
     "vsausage italian sausage dish": {
-        "servings per recipe": 8,
-        "serving size": "1 cup (236g)",
         "ingredients": {
-            "field roast veggie sausage italian sausage": 4,
             "black beans dry": 4,
-            "rice brown long grain": 8,
             "carrot": 2,
+            "field roast veggie sausage italian sausage": 4,
+            "rice brown long grain": 8,
             "yellow onion": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1 1/4 cup (282g)",
+        "servings per recipe": 8
     },
     "vsausage smoked apple dish": {
-        "servings per recipe": 8,
-        "serving size": "1 cup (236g)",
         "ingredients": {
-            "field roast veggie sausage smoked apple": 4,
             "black beans dry": 4,
-            "rice brown long grain": 8,
             "carrot": 2,
+            "field roast veggie sausage smoked apple": 4,
+            "rice brown long grain": 8,
             "yellow onion": 1
         },
+        "max_servings": 999,
         "min_servings": 0,
-        "max_servings": 999
+        "serving size": "1 1/4 cup (282g)",
+        "servings per recipe": 8
     },
     "yellow peach": {
-        "servings per recipe": 1,
-        "serving size": "1 peach",
         "ingredients": {
             "yellow peach": 1
         },
-        "min_servings": 1,
-        "max_servings": 999
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 peach",
+        "servings per recipe": 1
     }
 }

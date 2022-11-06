@@ -8,40 +8,51 @@ class Item:
     """
 
     def __init__(self):
-        pass
+        self.dict_of_item = {}
 
     def set_name(self, name):
         self.name = name
+        # self.dict_of_item['name'] = name
 
     def set_store_product_name(self, store_product_name):
         self.store_product_name = store_product_name
+        self.dict_of_item['store_product_name'] = store_product_name
 
-    def set_store_name(self, store_name):
-        self.store_name = store_name
+    def set_store(self, store):
+        self.store = store
+        self.dict_of_item['store'] = store
 
     def set_price(self, price):
         self.price = price
+        self.dict_of_item['price'] = price
 
     def set_servings_per_container(self, servings_per_container):
         self.servings_per_container = servings_per_container
+        self.dict_of_item['servings_per_container'] = servings_per_container
 
     def set_serving_size(self, serving_size):
         self.serving_size = serving_size
+        self.dict_of_item['serving_size'] = serving_size
 
     def set_carb_per_serving(self, carb_per_serving):
         self.carb_per_serving = carb_per_serving
+        self.dict_of_item['carb_per_serving'] = carb_per_serving
 
     def set_fat_per_serving(self, fat_per_serving):
         self.fat_per_serving = fat_per_serving
+        self.dict_of_item['fat_per_serving'] = fat_per_serving
 
     def set_fiber_per_serving(self, fiber_per_serving):
         self.fiber_per_serving = fiber_per_serving
+        self.dict_of_item['fiber_per_serving'] = fiber_per_serving
 
     def set_protein_per_serving(self, protein_per_serving):
         self.protein_per_serving = protein_per_serving
+        self.dict_of_item['protein_per_serving'] = protein_per_serving
 
     def set_sodium_per_serving(self, sodium_per_serving):
         self.sodium_per_serving = sodium_per_serving
+        self.dict_of_item['sodium_per_serving'] = sodium_per_serving
 
     def price_per_serving(self):
         return round(self.price / self.servings_per_container, 2) # round okay
@@ -54,6 +65,7 @@ class Item:
 
     def set_item_from_dict(self, data):
         self.set_name(data['name'])
+        self.set_store(data['store'])
         self.set_store_product_name(data['store_product_name'])
         self.set_price(data['price'])
         self.set_servings_per_container(data['servings_per_container'])

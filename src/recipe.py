@@ -10,24 +10,33 @@ class Recipe:
 
     def __init__(self):
         self.ingredients = {}
+        self.dict_of_recipe = {}
 
     def set_name(self, name):
         self.name = name
 
     def set_servings_per_recipe(self, servings_per_recipe):
         self.servings_per_recipe = servings_per_recipe
+        self.dict_of_recipe['servings_per_recipe'] = servings_per_recipe
 
     def set_serving_size(self, serving_size):
         self.serving_size = serving_size
+        self.dict_of_recipe['serving_size'] = serving_size
 
     def set_ingredients(self, ingredients):
         self.ingredients = ingredients
+        ingredients_dict = {}
+        for k, v in ingredients.items():
+            ingredients_dict[k] = v
+        self.dict_of_recipe['ingredients'] = ingredients_dict
 
     def set_min_servings(self, min_servings):
         self.min_servings = min_servings
+        self.dict_of_recipe['min_servings'] = min_servings
 
     def set_max_servings(self, max_servings):
         self.max_servings = max_servings
+        self.dict_of_recipe['max_servings'] = max_servings
 
     def set_recipe_from_dict(self, data):
         self.set_name(data['name'])

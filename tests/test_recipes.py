@@ -31,3 +31,15 @@ def test_get_recipe_from_recipes_by_name(recipes):
     assert recipe.name == 'toast with hummus'
     assert recipes.get_recipe_from_recipes_by_name(
         'toast with hummus').name == recipe.name
+
+def test_write_recipes_to_json_file(recipes):
+    recipes.set_recipes_from_json_file('tests/test_recipes_unsorted.json')
+    recipes.write_recipes_to_json_file('tests/test_recipes_sorted.json')
+    # recipes.set_recipes_from_json_file('tests/test_recipes_sorted.json')
+    assert recipes.len() == 2
+    assert recipes.list_of_recipes_names() == [
+        'toast with chao',
+        'toast with hummus'
+    ]
+
+
