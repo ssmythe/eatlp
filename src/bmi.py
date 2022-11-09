@@ -9,11 +9,11 @@ class BMI:
 
     @staticmethod
     def kg_to_lbs(kg):
-        return round(kg * 2.205, 0)
+        return round(kg * 2.205, 1)
 
     @staticmethod
     def lbs_to_kg(lbs):
-        return round(lbs / 2.205, 0)
+        return round(lbs / 2.205, 1)
 
     @staticmethod
     def height_meters_bmi_to_weight_kg(meters, bmi):

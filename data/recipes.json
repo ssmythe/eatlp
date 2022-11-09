@@ -161,7 +161,7 @@
         "ingredients": {
             "chobani yogurt greek plain": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 bowl (191.2g)",
         "servings per recipe": 1
@@ -199,7 +199,7 @@
             "carrs table water crackers": 1,
             "chao slice": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "4 crackers (14g)",
         "servings per recipe": 1
@@ -246,7 +246,7 @@
         "ingredients": {
             "yellow peach": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 peach",
         "servings per recipe": 1
@@ -379,7 +379,7 @@
             "ezekiel bread": 1,
             "field roast veggie sausage smoked apple": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (?g)",
         "servings per recipe": 1
@@ -389,7 +389,7 @@
             "field roast veggie sausage smoked apple": 1,
             "mission tortilla": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 tortilla (32g)",
         "servings per recipe": 1
@@ -439,6 +439,19 @@
         "min_servings": 0,
         "serving size": "1 1/4 cup (282g)",
         "servings per recipe": 8
+    },
+    "vsausage italian split pea": {
+        "ingredients": {
+            "carrot": 2,
+            "field roast veggie sausage italian sausage": 4,
+            "russet potato": 1,
+            "split peas dry": 13,
+            "yellow onion": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 cup (240g)",
+        "servings per recipe": 12
     },
     "vsausage italian with bread": {
         "ingredients": {
