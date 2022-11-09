@@ -30,7 +30,7 @@
         "ingredients": {
             "banana": 1
         },
-        "max_servings": 1,
+        "max_servings": 3,
         "min_servings": 0,
         "serving size": "1 banana",
         "servings per recipe": 1
