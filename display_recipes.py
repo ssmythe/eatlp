@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+from src.item import Item
+from src.items import Items
 from src.recipes import Recipes
 from src.foods import Foods
 
@@ -8,6 +10,9 @@ import pytest
 
 pytestmark = pytest.mark.skip
 
+
+items = Items()
+items.add_items_from_json_file('data/items.json')
 
 recipes = Recipes()
 recipes.set_recipes_from_json_file('data/recipes.json')
@@ -30,14 +35,15 @@ for recipe_key, recipe in recipes.dict_of_recipes.items():
     sodium = food['sodium_per_serving']
     price = food['price_per_serving']
     priceperkcal = food['price_per_kcal_per_serving'] * 100
-    serving_size = food['serving_size']
     cent_symbol = chr(162)
     print("%-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d, $%6.2f, %2.2f%s" %
         (recipe_key, kcal, carb, fat, protein, sodium, fiber, price, priceperkcal, cent_symbol))
 
     print('-' * 114)
     for ingredient, count in recipe.dict_of_recipe['ingredients'].items():
-        print("%2dx %s" % (count, ingredient))
+        item = items.dict_of_items[ingredient]
+        item_serving_size = item.dict_of_item['serving_size']
+        print("%2dx %s (%s per serving)" % (count, ingredient, item_serving_size))
 
     print('-' * 114)
     print('\n')
