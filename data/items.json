@@ -311,6 +311,18 @@
         "store": "Safeway",
         "store product name": "JUST Egg Folded Made From Plants 4 Count - 8 Oz"
     },
+    "justins almond butter classic": {
+        "carb": 6,
+        "fat": 18,
+        "fiber": 3,
+        "price": 12.99,
+        "protein": 7,
+        "serving size": "2 tbsp",
+        "servings per container": 14,
+        "sodium": 0,
+        "store": "Safeway",
+        "store product name": "Justins Almond Butter Classic - 16 Oz"
+    },
     "mission tortilla": {
         "carb": 16,
         "fat": 2,
@@ -334,6 +346,18 @@
         "sodium": 0,
         "store": "Amazon",
         "store product name": "ONE A DAY Men's Natural Fruit Bites Multivitamin with Immune Health Support, Apple, 60 Count b"
+    },
+    "navy beans dry": {
+        "carb": 21,
+        "fat": 1,
+        "fiber": 11,
+        "price": 1.99,
+        "protein": 7,
+        "serving size": "0.25 cup dry",
+        "servings per container": 13,
+        "sodium": 10,
+        "store": "Safeway",
+        "store product name": "Signature SELECT Beans Navy Dry - 16 Oz"
     },
     "on greek yogurt plain": {
         "carb": 8,
