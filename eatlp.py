@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# TODO consider added sugars to items/foods and as an lp model max data constraint
-
 from pydoc import plain
 from src.bmi import BMI
 from src.foods import Foods
@@ -87,11 +85,13 @@ else:
 
 maximum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 2.0
 
-
 foods = Foods()
 foods.read_foods_from_json_file('data/foods.json')
 
-for menu_num in range(1, num_of_menus + 1):
+dict_of_menus = {}
+menu_num = 0
+
+for menu_count in range(1, num_of_menus + 1):
     loop_max = 100
     for loop_counter in range(0, loop_max + 1):
         randomfoods = RandomFoods()
@@ -269,6 +269,38 @@ for menu_num in range(1, num_of_menus + 1):
 
     if status < 1:
         continue
+
+    menu_str = ''
+    menu_found_flag = 0
+
+    for v in model.variables():
+        name = v.name.replace('_', ' ')
+        food = foods.dict_of_foods[name]
+        kcal = food['kcal_per_serving']
+        kcal_times_servings = kcal * v.varValue
+        carb = food['carb_per_serving']
+        carb_times_servings = carb * v.varValue
+        fat = food['fat_per_serving']
+        fat_times_servings = fat * v.varValue
+        fiber = food['fiber_per_serving']
+        fiber_times_servings = fiber * v.varValue
+        protein = food['protein_per_serving']
+        protein_times_servings = protein * v.varValue
+        sodium = food['sodium_per_serving']
+        sodium_times_servings = sodium * v.varValue
+
+        if v.varValue > 0:
+            menu_str += "%dx %-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d\n" % \
+                (v.varValue, name, kcal_times_servings, carb_times_servings, fat_times_servings, protein_times_servings, sodium_times_servings, fiber_times_servings)
+            if menu_str in dict_of_menus.keys():
+                menu_found_flag = 1
+            else:
+                dict_of_menus[menu_str] = ''
+
+    if menu_found_flag == 1:
+        continue
+
+    menu_num += 1
 
     print(f"Menu #{menu_num}")
 

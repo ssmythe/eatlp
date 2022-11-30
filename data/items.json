@@ -71,18 +71,6 @@
         "store": "Safeway",
         "store product name": "Signature SELECT Beans Black Dry - 16 Oz"
     },
-    "blackeye peas dry": {
-        "carb": 22,
-        "fat": 1,
-        "fiber": 6,
-        "price": 2.29,
-        "protein": 8,
-        "serving size": "0.25 cup dry",
-        "servings per container": 13,
-        "sodium": 0,
-        "store": "Safeway",
-        "store product name": "Signature SELECT Blackeye Peas Dry - 16 Oz"
-    },
     "broccoli cuts": {
         "carb": 5,
         "fat": 0,
@@ -370,6 +358,18 @@
         "sodium": 30,
         "store": "Safeway",
         "store product name": "Open Nature Yogurt Greek Nonfat Strained Plain - 32 Oz"
+    },
+    "pearl couscous": {
+        "carb": 41,
+        "fat": 0.5,
+        "fiber": 4,
+        "price": 6.49,
+        "protein": 7,
+        "serving size": "1/4 cup",
+        "servings per container": 12,
+        "sodium": 0,
+        "store": "Safeway",
+        "store product name": "Rice Select Couscous Pearl Original - 24.5 Oz"
     },
     "rice brown long grain": {
         "carb": 34,

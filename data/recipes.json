@@ -66,17 +66,6 @@
         "serving size": "1 tortilla (32g)",
         "servings per recipe": 8
     },
-    "blackeye peas and onions": {
-        "ingredients": {
-            "blackeye peas dry": 13,
-            "rice brown long grain": 20,
-            "yellow onion": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 cup (236g)",
-        "servings per recipe": 8
-    },
     "blk beans and onions": {
         "ingredients": {
             "black beans dry": 13,
@@ -100,7 +89,7 @@
         "ingredients": {
             "rice brown long grain": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "0.25 cup dry",
         "servings per recipe": 1
@@ -292,6 +281,17 @@
         "min_servings": 0,
         "serving size": "1 peach",
         "servings per recipe": 1
+    },
+    "pearl couscous and carrots": {
+        "ingredients": {
+            "carrot": 2,
+            "pearl couscous": 12,
+            "yellow onion": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 cup (240g)",
+        "servings per recipe": 12
     },
     "potato with vbutter": {
         "ingredients": {
@@ -500,7 +500,7 @@
             "ezekiel bread": 1,
             "field roast veggie sausage italian sausage": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 tortilla (?g)",
         "servings per recipe": 1
