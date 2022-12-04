@@ -41,7 +41,7 @@
         "ingredients": {
             "honeycrisp apple": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 apple",
         "servings per recipe": 1
@@ -223,6 +223,67 @@
         "serving size": "6 crackers (?g)",
         "servings per recipe": 1
     },
+    "ezekiel bread slice": {
+        "ingredients": {
+            "ezekiel bread": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "ezekiel toast with chao": {
+        "ingredients": {
+            "chao slice": 1,
+            "ezekiel bread": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "ezekiel toast with ebalance": {
+        "ingredients": {
+            "earth balance": 1,
+            "ezekiel bread": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "ezekiel toast with hummus": {
+        "ingredients": {
+            "ezekiel bread": 1,
+            "sabra roasted red pepper hummus": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "ezekiel toast with just egg": {
+        "ingredients": {
+            "ezekiel bread": 1,
+            "just egg folded": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "ezekiel tofurky sandwich": {
+        "ingredients": {
+            "best foods vegan mayo": 1,
+            "chao slice": 1,
+            "ezekiel bread": 2,
+            "tofurkey deli slice hickory smoked": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 sandwich",
+        "servings per recipe": 1
+    },
     "green beans": {
         "ingredients": {
             "green beans": 2,
@@ -288,7 +349,7 @@
             "pearl couscous": 12,
             "yellow onion": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 cup (240g)",
         "servings per recipe": 12
@@ -362,58 +423,6 @@
         "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 tortilla (32g)",
-        "servings per recipe": 1
-    },
-    "toast with chao": {
-        "ingredients": {
-            "chao slice": 1,
-            "ezekiel bread": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 slice (? g)",
-        "servings per recipe": 1
-    },
-    "toast with earth balance": {
-        "ingredients": {
-            "earth balance": 1,
-            "ezekiel bread": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 slice (? g)",
-        "servings per recipe": 1
-    },
-    "toast with hummus": {
-        "ingredients": {
-            "ezekiel bread": 1,
-            "sabra roasted red pepper hummus": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 slice (? g)",
-        "servings per recipe": 1
-    },
-    "toast with just egg": {
-        "ingredients": {
-            "ezekiel bread": 1,
-            "just egg folded": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 slice (? g)",
-        "servings per recipe": 1
-    },
-    "tofurky chao mayo sandwich": {
-        "ingredients": {
-            "best foods vegan mayo": 1,
-            "chao slice": 1,
-            "ezekiel bread": 2,
-            "tofurkey deli slice hickory smoked": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 sandwich",
         "servings per recipe": 1
     },
     "vsausage apple with bread": {

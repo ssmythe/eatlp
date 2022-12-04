@@ -40,7 +40,7 @@ max_kcal = MSJE.target_kcal_user_target_weight_lbs(user, target_weight_lbs)
 current_weight_lbs = user.dict_of_user['current_weight_lbs']
 current_age = user.dict_of_user['current_age']
 max_sodium = user.dict_of_user['max_sodium']
-num_of_menus = user.dict_of_user['num_of_menus']
+max_num_of_menus = user.dict_of_user['max_num_of_menus']
 
 # ----
 # carb
@@ -91,7 +91,7 @@ foods.read_foods_from_json_file('data/foods.json')
 dict_of_menus = {}
 menu_num = 0
 
-for menu_count in range(1, num_of_menus + 1):
+for menu_count in range(1, max_num_of_menus + 1):
     loop_max = 100
     for loop_counter in range(0, loop_max + 1):
         randomfoods = RandomFoods()
