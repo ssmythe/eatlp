@@ -50,7 +50,7 @@
         "ingredients": {
             "banana": 1
         },
-        "max_servings": 999,
+        "max_servings": 1,
         "min_servings": 0,
         "serving size": "1 banana",
         "servings per recipe": 1
@@ -310,7 +310,7 @@
             "russet potato": 1,
             "yellow onion": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 cup (240g)",
         "servings per recipe": 12
@@ -401,7 +401,7 @@
             "split peas dry": 13,
             "yellow onion": 1
         },
-        "max_servings": 999,
+        "max_servings": 3,
         "min_servings": 0,
         "serving size": "1 cup (240g)",
         "servings per recipe": 12
