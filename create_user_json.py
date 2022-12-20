@@ -39,5 +39,6 @@ user.dict_of_user['start_weight_date'] = start_weight_date
 user.dict_of_user['start_weight_lbs'] = start_weight_lbs
 user.dict_of_user['target_bmi'] = target_bmi
 
+user.dict_of_user['data_dir'] = 'data'
 
 user.write_user_to_json_file('user.json')

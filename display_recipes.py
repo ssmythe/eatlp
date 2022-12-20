@@ -4,21 +4,25 @@ from src.item import Item
 from src.items import Items
 from src.recipes import Recipes
 from src.foods import Foods
+from src.user import User
 
 import pytest
 
 
 pytestmark = pytest.mark.skip
 
+user = User()
+user.read_user_from_json_file('user.json')
+data_dir = user.dict_of_user['data_dir']
 
 items = Items()
-items.add_items_from_json_file('data/items.json')
+items.add_items_from_json_file(data_dir + '/items.json')
 
 recipes = Recipes()
-recipes.set_recipes_from_json_file('data/recipes.json')
+recipes.set_recipes_from_json_file(data_dir + '/recipes.json')
 
 foods = Foods()
-foods.read_foods_from_json_file('data/foods.json')
+foods.read_foods_from_json_file(data_dir + '/foods.json')
 
 for recipe_key, recipe in recipes.dict_of_recipes.items():
     servings_per_recipe = recipes.dict_of_recipes[recipe_key].dict_of_recipe['servings_per_recipe']

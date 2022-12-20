@@ -3,14 +3,19 @@
 from src.foods import Foods
 from src.recipes import Recipes
 from src.items import Items
+from src.user import User
 
 items = Items()
 recipes = Recipes()
 foods = Foods()
+user = User()
 
-items_file = 'data/items.json'
-recipes_file = 'data/recipes.json'
-foods_file = 'data/foods.json'
+user.read_user_from_json_file('user.json')
+data_dir = user.dict_of_user['data_dir']
+
+items_file = data_dir + '/items.json'
+recipes_file = data_dir + '/recipes.json'
+foods_file = data_dir + '/foods.json'
 
 items.add_items_from_json_file(items_file)
 recipes.set_recipes_from_json_file(recipes_file)

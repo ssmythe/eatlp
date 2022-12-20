@@ -31,8 +31,12 @@ if args.key not in acceptable_keys:
     print(f"Error: {args.key} not in {acceptable_keys}")
     sys.exit(1)
 
+user = User()
+user.read_user_from_json_file('user.json')
+data_dir = user.dict_of_user['data_dir']
+
 foods = Foods()
-foods.read_foods_from_json_file('data/foods.json')
+foods.read_foods_from_json_file(data_dir + '/foods.json')
 
 food_and_key_dict = {}
 

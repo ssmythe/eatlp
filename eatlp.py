@@ -41,6 +41,7 @@ current_weight_lbs = user.dict_of_user['current_weight_lbs']
 current_age = user.dict_of_user['current_age']
 max_sodium = user.dict_of_user['max_sodium']
 max_num_of_menus = user.dict_of_user['max_num_of_menus']
+data_dir = user.dict_of_user['data_dir']
 
 # ----
 # carb
@@ -86,7 +87,7 @@ else:
 maximum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 2.0
 
 foods = Foods()
-foods.read_foods_from_json_file('data/foods.json')
+foods.read_foods_from_json_file(data_dir + '/foods.json')
 
 dict_of_menus = {}
 menu_num = 0
