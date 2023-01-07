@@ -9,7 +9,7 @@
         "servings per container": 8,
         "sodium": 170,
         "store": "Safeway",
-        "store product name": ""
+        "store product name": "Blue Diamond Almonds Almond Breeze Milk Unsweetened Original - 64 Fl. Oz."
     },
     "almonds raw": {
         "carb": 6,
@@ -215,18 +215,6 @@
         "store": "Safeway",
         "store product name": "Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz"
     },
-    "fage greek yogurt plain low fat": {
-        "carb": 5,
-        "fat": 0,
-        "fiber": 0,
-        "price": 6.99,
-        "protein": 17,
-        "serving size": "3/4 cup (170g)",
-        "servings per container": 5,
-        "sodium": 55,
-        "store": "Raley's",
-        "store product name": "Fage Yogurt, Reduced Fat, Strained, Greekz"
-    },
     "field roast veggie sausage chipotle": {
         "carb": 11,
         "fat": 8,
@@ -383,6 +371,18 @@
         "store": "Safeway",
         "store product name": "Rice Select Couscous Pearl Original - 24.5 Oz"
     },
+    "red grape juice": {
+        "carb": 38,
+        "fat": 0,
+        "fiber": 0,
+        "price": 4.99,
+        "protein": 1,
+        "serving size": "8 fl oz",
+        "servings per container": 8,
+        "sodium": 15,
+        "store": "Safeway",
+        "store product name": "Welchs Red Grape Juice 100% - 64 Oz"
+    },
     "rice brown long grain": {
         "carb": 34,
         "fat": 1,
@@ -442,18 +442,6 @@
         "sodium": 0,
         "store": "Safeway",
         "store product name": "Signature SELECT Split Peas Green Dry - 16 Oz"
-    },
-    "steel cut oats": {
-        "carb": 30,
-        "fat": 1,
-        "fiber": 4,
-        "price": 5.99,
-        "protein": 1,
-        "serving size": "1/4 cup dry (40g)",
-        "servings per container": 20,
-        "sodium": 0,
-        "store": "Safeway",
-        "store product name": "McCanns Oatmeal Irish Steel Cut - 28 Oz"
     },
     "tofurkey deli slice hickory smoked": {
         "carb": 5,

@@ -69,7 +69,7 @@
         "fat_per_serving": 0.4,
         "fiber_per_serving": 3.1,
         "kcal_per_serving": 116.8,
-        "max_servings": 0,
+        "max_servings": 1,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0027,
         "price_per_serving": 0.31,
@@ -126,7 +126,7 @@
         "price_per_kcal_per_serving": 0.001,
         "price_per_serving": 0.15,
         "protein_per_serving": 3.0,
-        "serving_size": "0.25 cup dry, 1/2 cup wet (100g)",
+        "serving_size": "0.25 cup dry",
         "sodium_per_serving": 5.0
     },
     "cheerios and almondmilk": {
@@ -376,19 +376,6 @@
         "serving_size": "1 sandwich",
         "sodium_per_serving": 780.0
     },
-    "fage yogurt low fat": {
-        "carb_per_serving": 5.0,
-        "fat_per_serving": 0.0,
-        "fiber_per_serving": 0.0,
-        "kcal_per_serving": 88.0,
-        "max_servings": 0,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0159,
-        "price_per_serving": 1.4,
-        "protein_per_serving": 17.0,
-        "serving_size": "1 bowl (191.2g)",
-        "sodium_per_serving": 55.0
-    },
     "green beans": {
         "carb_per_serving": 2.625,
         "fat_per_serving": 0.0,
@@ -493,6 +480,19 @@
         "serving_size": "1 potato",
         "sodium_per_serving": 105.0
     },
+    "red grape juice": {
+        "carb_per_serving": 38.0,
+        "fat_per_serving": 0.0,
+        "fiber_per_serving": 0.0,
+        "kcal_per_serving": 156.0,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.004,
+        "price_per_serving": 0.62,
+        "protein_per_serving": 1.0,
+        "serving_size": "1 cup",
+        "sodium_per_serving": 15.0
+    },
     "salad with anlvr dressing": {
         "carb_per_serving": 12.0,
         "fat_per_serving": 3.0,
@@ -544,19 +544,6 @@
         "protein_per_serving": 9.166666666666666,
         "serving_size": "1 cup (240g)",
         "sodium_per_serving": 10.416666666666666
-    },
-    "steel cut oats": {
-        "carb_per_serving": 30.0,
-        "fat_per_serving": 1.0,
-        "fiber_per_serving": 4.0,
-        "kcal_per_serving": 133.0,
-        "max_servings": 999,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0023,
-        "price_per_serving": 0.3,
-        "protein_per_serving": 1.0,
-        "serving_size": "1 bowl",
-        "sodium_per_serving": 0.0
     },
     "tilla": {
         "carb_per_serving": 16.0,
@@ -680,7 +667,7 @@
         "fat_per_serving": 8.5,
         "fiber_per_serving": 3.0,
         "kcal_per_serving": 308.5,
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0061,
         "price_per_serving": 1.89,

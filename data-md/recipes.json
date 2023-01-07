@@ -50,7 +50,7 @@
         "ingredients": {
             "banana": 1
         },
-        "max_servings": 0,
+        "max_servings": 1,
         "min_servings": 0,
         "serving size": "1 banana",
         "servings per recipe": 1
@@ -91,7 +91,7 @@
         },
         "max_servings": 999,
         "min_servings": 0,
-        "serving size": "0.25 cup dry, 1/2 cup wet (100g)",
+        "serving size": "0.25 cup dry",
         "servings per recipe": 1
     },
     "cheerios and almondmilk": {
@@ -284,15 +284,6 @@
         "serving size": "1 sandwich",
         "servings per recipe": 1
     },
-    "fage yogurt low fat": {
-        "ingredients": {
-            "fage greek yogurt plain low fat": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 bowl (191.2g)",
-        "servings per recipe": 1
-    },
     "green beans": {
         "ingredients": {
             "green beans": 2,
@@ -373,6 +364,15 @@
         "serving size": "1 potato",
         "servings per recipe": 1
     },
+    "red grape juice": {
+        "ingredients": {
+            "red grape juice": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 cup",
+        "servings per recipe": 1
+    },
     "salad with anlvr dressing": {
         "ingredients": {
             "annies lite viniagrette raspberry": 1,
@@ -414,15 +414,6 @@
         "min_servings": 0,
         "serving size": "1 cup (240g)",
         "servings per recipe": 12
-    },
-    "steel cut oats": {
-        "ingredients": {
-            "steel cut oats": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 bowl",
-        "servings per recipe": 1
     },
     "tilla": {
         "ingredients": {
@@ -527,7 +518,7 @@
             "ezekiel bread": 1,
             "field roast veggie sausage italian sausage": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 tortilla (?g)",
         "servings per recipe": 1
