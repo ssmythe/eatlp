@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 from src.foods import Foods
 from src.recipes import Recipes

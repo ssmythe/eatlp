@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 from src.user import *
 from src.msje import *
 
 import pytest
-pytest.skip(allow_module_level=True)
+# pytest.skip(allow_module_level=True)
 
 user = User()
 

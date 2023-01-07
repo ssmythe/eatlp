@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 # TODO check almondmilk and almonds raw sorted by kcal numbers
 
