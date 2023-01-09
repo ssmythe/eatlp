@@ -78,9 +78,9 @@
     },
     "broccoli cuts": {
         "ingredients": {
-            "banana": 1
+            "broccoli cuts": 1
         },
-        "max_servings": 999,
+        "max_servings": 2,
         "min_servings": 0,
         "serving size": "1 cup (78g)",
         "servings per recipe": 1
@@ -208,7 +208,7 @@
             "carrs table water crackers": 1,
             "chao slice": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "4 crackers (14g)",
         "servings per recipe": 1

@@ -104,17 +104,17 @@
         "sodium_per_serving": 8.75
     },
     "broccoli cuts": {
-        "carb_per_serving": 27.0,
-        "fat_per_serving": 0.4,
-        "fiber_per_serving": 3.1,
-        "kcal_per_serving": 116.8,
-        "max_servings": 999,
+        "carb_per_serving": 5.0,
+        "fat_per_serving": 0.0,
+        "fiber_per_serving": 3.0,
+        "kcal_per_serving": 32.0,
+        "max_servings": 2,
         "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0027,
-        "price_per_serving": 0.31,
-        "protein_per_serving": 1.3,
+        "price_per_kcal_per_serving": 0.0141,
+        "price_per_serving": 0.45,
+        "protein_per_serving": 3.0,
         "serving_size": "1 cup (78g)",
-        "sodium_per_serving": 1.2
+        "sodium_per_serving": 15.0
     },
     "brown rice": {
         "carb_per_serving": 34.0,
@@ -277,7 +277,7 @@
         "fat_per_serving": 5.5,
         "fiber_per_serving": 1.0,
         "kcal_per_serving": 109.5,
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0103,
         "price_per_serving": 1.13,
