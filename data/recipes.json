@@ -241,18 +241,6 @@
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
-    "ezekiel sesame tofurky sandwich": {
-        "ingredients": {
-            "best foods vegan mayo": 1,
-            "chao slice": 1,
-            "ebread sesame": 2,
-            "tofurkey deli slice hickory smoked": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 sandwich",
-        "servings per recipe": 1
-    },
     "etoast sesame with chao": {
         "ingredients": {
             "chao slice": 1,
@@ -331,6 +319,18 @@
         "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "ezekiel sesame tofurky sandwich": {
+        "ingredients": {
+            "best foods vegan mayo": 1,
+            "chao slice": 1,
+            "ebread sesame": 2,
+            "tofurkey deli slice hickory smoked": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 sandwich",
         "servings per recipe": 1
     },
     "ezekiel tofurky sandwich": {

@@ -324,19 +324,6 @@
         "serving_size": "1 slice (? g)",
         "sodium_per_serving": 75.0
     },
-    "ezekiel sesame tofurky sandwich": {
-        "carb_per_serving": 38.0,
-        "fat_per_serving": 17.0,
-        "fiber_per_serving": 7.0,
-        "kcal_per_serving": 393.0,
-        "max_servings": 999,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0064,
-        "price_per_serving": 2.53,
-        "protein_per_serving": 22.0,
-        "serving_size": "1 sandwich",
-        "sodium_per_serving": 790.0
-    },
     "etoast sesame with chao": {
         "carb_per_serving": 18.0,
         "fat_per_serving": 5.0,
@@ -440,6 +427,19 @@
         "protein_per_serving": 12.0,
         "serving_size": "1 slice (? g)",
         "sodium_per_serving": 375.0
+    },
+    "ezekiel sesame tofurky sandwich": {
+        "carb_per_serving": 38.0,
+        "fat_per_serving": 17.0,
+        "fiber_per_serving": 7.0,
+        "kcal_per_serving": 393.0,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0064,
+        "price_per_serving": 2.53,
+        "protein_per_serving": 22.0,
+        "serving_size": "1 sandwich",
+        "sodium_per_serving": 790.0
     },
     "ezekiel tofurky sandwich": {
         "carb_per_serving": 40.0,
