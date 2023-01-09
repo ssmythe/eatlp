@@ -1,7 +1,7 @@
 {
     "almond butter sandwich": {
         "ingredients": {
-            "ezekiel bread": 2,
+            "ebread": 2,
             "justins almond butter classic": 1
         },
         "max_servings": 999,
@@ -11,7 +11,7 @@
     },
     "almond butter sandwich half": {
         "ingredients": {
-            "ezekiel bread": 1,
+            "ebread": 1,
             "justins almond butter classic": 1
         },
         "max_servings": 999,
@@ -223,38 +223,38 @@
         "serving size": "6 crackers (?g)",
         "servings per recipe": 1
     },
-    "ezekiel bread slice": {
+    "ebread slice": {
         "ingredients": {
-            "ezekiel bread": 1
+            "ebread": 1
         },
         "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
-    "ezekiel toast with chao": {
+    "etoast with chao": {
         "ingredients": {
             "chao slice": 1,
-            "ezekiel bread": 1
+            "ebread": 1
         },
         "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
-    "ezekiel toast with ebalance": {
+    "etoast with ebalance": {
         "ingredients": {
             "earth balance": 1,
-            "ezekiel bread": 1
+            "ebread": 1
         },
         "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
-    "ezekiel toast with hummus": {
+    "etoast with hummus": {
         "ingredients": {
-            "ezekiel bread": 1,
+            "ebread": 1,
             "sabra roasted red pepper hummus": 1
         },
         "max_servings": 999,
@@ -262,9 +262,9 @@
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
-    "ezekiel toast with just egg": {
+    "etoast with just egg": {
         "ingredients": {
-            "ezekiel bread": 1,
+            "ebread": 1,
             "just egg folded": 1
         },
         "max_servings": 999,
@@ -276,7 +276,7 @@
         "ingredients": {
             "best foods vegan mayo": 1,
             "chao slice": 1,
-            "ezekiel bread": 2,
+            "ebread": 2,
             "tofurkey deli slice hickory smoked": 1
         },
         "max_servings": 999,
@@ -436,7 +436,7 @@
     },
     "vsausage apple with bread": {
         "ingredients": {
-            "ezekiel bread": 1,
+            "ebread": 1,
             "field roast veggie sausage smoked apple": 1
         },
         "max_servings": 0,
@@ -469,7 +469,7 @@
     },
     "vsausage chipotle with bread": {
         "ingredients": {
-            "ezekiel bread": 1,
+            "ebread": 1,
             "field roast veggie sausage chipotle": 1
         },
         "max_servings": 0,
@@ -515,7 +515,7 @@
     },
     "vsausage italian with bread": {
         "ingredients": {
-            "ezekiel bread": 1,
+            "ebread": 1,
             "field roast veggie sausage italian sausage": 1
         },
         "max_servings": 0,

@@ -5,7 +5,7 @@ import pytest
 
 json_ezekiel_bread = '''
 {
-  "ezekiel bread": {
+  "ebread": {
     "store": "Safeway",
     "store product name": "Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz",
     "serving size": "1 slice (34g)",
@@ -22,7 +22,7 @@ json_ezekiel_bread = '''
 
 
 dict_ezekiel_bread = {
-    'name': 'ezekiel bread',
+    'name': 'ebread',
     'store': 'Safeway',
     'store_product_name': 'Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz',
     'price': 7.79,
@@ -46,7 +46,7 @@ def test_constructor(item):
 
 
 def test_set_name(item):
-    name = 'ezekiel bread'
+    name = 'ebread'
     item.set_name(name)
     assert item.name == name
 
@@ -122,7 +122,7 @@ def test_set_sodium_per_serving(item):
 
 
 def test_price_per_serving(item):
-    name = 'ezekiel bread'
+    name = 'ebread'
     servings_per_container = 20
     price = 7.79
     item.set_name(name)
@@ -133,7 +133,7 @@ def test_price_per_serving(item):
 
 def test_set_item_from_dict(item):
     item.set_item_from_dict(dict_ezekiel_bread)
-    assert item.name == 'ezekiel bread'
+    assert item.name == 'ebread'
     assert item.store == 'Safeway'
     assert item.store_product_name == 'Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz'
     assert item.price == 7.79
@@ -149,7 +149,7 @@ def test_set_item_from_dict(item):
 
 def test_set_item_from_json_str(item):
     item.set_item_from_json_str(json_ezekiel_bread)
-    assert item.name == 'ezekiel bread'
+    assert item.name == 'ebread'
     assert item.store_product_name == 'Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz'
     assert item.price == 7.79
     assert item.servings_per_container == 20
@@ -165,7 +165,7 @@ def test_set_item_from_json_str(item):
 
 def test_set_item_from_json_file(item):
     item.set_item_from_json_file('tests/test_item_ezekiel_bread.json')
-    assert item.name == 'ezekiel bread'
+    assert item.name == 'ebread'
     assert item.store_product_name == 'Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz'
     assert item.price == 7.79
     assert item.servings_per_container == 20

@@ -2,7 +2,7 @@
     "toast with chao": {
         "ingredients": {
             "chao slices": 1,
-            "ezekiel bread": 1
+            "ebread": 1
         },
         "max_servings": 1,
         "min_servings": 0,
@@ -11,7 +11,7 @@
     },
     "toast with hummus": {
         "ingredients": {
-            "ezekiel bread": 1,
+            "ebread": 1,
             "sabra roasted red pepper hummus": 1
         },
         "max_servings": 1,

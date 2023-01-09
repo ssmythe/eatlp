@@ -298,7 +298,7 @@
         "serving_size": "6 crackers (?g)",
         "sodium_per_serving": 340.0
     },
-    "ezekiel bread slice": {
+    "ebread slice": {
         "carb_per_serving": 15.0,
         "fat_per_serving": 0.5,
         "fiber_per_serving": 3.0,
@@ -311,7 +311,7 @@
         "serving_size": "1 slice (? g)",
         "sodium_per_serving": 75.0
     },
-    "ezekiel toast with chao": {
+    "etoast with chao": {
         "carb_per_serving": 19.0,
         "fat_per_serving": 5.0,
         "fiber_per_serving": 3.0,
@@ -324,7 +324,7 @@
         "serving_size": "1 slice (? g)",
         "sodium_per_serving": 255.0
     },
-    "ezekiel toast with ebalance": {
+    "etoast with ebalance": {
         "carb_per_serving": 15.0,
         "fat_per_serving": 11.5,
         "fiber_per_serving": 3.0,
@@ -337,7 +337,7 @@
         "serving_size": "1 slice (? g)",
         "sodium_per_serving": 180.0
     },
-    "ezekiel toast with hummus": {
+    "etoast with hummus": {
         "carb_per_serving": 19.0,
         "fat_per_serving": 5.5,
         "fiber_per_serving": 4.0,
@@ -350,7 +350,7 @@
         "serving_size": "1 slice (? g)",
         "sodium_per_serving": 200.0
     },
-    "ezekiel toast with just egg": {
+    "etoast with just egg": {
         "carb_per_serving": 18.0,
         "fat_per_serving": 7.5,
         "fiber_per_serving": 3.0,

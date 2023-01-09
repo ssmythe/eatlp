@@ -298,7 +298,20 @@
         "serving_size": "6 crackers (?g)",
         "sodium_per_serving": 340.0
     },
-    "ezekiel bread slice": {
+    "ebread sesame slice": {
+        "carb_per_serving": 14.0,
+        "fat_per_serving": 0.5,
+        "fiber_per_serving": 3.0,
+        "kcal_per_serving": 76.5,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0052,
+        "price_per_serving": 0.4,
+        "protein_per_serving": 4.0,
+        "serving_size": "1 slice (? g)",
+        "sodium_per_serving": 80.0
+    },
+    "ebread slice": {
         "carb_per_serving": 15.0,
         "fat_per_serving": 0.5,
         "fiber_per_serving": 3.0,
@@ -311,7 +324,72 @@
         "serving_size": "1 slice (? g)",
         "sodium_per_serving": 75.0
     },
-    "ezekiel toast with chao": {
+    "ezekiel sesame tofurky sandwich": {
+        "carb_per_serving": 38.0,
+        "fat_per_serving": 17.0,
+        "fiber_per_serving": 7.0,
+        "kcal_per_serving": 393.0,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0064,
+        "price_per_serving": 2.53,
+        "protein_per_serving": 22.0,
+        "serving_size": "1 sandwich",
+        "sodium_per_serving": 790.0
+    },
+    "etoast sesame with chao": {
+        "carb_per_serving": 18.0,
+        "fat_per_serving": 5.0,
+        "fiber_per_serving": 3.0,
+        "kcal_per_serving": 133.0,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0075,
+        "price_per_serving": 1.0,
+        "protein_per_serving": 4.0,
+        "serving_size": "1 slice (? g)",
+        "sodium_per_serving": 260.0
+    },
+    "etoast sesame with ebalance": {
+        "carb_per_serving": 14.0,
+        "fat_per_serving": 11.5,
+        "fiber_per_serving": 3.0,
+        "kcal_per_serving": 175.5,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0036,
+        "price_per_serving": 0.63,
+        "protein_per_serving": 4.0,
+        "serving_size": "1 slice (? g)",
+        "sodium_per_serving": 185.0
+    },
+    "etoast sesame with hummus": {
+        "carb_per_serving": 18.0,
+        "fat_per_serving": 5.5,
+        "fiber_per_serving": 4.0,
+        "kcal_per_serving": 145.5,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.006,
+        "price_per_serving": 0.87,
+        "protein_per_serving": 6.0,
+        "serving_size": "1 slice (? g)",
+        "sodium_per_serving": 205.0
+    },
+    "etoast sesame with just egg": {
+        "carb_per_serving": 17.0,
+        "fat_per_serving": 7.5,
+        "fiber_per_serving": 3.0,
+        "kcal_per_serving": 179.5,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0106,
+        "price_per_serving": 1.9,
+        "protein_per_serving": 11.0,
+        "serving_size": "1 slice (? g)",
+        "sodium_per_serving": 380.0
+    },
+    "etoast with chao": {
         "carb_per_serving": 19.0,
         "fat_per_serving": 5.0,
         "fiber_per_serving": 3.0,
@@ -324,7 +402,7 @@
         "serving_size": "1 slice (? g)",
         "sodium_per_serving": 255.0
     },
-    "ezekiel toast with ebalance": {
+    "etoast with ebalance": {
         "carb_per_serving": 15.0,
         "fat_per_serving": 11.5,
         "fiber_per_serving": 3.0,
@@ -337,7 +415,7 @@
         "serving_size": "1 slice (? g)",
         "sodium_per_serving": 180.0
     },
-    "ezekiel toast with hummus": {
+    "etoast with hummus": {
         "carb_per_serving": 19.0,
         "fat_per_serving": 5.5,
         "fiber_per_serving": 4.0,
@@ -350,7 +428,7 @@
         "serving_size": "1 slice (? g)",
         "sodium_per_serving": 200.0
     },
-    "ezekiel toast with just egg": {
+    "etoast with just egg": {
         "carb_per_serving": 18.0,
         "fat_per_serving": 7.5,
         "fiber_per_serving": 3.0,

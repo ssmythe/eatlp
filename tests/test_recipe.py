@@ -8,7 +8,7 @@ dict_toast_with_hummus = {
     'servings_per_recipe': 1,
     'serving_size': '1 slice (? g)',
     'ingredients': {
-        'ezekiel bread': 1,
+        'ebread': 1,
         'sabra roasted red pepper hummus': 1
     },
     'min_servings': 0,
@@ -22,7 +22,7 @@ json_toast_with_hummus = '''
         "servings per recipe": 1,
         "serving size": "1 slice (? g)",
         "ingredients": {
-            "ezekiel bread": 1,
+            "ebread": 1,
             "sabra roasted red pepper hummus": 1
         },
         "min_servings": 0,
@@ -65,7 +65,7 @@ def test_set_serving_size(recipe):
 
 
 def test_set_ingredients(recipe):
-    ingredients = {'ezekiel bread': 1, 'sabra roasted red pepper hummus': 1}
+    ingredients = {'ebread': 1, 'sabra roasted red pepper hummus': 1}
     recipe.set_ingredients(ingredients)
     assert recipe.ingredients == ingredients
 
@@ -88,7 +88,7 @@ def test_set_recipe_from_dict(recipe):
     assert recipe.servings_per_recipe == 1
     assert recipe.serving_size == '1 slice (? g)'
     assert recipe.ingredients == {
-        'ezekiel bread': 1, 'sabra roasted red pepper hummus': 1}
+        'ebread': 1, 'sabra roasted red pepper hummus': 1}
     assert recipe.min_servings == 0
     assert recipe.max_servings == 1
 
@@ -99,7 +99,7 @@ def test_set_item_from_json_str(recipe):
     assert recipe.servings_per_recipe == 1
     assert recipe.serving_size == '1 slice (? g)'
     assert recipe.ingredients == {
-        'ezekiel bread': 1, 'sabra roasted red pepper hummus': 1}
+        'ebread': 1, 'sabra roasted red pepper hummus': 1}
     assert recipe.min_servings == 0
     assert recipe.max_servings == 1
 
@@ -111,7 +111,7 @@ def test_set_recipe_from_json_file(recipe):
     assert recipe.servings_per_recipe == 1
     assert recipe.serving_size == '1 slice (? g)'
     assert recipe.ingredients == {
-        'ezekiel bread': 1, 'sabra roasted red pepper hummus': 1}
+        'ebread': 1, 'sabra roasted red pepper hummus': 1}
     assert recipe.min_servings == 0
     assert recipe.max_servings == 1
 

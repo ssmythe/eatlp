@@ -203,7 +203,7 @@
         "store": "Safeway",
         "store product name": "Earthbound Farm Organic Romaine Garden Salad Bag - 10 Oz"
     },
-    "ezekiel bread": {
+    "ebread": {
         "carb": 15,
         "fat": 0.5,
         "fiber": 3,
@@ -214,6 +214,18 @@
         "sodium": 75,
         "store": "Safeway",
         "store product name": "Food For Life Ezekiel 4:9 Organic Bread Sprouted Whole Grain - 24 Oz"
+    },
+    "ebread sesame": {
+        "carb": 14,
+        "fat": 0.5,
+        "fiber": 3,
+        "price": 7.99,
+        "protein": 4,
+        "serving size": "1 slice (34g)",
+        "servings per container": 20,
+        "sodium": 80,
+        "store": "Whole Foods",
+        "store product name": "Food For Life Flourless Sprouted Grain Bread, Sesame, 24 oz (Frozen)"
     },
     "fage greek yogurt plain low fat": {
         "carb": 5,
