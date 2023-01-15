@@ -68,6 +68,9 @@ for iterate_key in keys:
         sorted_keys = dict(
             sorted(food_and_key_dict.items(), key=lambda item: item[1]))
 
+    # cent_symbol = chr(162)
+    cent_symbol = 'c'
+
     for name in sorted_keys.keys():
         food = foods.dict_of_foods[name]
         kcal = food['kcal_per_serving']
@@ -78,7 +81,6 @@ for iterate_key in keys:
         sodium = food['sodium_per_serving']
         price = food['price_per_serving']
         priceperkcal = food['price_per_kcal_per_serving'] * 100
-        cent_symbol = chr(162)
         print("%-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d, $%6.2f, %2.2f%s" %
               (name, kcal, carb, fat, protein, sodium, fiber, price, priceperkcal, cent_symbol))
 
