@@ -407,6 +407,18 @@
         "store": "Safeway",
         "store product name": "Signature SELECT Rice Brown Whole Grain Long Grain - 32 Oz"
     },
+    "rt king arthur supreme psize": {
+        "carb": 17,
+        "fat": 7,
+        "fiber": 1,
+        "price": 12.5,
+        "protein": 7,
+        "serving size": "1 slice (34g)",
+        "servings per container": 6,
+        "sodium": 370,
+        "store": "Round Table Pizza",
+        "store product name": "King Arthur's Supreme Personal Size"
+    },
     "russet potato": {
         "carb": 26,
         "fat": 0,

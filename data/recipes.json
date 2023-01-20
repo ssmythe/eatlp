@@ -80,7 +80,7 @@
         "ingredients": {
             "broccoli cuts": 1
         },
-        "max_servings": 2,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 cup (78g)",
         "servings per recipe": 1
@@ -170,7 +170,7 @@
         "ingredients": {
             "chobani yogurt greek plain": 1
         },
-        "max_servings": 0,
+        "max_servings": 3,
         "min_servings": 0,
         "serving size": "1 bowl (191.2g)",
         "servings per recipe": 1
@@ -227,7 +227,7 @@
         "ingredients": {
             "ebread sesame": 1
         },
-        "max_servings": 0,
+        "max_servings": 3,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -286,7 +286,7 @@
             "chao slice": 1,
             "ebread": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -296,7 +296,7 @@
             "earth balance": 1,
             "ebread": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -306,7 +306,7 @@
             "ebread": 1,
             "sabra roasted red pepper hummus": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -316,12 +316,12 @@
             "ebread": 1,
             "just egg folded": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
-    "ezekiel sesame tofurky sandwich": {
+    "ezekiel sesame tofurky swich": {
         "ingredients": {
             "best foods vegan mayo": 1,
             "chao slice": 1,
@@ -340,7 +340,7 @@
             "ebread": 2,
             "tofurkey deli slice hickory smoked": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 sandwich",
         "servings per recipe": 1
@@ -399,7 +399,7 @@
         "ingredients": {
             "on greek yogurt plain": 1
         },
-        "max_servings": 3,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "3/4 cups (170g)",
         "servings per recipe": 1
@@ -432,6 +432,15 @@
         "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 potato",
+        "servings per recipe": 1
+    },
+    "rt king arthur supreme psize": {
+        "ingredients": {
+            "rt king arthur supreme psize": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
     "salad with anlvr dressing": {

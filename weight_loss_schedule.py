@@ -12,6 +12,8 @@ import datetime
 user = User()
 user.read_user_from_json_file('user.json')
 weight_loss_per_week_lbs = user.dict_of_user['weight_loss_per_week_lbs']
+if weight_loss_per_week_lbs == 0:
+    weight_loss_per_week_lbs = 0.01
 height_inches = user.dict_of_user['height_inches']
 msje_activity_factor = user.dict_of_user['msje_activity_factor']
 

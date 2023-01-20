@@ -74,6 +74,8 @@ class MSJE:
         sex = user.dict_of_user['sex']
         msje_activity_factor = user.dict_of_user['msje_activity_factor']
         weight_loss_per_week_lbs = float(user.dict_of_user['weight_loss_per_week_lbs'])
+        if weight_loss_per_week_lbs == 0:
+            weight_loss_per_week_lbs = 0.01
         curve_modifier = (current_weight_lbs - target_weight_lbs) / \
             (start_weight_lbs - target_weight_lbs) * weight_loss_per_week_lbs
         return (int(round(MSJE.bmr(current_weight_lbs, height_inches, current_age, sex) *
