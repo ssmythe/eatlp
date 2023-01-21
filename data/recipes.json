@@ -490,7 +490,7 @@
             "steel cut oats": 1
         },
         "max_servings": 999,
-        "min_servings": 0,
+        "min_servings": 1,
         "serving size": "1 bowl",
         "servings per recipe": 1
     },

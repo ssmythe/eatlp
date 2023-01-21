@@ -642,7 +642,7 @@
         "fiber_per_serving": 4.0,
         "kcal_per_serving": 133.0,
         "max_servings": 999,
-        "min_servings": 0,
+        "min_servings": 1,
         "price_per_kcal_per_serving": 0.0023,
         "price_per_serving": 0.3,
         "protein_per_serving": 1.0,
