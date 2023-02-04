@@ -55,6 +55,18 @@
         "serving size": "1 banana",
         "servings per recipe": 1
     },
+    "bfast sandwich": {
+        "ingredients": {
+            "beyond breakfast sausage": 0.5,
+            "ebread": 2,
+            "just egg folded": 1,
+            "vivolife provolone slice": 1
+        },
+        "max_servings": 999,
+        "min_servings": 1,
+        "serving size": "1 sandwich",
+        "servings per recipe": 1
+    },
     "black beans onions tortilla": {
         "ingredients": {
             "black beans dry": 13,
@@ -227,7 +239,7 @@
         "ingredients": {
             "ebread sesame": 1
         },
-        "max_servings": 3,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -236,7 +248,7 @@
         "ingredients": {
             "ebread": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -246,7 +258,7 @@
             "chao slice": 1,
             "ebread sesame": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -256,7 +268,7 @@
             "earth balance": 1,
             "ebread sesame": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -266,7 +278,7 @@
             "ebread sesame": 1,
             "sabra roasted red pepper hummus": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -276,7 +288,7 @@
             "ebread sesame": 1,
             "just egg folded": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -286,7 +298,7 @@
             "chao slice": 1,
             "ebread": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -296,7 +308,7 @@
             "earth balance": 1,
             "ebread": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -306,7 +318,7 @@
             "ebread": 1,
             "sabra roasted red pepper hummus": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -316,7 +328,7 @@
             "ebread": 1,
             "just egg folded": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -328,7 +340,7 @@
             "ebread sesame": 2,
             "tofurkey deli slice hickory smoked": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 sandwich",
         "servings per recipe": 1
@@ -340,7 +352,7 @@
             "ebread": 2,
             "tofurkey deli slice hickory smoked": 1
         },
-        "max_servings": 0,
+        "max_servings": 9990,
         "min_servings": 0,
         "serving size": "1 sandwich",
         "servings per recipe": 1
@@ -481,7 +493,7 @@
             "yellow onion": 1
         },
         "max_servings": 3,
-        "min_servings": 0,
+        "min_servings": 2,
         "serving size": "1 cup (240g)",
         "servings per recipe": 12
     },
@@ -512,6 +524,18 @@
         "min_servings": 0,
         "serving size": "1 tortilla (32g)",
         "servings per recipe": 1
+    },
+    "vegetable soup": {
+        "ingredients": {
+            "carrot": 2,
+            "celery": 4,
+            "russet potato": 1,
+            "yellow onion": 1
+        },
+        "max_servings": 3,
+        "min_servings": 0,
+        "serving size": "1 cup (240g)",
+        "servings per recipe": 12
     },
     "vsausage apple with bread": {
         "ingredients": {
