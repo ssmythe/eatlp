@@ -361,4 +361,4 @@ for menu_count in range(1, max_num_of_menus + 1):
                 print("[ ] %s" % (name))
 
     print()
-    print()
+    print(flush=True)
