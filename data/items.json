@@ -95,6 +95,18 @@
         "store": "Whole Foods",
         "store product name": "Beyond Breakfast Sausage from Beyond Meat, Plant-Based Patties, Frozen, 6 Patties per 7.4 oz Box, Classic Flavor"
     },
+    "beyond meat crumble": {
+        "carb": 2,
+        "fat": 3,
+        "fiber": 1,
+        "price": 6.99,
+        "protein": 14,
+        "serving size": "1/2 cup (55g)",
+        "servings per container": 5,
+        "sodium": 140,
+        "store": "Whole Foods",
+        "store product name": "Beyond Meat Beefy Beef Free Crumble, 10 OZ"
+    },
     "black beans dry": {
         "carb": 21,
         "fat": 1,
@@ -263,18 +275,6 @@
         "store": "Safeway",
         "store product name": "Field Roast Grain Meat Vegetarian Italian Sausage - 12.95 Oz"
     },
-    "field roast veggie sausage smoked apple": {
-        "carb": 16,
-        "fat": 8,
-        "fiber": 0,
-        "price": 5.99,
-        "protein": 23,
-        "serving size": "1 sausage (92g)",
-        "servings per container": 4,
-        "sodium": 560,
-        "store": "Safeway",
-        "store product name": "Field Roast Grain Meat Vegetarian Smoked Apple Sage Sausage - 12.9 Oz"
-    },
     "green beans": {
         "carb": 5,
         "fat": 0,
@@ -334,6 +334,18 @@
         "sodium": 0,
         "store": "Safeway",
         "store product name": "Justins Almond Butter Classic - 16 Oz"
+    },
+    "linguine": {
+        "carb": 43,
+        "fat": 1,
+        "fiber": 2,
+        "price": 1.59,
+        "protein": 6,
+        "serving size": "2 oz (56g) dry",
+        "servings per container": 8,
+        "sodium": 0,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Pasta Linguine Organic, 16 Ounce"
     },
     "mission tortilla": {
         "carb": 16,
@@ -467,6 +479,18 @@
         "store": "Safeway",
         "store product name": "McCanns Oatmeal Irish Steel Cut - 28 Oz"
     },
+    "tofu": {
+        "carb": 3,
+        "fat": 4,
+        "fiber": 1,
+        "price": 2.99,
+        "protein": 9,
+        "serving size": "3 oz (84g)",
+        "servings per container": 4.5,
+        "sodium": 15,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Tofu Extra Firm Organic, 14 Ounce"
+    },
     "tofurkey deli slice hickory smoked": {
         "carb": 5,
         "fat": 3.5,
@@ -526,6 +550,18 @@
         "sodium": 180,
         "store": "Whole Foods",
         "store product name": "Violife VIOlife Just Like Smoked Provolone Slices, 7.05 oz Pack, 7.05 oz"
+    },
+    "vodka sauce": {
+        "carb": 8,
+        "fat": 4.5,
+        "fiber": 2,
+        "price": 1.5,
+        "protein": 2,
+        "serving size": "1/2 cup (118g)",
+        "servings per container": 6,
+        "sodium": 400,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Sauce Pasta Creamy Vodka Organic, 25 Ounce"
     },
     "yellow onion": {
         "carb": 11,
