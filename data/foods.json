@@ -95,7 +95,7 @@
         "fat_per_serving": 14.0,
         "fiber_per_serving": 5.0,
         "kcal_per_serving": 310.0,
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0036,
         "price_per_serving": 1.11,
@@ -129,18 +129,44 @@
         "serving_size": "1 tortilla (32g)",
         "sodium_per_serving": 278.75
     },
+    "blk bean dish with vsauce": {
+        "carb_per_serving": 21.1125,
+        "fat_per_serving": 2.025,
+        "fiber_per_serving": 10.85,
+        "kcal_per_serving": 131.125,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0067,
+        "price_per_serving": 0.88,
+        "protein_per_serving": 7.112500000000001,
+        "serving_size": "1 bowl (188g)",
+        "sodium_per_serving": 13.943750000000001
+    },
     "blk beans and onions": {
         "carb_per_serving": 35.5,
         "fat_per_serving": 1.625,
         "fiber_per_serving": 19.875,
         "kcal_per_serving": 209.125,
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0017,
         "price_per_serving": 0.36,
         "protein_per_serving": 13.125,
         "serving_size": "1 cup (236g)",
         "sodium_per_serving": 8.75
+    },
+    "blk beans, onions, and carrots": {
+        "carb_per_serving": 37.25,
+        "fat_per_serving": 2.125,
+        "fiber_per_serving": 20.375,
+        "kcal_per_serving": 221.625,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0018,
+        "price_per_serving": 0.4,
+        "protein_per_serving": 13.375,
+        "serving_size": "1 cup (236g)",
+        "sodium_per_serving": 23.75
     },
     "broccoli cuts": {
         "carb_per_serving": 5.0,
@@ -160,7 +186,7 @@
         "fat_per_serving": 1.0,
         "fiber_per_serving": 1.0,
         "kcal_per_serving": 157.0,
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.001,
         "price_per_serving": 0.15,
@@ -206,6 +232,32 @@
         "protein_per_serving": 5.0,
         "serving_size": "1 slice (? g)",
         "sodium_per_serving": 0.0
+    },
+    "ebread tofurky sandwich": {
+        "carb_per_serving": 40.0,
+        "fat_per_serving": 17.0,
+        "fiber_per_serving": 7.0,
+        "kcal_per_serving": 409.0,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0062,
+        "price_per_serving": 2.53,
+        "protein_per_serving": 24.0,
+        "serving_size": "1 sandwich",
+        "sodium_per_serving": 630.0
+    },
+    "ebread tofurky sandwich no mayo": {
+        "carb_per_serving": 39.0,
+        "fat_per_serving": 9.0,
+        "fiber_per_serving": 7.0,
+        "kcal_per_serving": 333.0,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0072,
+        "price_per_serving": 2.4,
+        "protein_per_serving": 24.0,
+        "serving_size": "1 sandwich",
+        "sodium_per_serving": 530.0
     },
     "etoast with chao": {
         "carb_per_serving": 19.0,
@@ -258,19 +310,6 @@
         "protein_per_serving": 12.0,
         "serving_size": "1 slice (? g)",
         "sodium_per_serving": 300.0
-    },
-    "ezekiel tofurky sandwich": {
-        "carb_per_serving": 40.0,
-        "fat_per_serving": 17.0,
-        "fiber_per_serving": 7.0,
-        "kcal_per_serving": 409.0,
-        "max_servings": 999,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0062,
-        "price_per_serving": 2.53,
-        "protein_per_serving": 24.0,
-        "serving_size": "1 sandwich",
-        "sodium_per_serving": 630.0
     },
     "green beans": {
         "carb_per_serving": 2.625,
@@ -441,6 +480,19 @@
         "serving_size": "1 bowl",
         "sodium_per_serving": 0.0
     },
+    "steel cut oats with hemp seeds": {
+        "carb_per_serving": 32.0,
+        "fat_per_serving": 16.0,
+        "fiber_per_serving": 5.0,
+        "kcal_per_serving": 316.0,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0048,
+        "price_per_serving": 1.53,
+        "protein_per_serving": 11.0,
+        "serving_size": "1 bowl",
+        "sodium_per_serving": 0.0
+    },
     "tilla": {
         "carb_per_serving": 16.0,
         "fat_per_serving": 2.0,
@@ -493,18 +545,31 @@
         "serving_size": "3 oz (84g)",
         "sodium_per_serving": 140.0
     },
-    "vegan linguine": {
+    "vegan linguine beyond": {
         "carb_per_serving": 103.25,
         "fat_per_serving": 18.0,
         "fiber_per_serving": 9.0,
         "kcal_per_serving": 706.0,
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0041,
         "price_per_serving": 2.89,
         "protein_per_serving": 32.75,
         "serving_size": "1/2 bowl (503g)",
         "sodium_per_serving": 828.75
+    },
+    "vegan linguine gardein": {
+        "carb_per_serving": 105.25,
+        "fat_per_serving": 15.09375,
+        "fiber_per_serving": 10.5625,
+        "kcal_per_serving": 656.09375,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0031,
+        "price_per_serving": 2.01,
+        "protein_per_serving": 24.8125,
+        "serving_size": "1/2 bowl (503g)",
+        "sodium_per_serving": 828.125
     },
     "vegetable soup": {
         "carb_per_serving": 5.750000000000001,
@@ -518,6 +583,19 @@
         "protein_per_serving": 0.8,
         "serving_size": "1 cup (240g)",
         "sodium_per_serving": 44.75
+    },
+    "vsauce": {
+        "carb_per_serving": 2.4875,
+        "fat_per_serving": 0.9624999999999999,
+        "fiber_per_serving": 0.6625,
+        "kcal_per_serving": 20.3125,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0335,
+        "price_per_serving": 0.68,
+        "protein_per_serving": 0.42500000000000004,
+        "serving_size": "1 bo wl (188g)",
+        "sodium_per_serving": 2.06875
     },
     "vsausage italian sausage dish": {
         "carb_per_serving": 54.125,

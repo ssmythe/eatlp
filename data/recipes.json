@@ -69,7 +69,7 @@
             "banza chickpea pasta rotini": 1,
             "earth balance": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 banana",
         "servings per recipe": 1
@@ -97,12 +97,38 @@
         "serving size": "1 tortilla (32g)",
         "servings per recipe": 8
     },
+    "blk bean dish with vsauce": {
+        "ingredients": {
+            "black beans dry": 13,
+            "carrot": 2,
+            "garlic clove": 2,
+            "olive oil": 1,
+            "red bell pepper": 1,
+            "tomato": 4,
+            "yellow onion": 2
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (188g)",
+        "servings per recipe": 16
+    },
     "blk beans and onions": {
         "ingredients": {
             "black beans dry": 13,
             "yellow onion": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 cup (236g)",
+        "servings per recipe": 8
+    },
+    "blk beans, onions, and carrots": {
+        "ingredients": {
+            "black beans dry": 13,
+            "carrot": 2,
+            "yellow onion": 1
+        },
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 cup (236g)",
         "servings per recipe": 8
@@ -120,7 +146,7 @@
         "ingredients": {
             "rice brown long grain": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "0.25 cup dry, 1/2 cup wet (100g)",
         "servings per recipe": 1
@@ -152,6 +178,29 @@
         "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "ebread tofurky sandwich": {
+        "ingredients": {
+            "best foods vegan mayo": 1,
+            "chao slice": 1,
+            "ebread": 2,
+            "tofurkey deli slice hickory smoked": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 sandwich",
+        "servings per recipe": 1
+    },
+    "ebread tofurky sandwich no mayo": {
+        "ingredients": {
+            "chao slice": 1,
+            "ebread": 2,
+            "tofurkey deli slice hickory smoked": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 sandwich",
         "servings per recipe": 1
     },
     "etoast with chao": {
@@ -192,18 +241,6 @@
         "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
-        "servings per recipe": 1
-    },
-    "ezekiel tofurky sandwich": {
-        "ingredients": {
-            "best foods vegan mayo": 1,
-            "chao slice": 1,
-            "ebread": 2,
-            "tofurkey deli slice hickory smoked": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 sandwich",
         "servings per recipe": 1
     },
     "green beans": {
@@ -337,6 +374,16 @@
         "serving size": "1 bowl",
         "servings per recipe": 1
     },
+    "steel cut oats with hemp seeds": {
+        "ingredients": {
+            "hemp seeds": 1,
+            "steel cut oats": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
     "tilla": {
         "ingredients": {
             "mission tortilla": 1
@@ -376,7 +423,7 @@
         "serving size": "3 oz (84g)",
         "servings per recipe": 1
     },
-    "vegan linguine": {
+    "vegan linguine beyond": {
         "ingredients": {
             "beyond meat crumble": 5,
             "earth balance": 2,
@@ -384,7 +431,20 @@
             "vodka sauce": 6,
             "yellow onion": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1/2 bowl (503g)",
+        "servings per recipe": 4
+    },
+    "vegan linguine gardein": {
+        "ingredients": {
+            "earth balance": 2,
+            "gardein crumble": 2.25,
+            "linguine": 8,
+            "vodka sauce": 6,
+            "yellow onion": 1
+        },
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1/2 bowl (503g)",
         "servings per recipe": 4
@@ -400,6 +460,19 @@
         "min_servings": 0,
         "serving size": "1 cup (240g)",
         "servings per recipe": 12
+    },
+    "vsauce": {
+        "ingredients": {
+            "garlic clove": 2,
+            "olive oil": 1,
+            "red bell pepper": 1,
+            "tomato": 4,
+            "yellow onion": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bo wl (188g)",
+        "servings per recipe": 16
     },
     "vsausage italian sausage dish": {
         "ingredients": {

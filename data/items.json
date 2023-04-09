@@ -275,6 +275,30 @@
         "store": "Safeway",
         "store product name": "Field Roast Grain Meat Vegetarian Italian Sausage - 12.95 Oz"
     },
+    "gardein crumble": {
+        "carb": 8,
+        "fat": 1.5,
+        "fiber": 5,
+        "price": 6.99,
+        "protein": 17,
+        "serving size": "3/4 cup (87g)",
+        "servings per container": 4.5,
+        "sodium": 310,
+        "store": "Whole Foods",
+        "store product name": "Gardein Gluten-Free Ultimate Plant-Based Beefless Ground Crumbles, Vegan, Frozen, 13.7 oz. "
+    },
+    "garlic clove": {
+        "carb": 1,
+        "fat": 0,
+        "fiber": 0.1,
+        "price": 2.69,
+        "protein": 0.2,
+        "serving size": "1 clove",
+        "servings per container": 30,
+        "sodium": 0.5,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Organic Garlic, 3 Count"
+    },
     "green beans": {
         "carb": 5,
         "fat": 0,
@@ -286,6 +310,18 @@
         "sodium": 0,
         "store": "Safeway",
         "store product name": "Green Beans - 1 Lb"
+    },
+    "hemp seeds": {
+        "carb": 2,
+        "fat": 15,
+        "fiber": 1,
+        "price": 13.49,
+        "protein": 10,
+        "serving size": "3 Tbsp (30g)",
+        "servings per container": 11,
+        "sodium": 0,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Hemp Seed Organic, 12 Ounce"
     },
     "honey": {
         "carb": 17.4,
@@ -383,6 +419,18 @@
         "store": "Safeway",
         "store product name": "Signature SELECT Beans Navy Dry - 16 Oz"
     },
+    "olive oil": {
+        "carb": 0,
+        "fat": 14,
+        "fiber": 0,
+        "price": 14.99,
+        "protein": 0,
+        "serving size": "1 tbsp (15mL)",
+        "servings per container": 67,
+        "sodium": 0,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Oil Olive Extra Virgin Mediterranean Organic, 33.8 Fl Oz"
+    },
     "pearl couscous": {
         "carb": 41,
         "fat": 0.5,
@@ -394,6 +442,18 @@
         "sodium": 0,
         "store": "Safeway",
         "store product name": "Rice Select Couscous Pearl Original - 24.5 Oz"
+    },
+    "red bell pepper": {
+        "carb": 7.6,
+        "fat": 0.2,
+        "fiber": 1.4,
+        "price": 2.62,
+        "protein": 1,
+        "serving size": "1 bell pepper",
+        "servings per container": 1,
+        "sodium": 2.3,
+        "store": "Whole Foods",
+        "store product name": "Red Bell Pepper"
     },
     "rice brown long grain": {
         "carb": 34,
@@ -502,6 +562,18 @@
         "sodium": 350,
         "store": "Safeway",
         "store product name": "Tofurky Deli Slices Hickory Smoked - 5.5 Oz"
+    },
+    "tomato": {
+        "carb": 4.8,
+        "fat": 0.3,
+        "fiber": 1.5,
+        "price": 1.75,
+        "protein": 1.1,
+        "serving size": "1 tomato",
+        "servings per container": 1,
+        "sodium": 6.2,
+        "store": "Whole Foods",
+        "store product name": "Organic Tomato On-The-Vine"
     },
     "triscuit wheat crackers": {
         "carb": 20,
