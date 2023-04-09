@@ -3,7 +3,7 @@
         "ingredients": {
             "365 yogurt greek plain nonfat": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 bowl (170g)",
         "servings per recipe": 1
@@ -107,7 +107,7 @@
             "tomato": 4,
             "yellow onion": 2
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 bowl (188g)",
         "servings per recipe": 16
