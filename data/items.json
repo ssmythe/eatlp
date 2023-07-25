@@ -107,6 +107,18 @@
         "store": "Whole Foods",
         "store product name": "Beyond Meat Beefy Beef Free Crumble, 10 OZ"
     },
+    "bjs asian chopped salad": {
+        "carb": 38,
+        "fat": 20,
+        "fiber": 5,
+        "price": 15.95,
+        "protein": 45,
+        "serving size": "1 salad",
+        "servings per container": 1,
+        "sodium": 825,
+        "store": "BJ's Restaurant",
+        "store product name": "Enlightened Asian Chopped Salad"
+    },
     "black beans dry": {
         "carb": 21,
         "fat": 1,
@@ -298,6 +310,18 @@
         "sodium": 0.5,
         "store": "Whole Foods",
         "store product name": "365 by Whole Foods Market, Organic Garlic, 3 Count"
+    },
+    "gg juli's breakfasts saute": {
+        "carb": 111,
+        "fat": 7,
+        "fiber": 25,
+        "price": 13.5,
+        "protein": 31,
+        "serving size": "1 bowl",
+        "servings per container": 1,
+        "sodium": 85,
+        "store": "Greatfull Gardens",
+        "store product name": "Juli's Breakfast Saute"
     },
     "green beans": {
         "carb": 5,
@@ -567,7 +591,7 @@
         "carb": 4.8,
         "fat": 0.3,
         "fiber": 1.5,
-        "price": 1.75,
+        "price": 0.85,
         "protein": 1.1,
         "serving size": "1 tomato",
         "servings per container": 1,

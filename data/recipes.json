@@ -50,7 +50,7 @@
         "ingredients": {
             "honeycrisp apple": 1
         },
-        "max_servings": 999,
+        "max_servings": 3,
         "min_servings": 0,
         "serving size": "1 apple",
         "servings per recipe": 1
@@ -86,6 +86,15 @@
         "serving size": "1 sandwich",
         "servings per recipe": 1
     },
+    "bjs asian chopped salad": {
+        "ingredients": {
+            "bjs asian chopped salad": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 salad",
+        "servings per recipe": 1
+    },
     "black beans onions tortilla": {
         "ingredients": {
             "black beans dry": 13,
@@ -107,10 +116,24 @@
             "tomato": 4,
             "yellow onion": 2
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 bowl (188g)",
         "servings per recipe": 16
+    },
+    "blk beans an potato chili": {
+        "ingredients": {
+            "black beans dry": 2,
+            "garlic clove": 2,
+            "red bell pepper": 1,
+            "russet potato": 1,
+            "tomato": 9,
+            "yellow onion": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 cup (236g)",
+        "servings per recipe": 8
     },
     "blk beans and onions": {
         "ingredients": {
@@ -175,12 +198,12 @@
         "ingredients": {
             "ebread": 1
         },
-        "max_servings": 999,
+        "max_servings": 4,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
-    "ebread tofurky sandwich": {
+    "ebread tofurky swich": {
         "ingredients": {
             "best foods vegan mayo": 1,
             "chao slice": 1,
@@ -192,7 +215,7 @@
         "serving size": "1 sandwich",
         "servings per recipe": 1
     },
-    "ebread tofurky sandwich no mayo": {
+    "ebread tofurky swich no mayo": {
         "ingredients": {
             "chao slice": 1,
             "ebread": 2,
@@ -243,6 +266,15 @@
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
+    "gg juli's breakfasts saute": {
+        "ingredients": {
+            "gg juli's breakfasts saute": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
     "green beans": {
         "ingredients": {
             "green beans": 2,
@@ -257,8 +289,8 @@
         "ingredients": {
             "multivitamin": 1
         },
-        "max_servings": 1,
-        "min_servings": 1,
+        "max_servings": 0,
+        "min_servings": 0,
         "serving size": "2 bites",
         "servings per recipe": 1
     },
@@ -309,7 +341,7 @@
             "earth balance": 1,
             "russet potato": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 potato",
         "servings per recipe": 1
@@ -360,7 +392,7 @@
             "split peas dry": 13,
             "yellow onion": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 cup (240g)",
         "servings per recipe": 12
