@@ -77,6 +77,19 @@
         "serving_size": "1 apple",
         "sodium_per_serving": 0.0
     },
+    "apple half": {
+        "carb_per_serving": 11.0,
+        "fat_per_serving": 0.0,
+        "fiber_per_serving": 2.5,
+        "kcal_per_serving": 44.0,
+        "max_servings": 3,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0186,
+        "price_per_serving": 0.82,
+        "protein_per_serving": 0.0,
+        "serving_size": "1 apple",
+        "sodium_per_serving": 0.0
+    },
     "banana": {
         "carb_per_serving": 27.0,
         "fat_per_serving": 0.4,
