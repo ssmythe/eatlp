@@ -46,6 +46,15 @@
         "serving size": "1/4 cup (28g)",
         "servings per recipe": 1
     },
+    "amys tofu scramble": {
+        "ingredients": {
+            "amys tofu scramble": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 tray (255g)",
+        "servings per recipe": 1
+    },
     "apple": {
         "ingredients": {
             "honeycrisp apple": 1
@@ -421,7 +430,7 @@
         "ingredients": {
             "steel cut oats": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 bowl",
         "servings per recipe": 1

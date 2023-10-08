@@ -47,7 +47,7 @@ target_weight_date = current_weight_date + \
 target_bmi = user.dict_of_user['target_bmi']
 
 today_max_kcal = MSJE.target_kcal_user_target_weight_lbs(
-    user, target_weight_lbs)
+    user, target_weight_lbs) + user.dict_of_user['kcal_adjust']
 current_percent_lost_lbs = round(
     (start_current_weight_lbs_diff / start_target_weight_lbs_diff) * 100, 1)
 

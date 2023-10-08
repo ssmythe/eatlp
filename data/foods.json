@@ -64,6 +64,19 @@
         "serving_size": "1/4 cup (28g)",
         "sodium_per_serving": 0.0
     },
+    "amys tofu scramble": {
+        "carb_per_serving": 24.0,
+        "fat_per_serving": 27.0,
+        "fiber_per_serving": 5.0,
+        "kcal_per_serving": 419.0,
+        "max_servings": 999,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0031,
+        "price_per_serving": 1.28,
+        "protein_per_serving": 20.0,
+        "serving_size": "1 tray (255g)",
+        "sodium_per_serving": 790.0
+    },
     "apple": {
         "carb_per_serving": 22.0,
         "fat_per_serving": 0.0,
@@ -537,7 +550,7 @@
         "fat_per_serving": 1.0,
         "fiber_per_serving": 4.0,
         "kcal_per_serving": 133.0,
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0023,
         "price_per_serving": 0.3,

@@ -35,6 +35,18 @@
         "store": "Safeway",
         "store product name": "Signature Farms Almonds Raw Unsalted - 16 Oz"
     },
+    "amys tofu scramble": {
+        "carb": 24,
+        "fat": 27,
+        "fiber": 5,
+        "price": 6.39,
+        "protein": 20,
+        "serving size": "3/4 cup (170g)",
+        "servings per container": 5,
+        "sodium": 790,
+        "store": "Whole Foods",
+        "store product name": "Amy's Tofu Scramble"
+    },
     "annies lite viniagrette raspberry": {
         "carb": 5,
         "fat": 3,
