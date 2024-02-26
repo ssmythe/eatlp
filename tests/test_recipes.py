@@ -32,6 +32,7 @@ def test_get_recipe_from_recipes_by_name(recipes):
     assert recipes.get_recipe_from_recipes_by_name(
         'toast with hummus').name == recipe.name
 
+
 def test_write_recipes_to_json_file(recipes):
     recipes.set_recipes_from_json_file('tests/test_recipes_unsorted.json')
     recipes.write_recipes_to_json_file('tests/test_recipes_sorted.json')
@@ -41,5 +42,3 @@ def test_write_recipes_to_json_file(recipes):
         'toast with chao',
         'toast with hummus'
     ]
-
-

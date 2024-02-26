@@ -26,7 +26,9 @@ def test_constructor(food):
 
 def test_recipe_to_food(items, recipe, food):
     items.add_items_from_json_file('tests/test_items.json')
-    recipe.set_recipe_from_json_file('tests/test_recipe_toast_with_hummus.json')
+    recipe.set_recipe_from_json_file(
+        'tests/test_recipe_toast_with_hummus.json'
+    )
     food.recipe_to_food(items, recipe)
     assert food.name == 'toast with hummus'
     assert food.serving_size == '1 slice (? g)'

@@ -1,6 +1,4 @@
-from src.bmi import *
-from src.msje import *
-import pytest
+from src.bmi import BMI
 
 
 def test_height_meters_bmi_to_weight_kg():

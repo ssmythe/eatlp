@@ -57,7 +57,9 @@ class MSJE:
 
     @staticmethod
     def dict_of_activity_factor():
-        return {'sedentary': 1.2, 'light activity': 1.375, 'moderate activity': 1.55, 'very active': 1.75, 'exceedingly active': 1.9}
+        return {'sedentary': 1.2, 'light activity': 1.375,
+                'moderate activity': 1.55, 'very active': 1.75,
+                'exceedingly active': 1.9}
 
     @staticmethod
     def activity_factor(af):
@@ -84,5 +86,9 @@ class MSJE:
             weight_loss_per_week_lbs = 0.01
         curve_modifier = (current_weight_lbs - target_weight_lbs) / \
             (start_weight_lbs - target_weight_lbs) * weight_loss_per_week_lbs
-        return (int(round(MSJE.bmr(current_weight_lbs, height_inches, current_age, sex) *
-                          MSJE.activity_factor(msje_activity_factor) - curve_modifier * 500, 0)))
+        return (int(round(MSJE.bmr(
+            current_weight_lbs, height_inches, current_age, sex
+        ) * MSJE.activity_factor(
+            msje_activity_factor) - curve_modifier * 500, 0)
+        )
+        )

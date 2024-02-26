@@ -1,6 +1,6 @@
-from src.bmi import *
-from src.msje import *
-from src.user import *
+from src.bmi import BMI
+from src.msje import MSJE
+from src.user import User
 import pytest
 
 
@@ -34,6 +34,7 @@ def test_target_kcals(user):
     assert target_weight_lbs == 174
     assert MSJE.target_kcal_user_target_weight_lbs(
         user, target_weight_lbs) == 1660
+
 
 def test_target_kcal_user_target_weight_lbs_zero_weight_loss():
     user = User()

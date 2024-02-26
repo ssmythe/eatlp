@@ -1,7 +1,5 @@
-from src.items import Items
-
 import json
-import math
+
 
 class Recipe:
     """
@@ -51,7 +49,9 @@ class Recipe:
         data_dict = {}
         name = list(json_dict.keys())[0]
         data_dict['name'] = name
-        data_dict['servings_per_recipe'] = json_dict[name]['servings per recipe']
+        data_dict['servings_per_recipe'] = (
+            json_dict[name]['servings per recipe']
+        )
         data_dict['serving_size'] = json_dict[name]['serving size']
         data_dict['ingredients'] = json_dict[name]['ingredients']
         data_dict['min_servings'] = json_dict[name]['min_servings']
@@ -67,7 +67,8 @@ class Recipe:
         carb_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            carb_list.append(item.carb_per_serving * qty / self.servings_per_recipe)
+            carb_list.append(item.carb_per_serving *
+                             qty / self.servings_per_recipe)
         return carb_list
 
     def total_carb_per_recipe_serving(self, items):
@@ -80,7 +81,8 @@ class Recipe:
         fat_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            fat_list.append(item.fat_per_serving * qty / self.servings_per_recipe)
+            fat_list.append(item.fat_per_serving * qty /
+                            self.servings_per_recipe)
         return fat_list
 
     def total_fat_per_recipe_serving(self, items):
@@ -93,7 +95,8 @@ class Recipe:
         fiber_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            fiber_list.append(item.fiber_per_serving * qty / self.servings_per_recipe)
+            fiber_list.append(item.fiber_per_serving *
+                              qty / self.servings_per_recipe)
         return fiber_list
 
     def total_fiber_per_recipe_serving(self, items):
@@ -106,7 +109,8 @@ class Recipe:
         protein_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            protein_list.append(item.protein_per_serving * qty / self.servings_per_recipe)
+            protein_list.append(item.protein_per_serving *
+                                qty / self.servings_per_recipe)
         return protein_list
 
     def total_protein_per_recipe_serving(self, items):
@@ -119,7 +123,8 @@ class Recipe:
         sodium_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            sodium_list.append(item.sodium_per_serving * qty / self.servings_per_recipe)
+            sodium_list.append(item.sodium_per_serving *
+                               qty / self.servings_per_recipe)
         return sodium_list
 
     def total_sodium_per_recipe_serving(self, items):
@@ -132,7 +137,8 @@ class Recipe:
         kcal_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            kcal_list.append(item.kcal_per_serving() * qty / self.servings_per_recipe)
+            kcal_list.append(item.kcal_per_serving() *
+                             qty / self.servings_per_recipe)
         return kcal_list
 
     def total_kcal_per_recipe_serving(self, items):
@@ -145,11 +151,12 @@ class Recipe:
         price_list = []
         for ingredient, qty in self.ingredients.items():
             item = items.get_item_from_items_by_name(ingredient)
-            price_list.append(round(item.price_per_serving() * qty / self.servings_per_recipe, 2)) # round okay
+            price_list.append(round(item.price_per_serving(
+            ) * qty / self.servings_per_recipe, 2))  # round okay
         return price_list
 
     def total_price_per_recipe_serving(self, items):
         total_price = 0
         for price in self.price_per_ingredient_to_list(items):
             total_price += price
-        return round(total_price, 2) # round okay
+        return round(total_price, 2)  # round okay
