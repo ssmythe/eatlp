@@ -1,14 +1,11 @@
 #!/usr/bin/env python
 
-from pydoc import plain
 from src.bmi import BMI
 from src.foods import Foods
-from src.food import Food
 from src.randomfoods import RandomFoods
 from src.user import User
-from src.msje import *
-from pulp import *
-
+from src.msje import MSJE
+from pulp import LpProblem, LpMinimize, LpVariable, PULP_CBC_CMD
 import random
 import pytest
 
@@ -36,7 +33,14 @@ user = User()
 user.read_user_from_json_file('user.json')
 target_weight_lbs = BMI.height_inches_bmi_to_weight_lbs(
     user.dict_of_user['height_inches'], user.dict_of_user['target_bmi'])
-max_kcal = MSJE.target_kcal_user_target_weight_lbs(user, target_weight_lbs) + user.dict_of_user['kcal_adjust']
+# Assigning intermediate results to variables
+user_target_kcal = MSJE.target_kcal_user_target_weight_lbs(
+    user, target_weight_lbs
+)
+kcal_adjustment = user.dict_of_user['kcal_adjust']
+
+# Combining the results in a separate line
+max_kcal = user_target_kcal + kcal_adjustment
 current_weight_lbs = user.dict_of_user['current_weight_lbs']
 current_age = user.dict_of_user['current_age']
 max_sodium = user.dict_of_user['max_sodium']
@@ -62,16 +66,19 @@ max_fat = max_kcal * max_fat_percent / 9
 # -------
 # fiber
 # -------
-# USDA’s recommended daily amount for adults up to age 50 is 25 grams for women and 38 grams for men.
-#  Women and men older than 50 should have 21 and 30 daily grams, respectively.
+# USDA’s recommended daily amount for adults up to age 50 is 25 grams for
+# women and 38 grams for men.
+#
+# Women and men older than 50 should have 21 and 30 daily grams, respectively.
 if current_age <= 50:
     minimum_recommended_fiber = 25
 else:
     # for 50 or older, recommendeded fiber 21
     minimum_recommended_fiber = 21
 
-# On the other hand, eating too much fiber can cause bloating, gas, and constipation.
-# These adverse effects may appear after eating 70 g of fiber in a day.
+# On the other hand, eating too much fiber can cause bloating, gas, and
+# constipation.  # These adverse effects may appear after eating 70 g of
+# fiber in a day.
 maximum_recommended_fiber = 70
 
 # -------
@@ -81,7 +88,8 @@ maximum_recommended_fiber = 70
 #     # for under 40, recommendeded protein = CurrentWeight*KgPerPound*0.8
 #     minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 0.8
 # else:
-#     # for 40 or older, recommendeded protein (to prevent sarcopenia) = CurrentWeight*KgPerPound*(1.0-1.2g/kg)
+#     # for 40 or older, recommendeded protein (to prevent sarcopenia) =
+#       CurrentWeight*KgPerPound*(1.0-1.2g/kg)
 #     minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 1.0
 
 min_protein_percent = 0.10
@@ -295,8 +303,12 @@ for menu_count in range(1, max_num_of_menus + 1):
         sodium_times_servings = sodium * v.varValue
 
         if v.varValue > 0:
-            menu_str += "%dx %-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d\n" % \
-                (v.varValue, name, kcal_times_servings, carb_times_servings, fat_times_servings, protein_times_servings, sodium_times_servings, fiber_times_servings)
+            menu_str += ("%dx %-30s kcal %4d, carb %4d, fat %3d, "
+                         "protein %3d, sodium %4d, fiber %4d\n") % \
+                (v.varValue, name, kcal_times_servings, carb_times_servings,
+                 fat_times_servings, protein_times_servings,
+                 sodium_times_servings, fiber_times_servings)
+
             if menu_str in dict_of_menus.keys():
                 menu_found_flag = 1
             else:
@@ -343,8 +355,12 @@ for menu_count in range(1, max_num_of_menus + 1):
         total_sodium += sodium_times_servings
         total_price += price_times_servings
         if v.varValue > 0:
-            print("%dx %-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d, $%6.2f" %
-                (v.varValue, name, kcal_times_servings, carb_times_servings, fat_times_servings, protein_times_servings, sodium_times_servings, fiber_times_servings, price_times_servings))
+            print(("%dx %-30s kcal %4d, carb %4d, fat %3d, protein %3d, " +
+                   "sodium %4d, fiber %4d, $%6.2f") %
+                  (v.varValue, name, kcal_times_servings, carb_times_servings,
+                   fat_times_servings, protein_times_servings,
+                   sodium_times_servings, fiber_times_servings,
+                   price_times_servings))
 
     carb_percent = (total_carb * 4 / total_kcal) * 100
     fat_percent = (total_fat * 9 / total_kcal) * 100
@@ -352,10 +368,14 @@ for menu_count in range(1, max_num_of_menus + 1):
     protein_factor = total_protein / BMI.lbs_to_kg(current_weight_lbs)
 
     print(110 * '-')
-    print("%-33s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d, $%6.2f" %
-        ("Totals:", total_kcal, total_carb, total_fat, total_protein, total_sodium, total_fiber, total_price))
+    print(("%-33s kcal %4d, carb %4d, fat %3d, protein %3d, "
+           "sodium %4d, fiber %4d, $%6.2f") %
+          ("Totals:", total_kcal, total_carb, total_fat,
+           total_protein, total_sodium, total_fiber, total_price))
+
     print("%-33s %4.1f%% carb / %4.1f%% fat / %4.1f%% protein (%3.1fg/kg)" %
-        ("Nutrients:", carb_percent, fat_percent, protein_percent, protein_factor))
+          ("Nutrients:", carb_percent, fat_percent,
+           protein_percent, protein_factor))
     print()
     for v in model.variables():
         name = v.name.replace('_', ' ')
