@@ -1,5 +1,4 @@
 import json
-import math
 
 
 class Item:
@@ -55,7 +54,7 @@ class Item:
         self.dict_of_item['sodium_per_serving'] = sodium_per_serving
 
     def price_per_serving(self):
-        return round(self.price / self.servings_per_container, 2) # round okay
+        return round(self.price / self.servings_per_container, 2)  # round okay
 
     def kcal_per_serving(self):
         kcal_carb = self.carb_per_serving * 4
@@ -84,7 +83,9 @@ class Item:
         data_dict['price'] = json_dict[name]['price']
         data_dict['store'] = json_dict[name]['store']
         data_dict['store_product_name'] = json_dict[name]['store product name']
-        data_dict['servings_per_container'] = json_dict[name]['servings per container']
+        data_dict['servings_per_container'] = (
+            json_dict[name]['servings per container']
+        )
         data_dict['serving_size'] = json_dict[name]['serving size']
         data_dict['carb_per_serving'] = json_dict[name]['carb']
         data_dict['fat_per_serving'] = json_dict[name]['fat']

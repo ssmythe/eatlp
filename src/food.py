@@ -1,12 +1,7 @@
-from src.recipe import Recipe
-from src.items import Items
-
-import json
-
-
 class Food:
     """
-    Food is used to store a single food object with calculated values per serving
+    Food is used to store a single food object with calculated
+    values per serving
     """
 
     def __init__(self):
@@ -56,8 +51,14 @@ class Food:
         self.dict_of_food['price_per_serving'] = price_per_serving
 
     def set_calc_price_per_kcal_per_serving(self):
-        self.price_per_kcal_per_serving = round(self.dict_of_food['price_per_serving'] / self.dict_of_food['kcal_per_serving'], 4)
-        self.dict_of_food['price_per_kcal_per_serving'] = self.price_per_kcal_per_serving
+        price_per_serving = self.dict_of_food['price_per_serving']
+        kcal_per_serving = self.dict_of_food['kcal_per_serving']
+        self.price_per_kcal_per_serving = round(
+            price_per_serving / kcal_per_serving, 4
+        )
+        self.dict_of_food['price_per_kcal_per_serving'] = (
+            self.price_per_kcal_per_serving
+        )
 
     def recipe_to_food(self, items, recipe):
         self.set_name(recipe.name)
@@ -66,7 +67,8 @@ class Food:
         self.set_max_servings(recipe.max_servings)
         self.set_carb_per_serving(recipe.total_carb_per_recipe_serving(items))
         self.set_fat_per_serving(recipe.total_fat_per_recipe_serving(items))
-        self.set_fiber_per_serving(recipe.total_fiber_per_recipe_serving(items))
+        self.set_fiber_per_serving(
+            recipe.total_fiber_per_recipe_serving(items))
         self.set_protein_per_serving(
             recipe.total_protein_per_recipe_serving(items))
         self.set_sodium_per_serving(
