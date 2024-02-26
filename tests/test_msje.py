@@ -34,3 +34,19 @@ def test_target_kcals(user):
     assert target_weight_lbs == 174
     assert MSJE.target_kcal_user_target_weight_lbs(
         user, target_weight_lbs) == 1660
+
+def test_target_kcal_user_target_weight_lbs_zero_weight_loss():
+    user = User()
+    user.dict_of_user['weight_loss_per_week_lbs'] = 0
+    user.dict_of_user['start_weight_lbs'] = 160
+    user.dict_of_user['current_weight_lbs'] = 150
+    user.dict_of_user['height_inches'] = 70
+    user.dict_of_user['current_age'] = 30
+    user.dict_of_user['sex'] = 'male'
+    user.dict_of_user['msje_activity_factor'] = 'sedentary'
+    target_weight_lbs = 140
+
+    result = MSJE.target_kcal_user_target_weight_lbs(user, target_weight_lbs)
+
+    assert result is not None
+    assert result > 0

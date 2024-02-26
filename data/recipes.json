@@ -23,7 +23,7 @@
             "ebread": 1,
             "justins almond butter classic": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1/2 sandwich",
         "servings per recipe": 1
@@ -59,7 +59,7 @@
         "ingredients": {
             "honeycrisp apple": 1
         },
-        "max_servings": 3,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 apple",
         "servings per recipe": 1
@@ -68,7 +68,7 @@
         "ingredients": {
             "honeycrisp apple": 0.5
         },
-        "max_servings": 3,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 apple",
         "servings per recipe": 1
@@ -77,17 +77,7 @@
         "ingredients": {
             "banana": 1
         },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 banana",
-        "servings per recipe": 1
-    },
-    "banza chickpea pasta rotini": {
-        "ingredients": {
-            "banza chickpea pasta rotini": 1,
-            "earth balance": 1
-        },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 banana",
         "servings per recipe": 1
@@ -103,26 +93,6 @@
         "min_servings": 0,
         "serving size": "1 sandwich",
         "servings per recipe": 1
-    },
-    "bjs asian chopped salad": {
-        "ingredients": {
-            "bjs asian chopped salad": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 salad",
-        "servings per recipe": 1
-    },
-    "black beans onions tortilla": {
-        "ingredients": {
-            "black beans dry": 13,
-            "mission tortilla": 8,
-            "yellow onion": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 tortilla (32g)",
-        "servings per recipe": 8
     },
     "blk bean dish with vsauce": {
         "ingredients": {
@@ -174,42 +144,72 @@
         "serving size": "1 cup (236g)",
         "servings per recipe": 8
     },
-    "broccoli cuts": {
-        "ingredients": {
-            "broccoli cuts": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 cup (78g)",
-        "servings per recipe": 1
-    },
     "brown rice": {
         "ingredients": {
             "rice brown long grain": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "0.25 cup dry, 1/2 cup wet (100g)",
         "servings per recipe": 1
     },
-    "crackers carr and chao": {
+    "cashews": {
         "ingredients": {
-            "carrs table water crackers": 1,
-            "chao slice": 1
+            "cashews": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
-        "serving size": "4 crackers (14g)",
+        "serving size": "1/4 cup (28g)",
         "servings per recipe": 1
     },
-    "crackers triscuits and chao": {
+    "chicken pot pie": {
         "ingredients": {
-            "chao slice": 1,
-            "triscuit wheat crackers": 1
+            "chicken pot pie": 1
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "6 crackers (?g)",
+        "serving size": "1 cup (180g)",
+        "servings per recipe": 1
+    },
+    "chickn salad": {
+        "ingredients": {
+            "chikn strips": 0.5,
+            "taylor farms caesar salad": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (406g)",
+        "servings per recipe": 1
+    },
+    "chikn strips": {
+        "ingredients": {
+            "chikn strips": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "3/4 cup (85g)",
+        "servings per recipe": 1
+    },
+    "chkn brst swich": {
+        "ingredients": {
+            "chao slice": 1,
+            "chicken breast": 1,
+            "ebread": 2
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 serving (305g)",
+        "servings per recipe": 1
+    },
+    "chkn brst, broccoli, brn rice": {
+        "ingredients": {
+            "broccoli": 1,
+            "chicken breast": 1,
+            "rice brown long grain": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 serving (305g)",
         "servings per recipe": 1
     },
     "ebread slice": {
@@ -221,38 +221,48 @@
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
-    "ebread tf swich no mayo half": {
+    "ebread tfhs swich": {
+        "ingredients": {
+            "chao slice": 1,
+            "ebread": 2,
+            "tofurkey deli slice hickory smoked": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 sandwich",
+        "servings per recipe": 1
+    },
+    "ebread tfhs swich half": {
         "ingredients": {
             "chao slice": 0.5,
             "ebread": 1,
             "tofurkey deli slice hickory smoked": 0.5
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1/2 sandwich",
         "servings per recipe": 1
     },
-    "ebread tofurky swich": {
-        "ingredients": {
-            "best foods vegan mayo": 1,
-            "chao slice": 1,
-            "ebread": 2,
-            "tofurkey deli slice hickory smoked": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 sandwich",
-        "servings per recipe": 1
-    },
-    "ebread tofurky swich no mayo": {
+    "ebread tforg swich": {
         "ingredients": {
             "chao slice": 1,
             "ebread": 2,
-            "tofurkey deli slice hickory smoked": 1
+            "tofurkey deli slice original": 1
         },
         "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 sandwich",
+        "servings per recipe": 1
+    },
+    "ebread tforg swich half": {
+        "ingredients": {
+            "chao slice": 0.5,
+            "ebread": 1,
+            "tofurkey deli slice original": 0.5
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1/2 sandwich",
         "servings per recipe": 1
     },
     "etoast with chao": {
@@ -260,7 +270,7 @@
             "chao slice": 1,
             "ebread": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -280,7 +290,7 @@
             "ebread": 1,
             "sabra roasted red pepper hummus": 1
         },
-        "max_servings": 3,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -295,55 +305,14 @@
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
-    "gg juli's breakfasts saute": {
+    "gardein meatballs": {
         "ingredients": {
-            "gg juli's breakfasts saute": 1
+            "gardein meatballs": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
-        "serving size": "1 bowl",
+        "serving size": "3 meatballs (90g)",
         "servings per recipe": 1
-    },
-    "green beans": {
-        "ingredients": {
-            "green beans": 2,
-            "yellow onion": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 cup (236g)",
-        "servings per recipe": 8
-    },
-    "multivitamin": {
-        "ingredients": {
-            "multivitamin": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "2 bites",
-        "servings per recipe": 1
-    },
-    "navy bean soup": {
-        "ingredients": {
-            "carrot": 2,
-            "navy beans dry": 13,
-            "russet potato": 1,
-            "yellow onion": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 cup (240g)",
-        "servings per recipe": 12
-    },
-    "navy beans and onions": {
-        "ingredients": {
-            "navy beans dry": 13,
-            "yellow onion": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 cup (236g)",
-        "servings per recipe": 8
     },
     "peach": {
         "ingredients": {
@@ -352,6 +321,15 @@
         "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 peach",
+        "servings per recipe": 1
+    },
+    "peanuts": {
+        "ingredients": {
+            "peanuts": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1/4 cup (28g)",
         "servings per recipe": 1
     },
     "pearl couscous and carrots": {
@@ -365,33 +343,33 @@
         "serving size": "1 cup (240g)",
         "servings per recipe": 12
     },
+    "potato": {
+        "ingredients": {
+            "russet potato": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 potato",
+        "servings per recipe": 1
+    },
+    "potato and meatballs": {
+        "ingredients": {
+            "gardein meatballs": 1,
+            "russet potato": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 serving (170g)",
+        "servings per recipe": 1
+    },
     "potato with vbutter": {
         "ingredients": {
             "earth balance": 1,
             "russet potato": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 potato",
-        "servings per recipe": 1
-    },
-    "rt king arthur supreme psize": {
-        "ingredients": {
-            "rt king arthur supreme psize": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 slice (? g)",
-        "servings per recipe": 1
-    },
-    "salad with anlvr dressing": {
-        "ingredients": {
-            "annies lite viniagrette raspberry": 1,
-            "earthbound farm bag salad": 1.75
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 cup (236g)",
         "servings per recipe": 1
     },
     "salad with vranch dressing": {
@@ -430,85 +408,30 @@
         "ingredients": {
             "steel cut oats": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 bowl",
         "servings per recipe": 1
     },
-    "steel cut oats with hemp seeds": {
+    "tf and chao": {
         "ingredients": {
-            "hemp seeds": 1,
-            "steel cut oats": 1
+            "chao slice": 1,
+            "tofurkey deli slice hickory smoked": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
-        "serving size": "1 bowl",
+        "serving size": "1 stack",
         "servings per recipe": 1
     },
-    "tilla": {
+    "tforg and chao": {
         "ingredients": {
-            "mission tortilla": 1
+            "chao slice": 1,
+            "tofurkey deli slice original": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
-        "serving size": "1 tortilla (32g)",
+        "serving size": "1 stack",
         "servings per recipe": 1
-    },
-    "tilla with hummus": {
-        "ingredients": {
-            "mission tortilla": 1,
-            "sabra roasted red pepper hummus": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 tortilla (32g)",
-        "servings per recipe": 1
-    },
-    "tofu": {
-        "ingredients": {
-            "tofu": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "3 oz (84g)",
-        "servings per recipe": 1
-    },
-    "tofu pasta": {
-        "ingredients": {
-            "banza chickpea pasta rotini": 1,
-            "earth balance": 1,
-            "tofu": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "3 oz (84g)",
-        "servings per recipe": 1
-    },
-    "vegan linguine beyond": {
-        "ingredients": {
-            "beyond meat crumble": 5,
-            "earth balance": 2,
-            "linguine": 8,
-            "vodka sauce": 6,
-            "yellow onion": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1/2 bowl (503g)",
-        "servings per recipe": 4
-    },
-    "vegan linguine gardein": {
-        "ingredients": {
-            "earth balance": 2,
-            "gardein crumble": 2.25,
-            "linguine": 8,
-            "vodka sauce": 6,
-            "yellow onion": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1/2 bowl (503g)",
-        "servings per recipe": 4
     },
     "vegetable soup": {
         "ingredients": {
@@ -537,58 +460,22 @@
     },
     "vsausage italian half w bread": {
         "ingredients": {
-            "ebread": 1,
+            "ebread": 0.5,
             "field roast veggie sausage italian sausage": 0.5
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 tortilla (?g)",
+        "serving size": "1 serving (?g)",
         "servings per recipe": 1
-    },
-    "vsausage italian sausage dish": {
-        "ingredients": {
-            "black beans dry": 4,
-            "carrot": 2,
-            "field roast veggie sausage italian sausage": 4,
-            "rice brown long grain": 8,
-            "yellow onion": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 1/4 cup (282g)",
-        "servings per recipe": 8
-    },
-    "vsausage italian split pea": {
-        "ingredients": {
-            "carrot": 2,
-            "field roast veggie sausage italian sausage": 4,
-            "russet potato": 1,
-            "split peas dry": 13,
-            "yellow onion": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 cup (240g)",
-        "servings per recipe": 12
     },
     "vsausage italian with bread": {
         "ingredients": {
             "ebread": 1,
             "field roast veggie sausage italian sausage": 1
         },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 tortilla (?g)",
-        "servings per recipe": 1
-    },
-    "vsausage italian with tilla": {
-        "ingredients": {
-            "field roast veggie sausage italian sausage": 1,
-            "mission tortilla": 1
-        },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 tortilla (32g)",
+        "serving size": "1 serving (?g)",
         "servings per recipe": 1
     }
 }

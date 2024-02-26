@@ -143,17 +143,17 @@
         "store": "Safeway",
         "store product name": "Signature SELECT Beans Black Dry - 16 Oz"
     },
-    "broccoli cuts": {
-        "carb": 5,
-        "fat": 0,
-        "fiber": 3,
-        "price": 4.49,
-        "protein": 3,
-        "serving size": "1 cup (78g)",
-        "servings per container": 10,
-        "sodium": 15,
-        "store": "Safeway",
-        "store product name": "Signature SELECT Broccoli Cuts - 32 Oz"
+    "broccoli": {
+        "carb": 6,
+        "fat": 0.3,
+        "fiber": 2.4,
+        "price": 2.49,
+        "protein": 2.6,
+        "serving size": "1 cup (91g)",
+        "servings per container": 2.55,
+        "sodium": 30,
+        "store": "Whole Foods",
+        "store product name": "Broccoli Crowns Conventional, 1 Each"
     },
     "carrot": {
         "carb": 7,
@@ -178,6 +178,18 @@
         "sodium": 80,
         "store": "Safeway",
         "store product name": "Carrs Table Water Original Crackers - 4.25 Oz"
+    },
+    "cashews": {
+        "carb": 8,
+        "fat": 13,
+        "fiber": 1,
+        "price": 10.99,
+        "protein": 5,
+        "serving size": "1/4 cup (28g)",
+        "servings per container": 16,
+        "sodium": 0,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Roasted Unsalted Cashews, 16 Ounce"
     },
     "celery": {
         "carb": 4.5,
@@ -226,6 +238,30 @@
         "sodium": 50,
         "store": "Safeway",
         "store product name": "Signature Farms Boneless Skinless Chicken Breasts Value Pack - 4.00 Lb"
+    },
+    "chicken pot pie": {
+        "carb": 39,
+        "fat": 460,
+        "fiber": 2,
+        "price": 0.99,
+        "protein": 11,
+        "serving size": "1 cup (180g)",
+        "servings per container": 3,
+        "sodium": 470,
+        "store": "Whole Foods",
+        "store product name": "Whole Foods Market, Prepared Foods Pot Pies, Chicken - Large, 26 Ounce"
+    },
+    "chikn strips": {
+        "carb": 7,
+        "fat": 4,
+        "fiber": 5,
+        "price": 6.11,
+        "protein": 18,
+        "serving size": "3/4 cup (85g)",
+        "servings per container": 2.5,
+        "sodium": 250,
+        "store": "Whole Foods",
+        "store product name": "Sweet Earth Mindful Chik'n Strips Plant Based Protein, 8 Oz"
     },
     "cpk bbq chicken 4th": {
         "carb": 25.3,
@@ -311,6 +347,18 @@
         "store": "Whole Foods",
         "store product name": "Gardein Gluten-Free Ultimate Plant-Based Beefless Ground Crumbles, Vegan, Frozen, 13.7 oz. "
     },
+    "gardein meatballs": {
+        "carb": 9,
+        "fat": 7,
+        "fiber": 4,
+        "price": 5.21,
+        "protein": 15,
+        "serving size": "3 meatballs (90g)",
+        "servings per container": 4,
+        "sodium": 340,
+        "store": "Whole Foods",
+        "store product name": "Gardein Classic Plant-Based Meatless Meatballs, Vegan, Frozen, 12.7 oz."
+    },
     "garlic clove": {
         "carb": 1,
         "fat": 0,
@@ -334,18 +382,6 @@
         "sodium": 85,
         "store": "Greatfull Gardens",
         "store product name": "Juli's Breakfast Saute"
-    },
-    "green beans": {
-        "carb": 5,
-        "fat": 0,
-        "fiber": 3,
-        "price": 2.99,
-        "protein": 1,
-        "serving size": "3/4 cup (94g)",
-        "servings per container": 5,
-        "sodium": 0,
-        "store": "Safeway",
-        "store product name": "Green Beans - 1 Lb"
     },
     "hemp seeds": {
         "carb": 2,
@@ -431,18 +467,6 @@
         "store": "Safeway",
         "store product name": "Mission Tortillas Flour Fajita Super Soft Bag 20 Count - 23 Oz"
     },
-    "multivitamin": {
-        "carb": 2,
-        "fat": 0,
-        "fiber": 0,
-        "price": 14.99,
-        "protein": 0,
-        "serving size": "2 bites",
-        "servings per container": 30,
-        "sodium": 0,
-        "store": "Amazon",
-        "store product name": "ONE A DAY Men's Natural Fruit Bites Multivitamin with Immune Health Support, Apple, 60 Count b"
-    },
     "navy beans dry": {
         "carb": 21,
         "fat": 1,
@@ -466,6 +490,18 @@
         "sodium": 0,
         "store": "Whole Foods",
         "store product name": "365 by Whole Foods Market, Oil Olive Extra Virgin Mediterranean Organic, 33.8 Fl Oz"
+    },
+    "peanuts": {
+        "carb": 6,
+        "fat": 14,
+        "fiber": 2,
+        "price": 3.99,
+        "protein": 7,
+        "serving size": "1/4 cup (28g)",
+        "servings per container": 16,
+        "sodium": 0,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Dry Roasted and Unsalted Peanuts, 16 Ounce"
     },
     "pearl couscous": {
         "carb": 41,
@@ -575,6 +611,18 @@
         "store": "Safeway",
         "store product name": "McCanns Oatmeal Irish Steel Cut - 28 Oz"
     },
+    "taylor farms caesar salad": {
+        "carb": 7,
+        "fat": 13,
+        "fiber": 2,
+        "price": 4.49,
+        "protein": 4,
+        "serving size": "1 cup (100g)",
+        "servings per container": 6,
+        "sodium": 200,
+        "store": "Whole Foods",
+        "store product name": "Taylor Farms Caesar Family Size Chopped Kit"
+    },
     "tofu": {
         "carb": 3,
         "fat": 4,
@@ -598,6 +646,18 @@
         "sodium": 350,
         "store": "Safeway",
         "store product name": "Tofurky Deli Slices Hickory Smoked - 5.5 Oz"
+    },
+    "tofurkey deli slice original": {
+        "carb": 6,
+        "fat": 3,
+        "fiber": 3,
+        "price": 4.49,
+        "protein": 13,
+        "serving size": "5 slices (52g)",
+        "servings per container": 3,
+        "sodium": 300,
+        "store": "Whole Foods",
+        "store product name": "TOFURKY Original Deli Slices, 5.5 OZ"
     },
     "tomato": {
         "carb": 4.8,
