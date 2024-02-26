@@ -2,12 +2,8 @@
 
 # TODO check almondmilk and almonds raw sorted by kcal numbers
 
-from src.bmi import BMI
 from src.foods import Foods
-from src.food import Food
-from src.randomfoods import RandomFoods
 from src.user import User
-from src.msje import *
 
 import argparse
 import pytest
@@ -20,8 +16,10 @@ parser = argparse.ArgumentParser()
 parser.version = '1.0.0'
 parser.add_argument('-a', '--all', action='store_true',
                     help='used to iterate through all keys')
-parser.add_argument('-k', '--key', default='price',
-                    help='name keys are kcal, carb, fat, protein, sodium, fiber, or price')
+parser.add_argument(
+    '-k', '--key', default='price',
+    help='name keys are kcal, carb, fat, protein, sodium, fiber, or price'
+)
 args = parser.parse_args()
 
 # validate key value
@@ -81,7 +79,14 @@ for iterate_key in keys:
         sodium = food['sodium_per_serving']
         price = food['price_per_serving']
         priceperkcal = food['price_per_kcal_per_serving'] * 100
-        print("%-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, fiber %4d, $%6.2f, %2.2f%s" %
-              (name, kcal, carb, fat, protein, sodium, fiber, price, priceperkcal, cent_symbol))
+        print(
+            (
+                "%-30s kcal %4d, carb %4d, fat %3d, protein %3d, sodium %4d, "
+                "fiber %4d, $%6.2f, %2.2f%s"
+            ) % (
+                name, kcal, carb, fat, protein, sodium, fiber, price,
+                priceperkcal, cent_symbol
+            )
+        )
 
     print("\n")

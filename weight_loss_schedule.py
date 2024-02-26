@@ -2,9 +2,9 @@
 
 # TODO add kg weight output as well
 
-from src.user import *
-from src.bmi import *
-from src.msje import *
+from src.msje import MSJE
+from src.user import User
+from src.bmi import BMI
 
 import datetime
 
@@ -40,7 +40,9 @@ current_target_weight_lbs_diff = round(
     current_weight_lbs - target_weight_lbs, 1)
 start_target_weight_lbs_diff = round(
     start_weight_lbs - target_weight_lbs, 1)
-num_of_weeks_remaining = current_target_weight_lbs_diff / weight_loss_per_week_lbs
+num_of_weeks_remaining = (
+    current_target_weight_lbs_diff / weight_loss_per_week_lbs
+)
 num_of_days_remaining = int(num_of_weeks_remaining * 7)
 target_weight_date = current_weight_date + \
     datetime.timedelta(days=num_of_days_remaining)
@@ -55,8 +57,24 @@ current_percent_lost_lbs = round(
 print(f"Today's max kcal:    {today_max_kcal} kcal ({msje_activity_factor})\n")
 
 print(
-    f"Start weight date:   {start_weight_date} ({start_weight_lbs} lbs/{start_weight_kg} kg, {start_bmi} bmi, {start_current_weight_lbs_diff} of {start_target_weight_lbs_diff} lbs lost)")
+    f"Start weight date:   {start_weight_date} "
+    f"({start_weight_lbs} lbs/{start_weight_kg} kg, "
+    f"{start_bmi} bmi, "
+    f"{start_current_weight_lbs_diff} of "
+    f"{start_target_weight_lbs_diff} lbs lost)"
+)
+
 print(
-    f"Current weight date: {current_weight_date} ({current_weight_lbs} lbs/{current_weight_kg} kg, {current_bmi} bmi, {current_percent_lost_lbs}% of target weight lost)")
+    f"Current weight date: {current_weight_date} "
+    f"({current_weight_lbs} lbs/{current_weight_kg} kg, "
+    f"{current_bmi} bmi, "
+    f"{current_percent_lost_lbs}% of target weight lost)"
+)
+
 print(
-    f"Target weight date:  {target_weight_date} ({target_weight_lbs} lbs/{target_weight_kg} kg, {target_bmi} bmi, {current_target_weight_lbs_diff} lbs to go, {num_of_days_remaining} days remaining)")
+    f"Target weight date:  {target_weight_date} "
+    f"({target_weight_lbs} lbs/{target_weight_kg} kg, "
+    f"{target_bmi} bmi, "
+    f"{current_target_weight_lbs_diff} lbs to go, "
+    f"{num_of_days_remaining} days remaining)"
+)

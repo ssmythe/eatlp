@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 
-from src.user import *
-from src.msje import *
+from src.user import User
+from src.msje import MSJE
 
-import pytest
-# pytest.skip(allow_module_level=True)
 
 user = User()
 
