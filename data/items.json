@@ -35,6 +35,66 @@
         "store": "Safeway",
         "store product name": "Signature Farms Almonds Raw Unsalted - 16 Oz"
     },
+    "amy's broc n cheeze bake": {
+        "carb": 54,
+        "fat": 18,
+        "fiber": 3,
+        "price": 4.67,
+        "protein": 7,
+        "serving size": "1 bowl (269g)",
+        "servings per container": 1,
+        "sodium": 880,
+        "store": "Whole Foods",
+        "store product name": "Amy's Frozen Meals, Vegan Broccoli & Cheeze Bake Bowl, Made With Organic Rice Pasta, Gluten Free Microwave Meals, 9.5 Oz"
+    },
+    "amy's brown rice bep n veggies": {
+        "carb": 40,
+        "fat": 11,
+        "fiber": 5,
+        "price": 6.47,
+        "protein": 9,
+        "serving size": "1 bowl (255g)",
+        "servings per container": 1,
+        "sodium": 590,
+        "store": "Whole Foods",
+        "store product name": "Amy's Frozen Meals, Vegan Brown Rice, Black Eyed Peas and Veggies, Made With Organic Vegetables, Fluten Free Microwave Meals, 9 Oz"
+    },
+    "amy's mexican casserole": {
+        "carb": 51,
+        "fat": 14,
+        "fiber": 6,
+        "price": 6.95,
+        "protein": 8,
+        "serving size": "1 bowl (269g)",
+        "servings per container": 1,
+        "sodium": 780,
+        "store": "Whole Foods",
+        "store product name": "Amy's Frozen Meals, Vegan Mexican Casserole with Cheeze, Made With Organic Corn and Black Beans, Gluten Free Microwave Meals, 9.5 Oz"
+    },
+    "amy's mushroom risotto bowl": {
+        "carb": 35,
+        "fat": 7,
+        "fiber": 2,
+        "price": 6.47,
+        "protein": 7,
+        "serving size": "1 bowl (269g)",
+        "servings per container": 1,
+        "sodium": 590,
+        "store": "Whole Foods",
+        "store product name": "Amy's Frozen Meals, Mushroom Risotto Bowl, Made With Organic Arborio Rice, Gluten Free Microwave Meals 9.5 Oz "
+    },
+    "amy's pesto tortellini": {
+        "carb": 63,
+        "fat": 22,
+        "fiber": 4,
+        "price": 6.47,
+        "protein": 19,
+        "serving size": "1 bowl (269g)",
+        "servings per container": 1,
+        "sodium": 670,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Yogurt Greek Plain Non Fat Organic, 32 Ounce"
+    },
     "amys tofu scramble": {
         "carb": 24,
         "fat": 27,
@@ -42,7 +102,7 @@
         "price": 6.39,
         "protein": 20,
         "serving size": "3/4 cup (170g)",
-        "servings per container": 5,
+        "servings per container": 1,
         "sodium": 790,
         "store": "Whole Foods",
         "store product name": "Amy's Tofu Scramble"
