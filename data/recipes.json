@@ -32,7 +32,7 @@
         "ingredients": {
             "almondmilk": 1
         },
-        "max_servings": 999,
+        "max_servings": 3,
         "min_servings": 0,
         "serving size": "1 cup (236g)",
         "servings per recipe": 1
@@ -178,7 +178,7 @@
         "serving size": "1 cup (236g)",
         "servings per recipe": 8
     },
-    "blk beans, onions, and carrots": {
+    "blk beans, onion, and carrots": {
         "ingredients": {
             "black beans dry": 13,
             "carrot": 2,
@@ -193,7 +193,7 @@
         "ingredients": {
             "rice brown long grain": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "0.25 cup dry, 1/2 cup wet (100g)",
         "servings per recipe": 1
@@ -271,7 +271,7 @@
         "ingredients": {
             "ebread": 1
         },
-        "max_servings": 999,
+        "max_servings": 3,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1

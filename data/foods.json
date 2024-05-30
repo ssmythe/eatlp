@@ -43,7 +43,7 @@
         "fat_per_serving": 2.5,
         "fiber_per_serving": 1.0,
         "kcal_per_serving": 30.5,
-        "max_servings": 999,
+        "max_servings": 3,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0203,
         "price_per_serving": 0.62,
@@ -233,7 +233,7 @@
         "serving_size": "1 cup (236g)",
         "sodium_per_serving": 8.75
     },
-    "blk beans, onions, and carrots": {
+    "blk beans, onion, and carrots": {
         "carb_per_serving": 37.25,
         "fat_per_serving": 2.125,
         "fiber_per_serving": 20.375,
@@ -251,7 +251,7 @@
         "fat_per_serving": 1.0,
         "fiber_per_serving": 1.0,
         "kcal_per_serving": 157.0,
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.001,
         "price_per_serving": 0.15,
@@ -355,7 +355,7 @@
         "fat_per_serving": 0.5,
         "fiber_per_serving": 3.0,
         "kcal_per_serving": 84.5,
-        "max_servings": 999,
+        "max_servings": 3,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0047,
         "price_per_serving": 0.4,
