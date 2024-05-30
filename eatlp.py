@@ -43,6 +43,7 @@ kcal_adjustment = user.dict_of_user['kcal_adjust']
 max_kcal = user_target_kcal + kcal_adjustment
 current_weight_lbs = user.dict_of_user['current_weight_lbs']
 current_age = user.dict_of_user['current_age']
+min_sodium = user.dict_of_user['min_sodium']
 max_sodium = user.dict_of_user['max_sodium']
 max_num_of_menus = user.dict_of_user['max_num_of_menus']
 data_dir = user.dict_of_user['data_dir']
@@ -166,6 +167,17 @@ for menu_count in range(1, max_num_of_menus + 1):
             expr += f"{food['kcal_per_serving']}*{key} +"
             i += 1
         expr += "0 <= {max_kcal}"
+        globals()['model'] += eval(expr)
+
+        # min_sodium
+        expr = ''
+        i = 1
+        for name in list_of_sorted_foods:
+            key = f'x{i}'
+            food = foods.dict_of_foods[name]
+            expr += f"{food['sodium_per_serving']}*{key} + "
+            i += 1
+        expr += "0 >= {min_sodium} "
         globals()['model'] += eval(expr)
 
         # max_sodium

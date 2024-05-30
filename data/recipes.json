@@ -3,7 +3,7 @@
         "ingredients": {
             "365 yogurt greek plain nonfat": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 bowl (170g)",
         "servings per recipe": 1
@@ -50,7 +50,7 @@
         "ingredients": {
             "amy's broc n cheeze bake": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 bowl (269g)",
         "servings per recipe": 1
@@ -59,7 +59,7 @@
         "ingredients": {
             "amy's brown rice bep n veggies": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 bowl (255g)",
         "servings per recipe": 1
@@ -68,7 +68,7 @@
         "ingredients": {
             "amy's mexican casserole": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 bowl (170g)",
         "servings per recipe": 1
@@ -77,7 +77,7 @@
         "ingredients": {
             "amy's mushroom risotto bowl": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 bowl (269g)",
         "servings per recipe": 1
@@ -86,7 +86,7 @@
         "ingredients": {
             "amy's pesto tortellini": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 bowl (269g)",
         "servings per recipe": 1
@@ -104,7 +104,7 @@
         "ingredients": {
             "honeycrisp apple": 1
         },
-        "max_servings": 999,
+        "max_servings": 3,
         "min_servings": 0,
         "serving size": "1 apple",
         "servings per recipe": 1
@@ -271,9 +271,21 @@
         "ingredients": {
             "ebread": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "ebread tfhs jegg swich": {
+        "ingredients": {
+            "chao slice": 1,
+            "ebread": 2,
+            "just egg folded": 1,
+            "tofurkey deli slice hickory smoked": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 sandwich",
         "servings per recipe": 1
     },
     "ebread tfhs swich": {
@@ -293,7 +305,7 @@
             "ebread": 1,
             "tofurkey deli slice hickory smoked": 0.5
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1/2 sandwich",
         "servings per recipe": 1
@@ -345,7 +357,7 @@
             "ebread": 1,
             "sabra roasted red pepper hummus": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -364,7 +376,7 @@
         "ingredients": {
             "gardein meatballs": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "3 meatballs (90g)",
         "servings per recipe": 1
@@ -412,7 +424,7 @@
             "gardein meatballs": 1,
             "russet potato": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 serving (170g)",
         "servings per recipe": 1
@@ -422,7 +434,7 @@
             "earth balance": 1,
             "russet potato": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 potato",
         "servings per recipe": 1
@@ -454,7 +466,7 @@
             "split peas dry": 13,
             "yellow onion": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 cup (240g)",
         "servings per recipe": 12
@@ -463,7 +475,7 @@
         "ingredients": {
             "steel cut oats": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 bowl",
         "servings per recipe": 1
@@ -473,7 +485,7 @@
             "chao slice": 1,
             "tofurkey deli slice hickory smoked": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 stack",
         "servings per recipe": 1
@@ -483,7 +495,7 @@
             "chao slice": 1,
             "tofurkey deli slice original": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 stack",
         "servings per recipe": 1
