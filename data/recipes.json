@@ -3,7 +3,7 @@
         "ingredients": {
             "365 yogurt greek plain nonfat": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 bowl (170g)",
         "servings per recipe": 1
@@ -13,7 +13,7 @@
             "ebread": 2,
             "justins almond butter classic": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 sandwich",
         "servings per recipe": 1
@@ -32,7 +32,7 @@
         "ingredients": {
             "almondmilk": 1
         },
-        "max_servings": 3,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 cup (236g)",
         "servings per recipe": 1
@@ -104,7 +104,7 @@
         "ingredients": {
             "honeycrisp apple": 1
         },
-        "max_servings": 3,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 apple",
         "servings per recipe": 1
@@ -130,9 +130,9 @@
     "bfast sandwich": {
         "ingredients": {
             "beyond breakfast sausage": 0.5,
+            "chao slice": 0.5,
             "ebread": 2,
-            "just egg folded": 1,
-            "vivolife provolone slice": 1
+            "just egg folded": 1
         },
         "max_servings": 999,
         "min_servings": 0,
@@ -154,13 +154,9 @@
         "serving size": "1 bowl (188g)",
         "servings per recipe": 16
     },
-    "blk beans an potato chili": {
+    "blk beans and onions": {
         "ingredients": {
-            "black beans dry": 2,
-            "garlic clove": 2,
-            "red bell pepper": 1,
-            "russet potato": 1,
-            "tomato": 9,
+            "black beans dry": 13,
             "yellow onion": 1
         },
         "max_servings": 0,
@@ -168,9 +164,13 @@
         "serving size": "1 cup (236g)",
         "servings per recipe": 8
     },
-    "blk beans and onions": {
+    "blk beans and potato chili": {
         "ingredients": {
-            "black beans dry": 13,
+            "black beans dry": 2,
+            "garlic clove": 2,
+            "red bell pepper": 1,
+            "russet potato": 1,
+            "tomato": 9,
             "yellow onion": 1
         },
         "max_servings": 0,
@@ -193,7 +193,7 @@
         "ingredients": {
             "rice brown long grain": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "0.25 cup dry, 1/2 cup wet (100g)",
         "servings per recipe": 1
@@ -203,7 +203,7 @@
             "gardein meatballs": 1,
             "rice brown long grain": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "0.25 cup dry, 1/2 cup wet (100g), 3 meatballs",
         "servings per recipe": 1
@@ -215,15 +215,6 @@
         "max_servings": 999,
         "min_servings": 0,
         "serving size": "1/4 cup (28g)",
-        "servings per recipe": 1
-    },
-    "chicken pot pie": {
-        "ingredients": {
-            "chicken pot pie": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 cup (180g)",
         "servings per recipe": 1
     },
     "chickn salad": {
@@ -267,11 +258,21 @@
         "serving size": "1 serving (305g)",
         "servings per recipe": 1
     },
+    "ebread pb swich": {
+        "ingredients": {
+            "ebread": 2,
+            "peanut butter": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 sandwich",
+        "servings per recipe": 1
+    },
     "ebread slice": {
         "ingredients": {
             "ebread": 1
         },
-        "max_servings": 3,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -381,6 +382,17 @@
         "serving size": "3 meatballs (90g)",
         "servings per recipe": 1
     },
+    "mashed potatoes with vbutter": {
+        "ingredients": {
+            "almondmilk": 0.5,
+            "earth balance": 1,
+            "russet potato": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 serving mashed potatoes",
+        "servings per recipe": 1
+    },
     "peach": {
         "ingredients": {
             "yellow peach": 1
@@ -414,7 +426,7 @@
         "ingredients": {
             "russet potato": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 potato",
         "servings per recipe": 1
@@ -424,7 +436,7 @@
             "gardein meatballs": 1,
             "russet potato": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 serving (170g)",
         "servings per recipe": 1
@@ -434,9 +446,29 @@
             "earth balance": 1,
             "russet potato": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 potato",
+        "servings per recipe": 1
+    },
+    "quaker instant oatmeal orig": {
+        "ingredients": {
+            "quaker instant oatmeal orig": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 Packet (28g)",
+        "servings per recipe": 1
+    },
+    "rice bean burrito": {
+        "ingredients": {
+            "black beans dry": 1,
+            "flour tortilla": 1,
+            "rice brown long grain": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 burrito",
         "servings per recipe": 1
     },
     "salad with vranch dressing": {
@@ -466,7 +498,7 @@
             "split peas dry": 13,
             "yellow onion": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 cup (240g)",
         "servings per recipe": 12
@@ -485,7 +517,7 @@
             "chao slice": 1,
             "tofurkey deli slice hickory smoked": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 stack",
         "servings per recipe": 1
@@ -502,15 +534,27 @@
     },
     "vegetable soup": {
         "ingredients": {
-            "carrot": 2,
-            "celery": 4,
-            "russet potato": 1,
+            "carrot": 3,
+            "celery": 3,
+            "russet potato": 2,
             "yellow onion": 1
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 cup (240g)",
-        "servings per recipe": 12
+        "serving size": "1 tupperware (480g)",
+        "servings per recipe": 8
+    },
+    "vegetable stew": {
+        "ingredients": {
+            "carrot": 4,
+            "celery": 3,
+            "russet potato": 4,
+            "yellow onion": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (170g)",
+        "servings per recipe": 8
     },
     "vsauce": {
         "ingredients": {
