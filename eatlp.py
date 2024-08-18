@@ -78,7 +78,7 @@ else:
     minimum_recommended_fiber = 21
 
 # On the other hand, eating too much fiber can cause bloating, gas, and
-# constipation.  # These adverse effects may appear after eating 70 g of
+# constipation.  These adverse effects may appear after eating 70 g of
 # fiber in a day.
 maximum_recommended_fiber = 70
 
@@ -92,11 +92,12 @@ maximum_recommended_fiber = 70
 #     # for 40 or older, recommendeded protein (to prevent sarcopenia) =
 #       CurrentWeight*KgPerPound*(1.0-1.2g/kg)
 #     minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 1.0
+#
+# maximum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 2.0
 
 min_protein_percent = 0.10
 max_protein_percent = 0.35
 minimum_recommended_protein = max_kcal * min_fat_percent / 4
-# maximum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 2.0
 maximum_recommended_protein = max_kcal * max_fat_percent / 4
 
 foods = Foods()
