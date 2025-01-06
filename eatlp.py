@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# TODO add calcium min/max (1000mg min, 2000mg max)
+# TODO add iron min/max (8mg mim, 45mg max)
+
 from src.bmi import BMI
 from src.foods import Foods
 from src.randomfoods import RandomFoods
@@ -51,16 +54,26 @@ data_dir = user.dict_of_user['data_dir']
 # ----
 # carb
 # ----
-min_carb_percent = 0.45
-max_carb_percent = 0.65
+# Balanced
+min_carb_percent = 0.40
+max_carb_percent = 0.50
+#
+# High-Protein
+# min_carb_percent = 0.30
+# max_carb_percent = 0.35
 min_carb = max_kcal * min_carb_percent / 4
 max_carb = max_kcal * max_carb_percent / 4
 
 # ---
 # fat
 # ---
+# Balanced
 min_fat_percent = 0.20
-max_fat_percent = 0.35
+max_fat_percent = 0.30
+#
+# High-Protein
+# min_fat_percent = 0.20
+# max_fat_percent = 0.25
 min_fat = max_kcal * min_fat_percent / 9
 max_fat = max_kcal * max_fat_percent / 9
 
@@ -87,18 +100,23 @@ maximum_recommended_fiber = 70
 # -------
 # if current_age < 40:
 #     # for under 40, recommendeded protein = CurrentWeight*KgPerPound*0.8
-#     minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 0.8
+#     min_protein = BMI.lbs_to_kg(current_weight_lbs) * 0.8
 # else:
 #     # for 40 or older, recommendeded protein (to prevent sarcopenia) =
 #       CurrentWeight*KgPerPound*(1.0-1.2g/kg)
-#     minimum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 1.0
+#     min_protein = BMI.lbs_to_kg(current_weight_lbs) * 1.0
 #
-# maximum_recommended_protein = BMI.lbs_to_kg(current_weight_lbs) * 2.0
+# max_protein = BMI.lbs_to_kg(current_weight_lbs) * 2.0
 
-min_protein_percent = 0.10
+# Balanced
+min_protein_percent = 0.25
 max_protein_percent = 0.35
-minimum_recommended_protein = max_kcal * min_fat_percent / 4
-maximum_recommended_protein = max_kcal * max_fat_percent / 4
+#
+# High-Protein
+# min_protein_percent = 0.40
+# max_protein_percent = 0.45
+min_protein = max_kcal * min_protein_percent / 4
+max_protein = max_kcal * max_protein_percent / 4
 
 foods = Foods()
 foods.read_foods_from_json_file(data_dir + '/foods.json')
@@ -274,7 +292,7 @@ for menu_count in range(1, max_num_of_menus + 1):
             food = foods.dict_of_foods[name]
             expr += f"{food['protein_per_serving']}*{key} +"
             i += 1
-        expr += "0 >= {minimum_recommended_protein}"
+        expr += "0 >= {min_protein}"
         globals()['model'] += eval(expr)
 
         # maximum recommended protein
@@ -285,7 +303,7 @@ for menu_count in range(1, max_num_of_menus + 1):
             food = foods.dict_of_foods[name]
             expr += f"{food['protein_per_serving']}*{key} +"
             i += 1
-        expr += "0 <= {maximum_recommended_protein}"
+        expr += "0 <= {max_protein}"
         globals()['model'] += eval(expr)
 
         # Solve problem
@@ -298,6 +316,8 @@ for menu_count in range(1, max_num_of_menus + 1):
 
     menu_str = ''
     menu_found_flag = 0
+
+    # print(f"DEBUG: globals()['model']=[{globals()['model']}]")
 
     for v in model.variables():
         name = v.name.replace('_', ' ')

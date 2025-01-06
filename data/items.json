@@ -119,6 +119,18 @@
         "store": "Safeway",
         "store product name": "Annies Naturals Lite Vinaigrette Raspberry - 8 Fl. Oz."
     },
+    "azamaya tofu extra firm": {
+        "carb": 2,
+        "fat": 4,
+        "fiber": 1,
+        "price": 3.48,
+        "protein": 9,
+        "serving size": "3 oz (84g)",
+        "servings per container": 5,
+        "sodium": 5,
+        "store": "Raley's",
+        "store product name": "Azumaya Tofu, Extra Firm - 16 oz"
+    },
     "banana": {
         "carb": 27,
         "fat": 0.4,
@@ -227,6 +239,18 @@
         "store": "Whole Foods",
         "store product name": "Broccoli Crowns Conventional, 1 Each"
     },
+    "broccoli florets": {
+        "carb": 6,
+        "fat": 0.3,
+        "fiber": 2.4,
+        "price": 3.99,
+        "protein": 2.5,
+        "serving size": "1 cup (91g)",
+        "servings per container": 38,
+        "sodium": 30,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Organic Broccoli Florets, 10 Ounce "
+    },
     "carrot": {
         "carb": 7,
         "fat": 2,
@@ -299,6 +323,18 @@
         "store": "Safeway",
         "store product name": "Cheerios Cereal Whole Grain Oat Toasted - 8.9 Oz"
     },
+    "chia seeds": {
+        "carb": 11,
+        "fat": 10,
+        "fiber": 10,
+        "price": 12.03,
+        "protein": 6,
+        "serving size": "3 Tbsp (30g)",
+        "servings per container": 30,
+        "sodium": 0,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market Black Chia Seed, 32 OZ "
+    },
     "chicken breast": {
         "carb": 0,
         "fat": 3,
@@ -322,6 +358,18 @@
         "sodium": 250,
         "store": "Whole Foods",
         "store product name": "Sweet Earth Mindful Chik'n Strips Plant Based Protein, 8 Oz"
+    },
+    "collard greens": {
+        "carb": 2,
+        "fat": 0.2,
+        "fiber": 1.4,
+        "price": 2.99,
+        "protein": 1.1,
+        "serving size": "1 cup, chopped (36g)",
+        "servings per container": 2,
+        "sodium": 6,
+        "store": "Whole Foods",
+        "store product name": "Greens Collard Organic, 1 Bunch"
     },
     "cpk bbq chicken 4th": {
         "carb": 25.3,
@@ -395,6 +443,30 @@
         "store": "Safeway",
         "store product name": "Field Roast Grain Meat Vegetarian Italian Sausage - 12.95 Oz"
     },
+    "flaxseed 365": {
+        "carb": 5,
+        "fat": 7,
+        "fiber": 4,
+        "price": 3.79,
+        "protein": 4,
+        "serving size": "2 Tbsp (17g)",
+        "servings per container": 23,
+        "sodium": 10,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Flaxseed Ground Organic California, 14 Ounce"
+    },
+    "flaxseed spectrum": {
+        "carb": 4,
+        "fat": 6,
+        "fiber": 3,
+        "price": 10.99,
+        "protein": 3,
+        "serving size": "2 Tbsp (14g)",
+        "servings per container": 28,
+        "sodium": 5,
+        "store": "Amazon",
+        "store product name": "Spectrum Essentials Organic Ground Essential Flaxseed 14 oz. (Pack of 2)"
+    },
     "flour tortilla": {
         "carb": 36,
         "fat": 6,
@@ -406,6 +478,18 @@
         "sodium": 350,
         "store": "Raley's",
         "store product name": "Raley's Burrito Flour Tortillas"
+    },
+    "garbanzo beans": {
+        "carb": 19,
+        "fat": 2,
+        "fiber": 6,
+        "price": 1.59,
+        "protein": 6,
+        "serving size": "1/2 cup (130g)",
+        "servings per container": 3.5,
+        "sodium": 10,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Unsalted Garbanzo Beans, 15.5 Ounce"
     },
     "gardein crumble": {
         "carb": 8,
@@ -515,6 +599,30 @@
         "store": "Safeway",
         "store product name": "Justins Almond Butter Classic - 16 Oz"
     },
+    "kale": {
+        "carb": 6.7,
+        "fat": 0.6,
+        "fiber": 2.6,
+        "price": 4.49,
+        "protein": 2.9,
+        "serving size": "1 cup, chopped (67g)",
+        "servings per container": 4,
+        "sodium": 25,
+        "store": "Whole Foods",
+        "store product name": "Greens Kale Green Organic, 1 Bunch"
+    },
+    "kosher salt": {
+        "carb": 0,
+        "fat": 0,
+        "fiber": 0,
+        "price": 4.79,
+        "protein": 0,
+        "serving size": "1/4 Tsp",
+        "servings per container": 1133,
+        "sodium": 480,
+        "store": "Raley's",
+        "store product name": "Morton Kosher Salt, Coarse, 3 lb"
+    },
     "linguine": {
         "carb": 43,
         "fat": 1,
@@ -550,6 +658,30 @@
         "sodium": 10,
         "store": "Safeway",
         "store product name": "Signature SELECT Beans Navy Dry - 16 Oz"
+    },
+    "oat milk": {
+        "carb": 8,
+        "fat": 0.5,
+        "fiber": 1,
+        "price": 4.49,
+        "protein": 1,
+        "serving size": "1 cup (240mL)",
+        "servings per container": 6,
+        "sodium": 100,
+        "store": "Whole Foods",
+        "store product name": "Planet Oat Unsweetened Original Oatmilk, 52 oz"
+    },
+    "oatmilk skyr": {
+        "carb": 13,
+        "fat": 6,
+        "fiber": 2,
+        "price": 6.29,
+        "protein": 16,
+        "serving size": "2/3 cup (170g)",
+        "servings per container": 2.5,
+        "sodium": 140,
+        "store": "Whole Foods",
+        "store product name": "Icelandic Provisions Oatmilk Skyr, Plain, 16 Ounce"
     },
     "olive oil": {
         "carb": 0,
@@ -599,6 +731,18 @@
         "store": "Safeway",
         "store product name": "Rice Select Couscous Pearl Original - 24.5 Oz"
     },
+    "portabella cap": {
+        "carb": 3.3,
+        "fat": 0.3,
+        "fiber": 1.1,
+        "price": 3.79,
+        "protein": 1.8,
+        "serving size": "1 cap (86g)",
+        "servings per container": 2,
+        "sodium": 8,
+        "store": "Raley's",
+        "store product name": "Portabella Caps - 8 oz"
+    },
     "quaker instant oatmeal orig": {
         "carb": 18,
         "fat": 2,
@@ -647,6 +791,18 @@
         "store": "Round Table Pizza",
         "store product name": "King Arthur's Supreme Personal Size"
     },
+    "rt king arthur supreme xlrg": {
+        "carb": 25,
+        "fat": 12,
+        "fiber": 2,
+        "price": 12.5,
+        "protein": 13,
+        "serving size": "1 slice (34g)",
+        "servings per container": 16,
+        "sodium": 660,
+        "store": "Round Table Pizza",
+        "store product name": "King Arthur's Supreme Extra Large"
+    },
     "russet potato": {
         "carb": 26,
         "fat": 0,
@@ -670,6 +826,18 @@
         "sodium": 125,
         "store": "Safeway",
         "store product name": "Sabra Roasted Red Pepper Hummus Family Size - 17 Oz."
+    },
+    "sliced almonds": {
+        "carb": 6,
+        "fat": 14,
+        "fiber": 4,
+        "price": 5.99,
+        "protein": 6,
+        "serving size": "1/4 cup (28g)",
+        "servings per container": 8,
+        "sodium": 0,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Sliced Almonds, 8 Ounce"
     },
     "special k cereal": {
         "carb": 34,
@@ -781,15 +949,15 @@
     },
     "vegan ranch dressing": {
         "carb": 1,
-        "fat": 15,
+        "fat": 14,
         "fiber": 0,
-        "price": 5.49,
+        "price": 5.79,
         "protein": 0,
-        "serving size": "2 Tbsp (31g)",
+        "serving size": "2 Tbsp (30g)",
         "servings per container": 12,
         "sodium": 125,
-        "store": "Safeway",
-        "store product name": "Follow Your Heart Vegan Ranch Dressing - 12 Fl. Oz."
+        "store": "Whole Foods",
+        "store product name": "Follow Your Heart, Dressing Ranch, 12 Fl Oz"
     },
     "vegetable broth": {
         "carb": 2,
@@ -826,6 +994,18 @@
         "sodium": 400,
         "store": "Whole Foods",
         "store product name": "365 by Whole Foods Market, Sauce Pasta Creamy Vodka Organic, 25 Ounce"
+    },
+    "white button mushrooms": {
+        "carb": 3,
+        "fat": 0.3,
+        "fiber": 1,
+        "price": 3.49,
+        "protein": 3,
+        "serving size": "1 cup (100g)",
+        "servings per container": 2.27,
+        "sodium": 5,
+        "store": "Raley's",
+        "store product name": "Raley's Whole White Mushrooms"
     },
     "yellow onion": {
         "carb": 11,
