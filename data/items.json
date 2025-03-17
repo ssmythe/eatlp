@@ -25,15 +25,15 @@
     },
     "almonds raw": {
         "carb": 6,
-        "fat": 14,
+        "fat": 15,
         "fiber": 4,
         "price": 7.99,
         "protein": 6,
-        "serving size": "1/4 cup (28g)",
-        "servings per container": 16,
+        "serving size": "1/4 cup (30)",
+        "servings per container": 8,
         "sodium": 0,
-        "store": "Safeway",
-        "store product name": "Signature Farms Almonds Raw Unsalted - 16 Oz"
+        "store": "Raley's",
+        "store product name": "Raley's Raw Almonds, Organic, Unsalted 8oz"
     },
     "amy's broc n cheeze bake": {
         "carb": 54,
@@ -183,13 +183,13 @@
         "carb": 6,
         "fat": 12,
         "fiber": 2,
-        "price": 6.49,
+        "price": 5.99,
         "protein": 11,
         "serving size": "2 cooked patties (58g)",
         "servings per container": 3,
         "sodium": 270,
-        "store": "Whole Foods",
-        "store product name": "Beyond Breakfast Sausage from Beyond Meat, Plant-Based Patties, Frozen, 6 Patties per 7.4 oz Box, Classic Flavor"
+        "store": "Raley's",
+        "store product name": "Beyond Breakfast Sausage Patties, Plant-Based, Spicy - 7.4 oz"
     },
     "beyond meat crumble": {
         "carb": 2,
@@ -287,6 +287,18 @@
         "store": "Whole Foods",
         "store product name": "365 by Whole Foods Market, Roasted Unsalted Cashews, 16 Ounce"
     },
+    "cashews raw": {
+        "carb": 9,
+        "fat": 13,
+        "fiber": 1,
+        "price": 7.99,
+        "protein": 5,
+        "serving size": "1/4 cup (30g)",
+        "servings per container": 8,
+        "sodium": 0,
+        "store": "Raley's",
+        "store product name": "Raley's Cashews, Whole, Raw, Unsalted, Organic 8oz"
+    },
     "celery": {
         "carb": 4.5,
         "fat": 0.2,
@@ -346,6 +358,18 @@
         "sodium": 50,
         "store": "Safeway",
         "store product name": "Signature Farms Boneless Skinless Chicken Breasts Value Pack - 4.00 Lb"
+    },
+    "chicken pot pie": {
+        "carb": 39,
+        "fat": 46,
+        "fiber": 3,
+        "price": 17.99,
+        "protein": 22,
+        "serving size": "1 cup (180g)",
+        "servings per container": 4,
+        "sodium": 470,
+        "store": "Whole Foods",
+        "store product name": "Whole Foods Market, Chicken Pot Pie, 26 Ounce"
     },
     "chikn strips": {
         "carb": 7,
@@ -423,13 +447,25 @@
         "carb": 15,
         "fat": 0.5,
         "fiber": 3,
-        "price": 7.99,
+        "price": 5.99,
         "protein": 5,
         "serving size": "1 slice (34g)",
         "servings per container": 20,
         "sodium": 0,
+        "store": "Raley's",
+        "store product name": "Food for Life Ezekiel 4:9 Bread, Low Sodium, Sprouted Grain, Flourless"
+    },
+    "field roast stadium dog": {
+        "carb": 8,
+        "fat": 10,
+        "fiber": 1,
+        "price": 8.39,
+        "protein": 6,
+        "serving size": "1 link (56g)",
+        "servings per container": 5,
+        "sodium": 350,
         "store": "Whole Foods",
-        "store product name": "Food For Life, Organic Ezekiel 4:9 Sprouted Bread, Low Sodium, 24 oz (Frozen)"
+        "store product name": "Field Roast Signature Stadium Plant-Based Hot Dogs 10 oz"
     },
     "field roast veggie sausage italian sausage": {
         "carb": 13,
@@ -506,14 +542,14 @@
     "gardein meatballs": {
         "carb": 9,
         "fat": 7,
-        "fiber": 4,
-        "price": 5.21,
+        "fiber": 3,
+        "price": 5.99,
         "protein": 15,
         "serving size": "3 meatballs (90g)",
         "servings per container": 4,
-        "sodium": 340,
-        "store": "Whole Foods",
-        "store product name": "Gardein Classic Plant-Based Meatless Meatballs, Vegan, Frozen, 12.7 oz."
+        "sodium": 370,
+        "store": "Raley's",
+        "store product name": "Gardein Meatballs, Plant-Based - 12.7 oz"
     },
     "garlic clove": {
         "carb": 1,
@@ -577,15 +613,15 @@
     },
     "just egg folded": {
         "carb": 3,
-        "fat": 7,
+        "fat": 6,
         "fiber": 0,
-        "price": 5.99,
-        "protein": 7,
+        "price": 7.29,
+        "protein": 6,
         "serving size": "1 piece",
         "servings per container": 4,
         "sodium": 300,
-        "store": "Safeway",
-        "store product name": "JUST Egg Folded Made From Plants 4 Count - 8 Oz"
+        "store": "Raley's",
+        "store product name": "Just Egg Folded, Plant-Based Egg - 8 oz"
     },
     "justins almond butter classic": {
         "carb": 6,
@@ -699,13 +735,13 @@
         "carb": 8,
         "fat": 15,
         "fiber": 2,
-        "price": 6.98,
+        "price": 9.98,
         "protein": 7,
         "serving size": "2 Tbsp (32g)",
-        "servings per container": 35,
+        "servings per container": 57,
         "sodium": 140,
         "store": "Raley's",
-        "store product name": "Raley's Creamy Peanut Butter - 40 Oz"
+        "store product name": "Raley's Creamy Peanut Butter - 64 oz"
     },
     "peanuts": {
         "carb": 6,
@@ -903,13 +939,13 @@
         "carb": 5,
         "fat": 3.5,
         "fiber": 1,
-        "price": 2.99,
+        "price": 4.59,
         "protein": 14,
         "serving size": "5 slices (52g)",
         "servings per container": 3,
-        "sodium": 350,
-        "store": "Safeway",
-        "store product name": "Tofurky Deli Slices Hickory Smoked - 5.5 Oz"
+        "sodium": 360,
+        "store": "Raley's",
+        "store product name": "Tofurky Deli Slices, Hickory Smoked, Plant-Based - 5.5 oz"
     },
     "tofurkey deli slice original": {
         "carb": 6,

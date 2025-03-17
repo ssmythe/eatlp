@@ -1,0 +1,234 @@
+{
+    "bnna almond omilk bowl": {
+        "ingredients": {
+            "almond slices": 0.125,
+            "banana": 1,
+            "chopped walnuts": 0.0625,
+            "unsweetened oat milk": 0.5
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "bnna almond omilk smoothie": {
+        "ingredients": {
+            "almond slices": 0.125,
+            "banana": 1.0,
+            "chopped walnuts": 0.0625,
+            "unsweetened oat milk": 1.0
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 glass (250mL)",
+        "servings per recipe": 1
+    },
+    "bnna almond slices w omilk": {
+        "ingredients": {
+            "almond slices": 0.125,
+            "banana": 0.008,
+            "chopped walnuts": 0.0625,
+            "unsweetened oat milk": 0.002
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "bnna walnuts w omilk": {
+        "ingredients": {
+            "almond slices": 0.125,
+            "banana": 0.008,
+            "chopped walnuts": 0.002,
+            "unsweetened oat milk": 0.002
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "hearty mush potato soup w spin": {
+        "ingredients": {
+            "baby spinach": 0.012,
+            "chopped walnuts": 0.0625,
+            "russet potato": 0.006,
+            "sliced white mushrooms": 0.333,
+            "tomato": 0.008,
+            "yellow onion": 0.25
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 2
+    },
+    "mashed beans tomatoes on toast": {
+        "ingredients": {
+            "almond slices": 0.0625,
+            "cannellini beans": 0.004,
+            "carrot": 0.5,
+            "tomato": 0.004,
+            "yellow onion": 0.25
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 plate",
+        "servings per recipe": 2
+    },
+    "mush potato soup w bread": {
+        "ingredients": {
+            "chopped walnuts": 0.002,
+            "russet potato": 0.006,
+            "sliced white mushrooms": 0.333,
+            "tomato": 0.004,
+            "yellow onion": 0.25
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 2
+    },
+    "rstd bell peppers mush tofu spin": {
+        "ingredients": {
+            "almond slices": 0.002,
+            "baby spinach": 0.012,
+            "red bell pepper": 0.004,
+            "sliced white mushrooms": 0.333,
+            "tofu": 0.006,
+            "yellow onion": 0.25
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 plate",
+        "servings per recipe": 2
+    },
+    "rstd carrots mush tofu w spin": {
+        "ingredients": {
+            "almond slices": 0.002,
+            "baby spinach": 0.012,
+            "carrot": 0.5,
+            "sliced white mushrooms": 0.333,
+            "tofu": 0.006,
+            "yellow onion": 0.25
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 plate",
+        "servings per recipe": 2
+    },
+    "rstd potato wedges w beans": {
+        "ingredients": {
+            "almond slices": 0.0625,
+            "cannellini beans": 0.5,
+            "russet potato": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 plate",
+        "servings per recipe": 2
+    },
+    "rstd ptto n carrots w mush n tofu": {
+        "ingredients": {
+            "almond slices": 0.125,
+            "carrot": 1,
+            "russet potato": 1,
+            "sliced white mushrooms": 0.333,
+            "tofu": 0.5,
+            "yellow onion": 0.25
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 plate",
+        "servings per recipe": 2
+    },
+    "sauteed bell peppers onions toast": {
+        "ingredients": {
+            "chopped walnuts": 0.0625,
+            "red bell pepper": 0.004,
+            "yellow onion": 0.25
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 toast",
+        "servings per recipe": 1
+    },
+    "savory mush onion toast": {
+        "ingredients": {
+            "almond slices": 0.0625,
+            "chopped walnuts": 0.0625,
+            "ebread": 1,
+            "sliced white mushrooms": 0.333,
+            "unsweetened oat milk": 0.042,
+            "yellow onion": 0.25
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 toast",
+        "servings per recipe": 1
+    },
+    "sliced bell peppers mashed beans": {
+        "ingredients": {
+            "cannellini beans": 0.004,
+            "chopped walnuts": 0.0625,
+            "red bell pepper": 0.004
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 plate",
+        "servings per recipe": 2
+    },
+    "spin bean salad w tom almonds": {
+        "ingredients": {
+            "almond slices": 0.125,
+            "baby spinach": 0.5,
+            "cannellini beans": 0.14,
+            "carrot": 1,
+            "chopped walnuts": 0.0625,
+            "tomato": 0.004
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 2
+    },
+    "toast w mashed bnna n nuts": {
+        "ingredients": {
+            "almond slices": 0.125,
+            "banana": 0.5,
+            "chopped walnuts": 0.0625,
+            "ebread": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 toast",
+        "servings per recipe": 1
+    },
+    "tofu bean stir fry bell peppers": {
+        "ingredients": {
+            "cannellini beans": 1.0,
+            "chopped walnuts": 0.0625,
+            "red bell pepper": 0.5,
+            "sliced white mushrooms": 3.0,
+            "tofu": 0.5,
+            "yellow onion": 0.25
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 bowl (170g)",
+        "servings per recipe": 2
+    },
+    "tofu potato stir fry w carrots": {
+        "ingredients": {
+            "carrot": 0.5,
+            "chopped walnuts": 0.0625,
+            "russet potato": 0.006,
+            "sliced white mushrooms": 0.333,
+            "tofu": 0.006,
+            "unsweetened oat milk": 0.042,
+            "yellow onion": 0.25
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 plate",
+        "servings per recipe": 2
+    }
+}
