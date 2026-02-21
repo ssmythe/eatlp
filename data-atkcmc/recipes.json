@@ -1,0 +1,17 @@
+{
+    "chkn kabob w tomato feta salad": {
+        "ingredients": {
+            "ca evoo": 4,
+            "cherry tomatoes": 3,
+            "crumbled feta cheese": 4,
+            "red onion": 0.25,
+            "chobani yogurt non fat greek plain": 0.33,
+            "chicken breast cooked": 1.9,
+            "morton kosher salt": 2
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (? g)",
+        "servings per recipe": 4
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "ca evoo": {
+        "carb": 0,
+        "fat": 14,
+        "fiber": 0,
+        "price": 34.99,
+        "protein": 0,
+        "serving size": "1 tbsp (15mL)",
+        "servings per container": 66,
+        "sodium": 0,
+        "store": "Raley's",
+        "store product name": "California Olive Ranch Olive Oil, Extra Virgin, 100% California, Cold Pressed, Medium, 33.8 oz"
+    },
+    "cherry tomatoes": {
+        "carb": 10,
+        "fat": 0,
+        "fiber": 2,
+        "price": 3.99,
+        "protein": 1,
+        "serving size": "1 cup (149g)",
+        "servings per container": 2,
+        "sodium": 10,
+        "store": "Raley's",
+        "store product name": "NatureSweet Glorys Tomatoes, 10 oz"
+    },
+    "crumbled feta cheese": {
+        "carb": 2,
+        "fat": 4.5,
+        "fiber": 2,
+        "price": 3.98,
+        "protein": 6,
+        "serving size": "1/4 cup (28g)",
+        "servings per container": 4,
+        "sodium": 4,
+        "store": "Raley's",
+        "store product name": "Raley's Reduced Fat Crumbled Feta Cheese, 4 oz"
+    },
+    "red onion": {
+        "carb": 15,
+        "fat": 0.2,
+        "fiber": 3,
+        "price": 1.49,
+        "protein": 1.8,
+        "serving size": "1 cup (160g)",
+        "servings per container": 2,
+        "sodium": 6,
+        "store": "Raley's",
+        "store product name": "Red Onions, each"
+    },
+    "chobani yogurt non fat greek plain": {
+        "carb": 6,
+        "fat": 0,
+        "fiber": 0,
+        "price": 6.99,
+        "protein": 16,
+        "serving size": "3/4 cup (170g)",
+        "servings per container": 5,
+        "sodium": 65,
+        "store": "Raley's",
+        "store product name": "Chobani Yogurt, Non-Fat, Greek, Plain, 32 oz"
+    },
+    "chicken breast raw": {
+        "carb": 0,
+        "fat": 9.4,
+        "fiber": 0,
+        "price": 13.53,
+        "protein": 77,
+        "serving size": "12.8 oz  (363g)",
+        "servings per container": 5,
+        "sodium": 420,
+        "store": "Raley's",
+        "store product name": "Raley's Chicken Boneless Skinless Breasts Club Pack No Antibiotics Ever, 4 lb"
+    },
+    "chicken breast cooked": {
+        "carb": 0,
+        "fat": 9.4,
+        "fiber": 0,
+        "price": 13.53,
+        "protein": 77,
+        "serving size": "9.6 oz (272g)",
+        "servings per container": 5,
+        "sodium": 420,
+        "store": "Raley's",
+        "store product name": "Raley's Chicken Boneless Skinless Breasts Club Pack No Antibiotics Ever, 4 lb"
+    },
+    "morton kosher salt": {
+        "carb": 0,
+        "fat": 0,
+        "fiber": 0,
+        "price": 4.99,
+        "protein": 0,
+        "serving size": "1/4 tsp (1.2g)",
+        "servings per container": 1133,
+        "sodium": 480,
+        "store": "Raley's",
+        "store product name": "Morton Coarse Kosher Salt, 3 lb box"
+    }
+}

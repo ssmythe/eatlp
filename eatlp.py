@@ -55,8 +55,12 @@ data_dir = user.dict_of_user['data_dir']
 # carb
 # ----
 # Balanced
-min_carb_percent = 0.40
-max_carb_percent = 0.50
+# min_carb_percent = 0.40
+# max_carb_percent = 0.50
+#
+# Balanced
+min_carb_percent = 0.35
+max_carb_percent = 0.45
 #
 # High-Protein
 # min_carb_percent = 0.30

@@ -1,4 +1,26 @@
 {
+    "2 egg omelette": {
+        "ingredients": {
+            "egg": 2,
+            "shredded cheddar cheese": 1,
+            "yellow onion": 0.5
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "3 egg omelette": {
+        "ingredients": {
+            "egg": 3,
+            "shredded cheddar cheese": 1,
+            "yellow onion": 0.5
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
     "365 yogurt greek plain nonfat": {
         "ingredients": {
             "365 yogurt greek plain nonfat": 1
@@ -8,96 +30,13 @@
         "serving size": "1 bowl (170g)",
         "servings per recipe": 1
     },
-    "almond butter sandwich": {
-        "ingredients": {
-            "ebread": 2,
-            "justins almond butter classic": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 sandwich",
-        "servings per recipe": 1
-    },
-    "almond butter sandwich half": {
-        "ingredients": {
-            "ebread": 1,
-            "justins almond butter classic": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1/2 sandwich",
-        "servings per recipe": 1
-    },
-    "almondmilk": {
-        "ingredients": {
-            "almondmilk": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 cup (236g)",
-        "servings per recipe": 1
-    },
     "almonds raw": {
         "ingredients": {
             "almonds raw": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1/4 cup (28g)",
-        "servings per recipe": 1
-    },
-    "amy's broc n cheeze bake": {
-        "ingredients": {
-            "amy's broc n cheeze bake": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 bowl (269g)",
-        "servings per recipe": 1
-    },
-    "amy's brown rice bep n veggies": {
-        "ingredients": {
-            "amy's brown rice bep n veggies": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 bowl (255g)",
-        "servings per recipe": 1
-    },
-    "amy's mexican casserole": {
-        "ingredients": {
-            "amy's mexican casserole": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 bowl (170g)",
-        "servings per recipe": 1
-    },
-    "amy's mushroom risotto bowl": {
-        "ingredients": {
-            "amy's mushroom risotto bowl": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 bowl (269g)",
-        "servings per recipe": 1
-    },
-    "amy's pesto tortellini": {
-        "ingredients": {
-            "amy's pesto tortellini": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 bowl (269g)",
-        "servings per recipe": 1
-    },
-    "amys tofu scramble": {
-        "ingredients": {
-            "amys tofu scramble": 1
-        },
-        "max_servings": 1,
-        "min_servings": 0,
-        "serving size": "1 tray (255g)",
         "servings per recipe": 1
     },
     "apple": {
@@ -122,9 +61,18 @@
         "ingredients": {
             "banana": 1
         },
-        "max_servings": 999,
+        "max_servings": 1,
         "min_servings": 0,
         "serving size": "1 banana",
+        "servings per recipe": 1
+    },
+    "basmati rice": {
+        "ingredients": {
+            "basmati rice": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "0.25 cup dry, 1/2 cup wet (45g)",
         "servings per recipe": 1
     },
     "bfast port tofu swich": {
@@ -138,27 +86,13 @@
         "serving size": "1 sandwich",
         "servings per recipe": 1
     },
-    "bfast sandwich": {
+    "black beans": {
         "ingredients": {
-            "beyond breakfast sausage": 0.5,
-            "chao slice": 0.5,
-            "ebread": 2,
-            "just egg folded": 1
+            "black beans dry": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 sandwich",
-        "servings per recipe": 1
-    },
-    "bfast sandwich no cheese": {
-        "ingredients": {
-            "beyond breakfast sausage": 0.5,
-            "ebread": 2,
-            "just egg folded": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 sandwich",
+        "serving size": "1/4 cup (45g)",
         "servings per recipe": 1
     },
     "blk bean dish with vsauce": {
@@ -211,75 +145,98 @@
         "serving size": "1 cup (236g)",
         "servings per recipe": 8
     },
+    "broccoli chicken farfalle": {
+        "ingredients": {
+            "broccoli florets frozen": 5,
+            "chicken breast 6oz": 3,
+            "farfalle pasta": 6,
+            "unsalted butter": 3
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (560g)",
+        "servings per recipe": 3
+    },
     "brown rice": {
         "ingredients": {
             "rice brown long grain": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "0.25 cup dry, 1/2 cup wet (100g)",
         "servings per recipe": 1
     },
-    "brown rice and meatballs": {
+    "cabbage potato soup": {
         "ingredients": {
-            "gardein meatballs": 1,
-            "rice brown long grain": 1
+            "cabbage head green": 0.5,
+            "carrot": 2,
+            "garlic clove": 4,
+            "russet potato": 2,
+            "yellow onion": 1
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "0.25 cup dry, 1/2 cup wet (100g), 3 meatballs",
-        "servings per recipe": 1
+        "serving size": "2 cups (480g)",
+        "servings per recipe": 12
+    },
+    "cabbage potato soup w ebread": {
+        "ingredients": {
+            "cabbage head green": 0.5,
+            "carrot": 2,
+            "ebread": 1,
+            "garlic clove": 4,
+            "russet potato": 2,
+            "yellow onion": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "2 cups (480g)",
+        "servings per recipe": 12
+    },
+    "cabbage potato soup w hbread": {
+        "ingredients": {
+            "cabbage head green": 0.5,
+            "carrot": 2,
+            "garlic clove": 4,
+            "hbread": 1,
+            "russet potato": 2,
+            "yellow onion": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "2 cups (480g)",
+        "servings per recipe": 12
     },
     "cashews": {
         "ingredients": {
-            "cashews": 1
+            "cashews": 0.33
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1/4 cup (28g)",
+        "serving size": "5-6 whole nuts (9g)",
         "servings per recipe": 1
     },
-    "chicken pot pie eigth": {
+    "cashews salted": {
         "ingredients": {
-            "chicken pot pie": 0.5
+            "cashews salted": 1
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 cup (180g)",
+        "serving size": "1/4 cup (30g)",
         "servings per recipe": 1
     },
-    "chicken pot pie quarter": {
+    "chkn brst": {
         "ingredients": {
-            "chicken pot pie": 1
+            "chicken breast 6oz": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
-        "serving size": "1 cup (180g)",
-        "servings per recipe": 1
-    },
-    "chickn salad": {
-        "ingredients": {
-            "chikn strips": 0.5,
-            "taylor farms caesar salad": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 bowl (406g)",
-        "servings per recipe": 1
-    },
-    "chikn strips": {
-        "ingredients": {
-            "chikn strips": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "3/4 cup (85g)",
+        "serving size": "1 serving (305g)",
         "servings per recipe": 1
     },
     "chkn brst swich": {
         "ingredients": {
-            "chao slice": 1,
-            "chicken breast": 1,
+            "chicken breast 6oz": 1,
             "ebread": 2
         },
         "max_servings": 0,
@@ -289,52 +246,132 @@
     },
     "chkn brst, broccoli, brn rice": {
         "ingredients": {
-            "broccoli": 1,
-            "chicken breast": 1,
+            "broccoli florets frozen": 1,
+            "chicken breast 6oz": 1,
             "rice brown long grain": 1
         },
-        "max_servings": 0,
+        "max_servings": 3,
         "min_servings": 0,
         "serving size": "1 serving (305g)",
         "servings per recipe": 1
     },
-    "collard greens salad": {
+    "chkn kabob w tomato feta salad": {
         "ingredients": {
-            "broccoli florets": 0.5,
-            "chia seeds": 0.33,
-            "collard greens": 2,
-            "garbanzo beans": 1,
-            "sliced almonds": 1
+            "ca evoo": 4,
+            "cherry tomatoes": 3,
+            "chicken breast cooked": 1.9,
+            "chobani yogurt nf greek plain": 0.33,
+            "crumbled feta cheese": 4,
+            "morton kosher salt": 2,
+            "red onion": 0.25
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 salad",
+        "serving size": "1 bowl (? g)",
+        "servings per recipe": 4
+    },
+    "chkn veg farfalle stew": {
+        "ingredients": {
+            "chicken breast cooked": 9.5,
+            "farfalle pasta": 6,
+            "raleys country vegetables": 10,
+            "raleys low sodium vegetable juice": 8,
+            "raleys mixed vegetables": 10
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (170g)",
+        "servings per recipe": 10
+    },
+    "chkn veg farfalle stew half": {
+        "ingredients": {
+            "chicken breast cooked": 9.5,
+            "farfalle pasta": 6,
+            "raleys country vegetables": 10,
+            "raleys low sodium vegetable juice": 8,
+            "raleys mixed vegetables": 10
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (170g)",
+        "servings per recipe": 20
+    },
+    "chobani yogurt nf greek plain": {
+        "ingredients": {
+            "chobani yogurt nf greek plain": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (170g)",
         "servings per recipe": 1
     },
-    "collard greens salad w vranch": {
+    "cmc fr lentil carrots parsley": {
         "ingredients": {
-            "broccoli florets": 0.5,
-            "chia seeds": 0.33,
-            "collard greens": 2,
-            "garbanzo beans": 1,
-            "sliced almonds": 1,
-            "vegan ranch dressing": 1
+            "1g carb": 23,
+            "1g fat": 5,
+            "1g fiber": 6,
+            "1g prot": 7,
+            "1mg sodium": 220
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 salad",
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "cmc st chkn ch tom zuc sq": {
+        "ingredients": {
+            "1g carb": 17,
+            "1g fat": 17,
+            "1g fiber": 4,
+            "1g prot": 30,
+            "1mg sodium": 460
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "d'anjou pear": {
+        "ingredients": {
+            "d'anjou pear": 1
+        },
+        "max_servings": 1,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
     "decaf coffee w oat milk": {
         "ingredients": {
             "oat milk": 0.25
         },
-        "max_servings": 0,
-        "min_servings": 0,
+        "max_servings": 3,
+        "min_servings": 1,
         "serving size": "1 glass",
         "servings per recipe": 1
     },
-    "ebread pb swich": {
+    "ebread pb banana sandwich": {
+        "ingredients": {
+            "banana": 0.5,
+            "ebread": 2,
+            "peanut butter": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 sandwich",
+        "servings per recipe": 1
+    },
+    "ebread pb banana sandwich half": {
+        "ingredients": {
+            "banana": 0.5,
+            "ebread": 1,
+            "peanut butter": 0.5
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1/2 sandwich",
+        "servings per recipe": 1
+    },
+    "ebread pb sandwich": {
         "ingredients": {
             "ebread": 2,
             "peanut butter": 1
@@ -344,14 +381,14 @@
         "serving size": "1 sandwich",
         "servings per recipe": 1
     },
-    "ebread pb swich half": {
+    "ebread pb sandwich half": {
         "ingredients": {
             "ebread": 1,
             "peanut butter": 0.5
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 sandwich",
+        "serving size": "1/2 sandwich",
         "servings per recipe": 1
     },
     "ebread slice": {
@@ -361,71 +398,6 @@
         "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
-        "servings per recipe": 1
-    },
-    "ebread tfhs jegg swich": {
-        "ingredients": {
-            "chao slice": 1,
-            "ebread": 2,
-            "just egg folded": 1,
-            "tofurkey deli slice hickory smoked": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 sandwich",
-        "servings per recipe": 1
-    },
-    "ebread tfhs jegg swich noch": {
-        "ingredients": {
-            "ebread": 2,
-            "just egg folded": 1,
-            "tofurkey deli slice hickory smoked": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 sandwich",
-        "servings per recipe": 1
-    },
-    "ebread tfhs swich": {
-        "ingredients": {
-            "chao slice": 1,
-            "ebread": 2,
-            "tofurkey deli slice hickory smoked": 1
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1 sandwich",
-        "servings per recipe": 1
-    },
-    "ebread tfhs swich half": {
-        "ingredients": {
-            "chao slice": 0.5,
-            "ebread": 1,
-            "tofurkey deli slice hickory smoked": 0.5
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1/2 sandwich",
-        "servings per recipe": 1
-    },
-    "ebread tfhs swich half noch": {
-        "ingredients": {
-            "ebread": 1,
-            "tofurkey deli slice hickory smoked": 0.5
-        },
-        "max_servings": 0,
-        "min_servings": 0,
-        "serving size": "1/2 sandwich",
-        "servings per recipe": 1
-    },
-    "ebread tfhs swich no cheese": {
-        "ingredients": {
-            "ebread": 2,
-            "tofurkey deli slice hickory smoked": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 sandwich",
         "servings per recipe": 1
     },
     "ebread tofu swich": {
@@ -438,33 +410,23 @@
         "serving size": "1 sandwich",
         "servings per recipe": 1
     },
-    "ebread tofu swich w chao": {
+    "etoast onions mushrooms": {
         "ingredients": {
-            "chao slice": 0.5,
             "ebread": 1,
-            "tofu": 0.25
+            "mushrooms": 1,
+            "yellow onion": 0.5
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 sandwich",
+        "serving size": "1 bowl (170g)",
         "servings per recipe": 1
     },
-    "etoast with chao": {
+    "etoast with butter": {
         "ingredients": {
-            "chao slice": 1,
-            "ebread": 1
+            "ebread": 1,
+            "unsalted butter": 0.5
         },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 slice (? g)",
-        "servings per recipe": 1
-    },
-    "etoast with ebalance": {
-        "ingredients": {
-            "earth balance": 1,
-            "ebread": 1
-        },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -479,38 +441,39 @@
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
-    "etoast with just egg": {
+    "etoast with ibutter": {
         "ingredients": {
             "ebread": 1,
-            "just egg folded": 1
+            "ibutter light": 0.5
         },
-        "max_servings": 999,
+        "max_servings": 4,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
-    "field roast stadium dog": {
+    "etoast with poached egg": {
         "ingredients": {
             "ebread": 1,
-            "field roast stadium dog": 1
+            "egg": 1
         },
-        "max_servings": 5,
+        "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 dog (100g)",
+        "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
-    "gardein meatballs": {
+    "h mushrooms, h onion": {
         "ingredients": {
-            "gardein meatballs": 1
+            "white button mushrooms": 1.135,
+            "yellow onion": 0.5
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
-        "serving size": "3 meatballs (90g)",
+        "serving size": "1 serving (?g)",
         "servings per recipe": 1
     },
-    "h mushrooms, h onion, just egg": {
+    "h mushrooms, h onion, egg": {
         "ingredients": {
-            "just egg folded": 1,
+            "egg": 1,
             "white button mushrooms": 1.135,
             "yellow onion": 0.5
         },
@@ -529,61 +492,162 @@
         "serving size": "1 serving (?g)",
         "servings per recipe": 1
     },
-    "kale salad": {
+    "haluski": {
         "ingredients": {
-            "broccoli florets": 0.5,
-            "chia seeds": 0.33,
-            "garbanzo beans": 1,
-            "kale": 2,
-            "sliced almonds": 1
+            "cabbage head green": 1,
+            "farfalle pasta": 6,
+            "unsalted butter": 6,
+            "yellow onion": 1
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 salad",
-        "servings per recipe": 1
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 6
     },
-    "kale salad w vranch": {
+    "hbread no sodium bread": {
         "ingredients": {
-            "broccoli florets": 0.5,
-            "chia seeds": 0.33,
-            "garbanzo beans": 1,
-            "kale": 2,
-            "sliced almonds": 1,
-            "vegan ranch dressing": 1
+            "hbread": 1
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 salad",
+        "serving size": "1 slice (?g)",
         "servings per recipe": 1
     },
-    "mashed potatoes with vbutter": {
+    "hbread pb banana sandwich": {
         "ingredients": {
-            "almondmilk": 0.5,
-            "earth balance": 1,
-            "russet potato": 1
+            "banana": 0.5,
+            "hbread": 2,
+            "peanut butter": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 sandwich",
+        "servings per recipe": 1
+    },
+    "hbread pb banana swich": {
+        "ingredients": {
+            "banana": 0.5,
+            "hbread": 2,
+            "peanut butter": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 sandwich",
+        "servings per recipe": 1
+    },
+    "hbread pb banana swich half": {
+        "ingredients": {
+            "banana": 0.5,
+            "hbread": 1,
+            "peanut butter": 0.5
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1/2 sandwich",
+        "servings per recipe": 1
+    },
+    "htoast with butter": {
+        "ingredients": {
+            "hbread": 1,
+            "unsalted butter": 0.5
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "htoast with fried egg": {
+        "ingredients": {
+            "egg": 1,
+            "hbread": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "htoast with hummus": {
+        "ingredients": {
+            "hbread": 1,
+            "sabra roasted red pepper hummus": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "hummus and pita chips": {
+        "ingredients": {
+            "sabra roasted red pepper hummus": 1,
+            "sea salt pita chips": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "lentil and veggie stew": {
+        "ingredients": {
+            "carrot": 2,
+            "celery": 2,
+            "garlic clove": 4,
+            "russet potato": 2,
+            "yellow onion": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "2 cups (480g)",
+        "servings per recipe": 12
+    },
+    "lentil chili": {
+        "ingredients": {
+            "carrot": 1,
+            "lentils": 1,
+            "russet potato": 4,
+            "small red beans dry": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 cup",
+        "servings per recipe": 20
+    },
+    "lentils": {
+        "ingredients": {
+            "lentils": 1
         },
         "max_servings": 999,
         "min_servings": 0,
-        "serving size": "1 serving mashed potatoes",
+        "serving size": "1 serving (35g dry)",
         "servings per recipe": 1
     },
-    "meatballs": {
+    "mirepoix potato soup bro": {
         "ingredients": {
-            "gardein meatballs": 1
+            "carrot": 2,
+            "celery": 4,
+            "chicken broth 32oz": 8,
+            "garlic clove": 5,
+            "lentils": 13,
+            "russet potato": 2,
+            "yellow onion": 1
         },
         "max_servings": 999,
         "min_servings": 0,
-        "serving size": "0.25 cup dry, 1/2 cup wet (100g), 3 meatballs",
-        "servings per recipe": 1
+        "serving size": "1 bowl (480g)",
+        "servings per recipe": 18
     },
-    "oatmilk skyr": {
+    "mirepoix potato soup nob": {
         "ingredients": {
-            "oatmilk skyr": 1
+            "carrot": 2,
+            "celery": 4,
+            "garlic clove": 5,
+            "lentils": 13,
+            "russet potato": 2,
+            "yellow onion": 1
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 bowl (170g)",
-        "servings per recipe": 1
+        "serving size": "1 bowl (480g)",
+        "servings per recipe": 18
     },
     "peach": {
         "ingredients": {
@@ -594,11 +658,20 @@
         "serving size": "1 peach",
         "servings per recipe": 1
     },
+    "peanut butter spoon": {
+        "ingredients": {
+            "peanut butter": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "2 tbsp (33g)",
+        "servings per recipe": 1
+    },
     "peanuts": {
         "ingredients": {
             "peanuts": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1/4 cup (28g)",
         "servings per recipe": 1
@@ -614,56 +687,16 @@
         "serving size": "1 cup (240g)",
         "servings per recipe": 12
     },
-    "potato": {
+    "poached egg": {
         "ingredients": {
-            "russet potato": 1
+            "egg": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 potato",
+        "serving size": "1 egg (? g)",
         "servings per recipe": 1
     },
-    "potato and meatballs": {
-        "ingredients": {
-            "gardein meatballs": 1,
-            "russet potato": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 serving (170g)",
-        "servings per recipe": 1
-    },
-    "potato meatballs vbutter": {
-        "ingredients": {
-            "earth balance": 1,
-            "gardein meatballs": 1,
-            "russet potato": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 potato",
-        "servings per recipe": 1
-    },
-    "potato with vbutter": {
-        "ingredients": {
-            "earth balance": 1,
-            "russet potato": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 potato",
-        "servings per recipe": 1
-    },
-    "quaker instant oatmeal orig": {
-        "ingredients": {
-            "quaker instant oatmeal orig": 1
-        },
-        "max_servings": 999,
-        "min_servings": 0,
-        "serving size": "1 Packet (28g)",
-        "servings per recipe": 1
-    },
-    "rice and beans": {
+    "rice and black beans": {
         "ingredients": {
             "black beans dry": 1,
             "rice brown long grain": 1
@@ -673,31 +706,72 @@
         "serving size": "1 bowl",
         "servings per recipe": 1
     },
-    "rice bean burrito": {
+    "rice and small red beans": {
         "ingredients": {
-            "black beans dry": 1,
-            "flour tortilla": 1,
-            "rice brown long grain": 1
+            "rice brown long grain": 5,
+            "small red beans dry": 5
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 burrito",
+        "serving size": "1 bowl",
+        "servings per recipe": 5
+    },
+    "russet potato": {
+        "ingredients": {
+            "russet potato": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 potato",
         "servings per recipe": 1
     },
-    "salad with vranch dressing": {
+    "russet potato with butter": {
         "ingredients": {
-            "earthbound farm bag salad": 1.75,
-            "vegan ranch dressing": 1
+            "russet potato": 1,
+            "unsalted butter": 2
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 potato",
+        "servings per recipe": 1
+    },
+    "russet potato with ibutter": {
+        "ingredients": {
+            "ibutter light": 2,
+            "russet potato": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 potato",
+        "servings per recipe": 1
+    },
+    "savory poached eggs oatmeal": {
+        "ingredients": {
+            "egg": 2,
+            "steel cut oats": 1,
+            "yellow onion": 0.125
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 cup (236g)",
+        "serving size": "1 bowl",
         "servings per recipe": 1
     },
-    "special k and almond milk": {
+    "savory poached eggs potato": {
         "ingredients": {
-            "almondmilk": 1,
-            "special k cereal": 1
+            "egg": 2,
+            "russet potato": 1,
+            "yellow onion": 0.125
+        },
+        "max_servings": 1,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "savory poached eggs yogurt": {
+        "ingredients": {
+            "chobani yogurt nf greek plain": 1,
+            "egg": 2,
+            "yellow onion": 0.125
         },
         "max_servings": 0,
         "min_servings": 0,
@@ -720,29 +794,61 @@
         "ingredients": {
             "steel cut oats": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 bowl",
         "servings per recipe": 1
     },
-    "tf and chao": {
+    "tomato feta salad": {
         "ingredients": {
-            "chao slice": 1,
-            "tofurkey deli slice hickory smoked": 1
+            "ca evoo": 2,
+            "cherry tomatoes": 3,
+            "chobani yogurt nf greek plain": 0.175,
+            "crumbled feta cheese": 2,
+            "morton kosher salt": 1,
+            "red onion": 0.25
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 stack",
-        "servings per recipe": 1
+        "serving size": "1 bowl (? g)",
+        "servings per recipe": 4
     },
-    "tfhs": {
+    "tuna salad ebread swich": {
         "ingredients": {
-            "tofurkey deli slice hickory smoked": 1
+            "ebread": 10,
+            "grey poupon dijon mustard 10oz": 1,
+            "kraft real mayo creamy and smooth 30 fl oz": 1,
+            "starkist less sodium chunk tuna 5oz": 1
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1/3 slice stack",
-        "servings per recipe": 1
+        "serving size": "1 swich (33g of tuna salad)",
+        "servings per recipe": 5
+    },
+    "veg farfalle stew half": {
+        "ingredients": {
+            "farfalle pasta": 6,
+            "raleys country vegetables": 10,
+            "raleys low sodium vegetable juice": 8,
+            "raleys mixed vegetables": 10
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (170g)",
+        "servings per recipe": 20
+    },
+    "vegan stew": {
+        "ingredients": {
+            "carrot": 1,
+            "lentils": 9,
+            "mushrooms": 3,
+            "russet potato": 3,
+            "small red beans dry": 13
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (170g)",
+        "servings per recipe": 20
     },
     "vegetable soup": {
         "ingredients": {
@@ -768,6 +874,19 @@
         "serving size": "1 bowl (170g)",
         "servings per recipe": 8
     },
+    "veggie soup instant pot": {
+        "ingredients": {
+            "carrot": 2,
+            "celery": 2,
+            "lentils": 4,
+            "russet potato": 1,
+            "yellow onion": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "2 cups (480g)",
+        "servings per recipe": 12
+    },
     "vsauce": {
         "ingredients": {
             "garlic clove": 2,
@@ -781,24 +900,33 @@
         "serving size": "1 bo wl (188g)",
         "servings per recipe": 16
     },
-    "vsausage italian half w bread": {
+    "yogurt and blueberries": {
         "ingredients": {
-            "ebread": 0.5,
-            "field roast veggie sausage italian sausage": 0.5
+            "365 yogurt greek plain nonfat": 1,
+            "blueberries": 0.25
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 serving (?g)",
+        "serving size": "1 bowl (170g)",
         "servings per recipe": 1
     },
-    "vsausage italian with bread": {
+    "yogurt and peanut butter": {
         "ingredients": {
-            "ebread": 1,
-            "field roast veggie sausage italian sausage": 1
+            "365 yogurt greek plain nonfat": 1,
+            "peanut butter": 0.5
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 serving (?g)",
+        "serving size": "1 bowl (170g)",
+        "servings per recipe": 1
+    },
+    "yukon gold potato": {
+        "ingredients": {
+            "yukon gold potato": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 potato (148g)",
         "servings per recipe": 1
     }
 }

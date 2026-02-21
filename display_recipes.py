@@ -62,8 +62,13 @@ for recipe_key, recipe in recipes.dict_of_recipes.items():
     for ingredient, count in recipe.dict_of_recipe['ingredients'].items():
         item = items.dict_of_items[ingredient]
         item_serving_size = item.dict_of_item['serving_size']
-        print("%2dx %s (%s per serving)" %
-              (count, ingredient, item_serving_size))
+
+        # .3g displays up to 3 significant digits; 
+        # Forcing a float through format() and stripping zeros is the cleanest "smart" way:
+        formatted_count = f"{count:g}" 
+
+        print("%6sx %s (%s per serving)" %
+              (formatted_count, ingredient, item_serving_size))
 
     print('-' * 114)
     print('\n')
