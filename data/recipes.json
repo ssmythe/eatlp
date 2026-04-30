@@ -34,7 +34,7 @@
         "ingredients": {
             "almonds raw": 1
         },
-        "max_servings": 0,
+        "max_servings": 2,
         "min_servings": 0,
         "serving size": "1/4 cup (28g)",
         "servings per recipe": 1
@@ -43,7 +43,7 @@
         "ingredients": {
             "honeycrisp apple": 1
         },
-        "max_servings": 0,
+        "max_servings": 2,
         "min_servings": 0,
         "serving size": "1 apple",
         "servings per recipe": 1
@@ -61,7 +61,7 @@
         "ingredients": {
             "banana": 1
         },
-        "max_servings": 1,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 banana",
         "servings per recipe": 1
@@ -225,11 +225,46 @@
         "serving size": "1/4 cup (30g)",
         "servings per recipe": 1
     },
+    "chicken salad": {
+        "ingredients": {
+            "chicken breast 3oz cooked": 1,
+            "grey poupon dijon mustard 10oz": 1,
+            "kraft real mayo creamy and smooth 30 fl oz": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 tablespoon (1oz of tuna salad)",
+        "servings per recipe": 1
+    },
+    "chicken salad ebread swich": {
+        "ingredients": {
+            "chicken breast 3oz cooked": 1,
+            "ebread": 2,
+            "grey poupon dijon mustard 10oz": 1,
+            "kraft real mayo creamy and smooth 30 fl oz": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 swich (33g of tuna salad)",
+        "servings per recipe": 1
+    },
+    "chicken salad w romaine": {
+        "ingredients": {
+            "chicken breast 3oz cooked": 1,
+            "grey poupon dijon mustard 10oz": 1,
+            "kraft real mayo creamy and smooth 30 fl oz": 1,
+            "romaine salad": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 salad (3 cups of tuna salad w romaine)",
+        "servings per recipe": 1
+    },
     "chkn brst": {
         "ingredients": {
             "chicken breast 6oz": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 serving (305g)",
         "servings per recipe": 1
@@ -250,7 +285,7 @@
             "chicken breast 6oz": 1,
             "rice brown long grain": 1
         },
-        "max_servings": 3,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 serving (305g)",
         "servings per recipe": 1
@@ -300,9 +335,18 @@
         "ingredients": {
             "chobani yogurt nf greek plain": 1
         },
-        "max_servings": 0,
+        "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 bowl (170g)",
+        "servings per recipe": 1
+    },
+    "chomps original beef": {
+        "ingredients": {
+            "chomps original beef": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 stick (32g)",
         "servings per recipe": 1
     },
     "cmc fr lentil carrots parsley": {
@@ -344,8 +388,8 @@
         "ingredients": {
             "oat milk": 0.25
         },
-        "max_servings": 3,
-        "min_servings": 1,
+        "max_servings": 0,
+        "min_servings": 0,
         "serving size": "1 glass",
         "servings per recipe": 1
     },
@@ -355,7 +399,7 @@
             "ebread": 2,
             "peanut butter": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 sandwich",
         "servings per recipe": 1
@@ -410,6 +454,69 @@
         "serving size": "1 sandwich",
         "servings per recipe": 1
     },
+    "edamame beans buffalo": {
+        "ingredients": {
+            "edamame beans buffalo": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bag (26g)",
+        "servings per recipe": 1
+    },
+    "edamame beans medley hills": {
+        "ingredients": {
+            "edamame beans medley hills": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1/3 cup (30g)",
+        "servings per recipe": 1
+    },
+    "edamame beans ranch": {
+        "ingredients": {
+            "edamame beans ranch": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bag (26g)",
+        "servings per recipe": 1
+    },
+    "edamame beans sea salt": {
+        "ingredients": {
+            "edamame beans sea salt": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bag (26g)",
+        "servings per recipe": 1
+    },
+    "edamame beans sriracha": {
+        "ingredients": {
+            "edamame beans sriracha": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bag (26g)",
+        "servings per recipe": 1
+    },
+    "edamame beans wasabi": {
+        "ingredients": {
+            "edamame beans wasabi": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bag (26g)",
+        "servings per recipe": 1
+    },
+    "edamame beans yupik": {
+        "ingredients": {
+            "edamame beans yupik": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1/4 cup (35g)",
+        "servings per recipe": 1
+    },
     "etoast onions mushrooms": {
         "ingredients": {
             "ebread": 1,
@@ -461,6 +568,54 @@
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
     },
+    "gturkey burger bbread": {
+        "ingredients": {
+            "batard bread": 2,
+            "grey poupon dijon mustard 10oz": 1,
+            "ground turkey 16oz": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (170g)",
+        "servings per recipe": 1
+    },
+    "gturkey burger ebread": {
+        "ingredients": {
+            "ebread": 2,
+            "grey poupon dijon mustard 10oz": 1,
+            "ground turkey 16oz": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (170g)",
+        "servings per recipe": 1
+    },
+    "gturkey stroganoff full nood": {
+        "ingredients": {
+            "chicken broth 32oz": 1.5,
+            "farfalle pasta": 6,
+            "ground turkey 16oz": 1,
+            "sour cream": 4,
+            "yellow onion": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (170g)",
+        "servings per recipe": 4
+    },
+    "gturkey stroganoff half nood": {
+        "ingredients": {
+            "chicken broth 32oz": 1.5,
+            "farfalle pasta": 3,
+            "ground turkey 16oz": 1,
+            "sour cream": 4,
+            "yellow onion": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 bowl (170g)",
+        "servings per recipe": 4
+    },
     "h mushrooms, h onion": {
         "ingredients": {
             "white button mushrooms": 1.135,
@@ -496,7 +651,7 @@
         "ingredients": {
             "cabbage head green": 1,
             "farfalle pasta": 6,
-            "unsalted butter": 6,
+            "unsalted butter": 2,
             "yellow onion": 1
         },
         "max_servings": 0,
@@ -615,6 +770,26 @@
         "ingredients": {
             "lentils": 1
         },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 serving (35g dry)",
+        "servings per recipe": 1
+    },
+    "lentils and black beans": {
+        "ingredients": {
+            "black beans dry": 1,
+            "lentils": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 serving (35g dry)",
+        "servings per recipe": 1
+    },
+    "mega lentils and brice": {
+        "ingredients": {
+            "lentils": 3,
+            "rice brown long grain": 1
+        },
         "max_servings": 999,
         "min_servings": 0,
         "serving size": "1 serving (35g dry)",
@@ -630,10 +805,10 @@
             "russet potato": 2,
             "yellow onion": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 bowl (480g)",
-        "servings per recipe": 18
+        "serving size": "2 cups, 1 bowl (480g)",
+        "servings per recipe": 10
     },
     "mirepoix potato soup nob": {
         "ingredients": {
@@ -646,8 +821,8 @@
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 bowl (480g)",
-        "servings per recipe": 18
+        "serving size": "2 cups, 1 bowl (480g)",
+        "servings per recipe": 10
     },
     "peach": {
         "ingredients": {
@@ -716,11 +891,30 @@
         "serving size": "1 bowl",
         "servings per recipe": 5
     },
+    "romaine salad": {
+        "ingredients": {
+            "romaine salad": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "3 cups raw (85g)",
+        "servings per recipe": 1
+    },
+    "romaine salad w sfry": {
+        "ingredients": {
+            "romaine salad": 1,
+            "stir fry vegetables": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "3 cups raw (85g)",
+        "servings per recipe": 1
+    },
     "russet potato": {
         "ingredients": {
             "russet potato": 1
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 potato",
         "servings per recipe": 1
@@ -730,7 +924,7 @@
             "russet potato": 1,
             "unsalted butter": 2
         },
-        "max_servings": 999,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 potato",
         "servings per recipe": 1
@@ -762,7 +956,7 @@
             "russet potato": 1,
             "yellow onion": 0.125
         },
-        "max_servings": 1,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 bowl",
         "servings per recipe": 1
@@ -776,6 +970,26 @@
         "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "sfry veg": {
+        "ingredients": {
+            "stir fry vegetables": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 cup (85g)",
+        "servings per recipe": 1
+    },
+    "sfry veg, blk beans, brice": {
+        "ingredients": {
+            "black beans dry": 1,
+            "rice brown long grain": 1,
+            "stir fry vegetables": 1
+        },
+        "max_servings": 999,
+        "min_servings": 0,
+        "serving size": "1 cup (85g)",
         "servings per recipe": 1
     },
     "split pea soup": {
@@ -795,7 +1009,17 @@
             "steel cut oats": 1
         },
         "max_servings": 999,
-        "min_servings": 0,
+        "min_servings": 1,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "steel cut oats and pb": {
+        "ingredients": {
+            "peanut butter": 1,
+            "steel cut oats": 1
+        },
+        "max_servings": 999,
+        "min_servings": 1,
         "serving size": "1 bowl",
         "servings per recipe": 1
     },
@@ -813,9 +1037,20 @@
         "serving size": "1 bowl (? g)",
         "servings per recipe": 4
     },
+    "tuna salad": {
+        "ingredients": {
+            "grey poupon dijon mustard 10oz": 1,
+            "kraft real mayo creamy and smooth 30 fl oz": 1,
+            "starkist less sodium chunk tuna 5oz": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 tablespoon (1oz of tuna salad)",
+        "servings per recipe": 5
+    },
     "tuna salad ebread swich": {
         "ingredients": {
-            "ebread": 10,
+            "ebread": 2,
             "grey poupon dijon mustard 10oz": 1,
             "kraft real mayo creamy and smooth 30 fl oz": 1,
             "starkist less sodium chunk tuna 5oz": 1
@@ -823,7 +1058,19 @@
         "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 swich (33g of tuna salad)",
-        "servings per recipe": 5
+        "servings per recipe": 1
+    },
+    "tuna salad w romaine": {
+        "ingredients": {
+            "grey poupon dijon mustard 10oz": 1,
+            "kraft real mayo creamy and smooth 30 fl oz": 1,
+            "romaine salad": 1,
+            "starkist less sodium chunk tuna 5oz": 1
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 salad (3 cups of tuna salad w romaine)",
+        "servings per recipe": 1
     },
     "veg farfalle stew half": {
         "ingredients": {

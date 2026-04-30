@@ -102,25 +102,25 @@ maximum_recommended_fiber = 70
 # -------
 # protein
 # -------
-# if current_age < 40:
-#     # for under 40, recommendeded protein = CurrentWeight*KgPerPound*0.8
-#     min_protein = BMI.lbs_to_kg(current_weight_lbs) * 0.8
-# else:
-#     # for 40 or older, recommendeded protein (to prevent sarcopenia) =
-#       CurrentWeight*KgPerPound*(1.0-1.2g/kg)
-#     min_protein = BMI.lbs_to_kg(current_weight_lbs) * 1.0
-#
-# max_protein = BMI.lbs_to_kg(current_weight_lbs) * 2.0
+if current_age < 40:
+    # for under 40, recommendeded protein = CurrentWeight*KgPerPound*0.8
+    min_protein = BMI.lbs_to_kg(target_weight_lbs) * 0.8
+else:
+    # for 40 or older, recommendeded protein (to prevent sarcopenia) =
+    # CurrentWeight*KgPerPound*(1.0-1.2g/kg)
+    min_protein = BMI.lbs_to_kg(target_weight_lbs) * 1.0
 
-# Balanced
-min_protein_percent = 0.25
-max_protein_percent = 0.35
-#
-# High-Protein
-# min_protein_percent = 0.40
-# max_protein_percent = 0.45
-min_protein = max_kcal * min_protein_percent / 4
-max_protein = max_kcal * max_protein_percent / 4
+max_protein = BMI.lbs_to_kg(target_weight_lbs) * 2.0
+
+# # Balanced
+# min_protein_percent = 0.25
+# max_protein_percent = 0.35
+# #
+# # High-Protein
+# # min_protein_percent = 0.40
+# # max_protein_percent = 0.45
+# min_protein = max_kcal * min_protein_percent / 4
+# max_protein = max_kcal * max_protein_percent / 4
 
 foods = Foods()
 foods.read_foods_from_json_file(data_dir + '/foods.json')

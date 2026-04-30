@@ -246,7 +246,7 @@
         "price": 1.98,
         "protein": 1,
         "serving size": "1 carrot (78g)",
-        "servings per container": 1,
+        "servings per container": 14,
         "sodium": 60,
         "store": "Raley's",
         "store product name": "Raley's Whole Carrots, 32 oz"
@@ -839,6 +839,54 @@
         "store": "Whole Foods",
         "store product name": "365 by Whole Foods Market, Oil Olive Extra Virgin Mediterranean Organic, 33.8 Fl Oz"
     },
+    "organic 3 pepper blend": {
+        "carb": 5,
+        "fat": 0,
+        "fiber": 0,
+        "price": 3.49,
+        "protein": 1,
+        "serving size": "3/4 cup (85 g)",
+        "servings per container": 5,
+        "sodium": 10,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market Organic Three Pepper Blend, 16 OZ"
+    },
+    "organic broccoli florets": {
+        "carb": 4,
+        "fat": 0,
+        "fiber": 3,
+        "price": 6.79,
+        "protein": 3,
+        "serving size": "1 cup (85 g)",
+        "servings per container": 11,
+        "sodium": 15,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Organic Broccoli Florets, 32 Ounce"
+    },
+    "organic chopped spinach": {
+        "carb": 4,
+        "fat": 0.5,
+        "fiber": 3,
+        "price": 3.29,
+        "protein": 3,
+        "serving size": "3/4 cup (85 g)",
+        "servings per container": 5,
+        "sodium": 80,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Organic Chopped Spinach, 16 oz, (Frozen)"
+    },
+    "organic green cabbage": {
+        "carb": 6,
+        "fat": 0.5,
+        "fiber": 2,
+        "price": 3.35,
+        "protein": 1,
+        "serving size": "1 cup (89 g)",
+        "servings per container": 10,
+        "sodium": 16,
+        "store": "Whole Foods",
+        "store product name": "Organic Green Cabbage"
+    },
     "organic green lentils": {
         "carb": 31,
         "fat": 1,
@@ -850,6 +898,30 @@
         "sodium": 5,
         "store": "Whole Foods",
         "store product name": "365 by Whole Foods Market, Organic Green Lentils, 16 OZ"
+    },
+    "organic mediterranean blend": {
+        "carb": 4,
+        "fat": 0,
+        "fiber": 1,
+        "price": 3.49,
+        "protein": 1,
+        "serving size": "3/4 cup (85 g)",
+        "servings per container": 5,
+        "sodium": 0,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Organic Mediterranean Blend, 16 oz, (Frozen)"
+    },
+    "organic mixed mushrooms": {
+        "carb": 3,
+        "fat": 0,
+        "fiber": 1,
+        "price": 3.69,
+        "protein": 2,
+        "serving size": "3/4 cup (85 g)",
+        "servings per container": 3.5,
+        "sodium": 0,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Organic Mixed Mushrooms, 10 oz, (Frozen)"
     },
     "peanut butter": {
         "carb": 8,
