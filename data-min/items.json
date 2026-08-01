@@ -59,6 +59,18 @@
         "store": "Mock",
         "store product name": "Mock data used for testing purposes"
     },
+    "365 liquid egg whites": {
+        "carb": 0,
+        "fat": 0,
+        "fiber": 0,
+        "price": 4.79,
+        "protein": 5,
+        "serving size": "3 Tbsp (46g)",
+        "servings per container": 10,
+        "sodium": 75,
+        "store": "Whole Foods",
+        "store product name": "365 by Whole Foods Market, Organic Egg Whites, 16 oz"
+    },
     "365 yogurt greek plain nonfat": {
         "carb": 6,
         "fat": 0,
@@ -1065,7 +1077,7 @@
         "servings per container": 1,
         "sodium": 270,
         "store": "Amazon",
-        "store product name": "StarKist 25% Less Sodium Chunk Light Tuna in Water \u2013 5 oz Can (Pack of 24)"
+        "store product name": "StarKist 25% Less Sodium Chunk Light Tuna in Water, 5 oz Can (Pack of 24)"
     },
     "stir fry vegetables": {
         "carb": 8,

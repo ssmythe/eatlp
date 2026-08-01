@@ -1,4 +1,13 @@
 {
+    "365 liquid egg whites": {
+        "ingredients": {
+            "365 liquid egg whites": 1.0
+        },
+        "max_servings": 3,
+        "min_servings": 0,
+        "serving size": "3 Tbsp (46g)",
+        "servings per recipe": 1
+    },
     "365 yogurt greek plain nonfat": {
         "ingredients": {
             "365 yogurt greek plain nonfat": 1
@@ -40,7 +49,7 @@
             "broccoli florets frozen": 1
         },
         "max_servings": 3,
-        "min_servings": 2,
+        "min_servings": 0,
         "serving size": "1 cup (85g)",
         "servings per recipe": 1
     },
@@ -75,7 +84,7 @@
         "ingredients": {
             "chicken breast 4oz cooked": 1
         },
-        "max_servings": 4,
+        "max_servings": 2,
         "min_servings": 0,
         "serving size": "1 cutlet (113g cooked)",
         "servings per recipe": 1
@@ -166,7 +175,7 @@
         "ingredients": {
             "egg": 1
         },
-        "max_servings": 3,
+        "max_servings": 0,
         "min_servings": 0,
         "serving size": "1 egg (? g)",
         "servings per recipe": 1
@@ -233,27 +242,27 @@
         "serving size": "1 bowl",
         "servings per recipe": 1
     },
-    "tuna salad ebread swich": {
+    "tuna salad bowl": {
         "ingredients": {
-            "ebread": 1,
             "grey poupon dijon mustard 10oz": 0.2,
-            "kraft real mayo creamy and smooth 30 fl oz": 0.2,
-            "starkist less sodium chunk tuna 5oz": 0.2
+            "kraft real mayo creamy and smooth 30 fl oz": 0.5,
+            "starkist less sodium chunk tuna 5oz": 1.0
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 swich (33g of tuna salad)",
+        "serving size": "1 bowl (1 can tuna)",
         "servings per recipe": 1
     },
-    "tuna salad spoon": {
+    "tuna salad ebread swich": {
         "ingredients": {
+            "ebread": 2,
             "grey poupon dijon mustard 10oz": 0.2,
-            "kraft real mayo creamy and smooth 30 fl oz": 0.2,
-            "starkist less sodium chunk tuna 5oz": 0.2
+            "kraft real mayo creamy and smooth 30 fl oz": 0.5,
+            "starkist less sodium chunk tuna 5oz": 1.0
         },
         "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 spoon (33g of tuna salad)",
+        "serving size": "1 full swich (1 can tuna)",
         "servings per recipe": 1
     },
     "walnut halves": {

@@ -1,4 +1,17 @@
 {
+    "365 liquid egg whites": {
+        "carb_per_serving": 0.0,
+        "fat_per_serving": 0.0,
+        "fiber_per_serving": 0.0,
+        "kcal_per_serving": 20.0,
+        "max_servings": 3,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.024,
+        "price_per_serving": 0.48,
+        "protein_per_serving": 5.0,
+        "serving_size": "3 Tbsp (46g)",
+        "sodium_per_serving": 75.0
+    },
     "365 yogurt greek plain nonfat": {
         "carb_per_serving": 6.0,
         "fat_per_serving": 0.0,
@@ -57,7 +70,7 @@
         "fiber_per_serving": 3.0,
         "kcal_per_serving": 28.0,
         "max_servings": 3,
-        "min_servings": 2,
+        "min_servings": 0,
         "price_per_kcal_per_serving": 0.0221,
         "price_per_serving": 0.62,
         "protein_per_serving": 3.0,
@@ -108,7 +121,7 @@
         "fat_per_serving": 3.5,
         "fiber_per_serving": 0.0,
         "kcal_per_serving": 171.5,
-        "max_servings": 4,
+        "max_servings": 2,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.0107,
         "price_per_serving": 1.83,
@@ -238,7 +251,7 @@
         "fat_per_serving": 4.97,
         "fiber_per_serving": 0.0,
         "kcal_per_serving": 71.41,
-        "max_servings": 3,
+        "max_servings": 0,
         "min_servings": 0,
         "price_per_kcal_per_serving": 0.006,
         "price_per_serving": 0.43,
@@ -324,31 +337,31 @@
         "serving_size": "1 bowl",
         "sodium_per_serving": 60.0
     },
-    "tuna salad ebread swich": {
-        "carb_per_serving": 15.0,
-        "fat_per_serving": 2.6,
-        "fiber_per_serving": 3.0,
-        "kcal_per_serving": 119.4,
-        "max_servings": 0,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0043,
-        "price_per_serving": 0.51,
-        "protein_per_serving": 9.0,
-        "serving_size": "1 swich (33g of tuna salad)",
-        "sodium_per_serving": 91.0
-    },
-    "tuna salad spoon": {
+    "tuna salad bowl": {
         "carb_per_serving": 0.0,
-        "fat_per_serving": 2.1,
+        "fat_per_serving": 5.5,
         "fiber_per_serving": 0.0,
-        "kcal_per_serving": 34.900000000000006,
+        "kcal_per_serving": 129.5,
         "max_servings": 0,
         "min_servings": 0,
-        "price_per_kcal_per_serving": 0.006,
-        "price_per_serving": 0.21,
-        "protein_per_serving": 4.0,
-        "serving_size": "1 spoon (33g of tuna salad)",
-        "sodium_per_serving": 91.0
+        "price_per_kcal_per_serving": 0.0077,
+        "price_per_serving": 1.0,
+        "protein_per_serving": 20.0,
+        "serving_size": "1 bowl (1 can tuna)",
+        "sodium_per_serving": 328.0
+    },
+    "tuna salad ebread swich": {
+        "carb_per_serving": 30.0,
+        "fat_per_serving": 6.5,
+        "fiber_per_serving": 6.0,
+        "kcal_per_serving": 298.5,
+        "max_servings": 0,
+        "min_servings": 0,
+        "price_per_kcal_per_serving": 0.0054,
+        "price_per_serving": 1.6,
+        "protein_per_serving": 30.0,
+        "serving_size": "1 full swich (1 can tuna)",
+        "sodium_per_serving": 328.0
     },
     "walnut halves": {
         "carb_per_serving": 4.0,

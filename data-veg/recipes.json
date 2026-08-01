@@ -1,0 +1,122 @@
+{
+    "crispy tofu broccoli bowl": {
+        "ingredients": {
+            "brown rice long grain": 1,
+            "frozen broccoli florets": 1,
+            "organic super firm tofu": 1.5
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "edamame black bean bowl": {
+        "ingredients": {
+            "black beans dry": 1,
+            "brown rice long grain": 1,
+            "frozen broccoli florets": 1,
+            "shelled edamame frozen": 1
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "high protein oatmeal": {
+        "ingredients": {
+            "chia seeds": 0.5,
+            "oat milk unsweetened": 0.5,
+            "pea protein isolate powder": 1,
+            "quick oats": 1
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "lentil veggie stew": {
+        "ingredients": {
+            "frozen broccoli florets": 1,
+            "lentils dry": 2,
+            "stir fry vegetables frozen": 1,
+            "vegetable broth low sodium": 0.5
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "pb ezekiel sandwich": {
+        "ingredients": {
+            "pb ebread": 2,
+            "peanut butter": 1
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 sandwich (2 tbsp pb)",
+        "servings per recipe": 1
+    },
+    "pea protein smoothie": {
+        "ingredients": {
+            "banana": 1,
+            "chia seeds": 0.5,
+            "oat milk unsweetened": 1,
+            "pea protein isolate powder": 1.5
+        },
+        "max_servings": 1,
+        "min_servings": 0,
+        "serving size": "1 shake",
+        "servings per recipe": 1
+    },
+    "roasted peanuts bowl": {
+        "ingredients": {
+            "peanuts roasted unsalted": 2
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 oz snack bowl",
+        "servings per recipe": 1
+    },
+    "savory tempeh rice bowl": {
+        "ingredients": {
+            "brown rice long grain": 1,
+            "frozen broccoli florets": 1,
+            "tempeh organic": 1
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "seitan cutlet 4oz": {
+        "ingredients": {
+            "nutritional yeast": 0.5,
+            "vegetable broth low sodium": 0.25,
+            "vital wheat gluten": 1.5
+        },
+        "max_servings": 4,
+        "min_servings": 0,
+        "serving size": "1 cutlet (4 oz cooked)",
+        "servings per recipe": 1
+    },
+    "soy curl stir fry": {
+        "ingredients": {
+            "brown rice long grain": 1,
+            "soy curls": 2,
+            "stir fry vegetables frozen": 1
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "walnut halves bowl": {
+        "ingredients": {
+            "walnut halves": 1
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1/4 cup bowl",
+        "servings per recipe": 1
+    }
+}
