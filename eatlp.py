@@ -58,13 +58,11 @@ data_dir = user.dict_of_user['data_dir']
 # min_carb_percent = 0.40
 # max_carb_percent = 0.50
 #
-# Balanced
-min_carb_percent = 0.35
-max_carb_percent = 0.45
-#
 # High-Protein
 # min_carb_percent = 0.30
 # max_carb_percent = 0.35
+min_carb_percent = 0.28
+max_carb_percent = 0.32
 min_carb = max_kcal * min_carb_percent / 4
 max_carb = max_kcal * max_carb_percent / 4
 
@@ -72,12 +70,14 @@ max_carb = max_kcal * max_carb_percent / 4
 # fat
 # ---
 # Balanced
-min_fat_percent = 0.20
-max_fat_percent = 0.30
+#min_fat_percent = 0.20
+#max_fat_percent = 0.30
 #
 # High-Protein
 # min_fat_percent = 0.20
 # max_fat_percent = 0.25
+min_fat_percent = 0.28
+max_fat_percent = 0.32
 min_fat = max_kcal * min_fat_percent / 9
 max_fat = max_kcal * max_fat_percent / 9
 
@@ -104,13 +104,13 @@ maximum_recommended_fiber = 70
 # -------
 if current_age < 40:
     # for under 40, recommendeded protein = CurrentWeight*KgPerPound*0.8
-    min_protein = BMI.lbs_to_kg(target_weight_lbs) * 0.8
+    min_protein = BMI.lbs_to_kg(current_weight_lbs) * 0.8
 else:
     # for 40 or older, recommendeded protein (to prevent sarcopenia) =
     # CurrentWeight*KgPerPound*(1.0-1.2g/kg)
-    min_protein = BMI.lbs_to_kg(target_weight_lbs) * 1.0
+    min_protein = BMI.lbs_to_kg(current_weight_lbs) * 1.2
 
-max_protein = BMI.lbs_to_kg(target_weight_lbs) * 2.0
+max_protein = BMI.lbs_to_kg(current_weight_lbs) * 2.0
 
 # # Balanced
 # min_protein_percent = 0.25

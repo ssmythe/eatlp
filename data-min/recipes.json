@@ -1,18 +1,27 @@
 {
-    "apple": {
+    "365 yogurt greek plain nonfat": {
         "ingredients": {
-            "honeycrisp apple": 1
+            "365 yogurt greek plain nonfat": 1
         },
-        "max_servings": 1,
+        "max_servings": 2,
         "min_servings": 0,
-        "serving size": "1 apple",
+        "serving size": "3/4 cup (170g)",
+        "servings per recipe": 1
+    },
+    "amz quick oats": {
+        "ingredients": {
+            "amz quick oats": 1
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 bowl",
         "servings per recipe": 1
     },
     "banana": {
         "ingredients": {
             "banana": 1
         },
-        "max_servings": 1,
+        "max_servings": 2,
         "min_servings": 0,
         "serving size": "1 banana",
         "servings per recipe": 1
@@ -21,25 +30,43 @@
         "ingredients": {
             "black beans dry": 1
         },
-        "max_servings": 999,
+        "max_servings": 2,
         "min_servings": 0,
         "serving size": "1/4 cup (45g)",
+        "servings per recipe": 1
+    },
+    "broccoli florets frozen": {
+        "ingredients": {
+            "broccoli florets frozen": 1
+        },
+        "max_servings": 3,
+        "min_servings": 2,
+        "serving size": "1 cup (85g)",
         "servings per recipe": 1
     },
     "brown rice": {
         "ingredients": {
             "rice brown long grain": 1
         },
-        "max_servings": 999,
-        "min_servings": 0,
+        "max_servings": 2,
+        "min_servings": 2,
         "serving size": "0.25 cup dry, 1/2 cup wet (100g)",
+        "servings per recipe": 1
+    },
+    "canned chicken 4.5oz": {
+        "ingredients": {
+            "canned chicken 4.5oz": 1
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 drained can",
         "servings per recipe": 1
     },
     "carrot": {
         "ingredients": {
             "carrot": 1
         },
-        "max_servings": 2,
+        "max_servings": 3,
         "min_servings": 0,
         "serving size": "1 carrot",
         "servings per recipe": 1
@@ -48,25 +75,48 @@
         "ingredients": {
             "celery": 1
         },
-        "max_servings": 3,
+        "max_servings": 4,
         "min_servings": 0,
         "serving size": "1 celery rib",
         "servings per recipe": 1
     },
-    "chicken breast 3oz cooked": {
+    "chicken breast 4oz cooked": {
         "ingredients": {
-            "chicken breast 3oz cooked": 1
+            "chicken breast 4oz cooked": 1
         },
-        "max_servings": 999,
+        "max_servings": 4,
         "min_servings": 0,
-        "serving size": "1 serving (305g)",
+        "serving size": "1 cutlet (113g cooked)",
+        "servings per recipe": 1
+    },
+    "chicken salad ebread swich": {
+        "ingredients": {
+            "canned chicken 4.5oz": 0.2,
+            "ebread": 1,
+            "grey poupon dijon mustard 10oz": 0.2,
+            "kraft real mayo creamy and smooth 30 fl oz": 0.2
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 swich (33g of chicken salad)",
+        "servings per recipe": 1
+    },
+    "chicken salad spoon": {
+        "ingredients": {
+            "canned chicken 4.5oz": 0.2,
+            "grey poupon dijon mustard 10oz": 0.2,
+            "kraft real mayo creamy and smooth 30 fl oz": 0.2
+        },
+        "max_servings": 3,
+        "min_servings": 0,
+        "serving size": "1 spoon (33g of chicken salad)",
         "servings per recipe": 1
     },
     "chobani yogurt nf greek plain": {
         "ingredients": {
             "chobani yogurt nf greek plain": 1
         },
-        "max_servings": 999,
+        "max_servings": 2,
         "min_servings": 0,
         "serving size": "1 bowl (170g)",
         "servings per recipe": 1
@@ -75,7 +125,7 @@
         "ingredients": {
             "d'anjou pear": 1
         },
-        "max_servings": 1,
+        "max_servings": 2,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
         "servings per recipe": 1
@@ -87,6 +137,15 @@
         "max_servings": 4,
         "min_servings": 0,
         "serving size": "1 slice (? g)",
+        "servings per recipe": 1
+    },
+    "granny smith apple": {
+        "ingredients": {
+            "granny smith apple": 1
+        },
+        "max_servings": 1,
+        "min_servings": 0,
+        "serving size": "1 apple",
         "servings per recipe": 1
     },
     "ground turkey 4oz": {
@@ -102,63 +161,19 @@
         "ingredients": {
             "lentils": 1
         },
-        "max_servings": 999,
+        "max_servings": 2,
         "min_servings": 0,
         "serving size": "1 serving (35g dry)",
         "servings per recipe": 1
     },
-    "organic 3 pepper blend": {
+    "pb ebread swich": {
         "ingredients": {
-            "organic 3 pepper blend": 1
+            "ebread": 2,
+            "peanut butter": 1
         },
-        "max_servings": 3,
+        "max_servings": 2,
         "min_servings": 0,
-        "serving size": "3/4 cup (85g)",
-        "servings per recipe": 1
-    },
-    "organic broccoli florets": {
-        "ingredients": {
-            "organic broccoli florets": 1
-        },
-        "max_servings": 3,
-        "min_servings": 0,
-        "serving size": "1 bowl",
-        "servings per recipe": 1
-    },
-    "organic chopped spinach": {
-        "ingredients": {
-            "organic chopped spinach": 1
-        },
-        "max_servings": 3,
-        "min_servings": 0,
-        "serving size": "3/4 cup (85g)",
-        "servings per recipe": 1
-    },
-    "organic green cabbage": {
-        "ingredients": {
-            "organic green cabbage": 1
-        },
-        "max_servings": 3,
-        "min_servings": 0,
-        "serving size": "1 cup",
-        "servings per recipe": 1
-    },
-    "organic mediterranean blend": {
-        "ingredients": {
-            "organic mediterranean blend": 1
-        },
-        "max_servings": 3,
-        "min_servings": 0,
-        "serving size": "3/4 cup (85g)",
-        "servings per recipe": 1
-    },
-    "organic mixed mushrooms": {
-        "ingredients": {
-            "organic mixed mushrooms": 1
-        },
-        "max_servings": 3,
-        "min_servings": 0,
-        "serving size": "3/4 cup (85g)",
+        "serving size": "1 swich (2 tbsp pb)",
         "servings per recipe": 1
     },
     "peanut butter spoon": {
@@ -170,40 +185,116 @@
         "serving size": "2 tbsp (33g)",
         "servings per recipe": 1
     },
+    "peanuts roasted unsalted": {
+        "ingredients": {
+            "peanuts roasted unsalted": 1
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
     "poached egg": {
         "ingredients": {
             "egg": 1
         },
-        "max_servings": 2,
+        "max_servings": 3,
         "min_servings": 0,
         "serving size": "1 egg (? g)",
+        "servings per recipe": 1
+    },
+    "ramen chkn": {
+        "ingredients": {
+            "cabbage head green": 0.25,
+            "chicken breast 4oz cooked": 1,
+            "chicken broth 48oz": 0.33,
+            "gluten free ramen": 2
+        },
+        "max_servings": 1,
+        "min_servings": 0,
+        "serving size": "1 bowl",
+        "servings per recipe": 1
+    },
+    "ramen gballs": {
+        "ingredients": {
+            "cabbage head green": 0.25,
+            "chicken broth 48oz": 0.33,
+            "gardein meatballs": 1,
+            "gluten free ramen": 2
+        },
+        "max_servings": 1,
+        "min_servings": 0,
+        "serving size": "1 bowl",
         "servings per recipe": 1
     },
     "russet potato": {
         "ingredients": {
             "russet potato": 1
         },
-        "max_servings": 999,
+        "max_servings": 2,
         "min_servings": 0,
         "serving size": "1 potato",
         "servings per recipe": 1
     },
-    "steel cut oats": {
+    "stir fry vegetables": {
         "ingredients": {
-            "steel cut oats": 1
+            "stir fry vegetables": 1
         },
-        "max_servings": 999,
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 half bag",
+        "servings per recipe": 2.5
+    },
+    "tofu": {
+        "ingredients": {
+            "tofu": 1
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 serving (3oz, 84g)",
+        "servings per recipe": 1
+    },
+    "tofu stir fry": {
+        "ingredients": {
+            "rice brown long grain": 1,
+            "stir fry vegetables": 1,
+            "tofu": 1
+        },
+        "max_servings": 2,
         "min_servings": 0,
         "serving size": "1 bowl",
         "servings per recipe": 1
     },
-    "yellow onion": {
+    "tuna salad ebread swich": {
         "ingredients": {
-            "yellow onion": 1
+            "ebread": 1,
+            "grey poupon dijon mustard 10oz": 0.2,
+            "kraft real mayo creamy and smooth 30 fl oz": 0.2,
+            "starkist less sodium chunk tuna 5oz": 0.2
         },
-        "max_servings": 1,
+        "max_servings": 0,
         "min_servings": 0,
-        "serving size": "1 yellow onion",
+        "serving size": "1 swich (33g of tuna salad)",
+        "servings per recipe": 1
+    },
+    "tuna salad spoon": {
+        "ingredients": {
+            "grey poupon dijon mustard 10oz": 0.2,
+            "kraft real mayo creamy and smooth 30 fl oz": 0.2,
+            "starkist less sodium chunk tuna 5oz": 0.2
+        },
+        "max_servings": 0,
+        "min_servings": 0,
+        "serving size": "1 spoon (33g of tuna salad)",
+        "servings per recipe": 1
+    },
+    "walnut halves": {
+        "ingredients": {
+            "walnut halves": 1
+        },
+        "max_servings": 2,
+        "min_servings": 0,
+        "serving size": "1 bowl",
         "servings per recipe": 1
     }
 }
