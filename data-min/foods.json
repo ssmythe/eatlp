@@ -77,19 +77,6 @@
         "serving_size": "0.25 cup dry, 1/2 cup wet (100g)",
         "sodium_per_serving": 5.0
     },
-    "canned chicken 4.5oz": {
-        "carb_per_serving": 0.0,
-        "fat_per_serving": 1.0,
-        "fiber_per_serving": 0.0,
-        "kcal_per_serving": 57.0,
-        "max_servings": 2,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0325,
-        "price_per_serving": 1.85,
-        "protein_per_serving": 12.0,
-        "serving_size": "1 drained can",
-        "sodium_per_serving": 270.0
-    },
     "carrot": {
         "carb_per_serving": 7.0,
         "fat_per_serving": 0.0,
@@ -128,32 +115,6 @@
         "protein_per_serving": 35.0,
         "serving_size": "1 cutlet (113g cooked)",
         "sodium_per_serving": 87.0
-    },
-    "chicken salad ebread swich": {
-        "carb_per_serving": 15.0,
-        "fat_per_serving": 2.7,
-        "fiber_per_serving": 3.0,
-        "kcal_per_serving": 113.9,
-        "max_servings": 2,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0061,
-        "price_per_serving": 0.69,
-        "protein_per_serving": 7.4,
-        "serving_size": "1 swich (33g of chicken salad)",
-        "sodium_per_serving": 91.0
-    },
-    "chicken salad spoon": {
-        "carb_per_serving": 0.0,
-        "fat_per_serving": 2.2,
-        "fiber_per_serving": 0.0,
-        "kcal_per_serving": 29.4,
-        "max_servings": 3,
-        "min_servings": 0,
-        "price_per_kcal_per_serving": 0.0133,
-        "price_per_serving": 0.39,
-        "protein_per_serving": 2.4000000000000004,
-        "serving_size": "1 spoon (33g of chicken salad)",
-        "sodium_per_serving": 91.0
     },
     "chobani yogurt nf greek plain": {
         "carb_per_serving": 6.0,

@@ -167,18 +167,6 @@
         "store": "Raley's",
         "store product name": "Organic Green Cabbage"
     },
-    "canned chicken 4.5oz": {
-        "carb": 0,
-        "fat": 1,
-        "fiber": 0,
-        "price": 1.85,
-        "protein": 12,
-        "serving size": "1 can drained",
-        "servings per container": 1,
-        "sodium": 270,
-        "store": "Amazon",
-        "store product name": "Swanson White Premium Chunk Canned Chicken Breast in Water, Fully Cooked Chicken, 4.5 OZ Can"
-    },
     "carrot": {
         "carb": 7,
         "fat": 0,
