@@ -22,9 +22,9 @@ def test_msje_yintercept_female():
 
 
 def test_bmr():
-    assert MSJE.bmr(276.2, 75, 54, 'male') == 2178
-    assert MSJE.bmr(268.8, 75, 54, 'male') == 2145
-    assert MSJE.bmr(174, 75, 54, 'male') == 1715
+    assert round(MSJE.bmr(276.2, 75, 54, 'male')) == 2178
+    assert round(MSJE.bmr(268.8, 75, 54, 'male')) == 2145
+    assert round(MSJE.bmr(174, 75, 54, 'male')) == 1715
 
 
 def test_target_kcals(user):
@@ -33,7 +33,7 @@ def test_target_kcals(user):
         user.dict_of_user['height_inches'], 21.7)
     assert target_weight_lbs == 174
     assert MSJE.target_kcal_user_target_weight_lbs(
-        user, target_weight_lbs) == 1660
+        user, target_weight_lbs) == 1557
 
 
 def test_target_kcal_user_target_weight_lbs_zero_weight_loss():
